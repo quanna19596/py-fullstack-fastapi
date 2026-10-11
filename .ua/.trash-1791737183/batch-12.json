@@ -1,0 +1,41 @@
+{
+  "nodes": [
+    {
+      "id": "file:backend/app/email-templates/new_account.html",
+      "type": "file",
+      "name": "new_account.html",
+      "filePath": "backend/app/email-templates/new_account.html",
+      "summary": "T\u1eadp tin m\u00e3 ngu\u1ed3n html (new_account.html) th\u1ef1c hi\u1ec7n ch\u1ee9c n\u0103ng h\u1ec7 th\u1ed1ng.",
+      "tags": [
+        "backend",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/app/email-templates/reset_password.html",
+      "type": "file",
+      "name": "reset_password.html",
+      "filePath": "backend/app/email-templates/reset_password.html",
+      "summary": "T\u1eadp tin m\u00e3 ngu\u1ed3n html (reset_password.html) th\u1ef1c hi\u1ec7n ch\u1ee9c n\u0103ng h\u1ec7 th\u1ed1ng.",
+      "tags": [
+        "backend",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/app/email-templates/test_email.html",
+      "type": "file",
+      "name": "test_email.html",
+      "filePath": "backend/app/email-templates/test_email.html",
+      "summary": "T\u1eadp tin ki\u1ec3m th\u1eed (test_email.html) \u0111\u1ea3m b\u1ea3o t\u00ednh \u0111\u00fang \u0111\u1eafn cho c\u00e1c ch\u1ee9c n\u0103ng li\u00ean quan.",
+      "tags": [
+        "backend",
+        "test"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": []
+}

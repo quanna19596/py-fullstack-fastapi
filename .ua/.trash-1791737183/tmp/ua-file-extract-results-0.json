@@ -1,0 +1,3294 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 35,
+  "filesSkipped": [],
+  "filesUnreadable": [],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 35,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 35,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "results": [
+    {
+      "path": "frontend/src/client/index.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 4,
+      "nonEmptyLines": 3,
+      "exports": [
+        {
+          "name": "ItemsService",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "LoginService",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "Options",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "PrivateService",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "UsersService",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "UtilsService",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "Body_login_login_access_token",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "ClientOptions",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "HTTPValidationError",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "ItemCreate",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "ItemPublic",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "itemsCreateItemData",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "itemsCreateItemError",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "itemsCreateItemErrors",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "itemsCreateItemResponse",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "itemsCreateItemResponses",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "itemsDeleteItemData",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "itemsDeleteItemError",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "itemsDeleteItemErrors",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "itemsDeleteItemResponse",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "itemsDeleteItemResponses",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "ItemsPublic",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "itemsReadItemData",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "itemsReadItemError",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "itemsReadItemErrors",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "itemsReadItemResponse",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "itemsReadItemResponses",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "itemsReadItemsData",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "itemsReadItemsError",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "itemsReadItemsErrors",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "itemsReadItemsResponse",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "itemsReadItemsResponses",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "itemsUpdateItemData",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "itemsUpdateItemError",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "itemsUpdateItemErrors",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "itemsUpdateItemResponse",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "itemsUpdateItemResponses",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "ItemUpdate",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "loginLoginAccessTokenData",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "loginLoginAccessTokenError",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "loginLoginAccessTokenErrors",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "loginLoginAccessTokenResponse",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "loginLoginAccessTokenResponses",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "loginRecoverPasswordData",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "loginRecoverPasswordError",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "loginRecoverPasswordErrors",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "loginRecoverPasswordHtmlContentData",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "loginRecoverPasswordHtmlContentError",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "loginRecoverPasswordHtmlContentErrors",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "loginRecoverPasswordHtmlContentResponse",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "loginRecoverPasswordHtmlContentResponses",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "loginRecoverPasswordResponse",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "loginRecoverPasswordResponses",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "loginResetPasswordData",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "loginResetPasswordError",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "loginResetPasswordErrors",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "loginResetPasswordResponse",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "loginResetPasswordResponses",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "loginTestTokenData",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "loginTestTokenResponse",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "loginTestTokenResponses",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "Message",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "NewPassword",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "privateCreateUserData",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "privateCreateUserError",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "privateCreateUserErrors",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "privateCreateUserResponse",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "privateCreateUserResponses",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "PrivateUserCreate",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "Token",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "UpdatePassword",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "UserCreate",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "UserPublic",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "UserRegister",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "usersCreateUserData",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "usersCreateUserError",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "usersCreateUserErrors",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "usersCreateUserResponse",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "usersCreateUserResponses",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "usersDeleteUserData",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "usersDeleteUserError",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "usersDeleteUserErrors",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "usersDeleteUserMeData",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "usersDeleteUserMeResponse",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "usersDeleteUserMeResponses",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "usersDeleteUserResponse",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "usersDeleteUserResponses",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "UsersPublic",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "usersReadUserByIdData",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "usersReadUserByIdError",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "usersReadUserByIdErrors",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "usersReadUserByIdResponse",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "usersReadUserByIdResponses",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "usersReadUserMeData",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "usersReadUserMeResponse",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "usersReadUserMeResponses",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "usersReadUsersData",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "usersReadUsersError",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "usersReadUsersErrors",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "usersReadUsersResponse",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "usersReadUsersResponses",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "usersRegisterUserData",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "usersRegisterUserError",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "usersRegisterUserErrors",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "usersRegisterUserResponse",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "usersRegisterUserResponses",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "usersUpdatePasswordMeData",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "usersUpdatePasswordMeError",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "usersUpdatePasswordMeErrors",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "usersUpdatePasswordMeResponse",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "usersUpdatePasswordMeResponses",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "usersUpdateUserData",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "usersUpdateUserError",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "usersUpdateUserErrors",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "usersUpdateUserMeData",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "usersUpdateUserMeError",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "usersUpdateUserMeErrors",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "usersUpdateUserMeResponse",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "usersUpdateUserMeResponses",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "usersUpdateUserResponse",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "usersUpdateUserResponses",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "UserUpdate",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "UserUpdateMe",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "utilsHealthCheckData",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "utilsHealthCheckResponse",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "utilsHealthCheckResponses",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "utilsTestEmailData",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "utilsTestEmailError",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "utilsTestEmailErrors",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "utilsTestEmailResponse",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "utilsTestEmailResponses",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "ValidationError",
+          "line": 4,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 132,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/Admin/AddUser.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 237,
+      "nonEmptyLines": 222,
+      "functions": [
+        {
+          "name": "AddUser",
+          "startLine": 55,
+          "endLine": 235,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "AddUser",
+          "callee": "useState",
+          "lineNumber": 56
+        },
+        {
+          "caller": "AddUser",
+          "callee": "useQueryClient",
+          "lineNumber": 57
+        },
+        {
+          "caller": "AddUser",
+          "callee": "useCustomToast",
+          "lineNumber": 58
+        },
+        {
+          "caller": "AddUser",
+          "callee": "useForm",
+          "lineNumber": 60
+        },
+        {
+          "caller": "AddUser",
+          "callee": "zodResolver",
+          "lineNumber": 61
+        },
+        {
+          "caller": "AddUser",
+          "callee": "useMutation",
+          "lineNumber": 74
+        },
+        {
+          "caller": "AddUser",
+          "callee": "UsersService.createUser",
+          "lineNumber": 75
+        },
+        {
+          "caller": "AddUser",
+          "callee": "showSuccessToast",
+          "lineNumber": 77
+        },
+        {
+          "caller": "AddUser",
+          "callee": "form.reset",
+          "lineNumber": 78
+        },
+        {
+          "caller": "AddUser",
+          "callee": "setIsOpen",
+          "lineNumber": 79
+        },
+        {
+          "caller": "AddUser",
+          "callee": "handleError.bind",
+          "lineNumber": 81
+        },
+        {
+          "caller": "AddUser",
+          "callee": "queryClient.invalidateQueries",
+          "lineNumber": 83
+        },
+        {
+          "caller": "onSubmit",
+          "callee": "mutation.mutate",
+          "lineNumber": 88
+        },
+        {
+          "caller": "AddUser",
+          "callee": "form.handleSubmit",
+          "lineNumber": 107
+        }
+      ],
+      "metrics": {
+        "importCount": 9,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/Admin/DeleteUser.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 95,
+      "nonEmptyLines": 86,
+      "functions": [
+        {
+          "name": "DeleteUser",
+          "startLine": 27,
+          "endLine": 93,
+          "params": [
+            "{ id, onSuccess }"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "DeleteUser",
+          "callee": "useState",
+          "lineNumber": 28
+        },
+        {
+          "caller": "DeleteUser",
+          "callee": "useQueryClient",
+          "lineNumber": 29
+        },
+        {
+          "caller": "DeleteUser",
+          "callee": "useCustomToast",
+          "lineNumber": 30
+        },
+        {
+          "caller": "DeleteUser",
+          "callee": "useForm",
+          "lineNumber": 31
+        },
+        {
+          "caller": "deleteUser",
+          "callee": "UsersService.deleteUser",
+          "lineNumber": 34
+        },
+        {
+          "caller": "DeleteUser",
+          "callee": "useMutation",
+          "lineNumber": 37
+        },
+        {
+          "caller": "DeleteUser",
+          "callee": "showSuccessToast",
+          "lineNumber": 40
+        },
+        {
+          "caller": "DeleteUser",
+          "callee": "setIsOpen",
+          "lineNumber": 41
+        },
+        {
+          "caller": "DeleteUser",
+          "callee": "onSuccess",
+          "lineNumber": 42
+        },
+        {
+          "caller": "DeleteUser",
+          "callee": "handleError.bind",
+          "lineNumber": 44
+        },
+        {
+          "caller": "DeleteUser",
+          "callee": "queryClient.invalidateQueries",
+          "lineNumber": 46
+        },
+        {
+          "caller": "onSubmit",
+          "callee": "mutation.mutate",
+          "lineNumber": 51
+        },
+        {
+          "caller": "DeleteUser",
+          "callee": "e.preventDefault",
+          "lineNumber": 58
+        },
+        {
+          "caller": "DeleteUser",
+          "callee": "setIsOpen",
+          "lineNumber": 59
+        },
+        {
+          "caller": "DeleteUser",
+          "callee": "handleSubmit",
+          "lineNumber": 65
+        }
+      ],
+      "metrics": {
+        "importCount": 7,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/Admin/EditUser.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 239,
+      "nonEmptyLines": 223,
+      "functions": [
+        {
+          "name": "EditUser",
+          "startLine": 59,
+          "endLine": 237,
+          "params": [
+            "{ user, onSuccess }"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "EditUser",
+          "callee": "useState",
+          "lineNumber": 60
+        },
+        {
+          "caller": "EditUser",
+          "callee": "useQueryClient",
+          "lineNumber": 61
+        },
+        {
+          "caller": "EditUser",
+          "callee": "useCustomToast",
+          "lineNumber": 62
+        },
+        {
+          "caller": "EditUser",
+          "callee": "useForm",
+          "lineNumber": 64
+        },
+        {
+          "caller": "EditUser",
+          "callee": "zodResolver",
+          "lineNumber": 65
+        },
+        {
+          "caller": "EditUser",
+          "callee": "useMutation",
+          "lineNumber": 76
+        },
+        {
+          "caller": "EditUser",
+          "callee": "UsersService.updateUser",
+          "lineNumber": 78
+        },
+        {
+          "caller": "EditUser",
+          "callee": "showSuccessToast",
+          "lineNumber": 80
+        },
+        {
+          "caller": "EditUser",
+          "callee": "setIsOpen",
+          "lineNumber": 81
+        },
+        {
+          "caller": "EditUser",
+          "callee": "onSuccess",
+          "lineNumber": 82
+        },
+        {
+          "caller": "EditUser",
+          "callee": "handleError.bind",
+          "lineNumber": 84
+        },
+        {
+          "caller": "EditUser",
+          "callee": "queryClient.invalidateQueries",
+          "lineNumber": 86
+        },
+        {
+          "caller": "onSubmit",
+          "callee": "mutation.mutate",
+          "lineNumber": 96
+        },
+        {
+          "caller": "EditUser",
+          "callee": "e.preventDefault",
+          "lineNumber": 102
+        },
+        {
+          "caller": "EditUser",
+          "callee": "setIsOpen",
+          "lineNumber": 103
+        },
+        {
+          "caller": "EditUser",
+          "callee": "form.handleSubmit",
+          "lineNumber": 110
+        }
+      ],
+      "metrics": {
+        "importCount": 10,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/Admin/UserActionsMenu.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 40,
+      "nonEmptyLines": 35,
+      "functions": [
+        {
+          "name": "UserActionsMenu",
+          "startLine": 19,
+          "endLine": 40,
+          "params": [
+            "{ user }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "UserActionsMenu",
+          "line": 19,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "UserActionsMenu",
+          "callee": "useState",
+          "lineNumber": 20
+        },
+        {
+          "caller": "UserActionsMenu",
+          "callee": "useAuth",
+          "lineNumber": 21
+        },
+        {
+          "caller": "UserActionsMenu",
+          "callee": "setOpen",
+          "lineNumber": 35
+        },
+        {
+          "caller": "UserActionsMenu",
+          "callee": "setOpen",
+          "lineNumber": 36
+        }
+      ],
+      "metrics": {
+        "importCount": 6,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/Common/ErrorComponent.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 29,
+      "nonEmptyLines": 26,
+      "functions": [
+        {
+          "name": "ErrorComponent",
+          "startLine": 4,
+          "endLine": 27,
+          "params": []
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/Common/NotFound.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 31,
+      "nonEmptyLines": 28,
+      "functions": [
+        {
+          "name": "NotFound",
+          "startLine": 4,
+          "endLine": 29,
+          "params": []
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/Items/AddItem.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 143,
+      "nonEmptyLines": 132,
+      "functions": [
+        {
+          "name": "AddItem",
+          "startLine": 40,
+          "endLine": 141,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "AddItem",
+          "callee": "useState",
+          "lineNumber": 41
+        },
+        {
+          "caller": "AddItem",
+          "callee": "useQueryClient",
+          "lineNumber": 42
+        },
+        {
+          "caller": "AddItem",
+          "callee": "useCustomToast",
+          "lineNumber": 43
+        },
+        {
+          "caller": "AddItem",
+          "callee": "useForm",
+          "lineNumber": 45
+        },
+        {
+          "caller": "AddItem",
+          "callee": "zodResolver",
+          "lineNumber": 46
+        },
+        {
+          "caller": "AddItem",
+          "callee": "useMutation",
+          "lineNumber": 55
+        },
+        {
+          "caller": "AddItem",
+          "callee": "ItemsService.createItem",
+          "lineNumber": 56
+        },
+        {
+          "caller": "AddItem",
+          "callee": "showSuccessToast",
+          "lineNumber": 58
+        },
+        {
+          "caller": "AddItem",
+          "callee": "form.reset",
+          "lineNumber": 59
+        },
+        {
+          "caller": "AddItem",
+          "callee": "setIsOpen",
+          "lineNumber": 60
+        },
+        {
+          "caller": "AddItem",
+          "callee": "handleError.bind",
+          "lineNumber": 62
+        },
+        {
+          "caller": "AddItem",
+          "callee": "queryClient.invalidateQueries",
+          "lineNumber": 64
+        },
+        {
+          "caller": "onSubmit",
+          "callee": "mutation.mutate",
+          "lineNumber": 69
+        },
+        {
+          "caller": "AddItem",
+          "callee": "form.handleSubmit",
+          "lineNumber": 88
+        }
+      ],
+      "metrics": {
+        "importCount": 8,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/Items/DeleteItem.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 94,
+      "nonEmptyLines": 85,
+      "functions": [
+        {
+          "name": "DeleteItem",
+          "startLine": 27,
+          "endLine": 92,
+          "params": [
+            "{ id, onSuccess }"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "DeleteItem",
+          "callee": "useState",
+          "lineNumber": 28
+        },
+        {
+          "caller": "DeleteItem",
+          "callee": "useQueryClient",
+          "lineNumber": 29
+        },
+        {
+          "caller": "DeleteItem",
+          "callee": "useCustomToast",
+          "lineNumber": 30
+        },
+        {
+          "caller": "DeleteItem",
+          "callee": "useForm",
+          "lineNumber": 31
+        },
+        {
+          "caller": "deleteItem",
+          "callee": "ItemsService.deleteItem",
+          "lineNumber": 34
+        },
+        {
+          "caller": "DeleteItem",
+          "callee": "useMutation",
+          "lineNumber": 37
+        },
+        {
+          "caller": "DeleteItem",
+          "callee": "showSuccessToast",
+          "lineNumber": 40
+        },
+        {
+          "caller": "DeleteItem",
+          "callee": "setIsOpen",
+          "lineNumber": 41
+        },
+        {
+          "caller": "DeleteItem",
+          "callee": "onSuccess",
+          "lineNumber": 42
+        },
+        {
+          "caller": "DeleteItem",
+          "callee": "handleError.bind",
+          "lineNumber": 44
+        },
+        {
+          "caller": "DeleteItem",
+          "callee": "queryClient.invalidateQueries",
+          "lineNumber": 46
+        },
+        {
+          "caller": "onSubmit",
+          "callee": "mutation.mutate",
+          "lineNumber": 51
+        },
+        {
+          "caller": "DeleteItem",
+          "callee": "e.preventDefault",
+          "lineNumber": 58
+        },
+        {
+          "caller": "DeleteItem",
+          "callee": "setIsOpen",
+          "lineNumber": 59
+        },
+        {
+          "caller": "DeleteItem",
+          "callee": "handleSubmit",
+          "lineNumber": 65
+        }
+      ],
+      "metrics": {
+        "importCount": 7,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/Items/EditItem.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 145,
+      "nonEmptyLines": 133,
+      "functions": [
+        {
+          "name": "EditItem",
+          "startLine": 45,
+          "endLine": 143,
+          "params": [
+            "{ item, onSuccess }"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "EditItem",
+          "callee": "useState",
+          "lineNumber": 46
+        },
+        {
+          "caller": "EditItem",
+          "callee": "useQueryClient",
+          "lineNumber": 47
+        },
+        {
+          "caller": "EditItem",
+          "callee": "useCustomToast",
+          "lineNumber": 48
+        },
+        {
+          "caller": "EditItem",
+          "callee": "useForm",
+          "lineNumber": 50
+        },
+        {
+          "caller": "EditItem",
+          "callee": "zodResolver",
+          "lineNumber": 51
+        },
+        {
+          "caller": "EditItem",
+          "callee": "useMutation",
+          "lineNumber": 60
+        },
+        {
+          "caller": "EditItem",
+          "callee": "ItemsService.updateItem",
+          "lineNumber": 62
+        },
+        {
+          "caller": "EditItem",
+          "callee": "showSuccessToast",
+          "lineNumber": 64
+        },
+        {
+          "caller": "EditItem",
+          "callee": "setIsOpen",
+          "lineNumber": 65
+        },
+        {
+          "caller": "EditItem",
+          "callee": "onSuccess",
+          "lineNumber": 66
+        },
+        {
+          "caller": "EditItem",
+          "callee": "handleError.bind",
+          "lineNumber": 68
+        },
+        {
+          "caller": "EditItem",
+          "callee": "queryClient.invalidateQueries",
+          "lineNumber": 70
+        },
+        {
+          "caller": "onSubmit",
+          "callee": "mutation.mutate",
+          "lineNumber": 75
+        },
+        {
+          "caller": "EditItem",
+          "callee": "e.preventDefault",
+          "lineNumber": 81
+        },
+        {
+          "caller": "EditItem",
+          "callee": "setIsOpen",
+          "lineNumber": 82
+        },
+        {
+          "caller": "EditItem",
+          "callee": "form.handleSubmit",
+          "lineNumber": 89
+        }
+      ],
+      "metrics": {
+        "importCount": 9,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/Items/ItemActionsMenu.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 34,
+      "nonEmptyLines": 30,
+      "functions": [
+        {
+          "name": "ItemActionsMenu",
+          "startLine": 18,
+          "endLine": 34,
+          "params": [
+            "{ item }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "ItemActionsMenu",
+          "line": 18,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "ItemActionsMenu",
+          "callee": "useState",
+          "lineNumber": 19
+        },
+        {
+          "caller": "ItemActionsMenu",
+          "callee": "setOpen",
+          "lineNumber": 29
+        },
+        {
+          "caller": "ItemActionsMenu",
+          "callee": "setOpen",
+          "lineNumber": 30
+        }
+      ],
+      "metrics": {
+        "importCount": 5,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/UserSettings/ChangePassword.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 146,
+      "nonEmptyLines": 135,
+      "functions": [
+        {
+          "name": "ChangePassword",
+          "startLine": 41,
+          "endLine": 144,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "ChangePassword",
+          "callee": "useCustomToast",
+          "lineNumber": 42
+        },
+        {
+          "caller": "ChangePassword",
+          "callee": "useForm",
+          "lineNumber": 43
+        },
+        {
+          "caller": "ChangePassword",
+          "callee": "zodResolver",
+          "lineNumber": 44
+        },
+        {
+          "caller": "ChangePassword",
+          "callee": "useMutation",
+          "lineNumber": 54
+        },
+        {
+          "caller": "ChangePassword",
+          "callee": "UsersService.updatePasswordMe",
+          "lineNumber": 56
+        },
+        {
+          "caller": "ChangePassword",
+          "callee": "showSuccessToast",
+          "lineNumber": 58
+        },
+        {
+          "caller": "ChangePassword",
+          "callee": "form.reset",
+          "lineNumber": 59
+        },
+        {
+          "caller": "ChangePassword",
+          "callee": "handleError.bind",
+          "lineNumber": 61
+        },
+        {
+          "caller": "onSubmit",
+          "callee": "mutation.mutate",
+          "lineNumber": 65
+        },
+        {
+          "caller": "ChangePassword",
+          "callee": "form.handleSubmit",
+          "lineNumber": 73
+        }
+      ],
+      "metrics": {
+        "importCount": 6,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/UserSettings/DeleteAccount.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 15,
+      "nonEmptyLines": 13,
+      "functions": [
+        {
+          "name": "DeleteAccount",
+          "startLine": 3,
+          "endLine": 13,
+          "params": []
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/UserSettings/DeleteConfirmation.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 82,
+      "nonEmptyLines": 75,
+      "functions": [
+        {
+          "name": "DeleteConfirmation",
+          "startLine": 21,
+          "endLine": 80,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "DeleteConfirmation",
+          "callee": "useQueryClient",
+          "lineNumber": 22
+        },
+        {
+          "caller": "DeleteConfirmation",
+          "callee": "useCustomToast",
+          "lineNumber": 23
+        },
+        {
+          "caller": "DeleteConfirmation",
+          "callee": "useForm",
+          "lineNumber": 24
+        },
+        {
+          "caller": "DeleteConfirmation",
+          "callee": "useAuth",
+          "lineNumber": 25
+        },
+        {
+          "caller": "DeleteConfirmation",
+          "callee": "useMutation",
+          "lineNumber": 27
+        },
+        {
+          "caller": "DeleteConfirmation",
+          "callee": "UsersService.deleteUserMe",
+          "lineNumber": 28
+        },
+        {
+          "caller": "DeleteConfirmation",
+          "callee": "showSuccessToast",
+          "lineNumber": 30
+        },
+        {
+          "caller": "DeleteConfirmation",
+          "callee": "logout",
+          "lineNumber": 31
+        },
+        {
+          "caller": "DeleteConfirmation",
+          "callee": "handleError.bind",
+          "lineNumber": 33
+        },
+        {
+          "caller": "DeleteConfirmation",
+          "callee": "queryClient.invalidateQueries",
+          "lineNumber": 35
+        },
+        {
+          "caller": "onSubmit",
+          "callee": "mutation.mutate",
+          "lineNumber": 40
+        },
+        {
+          "caller": "DeleteConfirmation",
+          "callee": "handleSubmit",
+          "lineNumber": 51
+        }
+      ],
+      "metrics": {
+        "importCount": 7,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/UserSettings/UserInformation.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 171,
+      "nonEmptyLines": 156,
+      "functions": [
+        {
+          "name": "UserInformation",
+          "startLine": 31,
+          "endLine": 169,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "UserInformation",
+          "callee": "useQueryClient",
+          "lineNumber": 32
+        },
+        {
+          "caller": "UserInformation",
+          "callee": "useCustomToast",
+          "lineNumber": 33
+        },
+        {
+          "caller": "UserInformation",
+          "callee": "useState",
+          "lineNumber": 34
+        },
+        {
+          "caller": "UserInformation",
+          "callee": "useAuth",
+          "lineNumber": 35
+        },
+        {
+          "caller": "UserInformation",
+          "callee": "useForm",
+          "lineNumber": 37
+        },
+        {
+          "caller": "UserInformation",
+          "callee": "zodResolver",
+          "lineNumber": 38
+        },
+        {
+          "caller": "toggleEditMode",
+          "callee": "setEditMode",
+          "lineNumber": 48
+        },
+        {
+          "caller": "UserInformation",
+          "callee": "useMutation",
+          "lineNumber": 51
+        },
+        {
+          "caller": "UserInformation",
+          "callee": "UsersService.updateUserMe",
+          "lineNumber": 53
+        },
+        {
+          "caller": "UserInformation",
+          "callee": "showSuccessToast",
+          "lineNumber": 55
+        },
+        {
+          "caller": "UserInformation",
+          "callee": "toggleEditMode",
+          "lineNumber": 56
+        },
+        {
+          "caller": "UserInformation",
+          "callee": "handleError.bind",
+          "lineNumber": 58
+        },
+        {
+          "caller": "UserInformation",
+          "callee": "queryClient.invalidateQueries",
+          "lineNumber": 60
+        },
+        {
+          "caller": "onSubmit",
+          "callee": "mutation.mutate",
+          "lineNumber": 75
+        },
+        {
+          "caller": "onCancel",
+          "callee": "form.reset",
+          "lineNumber": 79
+        },
+        {
+          "caller": "onCancel",
+          "callee": "toggleEditMode",
+          "lineNumber": 80
+        },
+        {
+          "caller": "UserInformation",
+          "callee": "form.handleSubmit",
+          "lineNumber": 88
+        },
+        {
+          "caller": "UserInformation",
+          "callee": "cn",
+          "lineNumber": 107
+        }
+      ],
+      "metrics": {
+        "importCount": 9,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/ui/button.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 60,
+      "nonEmptyLines": 55,
+      "functions": [
+        {
+          "name": "Button",
+          "startLine": 39,
+          "endLine": 58,
+          "params": [
+            "{\n  className,\n  variant,\n  size,\n  asChild = false,\n  ...props\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Button",
+          "line": 60,
+          "isDefault": false
+        },
+        {
+          "name": "buttonVariants",
+          "line": 60,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Button",
+          "callee": "cn",
+          "lineNumber": 54
+        },
+        {
+          "caller": "Button",
+          "callee": "buttonVariants",
+          "lineNumber": 54
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/ui/checkbox.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 30,
+      "nonEmptyLines": 27,
+      "functions": [
+        {
+          "name": "Checkbox",
+          "startLine": 7,
+          "endLine": 28,
+          "params": [
+            "{\n  className,\n  ...props\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Checkbox",
+          "line": 30,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Checkbox",
+          "callee": "cn",
+          "lineNumber": 14
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/ui/dialog.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 141,
+      "nonEmptyLines": 129,
+      "functions": [
+        {
+          "name": "Dialog",
+          "startLine": 7,
+          "endLine": 11,
+          "params": [
+            "{\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "DialogTrigger",
+          "startLine": 13,
+          "endLine": 17,
+          "params": [
+            "{\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "DialogPortal",
+          "startLine": 19,
+          "endLine": 23,
+          "params": [
+            "{\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "DialogClose",
+          "startLine": 25,
+          "endLine": 29,
+          "params": [
+            "{\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "DialogOverlay",
+          "startLine": 31,
+          "endLine": 45,
+          "params": [
+            "{\n  className,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "DialogContent",
+          "startLine": 47,
+          "endLine": 79,
+          "params": [
+            "{\n  className,\n  children,\n  showCloseButton = true,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "DialogHeader",
+          "startLine": 81,
+          "endLine": 89,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "DialogFooter",
+          "startLine": 91,
+          "endLine": 102,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "DialogTitle",
+          "startLine": 104,
+          "endLine": 115,
+          "params": [
+            "{\n  className,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "DialogDescription",
+          "startLine": 117,
+          "endLine": 128,
+          "params": [
+            "{\n  className,\n  ...props\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Dialog",
+          "line": 130,
+          "isDefault": false
+        },
+        {
+          "name": "DialogClose",
+          "line": 130,
+          "isDefault": false
+        },
+        {
+          "name": "DialogContent",
+          "line": 130,
+          "isDefault": false
+        },
+        {
+          "name": "DialogDescription",
+          "line": 130,
+          "isDefault": false
+        },
+        {
+          "name": "DialogFooter",
+          "line": 130,
+          "isDefault": false
+        },
+        {
+          "name": "DialogHeader",
+          "line": 130,
+          "isDefault": false
+        },
+        {
+          "name": "DialogOverlay",
+          "line": 130,
+          "isDefault": false
+        },
+        {
+          "name": "DialogPortal",
+          "line": 130,
+          "isDefault": false
+        },
+        {
+          "name": "DialogTitle",
+          "line": 130,
+          "isDefault": false
+        },
+        {
+          "name": "DialogTrigger",
+          "line": 130,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "DialogOverlay",
+          "callee": "cn",
+          "lineNumber": 38
+        },
+        {
+          "caller": "DialogContent",
+          "callee": "cn",
+          "lineNumber": 60
+        },
+        {
+          "caller": "DialogHeader",
+          "callee": "cn",
+          "lineNumber": 85
+        },
+        {
+          "caller": "DialogFooter",
+          "callee": "cn",
+          "lineNumber": 95
+        },
+        {
+          "caller": "DialogTitle",
+          "callee": "cn",
+          "lineNumber": 111
+        },
+        {
+          "caller": "DialogDescription",
+          "callee": "cn",
+          "lineNumber": 124
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 10,
+        "functionCount": 10,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/ui/dropdown-menu.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 257,
+      "nonEmptyLines": 239,
+      "functions": [
+        {
+          "name": "DropdownMenu",
+          "startLine": 9,
+          "endLine": 13,
+          "params": [
+            "{\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "DropdownMenuPortal",
+          "startLine": 15,
+          "endLine": 21,
+          "params": [
+            "{\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "DropdownMenuTrigger",
+          "startLine": 23,
+          "endLine": 32,
+          "params": [
+            "{\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "DropdownMenuContent",
+          "startLine": 34,
+          "endLine": 52,
+          "params": [
+            "{\n  className,\n  sideOffset = 4,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "DropdownMenuGroup",
+          "startLine": 54,
+          "endLine": 60,
+          "params": [
+            "{\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "DropdownMenuItem",
+          "startLine": 62,
+          "endLine": 83,
+          "params": [
+            "{\n  className,\n  inset,\n  variant = \"default\",\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "DropdownMenuCheckboxItem",
+          "startLine": 85,
+          "endLine": 109,
+          "params": [
+            "{\n  className,\n  children,\n  checked,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "DropdownMenuRadioGroup",
+          "startLine": 111,
+          "endLine": 120,
+          "params": [
+            "{\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "DropdownMenuRadioItem",
+          "startLine": 122,
+          "endLine": 144,
+          "params": [
+            "{\n  className,\n  children,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "DropdownMenuLabel",
+          "startLine": 146,
+          "endLine": 164,
+          "params": [
+            "{\n  className,\n  inset,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "DropdownMenuSeparator",
+          "startLine": 166,
+          "endLine": 177,
+          "params": [
+            "{\n  className,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "DropdownMenuShortcut",
+          "startLine": 179,
+          "endLine": 193,
+          "params": [
+            "{\n  className,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "DropdownMenuSub",
+          "startLine": 195,
+          "endLine": 199,
+          "params": [
+            "{\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "DropdownMenuSubTrigger",
+          "startLine": 201,
+          "endLine": 223,
+          "params": [
+            "{\n  className,\n  inset,\n  children,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "DropdownMenuSubContent",
+          "startLine": 225,
+          "endLine": 239,
+          "params": [
+            "{\n  className,\n  ...props\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "DropdownMenu",
+          "line": 241,
+          "isDefault": false
+        },
+        {
+          "name": "DropdownMenuPortal",
+          "line": 241,
+          "isDefault": false
+        },
+        {
+          "name": "DropdownMenuTrigger",
+          "line": 241,
+          "isDefault": false
+        },
+        {
+          "name": "DropdownMenuContent",
+          "line": 241,
+          "isDefault": false
+        },
+        {
+          "name": "DropdownMenuGroup",
+          "line": 241,
+          "isDefault": false
+        },
+        {
+          "name": "DropdownMenuItem",
+          "line": 241,
+          "isDefault": false
+        },
+        {
+          "name": "DropdownMenuCheckboxItem",
+          "line": 241,
+          "isDefault": false
+        },
+        {
+          "name": "DropdownMenuRadioGroup",
+          "line": 241,
+          "isDefault": false
+        },
+        {
+          "name": "DropdownMenuRadioItem",
+          "line": 241,
+          "isDefault": false
+        },
+        {
+          "name": "DropdownMenuLabel",
+          "line": 241,
+          "isDefault": false
+        },
+        {
+          "name": "DropdownMenuSeparator",
+          "line": 241,
+          "isDefault": false
+        },
+        {
+          "name": "DropdownMenuShortcut",
+          "line": 241,
+          "isDefault": false
+        },
+        {
+          "name": "DropdownMenuSub",
+          "line": 241,
+          "isDefault": false
+        },
+        {
+          "name": "DropdownMenuSubTrigger",
+          "line": 241,
+          "isDefault": false
+        },
+        {
+          "name": "DropdownMenuSubContent",
+          "line": 241,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "DropdownMenuContent",
+          "callee": "cn",
+          "lineNumber": 44
+        },
+        {
+          "caller": "DropdownMenuItem",
+          "callee": "cn",
+          "lineNumber": 76
+        },
+        {
+          "caller": "DropdownMenuCheckboxItem",
+          "callee": "cn",
+          "lineNumber": 94
+        },
+        {
+          "caller": "DropdownMenuRadioItem",
+          "callee": "cn",
+          "lineNumber": 130
+        },
+        {
+          "caller": "DropdownMenuLabel",
+          "callee": "cn",
+          "lineNumber": 157
+        },
+        {
+          "caller": "DropdownMenuSeparator",
+          "callee": "cn",
+          "lineNumber": 173
+        },
+        {
+          "caller": "DropdownMenuShortcut",
+          "callee": "cn",
+          "lineNumber": 186
+        },
+        {
+          "caller": "DropdownMenuSubTrigger",
+          "callee": "cn",
+          "lineNumber": 213
+        },
+        {
+          "caller": "DropdownMenuSubContent",
+          "callee": "cn",
+          "lineNumber": 232
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 15,
+        "functionCount": 15,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/ui/form.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 165,
+      "nonEmptyLines": 142,
+      "functions": [
+        {
+          "name": "FormField",
+          "startLine": 30,
+          "endLine": 41,
+          "params": [
+            "{\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "useFormField",
+          "startLine": 43,
+          "endLine": 64,
+          "params": []
+        },
+        {
+          "name": "FormItem",
+          "startLine": 74,
+          "endLine": 86,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "FormLabel",
+          "startLine": 88,
+          "endLine": 103,
+          "params": [
+            "{\n  className,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "FormControl",
+          "startLine": 105,
+          "endLine": 121,
+          "params": [
+            "{ ...props }"
+          ]
+        },
+        {
+          "name": "FormDescription",
+          "startLine": 123,
+          "endLine": 134,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "FormMessage",
+          "startLine": 136,
+          "endLine": 154,
+          "params": [
+            "{ className, ...props }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "useFormField",
+          "line": 156,
+          "isDefault": false
+        },
+        {
+          "name": "Form",
+          "line": 156,
+          "isDefault": false
+        },
+        {
+          "name": "FormItem",
+          "line": 156,
+          "isDefault": false
+        },
+        {
+          "name": "FormLabel",
+          "line": 156,
+          "isDefault": false
+        },
+        {
+          "name": "FormControl",
+          "line": 156,
+          "isDefault": false
+        },
+        {
+          "name": "FormDescription",
+          "line": 156,
+          "isDefault": false
+        },
+        {
+          "name": "FormMessage",
+          "line": 156,
+          "isDefault": false
+        },
+        {
+          "name": "FormField",
+          "line": 156,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "useFormField",
+          "callee": "React.useContext",
+          "lineNumber": 44
+        },
+        {
+          "caller": "useFormField",
+          "callee": "React.useContext",
+          "lineNumber": 45
+        },
+        {
+          "caller": "useFormField",
+          "callee": "useFormContext",
+          "lineNumber": 46
+        },
+        {
+          "caller": "useFormField",
+          "callee": "useFormState",
+          "lineNumber": 47
+        },
+        {
+          "caller": "useFormField",
+          "callee": "getFieldState",
+          "lineNumber": 48
+        },
+        {
+          "caller": "FormItem",
+          "callee": "React.useId",
+          "lineNumber": 75
+        },
+        {
+          "caller": "FormItem",
+          "callee": "cn",
+          "lineNumber": 81
+        },
+        {
+          "caller": "FormLabel",
+          "callee": "useFormField",
+          "lineNumber": 92
+        },
+        {
+          "caller": "FormLabel",
+          "callee": "cn",
+          "lineNumber": 98
+        },
+        {
+          "caller": "FormControl",
+          "callee": "useFormField",
+          "lineNumber": 106
+        },
+        {
+          "caller": "FormDescription",
+          "callee": "useFormField",
+          "lineNumber": 124
+        },
+        {
+          "caller": "FormDescription",
+          "callee": "cn",
+          "lineNumber": 130
+        },
+        {
+          "caller": "FormMessage",
+          "callee": "useFormField",
+          "lineNumber": 137
+        },
+        {
+          "caller": "FormMessage",
+          "callee": "String",
+          "lineNumber": 138
+        },
+        {
+          "caller": "FormMessage",
+          "callee": "cn",
+          "lineNumber": 148
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 8,
+        "functionCount": 7,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/ui/input.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 21,
+      "nonEmptyLines": 18,
+      "functions": [
+        {
+          "name": "Input",
+          "startLine": 5,
+          "endLine": 19,
+          "params": [
+            "{ className, type, ...props }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Input",
+          "line": 21,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Input",
+          "callee": "cn",
+          "lineNumber": 10
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/ui/loading-button.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 67,
+      "nonEmptyLines": 63,
+      "functions": [
+        {
+          "name": "LoadingButton",
+          "startLine": 44,
+          "endLine": 65,
+          "params": [
+            "{\n  className,\n  loading = false,\n  children,\n  disabled,\n  variant,\n  size,\n  asChild = false,\n  ...props\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "buttonVariants",
+          "line": 67,
+          "isDefault": false
+        },
+        {
+          "name": "LoadingButton",
+          "line": 67,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "LoadingButton",
+          "callee": "cn",
+          "lineNumber": 57
+        },
+        {
+          "caller": "LoadingButton",
+          "callee": "buttonVariants",
+          "lineNumber": 57
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/ui/password-input.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 51,
+      "nonEmptyLines": 45,
+      "exports": [
+        {
+          "name": "PasswordInput",
+          "line": 51,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/ui/tabs.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 64,
+      "nonEmptyLines": 58,
+      "functions": [
+        {
+          "name": "Tabs",
+          "startLine": 6,
+          "endLine": 17,
+          "params": [
+            "{\n  className,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "TabsList",
+          "startLine": 19,
+          "endLine": 33,
+          "params": [
+            "{\n  className,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "TabsTrigger",
+          "startLine": 35,
+          "endLine": 49,
+          "params": [
+            "{\n  className,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "TabsContent",
+          "startLine": 51,
+          "endLine": 62,
+          "params": [
+            "{\n  className,\n  ...props\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Tabs",
+          "line": 64,
+          "isDefault": false
+        },
+        {
+          "name": "TabsList",
+          "line": 64,
+          "isDefault": false
+        },
+        {
+          "name": "TabsTrigger",
+          "line": 64,
+          "isDefault": false
+        },
+        {
+          "name": "TabsContent",
+          "line": 64,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Tabs",
+          "callee": "cn",
+          "lineNumber": 13
+        },
+        {
+          "caller": "TabsList",
+          "callee": "cn",
+          "lineNumber": 26
+        },
+        {
+          "caller": "TabsTrigger",
+          "callee": "cn",
+          "lineNumber": 42
+        },
+        {
+          "caller": "TabsContent",
+          "callee": "cn",
+          "lineNumber": 58
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 4,
+        "functionCount": 4,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/hooks/useAuth.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 70,
+      "nonEmptyLines": 60,
+      "functions": [
+        {
+          "name": "isLoggedIn",
+          "startLine": 14,
+          "endLine": 16,
+          "params": []
+        },
+        {
+          "name": "useAuth",
+          "startLine": 18,
+          "endLine": 67,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "isLoggedIn",
+          "line": 69,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "isLoggedIn",
+          "callee": "localStorage.getItem",
+          "lineNumber": 15
+        },
+        {
+          "caller": "useAuth",
+          "callee": "useNavigate",
+          "lineNumber": 19
+        },
+        {
+          "caller": "useAuth",
+          "callee": "useQueryClient",
+          "lineNumber": 20
+        },
+        {
+          "caller": "useAuth",
+          "callee": "useCustomToast",
+          "lineNumber": 21
+        },
+        {
+          "caller": "useAuth",
+          "callee": "useQuery",
+          "lineNumber": 23
+        },
+        {
+          "caller": "useAuth",
+          "callee": "UsersService.readUserMe",
+          "lineNumber": 25
+        },
+        {
+          "caller": "useAuth",
+          "callee": "isLoggedIn",
+          "lineNumber": 26
+        },
+        {
+          "caller": "useAuth",
+          "callee": "useMutation",
+          "lineNumber": 29
+        },
+        {
+          "caller": "useAuth",
+          "callee": "UsersService.registerUser",
+          "lineNumber": 31
+        },
+        {
+          "caller": "useAuth",
+          "callee": "navigate",
+          "lineNumber": 33
+        },
+        {
+          "caller": "useAuth",
+          "callee": "handleError.bind",
+          "lineNumber": 35
+        },
+        {
+          "caller": "useAuth",
+          "callee": "queryClient.invalidateQueries",
+          "lineNumber": 37
+        },
+        {
+          "caller": "login",
+          "callee": "LoginService.loginAccessToken",
+          "lineNumber": 42
+        },
+        {
+          "caller": "login",
+          "callee": "localStorage.setItem",
+          "lineNumber": 45
+        },
+        {
+          "caller": "useAuth",
+          "callee": "useMutation",
+          "lineNumber": 48
+        },
+        {
+          "caller": "useAuth",
+          "callee": "navigate",
+          "lineNumber": 51
+        },
+        {
+          "caller": "useAuth",
+          "callee": "handleError.bind",
+          "lineNumber": 53
+        },
+        {
+          "caller": "logout",
+          "callee": "localStorage.removeItem",
+          "lineNumber": 57
+        },
+        {
+          "caller": "logout",
+          "callee": "navigate",
+          "lineNumber": 58
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 1,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/hooks/useCustomToast.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 19,
+      "nonEmptyLines": 15,
+      "functions": [
+        {
+          "name": "useCustomToast",
+          "startLine": 3,
+          "endLine": 17,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "showSuccessToast",
+          "callee": "toast.success",
+          "lineNumber": 5
+        },
+        {
+          "caller": "showErrorToast",
+          "callee": "toast.error",
+          "lineNumber": 11
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/routeTree.gen.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 235,
+      "nonEmptyLines": 224,
+      "exports": [
+        {
+          "name": "routeTree",
+          "line": 233,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 10,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/routes/__root.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 18,
+      "nonEmptyLines": 17,
+      "exports": [
+        {
+          "name": "Route",
+          "line": 7,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/routes/_layout/index.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 31,
+      "nonEmptyLines": 27,
+      "functions": [
+        {
+          "name": "Dashboard",
+          "startLine": 16,
+          "endLine": 31,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "Route",
+          "line": 5,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Dashboard",
+          "callee": "useAuth",
+          "lineNumber": 17
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/routes/_layout/settings.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 61,
+      "nonEmptyLines": 54,
+      "functions": [
+        {
+          "name": "UserSettings",
+          "startLine": 26,
+          "endLine": 61,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "Route",
+          "line": 15,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "UserSettings",
+          "callee": "useAuth",
+          "lineNumber": 27
+        },
+        {
+          "caller": "UserSettings",
+          "callee": "tabsConfig.slice",
+          "lineNumber": 29
+        },
+        {
+          "caller": "UserSettings",
+          "callee": "finalTabs.map",
+          "lineNumber": 47
+        },
+        {
+          "caller": "UserSettings",
+          "callee": "finalTabs.map",
+          "lineNumber": 53
+        }
+      ],
+      "metrics": {
+        "importCount": 5,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/routes/login.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 142,
+      "nonEmptyLines": 131,
+      "functions": [
+        {
+          "name": "Login",
+          "startLine": 53,
+          "endLine": 142,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "Route",
+          "line": 35,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Login",
+          "callee": "useAuth",
+          "lineNumber": 54
+        },
+        {
+          "caller": "Login",
+          "callee": "useForm",
+          "lineNumber": 55
+        },
+        {
+          "caller": "Login",
+          "callee": "zodResolver",
+          "lineNumber": 56
+        },
+        {
+          "caller": "onSubmit",
+          "callee": "loginMutation.mutate",
+          "lineNumber": 67
+        },
+        {
+          "caller": "Login",
+          "callee": "form.handleSubmit",
+          "lineNumber": 74
+        }
+      ],
+      "metrics": {
+        "importCount": 7,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/routes/recover-password.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 130,
+      "nonEmptyLines": 118,
+      "functions": [
+        {
+          "name": "RecoverPassword",
+          "startLine": 51,
+          "endLine": 130,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "Route",
+          "line": 33,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "RecoverPassword",
+          "callee": "useForm",
+          "lineNumber": 52
+        },
+        {
+          "caller": "RecoverPassword",
+          "callee": "zodResolver",
+          "lineNumber": 53
+        },
+        {
+          "caller": "RecoverPassword",
+          "callee": "useCustomToast",
+          "lineNumber": 58
+        },
+        {
+          "caller": "recoverPassword",
+          "callee": "LoginService.recoverPassword",
+          "lineNumber": 61
+        },
+        {
+          "caller": "RecoverPassword",
+          "callee": "useMutation",
+          "lineNumber": 66
+        },
+        {
+          "caller": "RecoverPassword",
+          "callee": "showSuccessToast",
+          "lineNumber": 69
+        },
+        {
+          "caller": "RecoverPassword",
+          "callee": "form.reset",
+          "lineNumber": 70
+        },
+        {
+          "caller": "RecoverPassword",
+          "callee": "handleError.bind",
+          "lineNumber": 72
+        },
+        {
+          "caller": "onSubmit",
+          "callee": "mutation.mutate",
+          "lineNumber": 77
+        },
+        {
+          "caller": "RecoverPassword",
+          "callee": "form.handleSubmit",
+          "lineNumber": 84
+        }
+      ],
+      "metrics": {
+        "importCount": 8,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/routes/reset-password.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 166,
+      "nonEmptyLines": 152,
+      "functions": [
+        {
+          "name": "ResetPassword",
+          "startLine": 69,
+          "endLine": 166,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "Route",
+          "line": 49,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "ResetPassword",
+          "callee": "Route.useSearch",
+          "lineNumber": 70
+        },
+        {
+          "caller": "ResetPassword",
+          "callee": "useCustomToast",
+          "lineNumber": 71
+        },
+        {
+          "caller": "ResetPassword",
+          "callee": "useNavigate",
+          "lineNumber": 72
+        },
+        {
+          "caller": "ResetPassword",
+          "callee": "useForm",
+          "lineNumber": 74
+        },
+        {
+          "caller": "ResetPassword",
+          "callee": "zodResolver",
+          "lineNumber": 75
+        },
+        {
+          "caller": "ResetPassword",
+          "callee": "useMutation",
+          "lineNumber": 84
+        },
+        {
+          "caller": "ResetPassword",
+          "callee": "LoginService.resetPassword",
+          "lineNumber": 86
+        },
+        {
+          "caller": "ResetPassword",
+          "callee": "showSuccessToast",
+          "lineNumber": 88
+        },
+        {
+          "caller": "ResetPassword",
+          "callee": "form.reset",
+          "lineNumber": 89
+        },
+        {
+          "caller": "ResetPassword",
+          "callee": "navigate",
+          "lineNumber": 90
+        },
+        {
+          "caller": "ResetPassword",
+          "callee": "handleError.bind",
+          "lineNumber": 92
+        },
+        {
+          "caller": "onSubmit",
+          "callee": "mutation.mutate",
+          "lineNumber": 96
+        },
+        {
+          "caller": "ResetPassword",
+          "callee": "form.handleSubmit",
+          "lineNumber": 103
+        }
+      ],
+      "metrics": {
+        "importCount": 8,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/routes/signup.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 187,
+      "nonEmptyLines": 174,
+      "functions": [
+        {
+          "name": "SignUp",
+          "startLine": 60,
+          "endLine": 187,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "Route",
+          "line": 42,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "SignUp",
+          "callee": "useAuth",
+          "lineNumber": 61
+        },
+        {
+          "caller": "SignUp",
+          "callee": "useForm",
+          "lineNumber": 62
+        },
+        {
+          "caller": "SignUp",
+          "callee": "zodResolver",
+          "lineNumber": 63
+        },
+        {
+          "caller": "onSubmit",
+          "callee": "signUpMutation.mutate",
+          "lineNumber": 79
+        },
+        {
+          "caller": "SignUp",
+          "callee": "form.handleSubmit",
+          "lineNumber": 86
+        }
+      ],
+      "metrics": {
+        "importCount": 6,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/utils.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 29,
+      "nonEmptyLines": 26,
+      "functions": [
+        {
+          "name": "extractErrorMessage",
+          "startLine": 3,
+          "endLine": 15,
+          "params": [
+            "err"
+          ]
+        },
+        {
+          "name": "handleError",
+          "startLine": 17,
+          "endLine": 20,
+          "params": [
+            "this",
+            "err"
+          ]
+        },
+        {
+          "name": "getInitials",
+          "startLine": 22,
+          "endLine": 29,
+          "params": [
+            "name"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "handleError",
+          "line": 17,
+          "isDefault": false
+        },
+        {
+          "name": "getInitials",
+          "line": 22,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "extractErrorMessage",
+          "callee": "Array.isArray",
+          "lineNumber": 6
+        },
+        {
+          "caller": "handleError",
+          "callee": "extractErrorMessage",
+          "lineNumber": 18
+        },
+        {
+          "caller": "handleError",
+          "callee": "this",
+          "lineNumber": 19
+        },
+        {
+          "caller": "getInitials",
+          "callee": "name\n    .split(\" \")\n    .slice(0, 2)\n    .map((word) => word[0])\n    .join(\"\")\n    .toUpperCase",
+          "lineNumber": 23
+        },
+        {
+          "caller": "getInitials",
+          "callee": "name\n    .split(\" \")\n    .slice(0, 2)\n    .map((word) => word[0])\n    .join",
+          "lineNumber": 23
+        },
+        {
+          "caller": "getInitials",
+          "callee": "name\n    .split(\" \")\n    .slice(0, 2)\n    .map",
+          "lineNumber": 23
+        },
+        {
+          "caller": "getInitials",
+          "callee": "name\n    .split(\" \")\n    .slice",
+          "lineNumber": 23
+        },
+        {
+          "caller": "getInitials",
+          "callee": "name\n    .split",
+          "lineNumber": 23
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    }
+  ]
+}

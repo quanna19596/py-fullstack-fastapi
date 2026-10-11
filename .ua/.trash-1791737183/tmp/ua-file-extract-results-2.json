@@ -1,0 +1,2268 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 25,
+  "filesSkipped": [],
+  "filesUnreadable": [],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 25,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 25,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "results": [
+    {
+      "path": "frontend/src/components/Admin/columns.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 76,
+      "nonEmptyLines": 73,
+      "exports": [
+        {
+          "name": "columns",
+          "line": 12,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 4,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/Common/Appearance.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 105,
+      "nonEmptyLines": 98,
+      "functions": [
+        {
+          "name": "SidebarAppearance",
+          "startLine": 25,
+          "endLine": 67,
+          "params": []
+        },
+        {
+          "name": "Appearance",
+          "startLine": 69,
+          "endLine": 105,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "SidebarAppearance",
+          "line": 25,
+          "isDefault": false
+        },
+        {
+          "name": "Appearance",
+          "line": 69,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "SidebarAppearance",
+          "callee": "useSidebar",
+          "lineNumber": 26
+        },
+        {
+          "caller": "SidebarAppearance",
+          "callee": "useTheme",
+          "lineNumber": 27
+        },
+        {
+          "caller": "SidebarAppearance",
+          "callee": "setTheme",
+          "lineNumber": 47
+        },
+        {
+          "caller": "SidebarAppearance",
+          "callee": "setTheme",
+          "lineNumber": 54
+        },
+        {
+          "caller": "SidebarAppearance",
+          "callee": "setTheme",
+          "lineNumber": 59
+        },
+        {
+          "caller": "Appearance",
+          "callee": "useTheme",
+          "lineNumber": 70
+        },
+        {
+          "caller": "Appearance",
+          "callee": "setTheme",
+          "lineNumber": 85
+        },
+        {
+          "caller": "Appearance",
+          "callee": "setTheme",
+          "lineNumber": 92
+        },
+        {
+          "caller": "Appearance",
+          "callee": "setTheme",
+          "lineNumber": 97
+        }
+      ],
+      "metrics": {
+        "importCount": 4,
+        "exportCount": 2,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/Common/AuthLayout.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 26,
+      "nonEmptyLines": 24,
+      "functions": [
+        {
+          "name": "AuthLayout",
+          "startLine": 9,
+          "endLine": 26,
+          "params": [
+            "{ children }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "AuthLayout",
+          "line": 9,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/Common/Footer.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 44,
+      "nonEmptyLines": 41,
+      "functions": [
+        {
+          "name": "Footer",
+          "startLine": 18,
+          "endLine": 44,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "Footer",
+          "line": 18,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Footer",
+          "callee": "new Date().getFullYear",
+          "lineNumber": 19
+        },
+        {
+          "caller": "Footer",
+          "callee": "socialLinks.map",
+          "lineNumber": 28
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/Common/Logo.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 60,
+      "nonEmptyLines": 53,
+      "functions": [
+        {
+          "name": "Logo",
+          "startLine": 16,
+          "endLine": 60,
+          "params": [
+            "{\n  variant = \"full\",\n  className,\n  asLink = true,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Logo",
+          "line": 16,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Logo",
+          "callee": "useTheme",
+          "lineNumber": 21
+        },
+        {
+          "caller": "Logo",
+          "callee": "cn",
+          "lineNumber": 33
+        },
+        {
+          "caller": "Logo",
+          "callee": "cn",
+          "lineNumber": 41
+        },
+        {
+          "caller": "Logo",
+          "callee": "cn",
+          "lineNumber": 51
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/Sidebar/AppSidebar.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 43,
+      "nonEmptyLines": 37,
+      "functions": [
+        {
+          "name": "AppSidebar",
+          "startLine": 20,
+          "endLine": 41,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "AppSidebar",
+          "line": 20,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "AppSidebar",
+          "callee": "useAuth",
+          "lineNumber": 21
+        }
+      ],
+      "metrics": {
+        "importCount": 6,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/Sidebar/Main.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 60,
+      "nonEmptyLines": 53,
+      "functions": [
+        {
+          "name": "Main",
+          "startLine": 23,
+          "endLine": 60,
+          "params": [
+            "{ items }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Main",
+          "line": 23,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Main",
+          "callee": "useSidebar",
+          "lineNumber": 24
+        },
+        {
+          "caller": "Main",
+          "callee": "useRouterState",
+          "lineNumber": 25
+        },
+        {
+          "caller": "handleMenuClick",
+          "callee": "setOpenMobile",
+          "lineNumber": 30
+        },
+        {
+          "caller": "Main",
+          "callee": "items.map",
+          "lineNumber": 38
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/Sidebar/User.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 97,
+      "nonEmptyLines": 90,
+      "functions": [
+        {
+          "name": "UserInfo",
+          "startLine": 27,
+          "endLine": 41,
+          "params": [
+            "{ fullName, email }"
+          ]
+        },
+        {
+          "name": "User",
+          "startLine": 43,
+          "endLine": 97,
+          "params": [
+            "{ user }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "User",
+          "line": 43,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "UserInfo",
+          "callee": "getInitials",
+          "lineNumber": 32
+        },
+        {
+          "caller": "User",
+          "callee": "useAuth",
+          "lineNumber": 44
+        },
+        {
+          "caller": "User",
+          "callee": "useSidebar",
+          "lineNumber": 45
+        },
+        {
+          "caller": "handleMenuClick",
+          "callee": "setOpenMobile",
+          "lineNumber": 51
+        },
+        {
+          "caller": "handleLogout",
+          "callee": "logout",
+          "lineNumber": 55
+        }
+      ],
+      "metrics": {
+        "importCount": 5,
+        "exportCount": 1,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/theme-provider.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 115,
+      "nonEmptyLines": 92,
+      "functions": [
+        {
+          "name": "ThemeProvider",
+          "startLine": 31,
+          "endLine": 106,
+          "params": [
+            "{\n  children,\n  defaultTheme = \"system\",\n  storageKey = \"vite-ui-theme\",\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "useTheme",
+          "startLine": 108,
+          "endLine": 115,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "ThemeProvider",
+          "line": 31,
+          "isDefault": false
+        },
+        {
+          "name": "useTheme",
+          "line": 108,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "ThemeProvider",
+          "callee": "useState",
+          "lineNumber": 37
+        },
+        {
+          "caller": "ThemeProvider",
+          "callee": "localStorage.getItem",
+          "lineNumber": 38
+        },
+        {
+          "caller": "ThemeProvider",
+          "callee": "useCallback",
+          "lineNumber": 41
+        },
+        {
+          "caller": "ThemeProvider",
+          "callee": "window.matchMedia",
+          "lineNumber": 43
+        },
+        {
+          "caller": "ThemeProvider",
+          "callee": "useState",
+          "lineNumber": 50
+        },
+        {
+          "caller": "ThemeProvider",
+          "callee": "getResolvedTheme",
+          "lineNumber": 51
+        },
+        {
+          "caller": "ThemeProvider",
+          "callee": "useCallback",
+          "lineNumber": 54
+        },
+        {
+          "caller": "ThemeProvider",
+          "callee": "root.classList.remove",
+          "lineNumber": 57
+        },
+        {
+          "caller": "ThemeProvider",
+          "callee": "window.matchMedia",
+          "lineNumber": 60
+        },
+        {
+          "caller": "ThemeProvider",
+          "callee": "root.classList.add",
+          "lineNumber": 65
+        },
+        {
+          "caller": "ThemeProvider",
+          "callee": "root.classList.add",
+          "lineNumber": 69
+        },
+        {
+          "caller": "ThemeProvider",
+          "callee": "useEffect",
+          "lineNumber": 72
+        },
+        {
+          "caller": "ThemeProvider",
+          "callee": "updateTheme",
+          "lineNumber": 73
+        },
+        {
+          "caller": "ThemeProvider",
+          "callee": "setResolvedTheme",
+          "lineNumber": 74
+        },
+        {
+          "caller": "ThemeProvider",
+          "callee": "getResolvedTheme",
+          "lineNumber": 74
+        },
+        {
+          "caller": "ThemeProvider",
+          "callee": "window.matchMedia",
+          "lineNumber": 76
+        },
+        {
+          "caller": "handleChange",
+          "callee": "updateTheme",
+          "lineNumber": 80
+        },
+        {
+          "caller": "handleChange",
+          "callee": "setResolvedTheme",
+          "lineNumber": 81
+        },
+        {
+          "caller": "handleChange",
+          "callee": "getResolvedTheme",
+          "lineNumber": 81
+        },
+        {
+          "caller": "ThemeProvider",
+          "callee": "mediaQuery.addEventListener",
+          "lineNumber": 85
+        },
+        {
+          "caller": "ThemeProvider",
+          "callee": "mediaQuery.removeEventListener",
+          "lineNumber": 88
+        },
+        {
+          "caller": "ThemeProvider",
+          "callee": "localStorage.setItem",
+          "lineNumber": 96
+        },
+        {
+          "caller": "ThemeProvider",
+          "callee": "setTheme",
+          "lineNumber": 97
+        },
+        {
+          "caller": "useTheme",
+          "callee": "useContext",
+          "lineNumber": 109
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/ui/alert.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 66,
+      "nonEmptyLines": 60,
+      "functions": [
+        {
+          "name": "Alert",
+          "startLine": 22,
+          "endLine": 35,
+          "params": [
+            "{\n  className,\n  variant,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "AlertTitle",
+          "startLine": 37,
+          "endLine": 48,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "AlertDescription",
+          "startLine": 50,
+          "endLine": 64,
+          "params": [
+            "{\n  className,\n  ...props\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Alert",
+          "line": 66,
+          "isDefault": false
+        },
+        {
+          "name": "AlertTitle",
+          "line": 66,
+          "isDefault": false
+        },
+        {
+          "name": "AlertDescription",
+          "line": 66,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Alert",
+          "callee": "cn",
+          "lineNumber": 31
+        },
+        {
+          "caller": "Alert",
+          "callee": "alertVariants",
+          "lineNumber": 31
+        },
+        {
+          "caller": "AlertTitle",
+          "callee": "cn",
+          "lineNumber": 41
+        },
+        {
+          "caller": "AlertDescription",
+          "callee": "cn",
+          "lineNumber": 57
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 3,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/ui/avatar.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 51,
+      "nonEmptyLines": 46,
+      "functions": [
+        {
+          "name": "Avatar",
+          "startLine": 6,
+          "endLine": 20,
+          "params": [
+            "{\n  className,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "AvatarImage",
+          "startLine": 22,
+          "endLine": 33,
+          "params": [
+            "{\n  className,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "AvatarFallback",
+          "startLine": 35,
+          "endLine": 49,
+          "params": [
+            "{\n  className,\n  ...props\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Avatar",
+          "line": 51,
+          "isDefault": false
+        },
+        {
+          "name": "AvatarImage",
+          "line": 51,
+          "isDefault": false
+        },
+        {
+          "name": "AvatarFallback",
+          "line": 51,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Avatar",
+          "callee": "cn",
+          "lineNumber": 13
+        },
+        {
+          "caller": "AvatarImage",
+          "callee": "cn",
+          "lineNumber": 29
+        },
+        {
+          "caller": "AvatarFallback",
+          "callee": "cn",
+          "lineNumber": 42
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 3,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/ui/badge.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 46,
+      "nonEmptyLines": 41,
+      "functions": [
+        {
+          "name": "Badge",
+          "startLine": 28,
+          "endLine": 44,
+          "params": [
+            "{\n  className,\n  variant,\n  asChild = false,\n  ...props\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Badge",
+          "line": 46,
+          "isDefault": false
+        },
+        {
+          "name": "badgeVariants",
+          "line": 46,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Badge",
+          "callee": "cn",
+          "lineNumber": 40
+        },
+        {
+          "caller": "Badge",
+          "callee": "badgeVariants",
+          "lineNumber": 40
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/ui/button-group.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 83,
+      "nonEmptyLines": 76,
+      "functions": [
+        {
+          "name": "ButtonGroup",
+          "startLine": 24,
+          "endLine": 38,
+          "params": [
+            "{\n  className,\n  orientation,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "ButtonGroupText",
+          "startLine": 40,
+          "endLine": 58,
+          "params": [
+            "{\n  className,\n  asChild = false,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "ButtonGroupSeparator",
+          "startLine": 60,
+          "endLine": 76,
+          "params": [
+            "{\n  className,\n  orientation = \"vertical\",\n  ...props\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "ButtonGroup",
+          "line": 78,
+          "isDefault": false
+        },
+        {
+          "name": "ButtonGroupSeparator",
+          "line": 78,
+          "isDefault": false
+        },
+        {
+          "name": "ButtonGroupText",
+          "line": 78,
+          "isDefault": false
+        },
+        {
+          "name": "buttonGroupVariants",
+          "line": 78,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "ButtonGroup",
+          "callee": "cn",
+          "lineNumber": 34
+        },
+        {
+          "caller": "ButtonGroup",
+          "callee": "buttonGroupVariants",
+          "lineNumber": 34
+        },
+        {
+          "caller": "ButtonGroupText",
+          "callee": "cn",
+          "lineNumber": 51
+        },
+        {
+          "caller": "ButtonGroupSeparator",
+          "callee": "cn",
+          "lineNumber": 69
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 4,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/ui/card.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 92,
+      "nonEmptyLines": 83,
+      "functions": [
+        {
+          "name": "Card",
+          "startLine": 5,
+          "endLine": 16,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "CardHeader",
+          "startLine": 18,
+          "endLine": 29,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "CardTitle",
+          "startLine": 31,
+          "endLine": 39,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "CardDescription",
+          "startLine": 41,
+          "endLine": 49,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "CardAction",
+          "startLine": 51,
+          "endLine": 62,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "CardContent",
+          "startLine": 64,
+          "endLine": 72,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "CardFooter",
+          "startLine": 74,
+          "endLine": 82,
+          "params": [
+            "{ className, ...props }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Card",
+          "line": 84,
+          "isDefault": false
+        },
+        {
+          "name": "CardHeader",
+          "line": 84,
+          "isDefault": false
+        },
+        {
+          "name": "CardFooter",
+          "line": 84,
+          "isDefault": false
+        },
+        {
+          "name": "CardTitle",
+          "line": 84,
+          "isDefault": false
+        },
+        {
+          "name": "CardAction",
+          "line": 84,
+          "isDefault": false
+        },
+        {
+          "name": "CardDescription",
+          "line": 84,
+          "isDefault": false
+        },
+        {
+          "name": "CardContent",
+          "line": 84,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Card",
+          "callee": "cn",
+          "lineNumber": 9
+        },
+        {
+          "caller": "CardHeader",
+          "callee": "cn",
+          "lineNumber": 22
+        },
+        {
+          "caller": "CardTitle",
+          "callee": "cn",
+          "lineNumber": 35
+        },
+        {
+          "caller": "CardDescription",
+          "callee": "cn",
+          "lineNumber": 45
+        },
+        {
+          "caller": "CardAction",
+          "callee": "cn",
+          "lineNumber": 55
+        },
+        {
+          "caller": "CardContent",
+          "callee": "cn",
+          "lineNumber": 68
+        },
+        {
+          "caller": "CardFooter",
+          "callee": "cn",
+          "lineNumber": 78
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 7,
+        "functionCount": 7,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/ui/label.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 24,
+      "nonEmptyLines": 20,
+      "functions": [
+        {
+          "name": "Label",
+          "startLine": 8,
+          "endLine": 22,
+          "params": [
+            "{\n  className,\n  ...props\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Label",
+          "line": 24,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Label",
+          "callee": "cn",
+          "lineNumber": 15
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/ui/pagination.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 127,
+      "nonEmptyLines": 117,
+      "functions": [
+        {
+          "name": "Pagination",
+          "startLine": 11,
+          "endLine": 21,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "PaginationContent",
+          "startLine": 23,
+          "endLine": 34,
+          "params": [
+            "{\n  className,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "PaginationItem",
+          "startLine": 36,
+          "endLine": 38,
+          "params": [
+            "{ ...props }"
+          ]
+        },
+        {
+          "name": "PaginationLink",
+          "startLine": 45,
+          "endLine": 66,
+          "params": [
+            "{\n  className,\n  isActive,\n  size = \"icon\",\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "PaginationPrevious",
+          "startLine": 68,
+          "endLine": 83,
+          "params": [
+            "{\n  className,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "PaginationNext",
+          "startLine": 85,
+          "endLine": 100,
+          "params": [
+            "{\n  className,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "PaginationEllipsis",
+          "startLine": 102,
+          "endLine": 117,
+          "params": [
+            "{\n  className,\n  ...props\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Pagination",
+          "line": 119,
+          "isDefault": false
+        },
+        {
+          "name": "PaginationContent",
+          "line": 119,
+          "isDefault": false
+        },
+        {
+          "name": "PaginationLink",
+          "line": 119,
+          "isDefault": false
+        },
+        {
+          "name": "PaginationItem",
+          "line": 119,
+          "isDefault": false
+        },
+        {
+          "name": "PaginationPrevious",
+          "line": 119,
+          "isDefault": false
+        },
+        {
+          "name": "PaginationNext",
+          "line": 119,
+          "isDefault": false
+        },
+        {
+          "name": "PaginationEllipsis",
+          "line": 119,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Pagination",
+          "callee": "cn",
+          "lineNumber": 17
+        },
+        {
+          "caller": "PaginationContent",
+          "callee": "cn",
+          "lineNumber": 30
+        },
+        {
+          "caller": "PaginationLink",
+          "callee": "cn",
+          "lineNumber": 56
+        },
+        {
+          "caller": "PaginationLink",
+          "callee": "buttonVariants",
+          "lineNumber": 57
+        },
+        {
+          "caller": "PaginationPrevious",
+          "callee": "cn",
+          "lineNumber": 76
+        },
+        {
+          "caller": "PaginationNext",
+          "callee": "cn",
+          "lineNumber": 93
+        },
+        {
+          "caller": "PaginationEllipsis",
+          "callee": "cn",
+          "lineNumber": 110
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 7,
+        "functionCount": 7,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/ui/separator.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 26,
+      "nonEmptyLines": 23,
+      "functions": [
+        {
+          "name": "Separator",
+          "startLine": 6,
+          "endLine": 24,
+          "params": [
+            "{\n  className,\n  orientation = \"horizontal\",\n  decorative = true,\n  ...props\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Separator",
+          "line": 26,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Separator",
+          "callee": "cn",
+          "lineNumber": 17
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/ui/sheet.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 139,
+      "nonEmptyLines": 126,
+      "functions": [
+        {
+          "name": "Sheet",
+          "startLine": 9,
+          "endLine": 11,
+          "params": [
+            "{ ...props }"
+          ]
+        },
+        {
+          "name": "SheetTrigger",
+          "startLine": 13,
+          "endLine": 17,
+          "params": [
+            "{\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "SheetClose",
+          "startLine": 19,
+          "endLine": 23,
+          "params": [
+            "{\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "SheetPortal",
+          "startLine": 25,
+          "endLine": 29,
+          "params": [
+            "{\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "SheetOverlay",
+          "startLine": 31,
+          "endLine": 45,
+          "params": [
+            "{\n  className,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "SheetContent",
+          "startLine": 47,
+          "endLine": 82,
+          "params": [
+            "{\n  className,\n  children,\n  side = \"right\",\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "SheetHeader",
+          "startLine": 84,
+          "endLine": 92,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "SheetFooter",
+          "startLine": 94,
+          "endLine": 102,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "SheetTitle",
+          "startLine": 104,
+          "endLine": 115,
+          "params": [
+            "{\n  className,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "SheetDescription",
+          "startLine": 117,
+          "endLine": 128,
+          "params": [
+            "{\n  className,\n  ...props\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Sheet",
+          "line": 130,
+          "isDefault": false
+        },
+        {
+          "name": "SheetTrigger",
+          "line": 130,
+          "isDefault": false
+        },
+        {
+          "name": "SheetClose",
+          "line": 130,
+          "isDefault": false
+        },
+        {
+          "name": "SheetContent",
+          "line": 130,
+          "isDefault": false
+        },
+        {
+          "name": "SheetHeader",
+          "line": 130,
+          "isDefault": false
+        },
+        {
+          "name": "SheetFooter",
+          "line": 130,
+          "isDefault": false
+        },
+        {
+          "name": "SheetTitle",
+          "line": 130,
+          "isDefault": false
+        },
+        {
+          "name": "SheetDescription",
+          "line": 130,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "SheetOverlay",
+          "callee": "cn",
+          "lineNumber": 38
+        },
+        {
+          "caller": "SheetContent",
+          "callee": "cn",
+          "lineNumber": 60
+        },
+        {
+          "caller": "SheetHeader",
+          "callee": "cn",
+          "lineNumber": 88
+        },
+        {
+          "caller": "SheetFooter",
+          "callee": "cn",
+          "lineNumber": 98
+        },
+        {
+          "caller": "SheetTitle",
+          "callee": "cn",
+          "lineNumber": 111
+        },
+        {
+          "caller": "SheetDescription",
+          "callee": "cn",
+          "lineNumber": 124
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 8,
+        "functionCount": 10,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/ui/sidebar.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 737,
+      "nonEmptyLines": 680,
+      "functions": [
+        {
+          "name": "useSidebar",
+          "startLine": 45,
+          "endLine": 52,
+          "params": []
+        },
+        {
+          "name": "SidebarProvider",
+          "startLine": 54,
+          "endLine": 162,
+          "params": [
+            "{\n  defaultOpen = true,\n  open: openProp,\n  onOpenChange: setOpenProp,\n  className,\n  style,\n  children,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "Sidebar",
+          "startLine": 164,
+          "endLine": 264,
+          "params": [
+            "{\n  side = \"left\",\n  variant = \"sidebar\",\n  collapsible = \"offcanvas\",\n  className,\n  children,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "SidebarTrigger",
+          "startLine": 266,
+          "endLine": 291,
+          "params": [
+            "{\n  className,\n  onClick,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "SidebarRail",
+          "startLine": 293,
+          "endLine": 316,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "SidebarInset",
+          "startLine": 318,
+          "endLine": 330,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "SidebarInput",
+          "startLine": 332,
+          "endLine": 344,
+          "params": [
+            "{\n  className,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "SidebarHeader",
+          "startLine": 346,
+          "endLine": 355,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "SidebarFooter",
+          "startLine": 357,
+          "endLine": 366,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "SidebarSeparator",
+          "startLine": 368,
+          "endLine": 380,
+          "params": [
+            "{\n  className,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "SidebarContent",
+          "startLine": 382,
+          "endLine": 394,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "SidebarGroup",
+          "startLine": 396,
+          "endLine": 405,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "SidebarGroupLabel",
+          "startLine": 407,
+          "endLine": 426,
+          "params": [
+            "{\n  className,\n  asChild = false,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "SidebarGroupAction",
+          "startLine": 428,
+          "endLine": 449,
+          "params": [
+            "{\n  className,\n  asChild = false,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "SidebarGroupContent",
+          "startLine": 451,
+          "endLine": 463,
+          "params": [
+            "{\n  className,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "SidebarMenu",
+          "startLine": 465,
+          "endLine": 474,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "SidebarMenuItem",
+          "startLine": 476,
+          "endLine": 485,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "SidebarMenuButton",
+          "startLine": 509,
+          "endLine": 557,
+          "params": [
+            "{\n  asChild = false,\n  isActive = false,\n  variant = \"default\",\n  size = \"default\",\n  tooltip,\n  className,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "SidebarMenuAction",
+          "startLine": 559,
+          "endLine": 589,
+          "params": [
+            "{\n  className,\n  asChild = false,\n  showOnHover = false,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "SidebarMenuBadge",
+          "startLine": 591,
+          "endLine": 611,
+          "params": [
+            "{\n  className,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "SidebarMenuSkeleton",
+          "startLine": 613,
+          "endLine": 649,
+          "params": [
+            "{\n  className,\n  showIcon = false,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "SidebarMenuSub",
+          "startLine": 651,
+          "endLine": 664,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "SidebarMenuSubItem",
+          "startLine": 666,
+          "endLine": 678,
+          "params": [
+            "{\n  className,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "SidebarMenuSubButton",
+          "startLine": 680,
+          "endLine": 710,
+          "params": [
+            "{\n  asChild = false,\n  size = \"md\",\n  isActive = false,\n  className,\n  ...props\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Sidebar",
+          "line": 712,
+          "isDefault": false
+        },
+        {
+          "name": "SidebarContent",
+          "line": 712,
+          "isDefault": false
+        },
+        {
+          "name": "SidebarFooter",
+          "line": 712,
+          "isDefault": false
+        },
+        {
+          "name": "SidebarGroup",
+          "line": 712,
+          "isDefault": false
+        },
+        {
+          "name": "SidebarGroupAction",
+          "line": 712,
+          "isDefault": false
+        },
+        {
+          "name": "SidebarGroupContent",
+          "line": 712,
+          "isDefault": false
+        },
+        {
+          "name": "SidebarGroupLabel",
+          "line": 712,
+          "isDefault": false
+        },
+        {
+          "name": "SidebarHeader",
+          "line": 712,
+          "isDefault": false
+        },
+        {
+          "name": "SidebarInput",
+          "line": 712,
+          "isDefault": false
+        },
+        {
+          "name": "SidebarInset",
+          "line": 712,
+          "isDefault": false
+        },
+        {
+          "name": "SidebarMenu",
+          "line": 712,
+          "isDefault": false
+        },
+        {
+          "name": "SidebarMenuAction",
+          "line": 712,
+          "isDefault": false
+        },
+        {
+          "name": "SidebarMenuBadge",
+          "line": 712,
+          "isDefault": false
+        },
+        {
+          "name": "SidebarMenuButton",
+          "line": 712,
+          "isDefault": false
+        },
+        {
+          "name": "SidebarMenuItem",
+          "line": 712,
+          "isDefault": false
+        },
+        {
+          "name": "SidebarMenuSkeleton",
+          "line": 712,
+          "isDefault": false
+        },
+        {
+          "name": "SidebarMenuSub",
+          "line": 712,
+          "isDefault": false
+        },
+        {
+          "name": "SidebarMenuSubButton",
+          "line": 712,
+          "isDefault": false
+        },
+        {
+          "name": "SidebarMenuSubItem",
+          "line": 712,
+          "isDefault": false
+        },
+        {
+          "name": "SidebarProvider",
+          "line": 712,
+          "isDefault": false
+        },
+        {
+          "name": "SidebarRail",
+          "line": 712,
+          "isDefault": false
+        },
+        {
+          "name": "SidebarSeparator",
+          "line": 712,
+          "isDefault": false
+        },
+        {
+          "name": "SidebarTrigger",
+          "line": 712,
+          "isDefault": false
+        },
+        {
+          "name": "useSidebar",
+          "line": 712,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "useSidebar",
+          "callee": "React.useContext",
+          "lineNumber": 46
+        },
+        {
+          "caller": "SidebarProvider",
+          "callee": "useIsMobile",
+          "lineNumber": 67
+        },
+        {
+          "caller": "SidebarProvider",
+          "callee": "React.useState",
+          "lineNumber": 68
+        },
+        {
+          "caller": "getInitialOpen",
+          "callee": "document.cookie\n      .split(\"; \")\n      .find",
+          "lineNumber": 73
+        },
+        {
+          "caller": "getInitialOpen",
+          "callee": "document.cookie\n      .split",
+          "lineNumber": 73
+        },
+        {
+          "caller": "getInitialOpen",
+          "callee": "c.startsWith",
+          "lineNumber": 75
+        },
+        {
+          "caller": "getInitialOpen",
+          "callee": "cookie.split",
+          "lineNumber": 79
+        },
+        {
+          "caller": "SidebarProvider",
+          "callee": "React.useState",
+          "lineNumber": 84
+        },
+        {
+          "caller": "SidebarProvider",
+          "callee": "React.useCallback",
+          "lineNumber": 86
+        },
+        {
+          "caller": "SidebarProvider",
+          "callee": "value",
+          "lineNumber": 88
+        },
+        {
+          "caller": "SidebarProvider",
+          "callee": "setOpenProp",
+          "lineNumber": 90
+        },
+        {
+          "caller": "SidebarProvider",
+          "callee": "_setOpen",
+          "lineNumber": 92
+        },
+        {
+          "caller": "SidebarProvider",
+          "callee": "React.useCallback",
+          "lineNumber": 102
+        },
+        {
+          "caller": "SidebarProvider",
+          "callee": "setOpenMobile",
+          "lineNumber": 103
+        },
+        {
+          "caller": "SidebarProvider",
+          "callee": "setOpen",
+          "lineNumber": 103
+        },
+        {
+          "caller": "SidebarProvider",
+          "callee": "React.useEffect",
+          "lineNumber": 107
+        },
+        {
+          "caller": "handleKeyDown",
+          "callee": "event.preventDefault",
+          "lineNumber": 113
+        },
+        {
+          "caller": "handleKeyDown",
+          "callee": "toggleSidebar",
+          "lineNumber": 114
+        },
+        {
+          "caller": "SidebarProvider",
+          "callee": "window.addEventListener",
+          "lineNumber": 118
+        },
+        {
+          "caller": "SidebarProvider",
+          "callee": "window.removeEventListener",
+          "lineNumber": 119
+        },
+        {
+          "caller": "SidebarProvider",
+          "callee": "React.useMemo",
+          "lineNumber": 126
+        },
+        {
+          "caller": "SidebarProvider",
+          "callee": "cn",
+          "lineNumber": 151
+        },
+        {
+          "caller": "Sidebar",
+          "callee": "useSidebar",
+          "lineNumber": 176
+        },
+        {
+          "caller": "Sidebar",
+          "callee": "cn",
+          "lineNumber": 182
+        },
+        {
+          "caller": "Sidebar",
+          "callee": "cn",
+          "lineNumber": 230
+        },
+        {
+          "caller": "Sidebar",
+          "callee": "cn",
+          "lineNumber": 241
+        },
+        {
+          "caller": "SidebarTrigger",
+          "callee": "useSidebar",
+          "lineNumber": 271
+        },
+        {
+          "caller": "SidebarTrigger",
+          "callee": "cn",
+          "lineNumber": 280
+        },
+        {
+          "caller": "SidebarTrigger",
+          "callee": "onClick",
+          "lineNumber": 282
+        },
+        {
+          "caller": "SidebarTrigger",
+          "callee": "toggleSidebar",
+          "lineNumber": 283
+        },
+        {
+          "caller": "SidebarRail",
+          "callee": "useSidebar",
+          "lineNumber": 294
+        },
+        {
+          "caller": "SidebarRail",
+          "callee": "cn",
+          "lineNumber": 304
+        },
+        {
+          "caller": "SidebarInset",
+          "callee": "cn",
+          "lineNumber": 322
+        },
+        {
+          "caller": "SidebarInput",
+          "callee": "cn",
+          "lineNumber": 340
+        },
+        {
+          "caller": "SidebarHeader",
+          "callee": "cn",
+          "lineNumber": 351
+        },
+        {
+          "caller": "SidebarFooter",
+          "callee": "cn",
+          "lineNumber": 362
+        },
+        {
+          "caller": "SidebarSeparator",
+          "callee": "cn",
+          "lineNumber": 376
+        },
+        {
+          "caller": "SidebarContent",
+          "callee": "cn",
+          "lineNumber": 387
+        },
+        {
+          "caller": "SidebarGroup",
+          "callee": "cn",
+          "lineNumber": 401
+        },
+        {
+          "caller": "SidebarGroupLabel",
+          "callee": "cn",
+          "lineNumber": 418
+        },
+        {
+          "caller": "SidebarGroupAction",
+          "callee": "cn",
+          "lineNumber": 439
+        },
+        {
+          "caller": "SidebarGroupContent",
+          "callee": "cn",
+          "lineNumber": 459
+        },
+        {
+          "caller": "SidebarMenu",
+          "callee": "cn",
+          "lineNumber": 470
+        },
+        {
+          "caller": "SidebarMenuItem",
+          "callee": "cn",
+          "lineNumber": 481
+        },
+        {
+          "caller": "SidebarMenuButton",
+          "callee": "useSidebar",
+          "lineNumber": 523
+        },
+        {
+          "caller": "SidebarMenuButton",
+          "callee": "cn",
+          "lineNumber": 531
+        },
+        {
+          "caller": "SidebarMenuButton",
+          "callee": "sidebarMenuButtonVariants",
+          "lineNumber": 531
+        },
+        {
+          "caller": "SidebarMenuAction",
+          "callee": "cn",
+          "lineNumber": 574
+        },
+        {
+          "caller": "SidebarMenuBadge",
+          "callee": "cn",
+          "lineNumber": 599
+        },
+        {
+          "caller": "SidebarMenuSkeleton",
+          "callee": "React.useMemo",
+          "lineNumber": 621
+        },
+        {
+          "caller": "SidebarMenuSkeleton",
+          "callee": "Math.floor",
+          "lineNumber": 622
+        },
+        {
+          "caller": "SidebarMenuSkeleton",
+          "callee": "Math.random",
+          "lineNumber": 622
+        },
+        {
+          "caller": "SidebarMenuSkeleton",
+          "callee": "cn",
+          "lineNumber": 629
+        },
+        {
+          "caller": "SidebarMenuSub",
+          "callee": "cn",
+          "lineNumber": 656
+        },
+        {
+          "caller": "SidebarMenuSubItem",
+          "callee": "cn",
+          "lineNumber": 674
+        },
+        {
+          "caller": "SidebarMenuSubButton",
+          "callee": "cn",
+          "lineNumber": 699
+        }
+      ],
+      "metrics": {
+        "importCount": 8,
+        "exportCount": 24,
+        "functionCount": 24,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/ui/sonner.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 40,
+      "nonEmptyLines": 36,
+      "functions": [
+        {
+          "name": "Toaster",
+          "startLine": 13,
+          "endLine": 38,
+          "params": [
+            "{ ...props }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Toaster",
+          "line": 40,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Toaster",
+          "callee": "useTheme",
+          "lineNumber": 14
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/ui/tooltip.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 59,
+      "nonEmptyLines": 53,
+      "functions": [
+        {
+          "name": "TooltipProvider",
+          "startLine": 6,
+          "endLine": 17,
+          "params": [
+            "{\n  delayDuration = 0,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "Tooltip",
+          "startLine": 19,
+          "endLine": 27,
+          "params": [
+            "{\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "TooltipTrigger",
+          "startLine": 29,
+          "endLine": 33,
+          "params": [
+            "{\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "TooltipContent",
+          "startLine": 35,
+          "endLine": 57,
+          "params": [
+            "{\n  className,\n  sideOffset = 0,\n  children,\n  ...props\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Tooltip",
+          "line": 59,
+          "isDefault": false
+        },
+        {
+          "name": "TooltipTrigger",
+          "line": 59,
+          "isDefault": false
+        },
+        {
+          "name": "TooltipContent",
+          "line": 59,
+          "isDefault": false
+        },
+        {
+          "name": "TooltipProvider",
+          "line": 59,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "TooltipContent",
+          "callee": "cn",
+          "lineNumber": 46
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 4,
+        "functionCount": 4,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/hooks/useMobile.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 19,
+      "nonEmptyLines": 15,
+      "functions": [
+        {
+          "name": "useIsMobile",
+          "startLine": 5,
+          "endLine": 19,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "useIsMobile",
+          "line": 5,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "useIsMobile",
+          "callee": "React.useState",
+          "lineNumber": 6
+        },
+        {
+          "caller": "useIsMobile",
+          "callee": "React.useEffect",
+          "lineNumber": 8
+        },
+        {
+          "caller": "useIsMobile",
+          "callee": "window.matchMedia",
+          "lineNumber": 9
+        },
+        {
+          "caller": "onChange",
+          "callee": "setIsMobile",
+          "lineNumber": 11
+        },
+        {
+          "caller": "useIsMobile",
+          "callee": "mql.addEventListener",
+          "lineNumber": 13
+        },
+        {
+          "caller": "useIsMobile",
+          "callee": "setIsMobile",
+          "lineNumber": 14
+        },
+        {
+          "caller": "useIsMobile",
+          "callee": "mql.removeEventListener",
+          "lineNumber": 15
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/lib/utils.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 6,
+      "nonEmptyLines": 5,
+      "functions": [
+        {
+          "name": "cn",
+          "startLine": 4,
+          "endLine": 6,
+          "params": [
+            "...inputs"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "cn",
+          "line": 4,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "cn",
+          "callee": "twMerge",
+          "lineNumber": 5
+        },
+        {
+          "caller": "cn",
+          "callee": "clsx",
+          "lineNumber": 5
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/main.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 56,
+      "nonEmptyLines": 52,
+      "functions": [
+        {
+          "name": "handleApiError",
+          "startLine": 22,
+          "endLine": 30,
+          "params": [
+            "error"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "handleApiError",
+          "callee": "[401, 403].includes",
+          "lineNumber": 25
+        },
+        {
+          "caller": "handleApiError",
+          "callee": "localStorage.removeItem",
+          "lineNumber": 27
+        }
+      ],
+      "metrics": {
+        "importCount": 5,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/routes/_layout.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 40,
+      "nonEmptyLines": 37,
+      "functions": [
+        {
+          "name": "Layout",
+          "startLine": 23,
+          "endLine": 40,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "Route",
+          "line": 12,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 4,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    }
+  ]
+}

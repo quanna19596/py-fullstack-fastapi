@@ -1,0 +1,1172 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 16,
+  "filesSkipped": [],
+  "filesUnreadable": [],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 16,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 16,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "results": [
+    {
+      "path": "frontend/src/client/client.gen.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 16,
+      "nonEmptyLines": 13,
+      "exports": [
+        {
+          "name": "client",
+          "line": 16,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/client/client/index.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 23,
+      "nonEmptyLines": 22,
+      "exports": [
+        {
+          "name": "Auth",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "QuerySerializerOptions",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "formDataBodySerializer",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "jsonBodySerializer",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "urlSearchParamsBodySerializer",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "buildClientParams",
+          "line": 10,
+          "isDefault": false
+        },
+        {
+          "name": "serializeQueryKeyValue",
+          "line": 11,
+          "isDefault": false
+        },
+        {
+          "name": "createClient",
+          "line": 12,
+          "isDefault": false
+        },
+        {
+          "name": "Client",
+          "line": 13,
+          "isDefault": false
+        },
+        {
+          "name": "ClientOptions",
+          "line": 13,
+          "isDefault": false
+        },
+        {
+          "name": "Config",
+          "line": 13,
+          "isDefault": false
+        },
+        {
+          "name": "CreateClientConfig",
+          "line": 13,
+          "isDefault": false
+        },
+        {
+          "name": "Options",
+          "line": 13,
+          "isDefault": false
+        },
+        {
+          "name": "RequestOptions",
+          "line": 13,
+          "isDefault": false
+        },
+        {
+          "name": "RequestResult",
+          "line": 13,
+          "isDefault": false
+        },
+        {
+          "name": "TDataShape",
+          "line": 13,
+          "isDefault": false
+        },
+        {
+          "name": "createConfig",
+          "line": 23,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 17,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/client/sdk.gen.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 384,
+      "nonEmptyLines": 359,
+      "classes": [
+        {
+          "name": "LoginService",
+          "startLine": 21,
+          "endLine": 97,
+          "methods": [
+            "loginAccessToken",
+            "testToken",
+            "recoverPassword",
+            "resetPassword",
+            "recoverPasswordHtmlContent"
+          ],
+          "properties": []
+        },
+        {
+          "name": "UsersService",
+          "startLine": 99,
+          "endLine": 258,
+          "methods": [
+            "readUsers",
+            "createUser",
+            "deleteUserMe",
+            "readUserMe",
+            "updateUserMe",
+            "updatePasswordMe",
+            "registerUser",
+            "deleteUser",
+            "readUserById",
+            "updateUser"
+          ],
+          "properties": []
+        },
+        {
+          "name": "UtilsService",
+          "startLine": 260,
+          "endLine": 285,
+          "methods": [
+            "testEmail",
+            "healthCheck"
+          ],
+          "properties": []
+        },
+        {
+          "name": "ItemsService",
+          "startLine": 287,
+          "endLine": 365,
+          "methods": [
+            "readItems",
+            "createItem",
+            "deleteItem",
+            "readItem",
+            "updateItem"
+          ],
+          "properties": []
+        },
+        {
+          "name": "PrivateService",
+          "startLine": 367,
+          "endLine": 384,
+          "methods": [
+            "createUser"
+          ],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "LoginService",
+          "line": 21,
+          "isDefault": false
+        },
+        {
+          "name": "UsersService",
+          "line": 99,
+          "isDefault": false
+        },
+        {
+          "name": "UtilsService",
+          "line": 260,
+          "isDefault": false
+        },
+        {
+          "name": "ItemsService",
+          "line": 287,
+          "isDefault": false
+        },
+        {
+          "name": "PrivateService",
+          "line": 367,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "loginAccessToken",
+          "callee": "(options.client ?? client).post",
+          "lineNumber": 28
+        },
+        {
+          "caller": "testToken",
+          "callee": "(options?.client ?? client).post",
+          "lineNumber": 46
+        },
+        {
+          "caller": "recoverPassword",
+          "callee": "(options.client ?? client).post",
+          "lineNumber": 60
+        },
+        {
+          "caller": "resetPassword",
+          "callee": "(options.client ?? client).post",
+          "lineNumber": 73
+        },
+        {
+          "caller": "recoverPasswordHtmlContent",
+          "callee": "(options.client ?? client).post",
+          "lineNumber": 90
+        },
+        {
+          "caller": "readUsers",
+          "callee": "(options?.client ?? client).get",
+          "lineNumber": 106
+        },
+        {
+          "caller": "createUser",
+          "callee": "(options.client ?? client).post",
+          "lineNumber": 120
+        },
+        {
+          "caller": "deleteUserMe",
+          "callee": "(options?.client ?? client).delete",
+          "lineNumber": 138
+        },
+        {
+          "caller": "readUserMe",
+          "callee": "(options?.client ?? client).get",
+          "lineNumber": 152
+        },
+        {
+          "caller": "updateUserMe",
+          "callee": "(options.client ?? client).patch",
+          "lineNumber": 166
+        },
+        {
+          "caller": "updatePasswordMe",
+          "callee": "(options.client ?? client).patch",
+          "lineNumber": 184
+        },
+        {
+          "caller": "registerUser",
+          "callee": "(options.client ?? client).post",
+          "lineNumber": 202
+        },
+        {
+          "caller": "deleteUser",
+          "callee": "(options.client ?? client).delete",
+          "lineNumber": 219
+        },
+        {
+          "caller": "readUserById",
+          "callee": "(options.client ?? client).get",
+          "lineNumber": 233
+        },
+        {
+          "caller": "updateUser",
+          "callee": "(options.client ?? client).patch",
+          "lineNumber": 247
+        },
+        {
+          "caller": "testEmail",
+          "callee": "(options.client ?? client).post",
+          "lineNumber": 267
+        },
+        {
+          "caller": "healthCheck",
+          "callee": "(options?.client ?? client).get",
+          "lineNumber": 279
+        },
+        {
+          "caller": "readItems",
+          "callee": "(options?.client ?? client).get",
+          "lineNumber": 294
+        },
+        {
+          "caller": "createItem",
+          "callee": "(options.client ?? client).post",
+          "lineNumber": 308
+        },
+        {
+          "caller": "deleteItem",
+          "callee": "(options.client ?? client).delete",
+          "lineNumber": 326
+        },
+        {
+          "caller": "readItem",
+          "callee": "(options.client ?? client).get",
+          "lineNumber": 340
+        },
+        {
+          "caller": "updateItem",
+          "callee": "(options.client ?? client).put",
+          "lineNumber": 354
+        },
+        {
+          "caller": "createUser",
+          "callee": "(options.client ?? client).post",
+          "lineNumber": 374
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 5,
+        "functionCount": 0,
+        "classCount": 5
+      }
+    },
+    {
+      "path": "frontend/src/client/types.gen.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 947,
+      "nonEmptyLines": 821,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/tests/admin.spec.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 205,
+      "nonEmptyLines": 145,
+      "metrics": {
+        "importCount": 4,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/tests/auth.setup.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 13,
+      "nonEmptyLines": 11,
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/tests/config.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 19,
+      "nonEmptyLines": 15,
+      "functions": [
+        {
+          "name": "getEnvVar",
+          "startLine": 10,
+          "endLine": 16,
+          "params": [
+            "name"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "firstSuperuser",
+          "line": 18,
+          "isDefault": false
+        },
+        {
+          "name": "firstSuperuserPassword",
+          "line": 19,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/tests/items.spec.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 132,
+      "nonEmptyLines": 104,
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/tests/login.spec.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 117,
+      "nonEmptyLines": 86,
+      "functions": [
+        {
+          "name": "fillForm",
+          "startLine": 7,
+          "endLine": 10,
+          "params": [
+            "page",
+            "email",
+            "password"
+          ]
+        },
+        {
+          "name": "verifyInput",
+          "startLine": 12,
+          "endLine": 17,
+          "params": [
+            "page",
+            "testId"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "fillForm",
+          "callee": "page.getByTestId(\"email-input\").fill",
+          "lineNumber": 8
+        },
+        {
+          "caller": "fillForm",
+          "callee": "page.getByTestId",
+          "lineNumber": 8
+        },
+        {
+          "caller": "fillForm",
+          "callee": "page.getByTestId(\"password-input\").fill",
+          "lineNumber": 9
+        },
+        {
+          "caller": "fillForm",
+          "callee": "page.getByTestId",
+          "lineNumber": 9
+        },
+        {
+          "caller": "verifyInput",
+          "callee": "page.getByTestId",
+          "lineNumber": 13
+        },
+        {
+          "caller": "verifyInput",
+          "callee": "expect(input).toBeVisible",
+          "lineNumber": 14
+        },
+        {
+          "caller": "verifyInput",
+          "callee": "expect",
+          "lineNumber": 14
+        },
+        {
+          "caller": "verifyInput",
+          "callee": "expect(input).toHaveText",
+          "lineNumber": 15
+        },
+        {
+          "caller": "verifyInput",
+          "callee": "expect",
+          "lineNumber": 15
+        },
+        {
+          "caller": "verifyInput",
+          "callee": "expect(input).toBeEditable",
+          "lineNumber": 16
+        },
+        {
+          "caller": "verifyInput",
+          "callee": "expect",
+          "lineNumber": 16
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/tests/reset-password.spec.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 114,
+      "nonEmptyLines": 86,
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/tests/sign-up.spec.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 160,
+      "nonEmptyLines": 119,
+      "functions": [
+        {
+          "name": "fillForm",
+          "startLine": 7,
+          "endLine": 18,
+          "params": [
+            "page",
+            "full_name",
+            "email",
+            "password",
+            "confirm_password"
+          ]
+        },
+        {
+          "name": "verifyInput",
+          "startLine": 20,
+          "endLine": 25,
+          "params": [
+            "page",
+            "testId"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "fillForm",
+          "callee": "page.getByTestId(\"full-name-input\").fill",
+          "lineNumber": 14
+        },
+        {
+          "caller": "fillForm",
+          "callee": "page.getByTestId",
+          "lineNumber": 14
+        },
+        {
+          "caller": "fillForm",
+          "callee": "page.getByTestId(\"email-input\").fill",
+          "lineNumber": 15
+        },
+        {
+          "caller": "fillForm",
+          "callee": "page.getByTestId",
+          "lineNumber": 15
+        },
+        {
+          "caller": "fillForm",
+          "callee": "page.getByTestId(\"password-input\").fill",
+          "lineNumber": 16
+        },
+        {
+          "caller": "fillForm",
+          "callee": "page.getByTestId",
+          "lineNumber": 16
+        },
+        {
+          "caller": "fillForm",
+          "callee": "page.getByTestId(\"confirm-password-input\").fill",
+          "lineNumber": 17
+        },
+        {
+          "caller": "fillForm",
+          "callee": "page.getByTestId",
+          "lineNumber": 17
+        },
+        {
+          "caller": "verifyInput",
+          "callee": "page.getByTestId",
+          "lineNumber": 21
+        },
+        {
+          "caller": "verifyInput",
+          "callee": "expect(input).toBeVisible",
+          "lineNumber": 22
+        },
+        {
+          "caller": "verifyInput",
+          "callee": "expect",
+          "lineNumber": 22
+        },
+        {
+          "caller": "verifyInput",
+          "callee": "expect(input).toHaveText",
+          "lineNumber": 23
+        },
+        {
+          "caller": "verifyInput",
+          "callee": "expect",
+          "lineNumber": 23
+        },
+        {
+          "caller": "verifyInput",
+          "callee": "expect(input).toBeEditable",
+          "lineNumber": 24
+        },
+        {
+          "caller": "verifyInput",
+          "callee": "expect",
+          "lineNumber": 24
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/tests/user-settings.spec.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 256,
+      "nonEmptyLines": 206,
+      "metrics": {
+        "importCount": 4,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/tests/utils/mailpit.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 46,
+      "nonEmptyLines": 38,
+      "functions": [
+        {
+          "name": "waitForEmailHtml",
+          "startLine": 7,
+          "endLine": 46,
+          "params": [
+            "{\n  request,\n  query,\n  timeout = 5000,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "waitForEmailHtml",
+          "line": 7,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "waitForEmailHtml",
+          "callee": "Date.now",
+          "lineNumber": 16
+        },
+        {
+          "caller": "waitForEmailHtml",
+          "callee": "Date.now",
+          "lineNumber": 18
+        },
+        {
+          "caller": "waitForEmailHtml",
+          "callee": "request.get",
+          "lineNumber": 19
+        },
+        {
+          "caller": "waitForEmailHtml",
+          "callee": "response.json",
+          "lineNumber": 25
+        },
+        {
+          "caller": "waitForEmailHtml",
+          "callee": "request.get",
+          "lineNumber": 29
+        },
+        {
+          "caller": "waitForEmailHtml",
+          "callee": "htmlResponse.ok",
+          "lineNumber": 33
+        },
+        {
+          "caller": "waitForEmailHtml",
+          "callee": "htmlResponse.status",
+          "lineNumber": 35
+        },
+        {
+          "caller": "waitForEmailHtml",
+          "callee": "htmlResponse.text",
+          "lineNumber": 39
+        },
+        {
+          "caller": "waitForEmailHtml",
+          "callee": "setTimeout",
+          "lineNumber": 42
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/tests/utils/privateApi.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 26,
+      "nonEmptyLines": 24,
+      "functions": [
+        {
+          "name": "createUser",
+          "startLine": 10,
+          "endLine": 26,
+          "params": [
+            "{\n  email,\n  password,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "createUser",
+          "line": 10,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "createUser",
+          "callee": "PrivateService.createUser",
+          "lineNumber": 17
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/tests/utils/random.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 19,
+      "nonEmptyLines": 14,
+      "functions": [
+        {
+          "name": "randomEmail",
+          "startLine": 1,
+          "endLine": 2,
+          "params": []
+        },
+        {
+          "name": "randomTeamName",
+          "startLine": 4,
+          "endLine": 5,
+          "params": []
+        },
+        {
+          "name": "randomPassword",
+          "startLine": 7,
+          "endLine": 7,
+          "params": []
+        },
+        {
+          "name": "slugify",
+          "startLine": 9,
+          "endLine": 13,
+          "params": [
+            "text"
+          ]
+        },
+        {
+          "name": "randomItemTitle",
+          "startLine": 15,
+          "endLine": 16,
+          "params": []
+        },
+        {
+          "name": "randomItemDescription",
+          "startLine": 18,
+          "endLine": 19,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "randomEmail",
+          "line": 1,
+          "isDefault": false
+        },
+        {
+          "name": "randomTeamName",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "randomPassword",
+          "line": 7,
+          "isDefault": false
+        },
+        {
+          "name": "slugify",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "randomItemTitle",
+          "line": 15,
+          "isDefault": false
+        },
+        {
+          "name": "randomItemDescription",
+          "line": 18,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "randomEmail",
+          "callee": "Math.random().toString(36).substring",
+          "lineNumber": 2
+        },
+        {
+          "caller": "randomEmail",
+          "callee": "Math.random().toString",
+          "lineNumber": 2
+        },
+        {
+          "caller": "randomEmail",
+          "callee": "Math.random",
+          "lineNumber": 2
+        },
+        {
+          "caller": "randomTeamName",
+          "callee": "Math.random().toString(36).substring",
+          "lineNumber": 5
+        },
+        {
+          "caller": "randomTeamName",
+          "callee": "Math.random().toString",
+          "lineNumber": 5
+        },
+        {
+          "caller": "randomTeamName",
+          "callee": "Math.random",
+          "lineNumber": 5
+        },
+        {
+          "caller": "randomPassword",
+          "callee": "Math.random().toString(36).substring",
+          "lineNumber": 7
+        },
+        {
+          "caller": "randomPassword",
+          "callee": "Math.random().toString",
+          "lineNumber": 7
+        },
+        {
+          "caller": "randomPassword",
+          "callee": "Math.random",
+          "lineNumber": 7
+        },
+        {
+          "caller": "slugify",
+          "callee": "text\n    .toLowerCase()\n    .replace(/\\s+/g, \"-\")\n    .replace",
+          "lineNumber": 10
+        },
+        {
+          "caller": "slugify",
+          "callee": "text\n    .toLowerCase()\n    .replace",
+          "lineNumber": 10
+        },
+        {
+          "caller": "slugify",
+          "callee": "text\n    .toLowerCase",
+          "lineNumber": 10
+        },
+        {
+          "caller": "randomItemTitle",
+          "callee": "Math.random().toString(36).substring",
+          "lineNumber": 16
+        },
+        {
+          "caller": "randomItemTitle",
+          "callee": "Math.random().toString",
+          "lineNumber": 16
+        },
+        {
+          "caller": "randomItemTitle",
+          "callee": "Math.random",
+          "lineNumber": 16
+        },
+        {
+          "caller": "randomItemDescription",
+          "callee": "Math.random().toString(36).substring",
+          "lineNumber": 19
+        },
+        {
+          "caller": "randomItemDescription",
+          "callee": "Math.random().toString",
+          "lineNumber": 19
+        },
+        {
+          "caller": "randomItemDescription",
+          "callee": "Math.random",
+          "lineNumber": 19
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 6,
+        "functionCount": 6,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/tests/utils/user.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 35,
+      "nonEmptyLines": 30,
+      "functions": [
+        {
+          "name": "signUpNewUser",
+          "startLine": 3,
+          "endLine": 17,
+          "params": [
+            "page",
+            "name",
+            "email",
+            "password"
+          ]
+        },
+        {
+          "name": "logInUser",
+          "startLine": 19,
+          "endLine": 29,
+          "params": [
+            "page",
+            "email",
+            "password"
+          ]
+        },
+        {
+          "name": "logOutUser",
+          "startLine": 31,
+          "endLine": 35,
+          "params": [
+            "page"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "signUpNewUser",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "logInUser",
+          "line": 19,
+          "isDefault": false
+        },
+        {
+          "name": "logOutUser",
+          "line": 31,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "signUpNewUser",
+          "callee": "page.goto",
+          "lineNumber": 9
+        },
+        {
+          "caller": "signUpNewUser",
+          "callee": "page.getByTestId(\"full-name-input\").fill",
+          "lineNumber": 11
+        },
+        {
+          "caller": "signUpNewUser",
+          "callee": "page.getByTestId",
+          "lineNumber": 11
+        },
+        {
+          "caller": "signUpNewUser",
+          "callee": "page.getByTestId(\"email-input\").fill",
+          "lineNumber": 12
+        },
+        {
+          "caller": "signUpNewUser",
+          "callee": "page.getByTestId",
+          "lineNumber": 12
+        },
+        {
+          "caller": "signUpNewUser",
+          "callee": "page.getByTestId(\"password-input\").fill",
+          "lineNumber": 13
+        },
+        {
+          "caller": "signUpNewUser",
+          "callee": "page.getByTestId",
+          "lineNumber": 13
+        },
+        {
+          "caller": "signUpNewUser",
+          "callee": "page.getByTestId(\"confirm-password-input\").fill",
+          "lineNumber": 14
+        },
+        {
+          "caller": "signUpNewUser",
+          "callee": "page.getByTestId",
+          "lineNumber": 14
+        },
+        {
+          "caller": "signUpNewUser",
+          "callee": "page.getByRole(\"button\", { name: \"Sign Up\" }).click",
+          "lineNumber": 15
+        },
+        {
+          "caller": "signUpNewUser",
+          "callee": "page.getByRole",
+          "lineNumber": 15
+        },
+        {
+          "caller": "signUpNewUser",
+          "callee": "page.goto",
+          "lineNumber": 16
+        },
+        {
+          "caller": "logInUser",
+          "callee": "page.goto",
+          "lineNumber": 20
+        },
+        {
+          "caller": "logInUser",
+          "callee": "page.getByTestId(\"email-input\").fill",
+          "lineNumber": 22
+        },
+        {
+          "caller": "logInUser",
+          "callee": "page.getByTestId",
+          "lineNumber": 22
+        },
+        {
+          "caller": "logInUser",
+          "callee": "page.getByTestId(\"password-input\").fill",
+          "lineNumber": 23
+        },
+        {
+          "caller": "logInUser",
+          "callee": "page.getByTestId",
+          "lineNumber": 23
+        },
+        {
+          "caller": "logInUser",
+          "callee": "page.getByRole(\"button\", { name: \"Log In\" }).click",
+          "lineNumber": 24
+        },
+        {
+          "caller": "logInUser",
+          "callee": "page.getByRole",
+          "lineNumber": 24
+        },
+        {
+          "caller": "logInUser",
+          "callee": "page.waitForURL",
+          "lineNumber": 25
+        },
+        {
+          "caller": "logInUser",
+          "callee": "expect(\n    page.getByText(\"Welcome back, nice to see you again!\"),\n  ).toBeVisible",
+          "lineNumber": 26
+        },
+        {
+          "caller": "logInUser",
+          "callee": "expect",
+          "lineNumber": 26
+        },
+        {
+          "caller": "logInUser",
+          "callee": "page.getByText",
+          "lineNumber": 27
+        },
+        {
+          "caller": "logOutUser",
+          "callee": "page.getByTestId(\"user-menu\").click",
+          "lineNumber": 32
+        },
+        {
+          "caller": "logOutUser",
+          "callee": "page.getByTestId",
+          "lineNumber": 32
+        },
+        {
+          "caller": "logOutUser",
+          "callee": "page.getByRole(\"menuitem\", { name: \"Log out\" }).click",
+          "lineNumber": 33
+        },
+        {
+          "caller": "logOutUser",
+          "callee": "page.getByRole",
+          "lineNumber": 33
+        },
+        {
+          "caller": "logOutUser",
+          "callee": "page.goto",
+          "lineNumber": 34
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 3,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "nodes": [
+    {
+      "id": "file:packages/react-email/emails/new_account.tsx",
+      "type": "file",
+      "name": "new_account.tsx",
+      "filePath": "packages/react-email/emails/new_account.tsx",
+      "summary": "T\u1eadp tin m\u00e3 ngu\u1ed3n typescript (new_account.tsx) th\u1ef1c hi\u1ec7n ch\u1ee9c n\u0103ng h\u1ec7 th\u1ed1ng.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:packages/react-email/emails/new_account.tsx:NewAccount",
+      "type": "function",
+      "name": "NewAccount",
+      "filePath": "packages/react-email/emails/new_account.tsx",
+      "lineRange": [
+        15,
+        51
+      ],
+      "summary": "H\u00e0m NewAccount x\u1eed l\u00fd logic trong new_account.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:packages/react-email/emails/reset_password.tsx",
+      "type": "file",
+      "name": "reset_password.tsx",
+      "filePath": "packages/react-email/emails/reset_password.tsx",
+      "summary": "T\u1eadp tin m\u00e3 ngu\u1ed3n typescript (reset_password.tsx) th\u1ef1c hi\u1ec7n ch\u1ee9c n\u0103ng h\u1ec7 th\u1ed1ng.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:packages/react-email/emails/reset_password.tsx:ResetPassword",
+      "type": "function",
+      "name": "ResetPassword",
+      "filePath": "packages/react-email/emails/reset_password.tsx",
+      "lineRange": [
+        14,
+        47
+      ],
+      "summary": "H\u00e0m ResetPassword x\u1eed l\u00fd logic trong reset_password.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:packages/react-email/emails/test_email.tsx",
+      "type": "file",
+      "name": "test_email.tsx",
+      "filePath": "packages/react-email/emails/test_email.tsx",
+      "summary": "T\u1eadp tin ki\u1ec3m th\u1eed (test_email.tsx) \u0111\u1ea3m b\u1ea3o t\u00ednh \u0111\u00fang \u0111\u1eafn cho c\u00e1c ch\u1ee9c n\u0103ng li\u00ean quan.",
+      "tags": [
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:packages/react-email/emails/test_email.tsx:TestEmail",
+      "type": "function",
+      "name": "TestEmail",
+      "filePath": "packages/react-email/emails/test_email.tsx",
+      "lineRange": [
+        11,
+        35
+      ],
+      "summary": "H\u00e0m TestEmail x\u1eed l\u00fd logic trong test_email.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:packages/react-email/ui/Button.tsx",
+      "type": "file",
+      "name": "Button.tsx",
+      "filePath": "packages/react-email/ui/Button.tsx",
+      "summary": "T\u1eadp tin m\u00e3 ngu\u1ed3n typescript (Button.tsx) th\u1ef1c hi\u1ec7n ch\u1ee9c n\u0103ng h\u1ec7 th\u1ed1ng.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:packages/react-email/ui/Callout.tsx",
+      "type": "file",
+      "name": "Callout.tsx",
+      "filePath": "packages/react-email/ui/Callout.tsx",
+      "summary": "T\u1eadp tin m\u00e3 ngu\u1ed3n typescript (Callout.tsx) th\u1ef1c hi\u1ec7n ch\u1ee9c n\u0103ng h\u1ec7 th\u1ed1ng.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:packages/react-email/ui/Heading.tsx",
+      "type": "file",
+      "name": "Heading.tsx",
+      "filePath": "packages/react-email/ui/Heading.tsx",
+      "summary": "T\u1eadp tin m\u00e3 ngu\u1ed3n typescript (Heading.tsx) th\u1ef1c hi\u1ec7n ch\u1ee9c n\u0103ng h\u1ec7 th\u1ed1ng.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:packages/react-email/ui/Layout.tsx",
+      "type": "file",
+      "name": "Layout.tsx",
+      "filePath": "packages/react-email/ui/Layout.tsx",
+      "summary": "T\u1eadp tin m\u00e3 ngu\u1ed3n typescript (Layout.tsx) th\u1ef1c hi\u1ec7n ch\u1ee9c n\u0103ng h\u1ec7 th\u1ed1ng.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:packages/react-email/ui/Layout.tsx:Layout",
+      "type": "function",
+      "name": "Layout",
+      "filePath": "packages/react-email/ui/Layout.tsx",
+      "lineRange": [
+        20,
+        55
+      ],
+      "summary": "H\u00e0m Layout x\u1eed l\u00fd logic trong Layout.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:packages/react-email/ui/Link.tsx",
+      "type": "file",
+      "name": "Link.tsx",
+      "filePath": "packages/react-email/ui/Link.tsx",
+      "summary": "T\u1eadp tin m\u00e3 ngu\u1ed3n typescript (Link.tsx) th\u1ef1c hi\u1ec7n ch\u1ee9c n\u0103ng h\u1ec7 th\u1ed1ng.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:packages/react-email/emails/new_account.tsx",
+      "target": "function:packages/react-email/emails/new_account.tsx:NewAccount",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:packages/react-email/emails/new_account.tsx",
+      "target": "file:packages/react-email/ui/Button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:packages/react-email/emails/new_account.tsx",
+      "target": "file:packages/react-email/ui/Callout.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:packages/react-email/emails/new_account.tsx",
+      "target": "file:packages/react-email/ui/Heading.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:packages/react-email/emails/new_account.tsx",
+      "target": "file:packages/react-email/ui/Layout.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:packages/react-email/emails/new_account.tsx",
+      "target": "file:packages/react-email/ui/Link.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:packages/react-email/emails/reset_password.tsx",
+      "target": "function:packages/react-email/emails/reset_password.tsx:ResetPassword",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:packages/react-email/emails/reset_password.tsx",
+      "target": "file:packages/react-email/ui/Button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:packages/react-email/emails/reset_password.tsx",
+      "target": "file:packages/react-email/ui/Heading.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:packages/react-email/emails/reset_password.tsx",
+      "target": "file:packages/react-email/ui/Layout.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:packages/react-email/emails/reset_password.tsx",
+      "target": "file:packages/react-email/ui/Link.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:packages/react-email/emails/test_email.tsx",
+      "target": "function:packages/react-email/emails/test_email.tsx:TestEmail",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:packages/react-email/emails/test_email.tsx",
+      "target": "file:packages/react-email/ui/Callout.tsx",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:packages/react-email/emails/test_email.tsx",
+      "target": "file:packages/react-email/ui/Heading.tsx",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:packages/react-email/emails/test_email.tsx",
+      "target": "file:packages/react-email/ui/Layout.tsx",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:packages/react-email/ui/Layout.tsx",
+      "target": "function:packages/react-email/ui/Layout.tsx:Layout",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    }
+  ]
+}

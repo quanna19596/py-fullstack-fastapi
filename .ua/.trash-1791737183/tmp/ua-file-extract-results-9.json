@@ -1,0 +1,1011 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 13,
+  "filesSkipped": [
+    ".dockerignore"
+  ],
+  "filesUnreadable": [],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 13,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 0,
+      "failed": 0,
+      "skipped": 13
+    }
+  },
+  "results": [
+    {
+      "path": ".env",
+      "language": "config",
+      "fileCategory": "config",
+      "totalLines": 18,
+      "nonEmptyLines": 14,
+      "definitions": [
+        {
+          "name": "FASTAPI_ENV",
+          "kind": "variable",
+          "fields": [],
+          "startLine": 2,
+          "endLine": 2
+        },
+        {
+          "name": "PROJECT_NAME",
+          "kind": "variable",
+          "fields": [],
+          "startLine": 4,
+          "endLine": 4
+        },
+        {
+          "name": "SECRET_KEY",
+          "kind": "variable",
+          "fields": [],
+          "startLine": 6,
+          "endLine": 6
+        },
+        {
+          "name": "FIRST_SUPERUSER",
+          "kind": "variable",
+          "fields": [],
+          "startLine": 7,
+          "endLine": 7
+        },
+        {
+          "name": "FIRST_SUPERUSER_PASSWORD",
+          "kind": "variable",
+          "fields": [],
+          "startLine": 8,
+          "endLine": 8
+        },
+        {
+          "name": "SMTP_HOST",
+          "kind": "variable",
+          "fields": [],
+          "startLine": 11,
+          "endLine": 11
+        },
+        {
+          "name": "EMAILS_FROM_EMAIL",
+          "kind": "variable",
+          "fields": [],
+          "startLine": 12,
+          "endLine": 12
+        },
+        {
+          "name": "SMTP_TLS",
+          "kind": "variable",
+          "fields": [],
+          "startLine": 13,
+          "endLine": 13
+        },
+        {
+          "name": "SMTP_PORT",
+          "kind": "variable",
+          "fields": [],
+          "startLine": 14,
+          "endLine": 14
+        },
+        {
+          "name": "POSTGRES_PASSWORD",
+          "kind": "variable",
+          "fields": [],
+          "startLine": 17,
+          "endLine": 17
+        },
+        {
+          "name": "DATABASE_URL",
+          "kind": "variable",
+          "fields": [],
+          "startLine": 18,
+          "endLine": 18
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "definitionCount": 11
+      }
+    },
+    {
+      "path": ".pre-commit-config.yaml",
+      "language": "yaml",
+      "fileCategory": "config",
+      "totalLines": 82,
+      "nonEmptyLines": 75,
+      "sections": [
+        {
+          "heading": "repos",
+          "level": 1,
+          "line": 3
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 68,
+      "nonEmptyLines": 38,
+      "sections": [
+        {
+          "heading": "Contributing",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Discussions First",
+          "level": 2,
+          "line": 5
+        },
+        {
+          "heading": "Developing",
+          "level": 2,
+          "line": 19
+        },
+        {
+          "heading": "Pull Requests",
+          "level": 2,
+          "line": 23
+        },
+        {
+          "heading": "Automated Code and AI",
+          "level": 2,
+          "line": 32
+        },
+        {
+          "heading": "Closing Automated and AI PRs",
+          "level": 3,
+          "line": 40
+        },
+        {
+          "heading": "Human Effort Denial of Service",
+          "level": 3,
+          "line": 46
+        },
+        {
+          "heading": "Use Tools Wisely",
+          "level": 3,
+          "line": 56
+        },
+        {
+          "heading": "Questions?",
+          "level": 2,
+          "line": 66
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 9
+      }
+    },
+    {
+      "path": "README.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 88,
+      "nonEmptyLines": 55,
+      "sections": [
+        {
+          "heading": "Full Stack FastAPI Template",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Technology Stack and Features",
+          "level": 2,
+          "line": 6
+        },
+        {
+          "heading": "Dashboard Login",
+          "level": 3,
+          "line": 30
+        },
+        {
+          "heading": "Dashboard - Admin",
+          "level": 3,
+          "line": 34
+        },
+        {
+          "heading": "Dashboard - Items",
+          "level": 3,
+          "line": 38
+        },
+        {
+          "heading": "Dashboard - Dark Mode",
+          "level": 3,
+          "line": 42
+        },
+        {
+          "heading": "React Email Templates",
+          "level": 3,
+          "line": 46
+        },
+        {
+          "heading": "Mailpit - Local Email Testing",
+          "level": 3,
+          "line": 50
+        },
+        {
+          "heading": "Interactive API Documentation",
+          "level": 3,
+          "line": 54
+        },
+        {
+          "heading": "How to Use It",
+          "level": 2,
+          "line": 58
+        },
+        {
+          "heading": "Backend Development",
+          "level": 2,
+          "line": 62
+        },
+        {
+          "heading": "Frontend Development",
+          "level": 2,
+          "line": 66
+        },
+        {
+          "heading": "Deployment",
+          "level": 2,
+          "line": 70
+        },
+        {
+          "heading": "Development",
+          "level": 2,
+          "line": 76
+        },
+        {
+          "heading": "Release Notes",
+          "level": 2,
+          "line": 82
+        },
+        {
+          "heading": "License",
+          "level": 2,
+          "line": 86
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 16
+      }
+    },
+    {
+      "path": "compose.deploy.yml",
+      "language": "yaml",
+      "fileCategory": "config",
+      "totalLines": 61,
+      "nonEmptyLines": 56,
+      "sections": [
+        {
+          "heading": "services",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "volumes",
+          "level": 1,
+          "line": 59
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "compose.override.yml",
+      "language": "yaml",
+      "fileCategory": "config",
+      "totalLines": 100,
+      "nonEmptyLines": 95,
+      "sections": [
+        {
+          "heading": "services",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "compose.yml",
+      "language": "yaml",
+      "fileCategory": "infra",
+      "totalLines": 88,
+      "nonEmptyLines": 79,
+      "sections": [
+        {
+          "heading": "services",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "volumes",
+          "level": 1,
+          "line": 87
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "deployment-docker-compose.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 129,
+      "nonEmptyLines": 83,
+      "sections": [
+        {
+          "heading": "FastAPI Project - Docker Compose Deployment",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Preparation",
+          "level": 2,
+          "line": 5
+        },
+        {
+          "heading": "Copy the Code",
+          "level": 2,
+          "line": 11
+        },
+        {
+          "heading": "Configure the Application",
+          "level": 2,
+          "line": 19
+        },
+        {
+          "heading": "Environment Variables",
+          "level": 3,
+          "line": 21
+        },
+        {
+          "heading": "Secrets",
+          "level": 3,
+          "line": 38
+        },
+        {
+          "heading": "Deploy",
+          "level": 2,
+          "line": 50
+        },
+        {
+          "heading": "Deploy with GitHub Actions",
+          "level": 2,
+          "line": 63
+        },
+        {
+          "heading": "Configure Repository Variables and Secrets",
+          "level": 3,
+          "line": 69
+        },
+        {
+          "heading": "Install a Self-Hosted Runner",
+          "level": 3,
+          "line": 93
+        },
+        {
+          "heading": "Run the Deployment",
+          "level": 3,
+          "line": 117
+        },
+        {
+          "heading": "URLs",
+          "level": 2,
+          "line": 121
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 12
+      }
+    },
+    {
+      "path": "deployment.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 97,
+      "nonEmptyLines": 58,
+      "sections": [
+        {
+          "heading": "FastAPI Project - Deployment",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Create the FastAPI Cloud Application",
+          "level": 2,
+          "line": 5
+        },
+        {
+          "heading": "Configure the Application",
+          "level": 2,
+          "line": 11
+        },
+        {
+          "heading": "Environment Variables",
+          "level": 3,
+          "line": 13
+        },
+        {
+          "heading": "Secrets",
+          "level": 3,
+          "line": 29
+        },
+        {
+          "heading": "Configure Continuous Deployment",
+          "level": 2,
+          "line": 45
+        },
+        {
+          "heading": "URLs",
+          "level": 2,
+          "line": 77
+        },
+        {
+          "heading": "Docker Compose",
+          "level": 2,
+          "line": 85
+        },
+        {
+          "heading": "GitHub Repository Automation",
+          "level": 2,
+          "line": 89
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 9
+      }
+    },
+    {
+      "path": "development.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 138,
+      "nonEmptyLines": 81,
+      "sections": [
+        {
+          "heading": "FastAPI Project - Development",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Local Development",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "Frontend Served by FastAPI",
+          "level": 3,
+          "line": 45
+        },
+        {
+          "heading": "Full Stack with Docker Compose",
+          "level": 2,
+          "line": 55
+        },
+        {
+          "heading": "Mailpit",
+          "level": 2,
+          "line": 80
+        },
+        {
+          "heading": "Docker Compose Files and Environment Variables",
+          "level": 2,
+          "line": 84
+        },
+        {
+          "heading": "The `.env` File",
+          "level": 2,
+          "line": 100
+        },
+        {
+          "heading": "Pre-commit Hooks and Code Linting",
+          "level": 2,
+          "line": 106
+        },
+        {
+          "heading": "Install `prek` to Run Automatically",
+          "level": 3,
+          "line": 112
+        },
+        {
+          "heading": "Run `prek` Manually",
+          "level": 3,
+          "line": 132
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 10
+      }
+    },
+    {
+      "path": "package.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 16,
+      "nonEmptyLines": 16,
+      "sections": [
+        {
+          "heading": "name",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "private",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "workspaces",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "scripts",
+          "level": 1,
+          "line": 8
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 4
+      }
+    },
+    {
+      "path": "pyproject.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 36,
+      "nonEmptyLines": 31,
+      "sections": [
+        {
+          "heading": "dependency-groups",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "tool.uv.workspace",
+          "level": 3,
+          "line": 12
+        },
+        {
+          "heading": "tool.typos.files",
+          "level": 3,
+          "line": 15
+        },
+        {
+          "heading": "tool.typos.default",
+          "level": 3,
+          "line": 27
+        },
+        {
+          "heading": "tool.typos.default.extend-identifiers",
+          "level": 4,
+          "line": 35
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": "release-notes.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 1016,
+      "nonEmptyLines": 868,
+      "sections": [
+        {
+          "heading": "Release Notes",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Latest Changes",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "Fixes",
+          "level": 3,
+          "line": 5
+        },
+        {
+          "heading": "Refactors",
+          "level": 3,
+          "line": 10
+        },
+        {
+          "heading": "Docs",
+          "level": 3,
+          "line": 17
+        },
+        {
+          "heading": "Internal",
+          "level": 3,
+          "line": 22
+        },
+        {
+          "heading": "0.12.0 (2026-08-12)",
+          "level": 2,
+          "line": 42
+        },
+        {
+          "heading": "Features",
+          "level": 3,
+          "line": 44
+        },
+        {
+          "heading": "Fixes",
+          "level": 3,
+          "line": 48
+        },
+        {
+          "heading": "Internal",
+          "level": 3,
+          "line": 52
+        },
+        {
+          "heading": "0.11.1 (2026-08-11)",
+          "level": 2,
+          "line": 56
+        },
+        {
+          "heading": "Refactors",
+          "level": 3,
+          "line": 58
+        },
+        {
+          "heading": "Internal",
+          "level": 3,
+          "line": 63
+        },
+        {
+          "heading": "0.11.0 (2026-08-11)",
+          "level": 2,
+          "line": 67
+        },
+        {
+          "heading": "Features",
+          "level": 3,
+          "line": 69
+        },
+        {
+          "heading": "Fixes",
+          "level": 3,
+          "line": 75
+        },
+        {
+          "heading": "Refactors",
+          "level": 3,
+          "line": 79
+        },
+        {
+          "heading": "Upgrades",
+          "level": 3,
+          "line": 101
+        },
+        {
+          "heading": "Docs",
+          "level": 3,
+          "line": 107
+        },
+        {
+          "heading": "Internal",
+          "level": 3,
+          "line": 116
+        },
+        {
+          "heading": "0.10.0 (2026-01-23)",
+          "level": 2,
+          "line": 213
+        },
+        {
+          "heading": "Features",
+          "level": 3,
+          "line": 215
+        },
+        {
+          "heading": "Fixes",
+          "level": 3,
+          "line": 226
+        },
+        {
+          "heading": "Refactors",
+          "level": 3,
+          "line": 231
+        },
+        {
+          "heading": "Upgrades",
+          "level": 3,
+          "line": 242
+        },
+        {
+          "heading": "Docs",
+          "level": 3,
+          "line": 247
+        },
+        {
+          "heading": "Internal",
+          "level": 3,
+          "line": 251
+        },
+        {
+          "heading": "0.9.0 (2025-12-08)",
+          "level": 2,
+          "line": 284
+        },
+        {
+          "heading": "Features",
+          "level": 3,
+          "line": 286
+        },
+        {
+          "heading": "Fixes",
+          "level": 3,
+          "line": 291
+        },
+        {
+          "heading": "Refactors",
+          "level": 3,
+          "line": 298
+        },
+        {
+          "heading": "Upgrades",
+          "level": 3,
+          "line": 310
+        },
+        {
+          "heading": "Docs",
+          "level": 3,
+          "line": 337
+        },
+        {
+          "heading": "Internal",
+          "level": 3,
+          "line": 345
+        },
+        {
+          "heading": "0.8.0 (2025-02-19)",
+          "level": 2,
+          "line": 468
+        },
+        {
+          "heading": "Features",
+          "level": 3,
+          "line": 470
+        },
+        {
+          "heading": "Fixes",
+          "level": 3,
+          "line": 476
+        },
+        {
+          "heading": "Refactors",
+          "level": 3,
+          "line": 480
+        },
+        {
+          "heading": "Upgrades",
+          "level": 3,
+          "line": 497
+        },
+        {
+          "heading": "Docs",
+          "level": 3,
+          "line": 501
+        },
+        {
+          "heading": "Internal",
+          "level": 3,
+          "line": 509
+        },
+        {
+          "heading": "0.7.1 (2024-09-27)",
+          "level": 2,
+          "line": 528
+        },
+        {
+          "heading": "Highlights",
+          "level": 3,
+          "line": 530
+        },
+        {
+          "heading": "Features",
+          "level": 3,
+          "line": 537
+        },
+        {
+          "heading": "Refactors",
+          "level": 3,
+          "line": 541
+        },
+        {
+          "heading": "Upgrades",
+          "level": 3,
+          "line": 556
+        },
+        {
+          "heading": "Docs",
+          "level": 3,
+          "line": 560
+        },
+        {
+          "heading": "Internal",
+          "level": 3,
+          "line": 565
+        },
+        {
+          "heading": "0.7.0 (2024-08-02)",
+          "level": 2,
+          "line": 591
+        },
+        {
+          "heading": "Features",
+          "level": 3,
+          "line": 604
+        },
+        {
+          "heading": "Fixes",
+          "level": 3,
+          "line": 619
+        },
+        {
+          "heading": "Refactors",
+          "level": 3,
+          "line": 627
+        },
+        {
+          "heading": "Upgrades",
+          "level": 3,
+          "line": 683
+        },
+        {
+          "heading": "Docs",
+          "level": 3,
+          "line": 695
+        },
+        {
+          "heading": "Internal",
+          "level": 3,
+          "line": 713
+        },
+        {
+          "heading": "0.6.0 (2024-03-12)",
+          "level": 2,
+          "line": 736
+        },
+        {
+          "heading": "Features",
+          "level": 3,
+          "line": 746
+        },
+        {
+          "heading": "Fixes",
+          "level": 3,
+          "line": 794
+        },
+        {
+          "heading": "Refactors",
+          "level": 3,
+          "line": 807
+        },
+        {
+          "heading": "Upgrades",
+          "level": 3,
+          "line": 866
+        },
+        {
+          "heading": "Docs",
+          "level": 3,
+          "line": 878
+        },
+        {
+          "heading": "Internal",
+          "level": 3,
+          "line": 900
+        },
+        {
+          "heading": "0.5.0 (2020-04-19)",
+          "level": 2,
+          "line": 920
+        },
+        {
+          "heading": "0.4.0 (2019-05-29)",
+          "level": 2,
+          "line": 945
+        },
+        {
+          "heading": "0.3.0 (2019-04-19)",
+          "level": 2,
+          "line": 967
+        },
+        {
+          "heading": "0.2.2 (2019-04-11)",
+          "level": 2,
+          "line": 982
+        },
+        {
+          "heading": "0.2.1 (2019-03-29)",
+          "level": 2,
+          "line": 986
+        },
+        {
+          "heading": "0.2.0 (2019-03-11)",
+          "level": 2,
+          "line": 994
+        },
+        {
+          "heading": "0.1.2",
+          "level": 2,
+          "line": 1006
+        },
+        {
+          "heading": "0.1.1",
+          "level": 2,
+          "line": 1010
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 70
+      }
+    }
+  ]
+}

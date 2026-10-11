@@ -1,0 +1,580 @@
+{
+  "nodes": [
+    {
+      "id": "file:frontend/src/client/client.gen.ts",
+      "type": "file",
+      "name": "client.gen.ts",
+      "filePath": "frontend/src/client/client.gen.ts",
+      "summary": "T\u1eadp tin m\u00e3 ngu\u1ed3n typescript (client.gen.ts) th\u1ef1c hi\u1ec7n ch\u1ee9c n\u0103ng h\u1ec7 th\u1ed1ng.",
+      "tags": [
+        "frontend",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/client/client/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "frontend/src/client/client/index.ts",
+      "summary": "T\u1eadp tin m\u00e3 ngu\u1ed3n typescript (index.ts) th\u1ef1c hi\u1ec7n ch\u1ee9c n\u0103ng h\u1ec7 th\u1ed1ng.",
+      "tags": [
+        "frontend",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/client/sdk.gen.ts",
+      "type": "file",
+      "name": "sdk.gen.ts",
+      "filePath": "frontend/src/client/sdk.gen.ts",
+      "summary": "T\u1eadp tin m\u00e3 ngu\u1ed3n typescript (sdk.gen.ts) th\u1ef1c hi\u1ec7n ch\u1ee9c n\u0103ng h\u1ec7 th\u1ed1ng.",
+      "tags": [
+        "frontend",
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "class:frontend/src/client/sdk.gen.ts:LoginService",
+      "type": "class",
+      "name": "LoginService",
+      "filePath": "frontend/src/client/sdk.gen.ts",
+      "lineRange": [
+        21,
+        97
+      ],
+      "summary": "L\u1edbp LoginService \u0111\u1ecbnh ngh\u0129a c\u1ea5u tr\u00fac d\u1eef li\u1ec7u ho\u1eb7c nghi\u1ec7p v\u1ee5.",
+      "tags": [
+        "class",
+        "model"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:frontend/src/client/sdk.gen.ts:UsersService",
+      "type": "class",
+      "name": "UsersService",
+      "filePath": "frontend/src/client/sdk.gen.ts",
+      "lineRange": [
+        99,
+        258
+      ],
+      "summary": "L\u1edbp UsersService \u0111\u1ecbnh ngh\u0129a c\u1ea5u tr\u00fac d\u1eef li\u1ec7u ho\u1eb7c nghi\u1ec7p v\u1ee5.",
+      "tags": [
+        "class",
+        "model"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:frontend/src/client/sdk.gen.ts:UtilsService",
+      "type": "class",
+      "name": "UtilsService",
+      "filePath": "frontend/src/client/sdk.gen.ts",
+      "lineRange": [
+        260,
+        285
+      ],
+      "summary": "L\u1edbp UtilsService \u0111\u1ecbnh ngh\u0129a c\u1ea5u tr\u00fac d\u1eef li\u1ec7u ho\u1eb7c nghi\u1ec7p v\u1ee5.",
+      "tags": [
+        "class",
+        "model"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:frontend/src/client/sdk.gen.ts:ItemsService",
+      "type": "class",
+      "name": "ItemsService",
+      "filePath": "frontend/src/client/sdk.gen.ts",
+      "lineRange": [
+        287,
+        365
+      ],
+      "summary": "L\u1edbp ItemsService \u0111\u1ecbnh ngh\u0129a c\u1ea5u tr\u00fac d\u1eef li\u1ec7u ho\u1eb7c nghi\u1ec7p v\u1ee5.",
+      "tags": [
+        "class",
+        "model"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/client/types.gen.ts",
+      "type": "file",
+      "name": "types.gen.ts",
+      "filePath": "frontend/src/client/types.gen.ts",
+      "summary": "T\u1eadp tin m\u00e3 ngu\u1ed3n typescript (types.gen.ts) th\u1ef1c hi\u1ec7n ch\u1ee9c n\u0103ng h\u1ec7 th\u1ed1ng.",
+      "tags": [
+        "frontend",
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:frontend/tests/admin.spec.ts",
+      "type": "file",
+      "name": "admin.spec.ts",
+      "filePath": "frontend/tests/admin.spec.ts",
+      "summary": "T\u1eadp tin ki\u1ec3m th\u1eed (admin.spec.ts) \u0111\u1ea3m b\u1ea3o t\u00ednh \u0111\u00fang \u0111\u1eafn cho c\u00e1c ch\u1ee9c n\u0103ng li\u00ean quan.",
+      "tags": [
+        "frontend",
+        "test"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:frontend/tests/auth.setup.ts",
+      "type": "file",
+      "name": "auth.setup.ts",
+      "filePath": "frontend/tests/auth.setup.ts",
+      "summary": "T\u1eadp tin ki\u1ec3m th\u1eed (auth.setup.ts) \u0111\u1ea3m b\u1ea3o t\u00ednh \u0111\u00fang \u0111\u1eafn cho c\u00e1c ch\u1ee9c n\u0103ng li\u00ean quan.",
+      "tags": [
+        "frontend",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/tests/config.ts",
+      "type": "file",
+      "name": "config.ts",
+      "filePath": "frontend/tests/config.ts",
+      "summary": "T\u1eadp tin ki\u1ec3m th\u1eed (config.ts) \u0111\u1ea3m b\u1ea3o t\u00ednh \u0111\u00fang \u0111\u1eafn cho c\u00e1c ch\u1ee9c n\u0103ng li\u00ean quan.",
+      "tags": [
+        "frontend",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/tests/items.spec.ts",
+      "type": "file",
+      "name": "items.spec.ts",
+      "filePath": "frontend/tests/items.spec.ts",
+      "summary": "T\u1eadp tin ki\u1ec3m th\u1eed (items.spec.ts) \u0111\u1ea3m b\u1ea3o t\u00ednh \u0111\u00fang \u0111\u1eafn cho c\u00e1c ch\u1ee9c n\u0103ng li\u00ean quan.",
+      "tags": [
+        "frontend",
+        "test"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/tests/login.spec.ts",
+      "type": "file",
+      "name": "login.spec.ts",
+      "filePath": "frontend/tests/login.spec.ts",
+      "summary": "T\u1eadp tin ki\u1ec3m th\u1eed (login.spec.ts) \u0111\u1ea3m b\u1ea3o t\u00ednh \u0111\u00fang \u0111\u1eafn cho c\u00e1c ch\u1ee9c n\u0103ng li\u00ean quan.",
+      "tags": [
+        "frontend",
+        "test"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/tests/reset-password.spec.ts",
+      "type": "file",
+      "name": "reset-password.spec.ts",
+      "filePath": "frontend/tests/reset-password.spec.ts",
+      "summary": "T\u1eadp tin ki\u1ec3m th\u1eed (reset-password.spec.ts) \u0111\u1ea3m b\u1ea3o t\u00ednh \u0111\u00fang \u0111\u1eafn cho c\u00e1c ch\u1ee9c n\u0103ng li\u00ean quan.",
+      "tags": [
+        "frontend",
+        "test"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/tests/sign-up.spec.ts",
+      "type": "file",
+      "name": "sign-up.spec.ts",
+      "filePath": "frontend/tests/sign-up.spec.ts",
+      "summary": "T\u1eadp tin ki\u1ec3m th\u1eed (sign-up.spec.ts) \u0111\u1ea3m b\u1ea3o t\u00ednh \u0111\u00fang \u0111\u1eafn cho c\u00e1c ch\u1ee9c n\u0103ng li\u00ean quan.",
+      "tags": [
+        "frontend",
+        "test"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/tests/sign-up.spec.ts:fillForm",
+      "type": "function",
+      "name": "fillForm",
+      "filePath": "frontend/tests/sign-up.spec.ts",
+      "lineRange": [
+        7,
+        18
+      ],
+      "summary": "H\u00e0m fillForm x\u1eed l\u00fd logic trong sign-up.spec.ts.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/tests/user-settings.spec.ts",
+      "type": "file",
+      "name": "user-settings.spec.ts",
+      "filePath": "frontend/tests/user-settings.spec.ts",
+      "summary": "T\u1eadp tin ki\u1ec3m th\u1eed (user-settings.spec.ts) \u0111\u1ea3m b\u1ea3o t\u00ednh \u0111\u00fang \u0111\u1eafn cho c\u00e1c ch\u1ee9c n\u0103ng li\u00ean quan.",
+      "tags": [
+        "frontend",
+        "test"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:frontend/tests/utils/mailpit.ts",
+      "type": "file",
+      "name": "mailpit.ts",
+      "filePath": "frontend/tests/utils/mailpit.ts",
+      "summary": "T\u1eadp tin ki\u1ec3m th\u1eed (mailpit.ts) \u0111\u1ea3m b\u1ea3o t\u00ednh \u0111\u00fang \u0111\u1eafn cho c\u00e1c ch\u1ee9c n\u0103ng li\u00ean quan.",
+      "tags": [
+        "frontend",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/tests/utils/mailpit.ts:waitForEmailHtml",
+      "type": "function",
+      "name": "waitForEmailHtml",
+      "filePath": "frontend/tests/utils/mailpit.ts",
+      "lineRange": [
+        7,
+        46
+      ],
+      "summary": "H\u00e0m waitForEmailHtml x\u1eed l\u00fd logic trong mailpit.ts.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/tests/utils/privateApi.ts",
+      "type": "file",
+      "name": "privateApi.ts",
+      "filePath": "frontend/tests/utils/privateApi.ts",
+      "summary": "T\u1eadp tin ki\u1ec3m th\u1eed (privateApi.ts) \u0111\u1ea3m b\u1ea3o t\u00ednh \u0111\u00fang \u0111\u1eafn cho c\u00e1c ch\u1ee9c n\u0103ng li\u00ean quan.",
+      "tags": [
+        "frontend",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/tests/utils/privateApi.ts:createUser",
+      "type": "function",
+      "name": "createUser",
+      "filePath": "frontend/tests/utils/privateApi.ts",
+      "lineRange": [
+        10,
+        26
+      ],
+      "summary": "H\u00e0m createUser x\u1eed l\u00fd logic trong privateApi.ts.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/tests/utils/random.ts",
+      "type": "file",
+      "name": "random.ts",
+      "filePath": "frontend/tests/utils/random.ts",
+      "summary": "T\u1eadp tin ki\u1ec3m th\u1eed (random.ts) \u0111\u1ea3m b\u1ea3o t\u00ednh \u0111\u00fang \u0111\u1eafn cho c\u00e1c ch\u1ee9c n\u0103ng li\u00ean quan.",
+      "tags": [
+        "frontend",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/tests/utils/user.ts",
+      "type": "file",
+      "name": "user.ts",
+      "filePath": "frontend/tests/utils/user.ts",
+      "summary": "T\u1eadp tin ki\u1ec3m th\u1eed (user.ts) \u0111\u1ea3m b\u1ea3o t\u00ednh \u0111\u00fang \u0111\u1eafn cho c\u00e1c ch\u1ee9c n\u0103ng li\u00ean quan.",
+      "tags": [
+        "frontend",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/tests/utils/user.ts:signUpNewUser",
+      "type": "function",
+      "name": "signUpNewUser",
+      "filePath": "frontend/tests/utils/user.ts",
+      "lineRange": [
+        3,
+        17
+      ],
+      "summary": "H\u00e0m signUpNewUser x\u1eed l\u00fd logic trong user.ts.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/tests/utils/user.ts:logInUser",
+      "type": "function",
+      "name": "logInUser",
+      "filePath": "frontend/tests/utils/user.ts",
+      "lineRange": [
+        19,
+        29
+      ],
+      "summary": "H\u00e0m logInUser x\u1eed l\u00fd logic trong user.ts.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:frontend/src/client/client.gen.ts",
+      "target": "file:frontend/src/client/client/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/client/client.gen.ts",
+      "target": "file:frontend/src/client/types.gen.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/client/sdk.gen.ts",
+      "target": "class:frontend/src/client/sdk.gen.ts:LoginService",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/client/sdk.gen.ts",
+      "target": "class:frontend/src/client/sdk.gen.ts:UsersService",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/client/sdk.gen.ts",
+      "target": "class:frontend/src/client/sdk.gen.ts:UtilsService",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/client/sdk.gen.ts",
+      "target": "class:frontend/src/client/sdk.gen.ts:ItemsService",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/client/sdk.gen.ts",
+      "target": "file:frontend/src/client/client.gen.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/client/sdk.gen.ts",
+      "target": "file:frontend/src/client/client/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/client/sdk.gen.ts",
+      "target": "file:frontend/src/client/types.gen.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/tests/admin.spec.ts",
+      "target": "file:frontend/tests/config.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/tests/admin.spec.ts",
+      "target": "file:frontend/tests/utils/privateApi.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/tests/admin.spec.ts",
+      "target": "file:frontend/tests/utils/random.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/tests/admin.spec.ts",
+      "target": "file:frontend/tests/utils/user.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/tests/auth.setup.ts",
+      "target": "file:frontend/tests/config.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/tests/items.spec.ts",
+      "target": "file:frontend/tests/utils/privateApi.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/tests/items.spec.ts",
+      "target": "file:frontend/tests/utils/random.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/tests/items.spec.ts",
+      "target": "file:frontend/tests/utils/user.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/tests/login.spec.ts",
+      "target": "file:frontend/tests/config.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/tests/login.spec.ts",
+      "target": "file:frontend/tests/utils/random.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/tests/reset-password.spec.ts",
+      "target": "file:frontend/tests/utils/mailpit.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/tests/reset-password.spec.ts",
+      "target": "file:frontend/tests/utils/random.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/tests/reset-password.spec.ts",
+      "target": "file:frontend/tests/utils/user.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/tests/sign-up.spec.ts",
+      "target": "function:frontend/tests/sign-up.spec.ts:fillForm",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/tests/sign-up.spec.ts",
+      "target": "file:frontend/tests/utils/random.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/tests/user-settings.spec.ts",
+      "target": "file:frontend/tests/config.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/tests/user-settings.spec.ts",
+      "target": "file:frontend/tests/utils/privateApi.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/tests/user-settings.spec.ts",
+      "target": "file:frontend/tests/utils/random.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/tests/user-settings.spec.ts",
+      "target": "file:frontend/tests/utils/user.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/tests/utils/mailpit.ts",
+      "target": "function:frontend/tests/utils/mailpit.ts:waitForEmailHtml",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/tests/utils/privateApi.ts",
+      "target": "function:frontend/tests/utils/privateApi.ts:createUser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/tests/utils/privateApi.ts",
+      "target": "file:frontend/src/client/client.gen.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:frontend/tests/utils/privateApi.ts",
+      "target": "file:frontend/src/client/index.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:frontend/tests/utils/user.ts",
+      "target": "function:frontend/tests/utils/user.ts:signUpNewUser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/tests/utils/user.ts",
+      "target": "function:frontend/tests/utils/user.ts:logInUser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    }
+  ]
+}

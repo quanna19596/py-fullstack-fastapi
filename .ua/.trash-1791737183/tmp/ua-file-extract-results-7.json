@@ -1,0 +1,174 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 1,
+  "filesSkipped": [
+    "backend/.dockerignore"
+  ],
+  "filesUnreadable": [],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 1,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 0,
+      "failed": 0,
+      "skipped": 1
+    }
+  },
+  "results": [
+    {
+      "path": "backend/Dockerfile",
+      "language": "dockerfile",
+      "fileCategory": "infra",
+      "totalLines": 65,
+      "nonEmptyLines": 42,
+      "services": [
+        {
+          "name": "frontend-build",
+          "image": "oven/bun:1",
+          "ports": [],
+          "startLine": 1,
+          "endLine": 18
+        },
+        {
+          "name": "python",
+          "image": "python:3.14",
+          "ports": [],
+          "startLine": 19,
+          "endLine": 66
+        }
+      ],
+      "steps": [
+        {
+          "name": "FROM oven/bun:1 AS frontend-build",
+          "startLine": 1,
+          "endLine": 1
+        },
+        {
+          "name": "WORKDIR /app",
+          "startLine": 3,
+          "endLine": 3
+        },
+        {
+          "name": "COPY package.json bun.lock /app/",
+          "startLine": 5,
+          "endLine": 5
+        },
+        {
+          "name": "COPY frontend/package.json /app/frontend/",
+          "startLine": 6,
+          "endLine": 6
+        },
+        {
+          "name": "WORKDIR /app/frontend",
+          "startLine": 8,
+          "endLine": 8
+        },
+        {
+          "name": "RUN bun install",
+          "startLine": 10,
+          "endLine": 10
+        },
+        {
+          "name": "COPY ./frontend /app/frontend",
+          "startLine": 12,
+          "endLine": 12
+        },
+        {
+          "name": "ARG VITE_API_URL=",
+          "startLine": 14,
+          "endLine": 14
+        },
+        {
+          "name": "RUN bun run build",
+          "startLine": 16,
+          "endLine": 16
+        },
+        {
+          "name": "FROM python:3.14",
+          "startLine": 19,
+          "endLine": 19
+        },
+        {
+          "name": "ENV PYTHONUNBUFFERED=1",
+          "startLine": 21,
+          "endLine": 21
+        },
+        {
+          "name": "COPY --from=ghcr.io/astral-sh/uv:0.9.26 /uv /uvx /bin/",
+          "startLine": 25,
+          "endLine": 25
+        },
+        {
+          "name": "ENV UV_COMPILE_BYTECODE=1",
+          "startLine": 29,
+          "endLine": 29
+        },
+        {
+          "name": "ENV UV_LINK_MODE=copy",
+          "startLine": 33,
+          "endLine": 33
+        },
+        {
+          "name": "WORKDIR /app/",
+          "startLine": 35,
+          "endLine": 35
+        },
+        {
+          "name": "ENV PATH=\"/app/.venv/bin:$PATH\"",
+          "startLine": 39,
+          "endLine": 39
+        },
+        {
+          "name": "RUN --mount=type=cache,target=/root/.cache/uv \\",
+          "startLine": 43,
+          "endLine": 43
+        },
+        {
+          "name": "COPY ./backend/scripts /app/backend/scripts",
+          "startLine": 48,
+          "endLine": 48
+        },
+        {
+          "name": "COPY ./backend/pyproject.toml ./backend/alembic.ini /app/backend/",
+          "startLine": 50,
+          "endLine": 50
+        },
+        {
+          "name": "COPY ./backend/app /app/backend/app",
+          "startLine": 52,
+          "endLine": 52
+        },
+        {
+          "name": "COPY --from=frontend-build /app/backend/app/frontend /app/backend",
+          "startLine": 54,
+          "endLine": 54
+        },
+        {
+          "name": "RUN --mount=type=cache,target=/root/.cache/uv \\",
+          "startLine": 58,
+          "endLine": 58
+        },
+        {
+          "name": "WORKDIR /app/backend/",
+          "startLine": 63,
+          "endLine": 63
+        },
+        {
+          "name": "CMD [\"fastapi\", \"run\", \"--workers\", \"4\"]",
+          "startLine": 65,
+          "endLine": 65
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "serviceCount": 2,
+        "stepCount": 24
+      }
+    }
+  ]
+}

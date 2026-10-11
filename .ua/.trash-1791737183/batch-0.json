@@ -1,0 +1,2722 @@
+{
+  "nodes": [
+    {
+      "id": "file:frontend/src/client/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "frontend/src/client/index.ts",
+      "summary": "T\u1eadp tin m\u00e3 ngu\u1ed3n typescript (index.ts) th\u1ef1c hi\u1ec7n ch\u1ee9c n\u0103ng h\u1ec7 th\u1ed1ng.",
+      "tags": [
+        "frontend",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/components/Admin/AddUser.tsx",
+      "type": "file",
+      "name": "AddUser.tsx",
+      "filePath": "frontend/src/components/Admin/AddUser.tsx",
+      "summary": "Th\u00e0nh ph\u1ea7n giao di\u1ec7n ng\u01b0\u1eddi d\u00f9ng React (AddUser.tsx).",
+      "tags": [
+        "frontend",
+        "ui",
+        "component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/components/Admin/AddUser.tsx:AddUser",
+      "type": "function",
+      "name": "AddUser",
+      "filePath": "frontend/src/components/Admin/AddUser.tsx",
+      "lineRange": [
+        55,
+        235
+      ],
+      "summary": "H\u00e0m AddUser x\u1eed l\u00fd logic trong AddUser.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/components/Admin/DeleteUser.tsx",
+      "type": "file",
+      "name": "DeleteUser.tsx",
+      "filePath": "frontend/src/components/Admin/DeleteUser.tsx",
+      "summary": "Th\u00e0nh ph\u1ea7n giao di\u1ec7n ng\u01b0\u1eddi d\u00f9ng React (DeleteUser.tsx).",
+      "tags": [
+        "frontend",
+        "ui",
+        "component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/components/Admin/DeleteUser.tsx:DeleteUser",
+      "type": "function",
+      "name": "DeleteUser",
+      "filePath": "frontend/src/components/Admin/DeleteUser.tsx",
+      "lineRange": [
+        27,
+        93
+      ],
+      "summary": "H\u00e0m DeleteUser x\u1eed l\u00fd logic trong DeleteUser.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/components/Admin/EditUser.tsx",
+      "type": "file",
+      "name": "EditUser.tsx",
+      "filePath": "frontend/src/components/Admin/EditUser.tsx",
+      "summary": "Th\u00e0nh ph\u1ea7n giao di\u1ec7n ng\u01b0\u1eddi d\u00f9ng React (EditUser.tsx).",
+      "tags": [
+        "frontend",
+        "ui",
+        "component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/components/Admin/EditUser.tsx:EditUser",
+      "type": "function",
+      "name": "EditUser",
+      "filePath": "frontend/src/components/Admin/EditUser.tsx",
+      "lineRange": [
+        59,
+        237
+      ],
+      "summary": "H\u00e0m EditUser x\u1eed l\u00fd logic trong EditUser.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/components/Admin/UserActionsMenu.tsx",
+      "type": "file",
+      "name": "UserActionsMenu.tsx",
+      "filePath": "frontend/src/components/Admin/UserActionsMenu.tsx",
+      "summary": "Th\u00e0nh ph\u1ea7n giao di\u1ec7n ng\u01b0\u1eddi d\u00f9ng React (UserActionsMenu.tsx).",
+      "tags": [
+        "frontend",
+        "ui",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/components/Admin/UserActionsMenu.tsx:UserActionsMenu",
+      "type": "function",
+      "name": "UserActionsMenu",
+      "filePath": "frontend/src/components/Admin/UserActionsMenu.tsx",
+      "lineRange": [
+        19,
+        40
+      ],
+      "summary": "H\u00e0m UserActionsMenu x\u1eed l\u00fd logic trong UserActionsMenu.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/components/Common/ErrorComponent.tsx",
+      "type": "file",
+      "name": "ErrorComponent.tsx",
+      "filePath": "frontend/src/components/Common/ErrorComponent.tsx",
+      "summary": "Th\u00e0nh ph\u1ea7n giao di\u1ec7n ng\u01b0\u1eddi d\u00f9ng React (ErrorComponent.tsx).",
+      "tags": [
+        "frontend",
+        "ui",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/components/Common/ErrorComponent.tsx:ErrorComponent",
+      "type": "function",
+      "name": "ErrorComponent",
+      "filePath": "frontend/src/components/Common/ErrorComponent.tsx",
+      "lineRange": [
+        4,
+        27
+      ],
+      "summary": "H\u00e0m ErrorComponent x\u1eed l\u00fd logic trong ErrorComponent.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/components/Common/NotFound.tsx",
+      "type": "file",
+      "name": "NotFound.tsx",
+      "filePath": "frontend/src/components/Common/NotFound.tsx",
+      "summary": "Th\u00e0nh ph\u1ea7n giao di\u1ec7n ng\u01b0\u1eddi d\u00f9ng React (NotFound.tsx).",
+      "tags": [
+        "frontend",
+        "ui",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/components/Common/NotFound.tsx:NotFound",
+      "type": "function",
+      "name": "NotFound",
+      "filePath": "frontend/src/components/Common/NotFound.tsx",
+      "lineRange": [
+        4,
+        29
+      ],
+      "summary": "H\u00e0m NotFound x\u1eed l\u00fd logic trong NotFound.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/components/Items/AddItem.tsx",
+      "type": "file",
+      "name": "AddItem.tsx",
+      "filePath": "frontend/src/components/Items/AddItem.tsx",
+      "summary": "Th\u00e0nh ph\u1ea7n giao di\u1ec7n ng\u01b0\u1eddi d\u00f9ng React (AddItem.tsx).",
+      "tags": [
+        "frontend",
+        "ui",
+        "component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/components/Items/AddItem.tsx:AddItem",
+      "type": "function",
+      "name": "AddItem",
+      "filePath": "frontend/src/components/Items/AddItem.tsx",
+      "lineRange": [
+        40,
+        141
+      ],
+      "summary": "H\u00e0m AddItem x\u1eed l\u00fd logic trong AddItem.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/components/Items/DeleteItem.tsx",
+      "type": "file",
+      "name": "DeleteItem.tsx",
+      "filePath": "frontend/src/components/Items/DeleteItem.tsx",
+      "summary": "Th\u00e0nh ph\u1ea7n giao di\u1ec7n ng\u01b0\u1eddi d\u00f9ng React (DeleteItem.tsx).",
+      "tags": [
+        "frontend",
+        "ui",
+        "component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/components/Items/DeleteItem.tsx:DeleteItem",
+      "type": "function",
+      "name": "DeleteItem",
+      "filePath": "frontend/src/components/Items/DeleteItem.tsx",
+      "lineRange": [
+        27,
+        92
+      ],
+      "summary": "H\u00e0m DeleteItem x\u1eed l\u00fd logic trong DeleteItem.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/components/Items/EditItem.tsx",
+      "type": "file",
+      "name": "EditItem.tsx",
+      "filePath": "frontend/src/components/Items/EditItem.tsx",
+      "summary": "Th\u00e0nh ph\u1ea7n giao di\u1ec7n ng\u01b0\u1eddi d\u00f9ng React (EditItem.tsx).",
+      "tags": [
+        "frontend",
+        "ui",
+        "component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/components/Items/EditItem.tsx:EditItem",
+      "type": "function",
+      "name": "EditItem",
+      "filePath": "frontend/src/components/Items/EditItem.tsx",
+      "lineRange": [
+        45,
+        143
+      ],
+      "summary": "H\u00e0m EditItem x\u1eed l\u00fd logic trong EditItem.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/components/Items/ItemActionsMenu.tsx",
+      "type": "file",
+      "name": "ItemActionsMenu.tsx",
+      "filePath": "frontend/src/components/Items/ItemActionsMenu.tsx",
+      "summary": "Th\u00e0nh ph\u1ea7n giao di\u1ec7n ng\u01b0\u1eddi d\u00f9ng React (ItemActionsMenu.tsx).",
+      "tags": [
+        "frontend",
+        "ui",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/components/Items/ItemActionsMenu.tsx:ItemActionsMenu",
+      "type": "function",
+      "name": "ItemActionsMenu",
+      "filePath": "frontend/src/components/Items/ItemActionsMenu.tsx",
+      "lineRange": [
+        18,
+        34
+      ],
+      "summary": "H\u00e0m ItemActionsMenu x\u1eed l\u00fd logic trong ItemActionsMenu.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/components/UserSettings/ChangePassword.tsx",
+      "type": "file",
+      "name": "ChangePassword.tsx",
+      "filePath": "frontend/src/components/UserSettings/ChangePassword.tsx",
+      "summary": "Th\u00e0nh ph\u1ea7n giao di\u1ec7n ng\u01b0\u1eddi d\u00f9ng React (ChangePassword.tsx).",
+      "tags": [
+        "frontend",
+        "ui",
+        "component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/components/UserSettings/ChangePassword.tsx:ChangePassword",
+      "type": "function",
+      "name": "ChangePassword",
+      "filePath": "frontend/src/components/UserSettings/ChangePassword.tsx",
+      "lineRange": [
+        41,
+        144
+      ],
+      "summary": "H\u00e0m ChangePassword x\u1eed l\u00fd logic trong ChangePassword.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/components/UserSettings/DeleteAccount.tsx",
+      "type": "file",
+      "name": "DeleteAccount.tsx",
+      "filePath": "frontend/src/components/UserSettings/DeleteAccount.tsx",
+      "summary": "Th\u00e0nh ph\u1ea7n giao di\u1ec7n ng\u01b0\u1eddi d\u00f9ng React (DeleteAccount.tsx).",
+      "tags": [
+        "frontend",
+        "ui",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/components/UserSettings/DeleteAccount.tsx:DeleteAccount",
+      "type": "function",
+      "name": "DeleteAccount",
+      "filePath": "frontend/src/components/UserSettings/DeleteAccount.tsx",
+      "lineRange": [
+        3,
+        13
+      ],
+      "summary": "H\u00e0m DeleteAccount x\u1eed l\u00fd logic trong DeleteAccount.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/components/UserSettings/DeleteConfirmation.tsx",
+      "type": "file",
+      "name": "DeleteConfirmation.tsx",
+      "filePath": "frontend/src/components/UserSettings/DeleteConfirmation.tsx",
+      "summary": "Th\u00e0nh ph\u1ea7n giao di\u1ec7n ng\u01b0\u1eddi d\u00f9ng React (DeleteConfirmation.tsx).",
+      "tags": [
+        "frontend",
+        "ui",
+        "component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/components/UserSettings/DeleteConfirmation.tsx:DeleteConfirmation",
+      "type": "function",
+      "name": "DeleteConfirmation",
+      "filePath": "frontend/src/components/UserSettings/DeleteConfirmation.tsx",
+      "lineRange": [
+        21,
+        80
+      ],
+      "summary": "H\u00e0m DeleteConfirmation x\u1eed l\u00fd logic trong DeleteConfirmation.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/components/UserSettings/UserInformation.tsx",
+      "type": "file",
+      "name": "UserInformation.tsx",
+      "filePath": "frontend/src/components/UserSettings/UserInformation.tsx",
+      "summary": "Th\u00e0nh ph\u1ea7n giao di\u1ec7n ng\u01b0\u1eddi d\u00f9ng React (UserInformation.tsx).",
+      "tags": [
+        "frontend",
+        "ui",
+        "component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/components/UserSettings/UserInformation.tsx:UserInformation",
+      "type": "function",
+      "name": "UserInformation",
+      "filePath": "frontend/src/components/UserSettings/UserInformation.tsx",
+      "lineRange": [
+        31,
+        169
+      ],
+      "summary": "H\u00e0m UserInformation x\u1eed l\u00fd logic trong UserInformation.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/components/ui/button.tsx",
+      "type": "file",
+      "name": "button.tsx",
+      "filePath": "frontend/src/components/ui/button.tsx",
+      "summary": "Th\u00e0nh ph\u1ea7n giao di\u1ec7n ng\u01b0\u1eddi d\u00f9ng React (button.tsx).",
+      "tags": [
+        "frontend",
+        "ui",
+        "component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/components/ui/button.tsx:Button",
+      "type": "function",
+      "name": "Button",
+      "filePath": "frontend/src/components/ui/button.tsx",
+      "lineRange": [
+        39,
+        58
+      ],
+      "summary": "H\u00e0m Button x\u1eed l\u00fd logic trong button.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/components/ui/checkbox.tsx",
+      "type": "file",
+      "name": "checkbox.tsx",
+      "filePath": "frontend/src/components/ui/checkbox.tsx",
+      "summary": "Th\u00e0nh ph\u1ea7n giao di\u1ec7n ng\u01b0\u1eddi d\u00f9ng React (checkbox.tsx).",
+      "tags": [
+        "frontend",
+        "ui",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/components/ui/checkbox.tsx:Checkbox",
+      "type": "function",
+      "name": "Checkbox",
+      "filePath": "frontend/src/components/ui/checkbox.tsx",
+      "lineRange": [
+        7,
+        28
+      ],
+      "summary": "H\u00e0m Checkbox x\u1eed l\u00fd logic trong checkbox.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/components/ui/dialog.tsx",
+      "type": "file",
+      "name": "dialog.tsx",
+      "filePath": "frontend/src/components/ui/dialog.tsx",
+      "summary": "Th\u00e0nh ph\u1ea7n giao di\u1ec7n ng\u01b0\u1eddi d\u00f9ng React (dialog.tsx).",
+      "tags": [
+        "frontend",
+        "ui",
+        "component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/components/ui/dialog.tsx:DialogOverlay",
+      "type": "function",
+      "name": "DialogOverlay",
+      "filePath": "frontend/src/components/ui/dialog.tsx",
+      "lineRange": [
+        31,
+        45
+      ],
+      "summary": "H\u00e0m DialogOverlay x\u1eed l\u00fd logic trong dialog.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/components/ui/dialog.tsx:DialogContent",
+      "type": "function",
+      "name": "DialogContent",
+      "filePath": "frontend/src/components/ui/dialog.tsx",
+      "lineRange": [
+        47,
+        79
+      ],
+      "summary": "H\u00e0m DialogContent x\u1eed l\u00fd logic trong dialog.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/components/ui/dialog.tsx:DialogFooter",
+      "type": "function",
+      "name": "DialogFooter",
+      "filePath": "frontend/src/components/ui/dialog.tsx",
+      "lineRange": [
+        91,
+        102
+      ],
+      "summary": "H\u00e0m DialogFooter x\u1eed l\u00fd logic trong dialog.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/components/ui/dialog.tsx:DialogTitle",
+      "type": "function",
+      "name": "DialogTitle",
+      "filePath": "frontend/src/components/ui/dialog.tsx",
+      "lineRange": [
+        104,
+        115
+      ],
+      "summary": "H\u00e0m DialogTitle x\u1eed l\u00fd logic trong dialog.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/components/ui/dialog.tsx:DialogDescription",
+      "type": "function",
+      "name": "DialogDescription",
+      "filePath": "frontend/src/components/ui/dialog.tsx",
+      "lineRange": [
+        117,
+        128
+      ],
+      "summary": "H\u00e0m DialogDescription x\u1eed l\u00fd logic trong dialog.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/components/ui/dropdown-menu.tsx",
+      "type": "file",
+      "name": "dropdown-menu.tsx",
+      "filePath": "frontend/src/components/ui/dropdown-menu.tsx",
+      "summary": "Th\u00e0nh ph\u1ea7n giao di\u1ec7n ng\u01b0\u1eddi d\u00f9ng React (dropdown-menu.tsx).",
+      "tags": [
+        "frontend",
+        "ui",
+        "component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/components/ui/dropdown-menu.tsx:DropdownMenuTrigger",
+      "type": "function",
+      "name": "DropdownMenuTrigger",
+      "filePath": "frontend/src/components/ui/dropdown-menu.tsx",
+      "lineRange": [
+        23,
+        32
+      ],
+      "summary": "H\u00e0m DropdownMenuTrigger x\u1eed l\u00fd logic trong dropdown-menu.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/components/ui/dropdown-menu.tsx:DropdownMenuContent",
+      "type": "function",
+      "name": "DropdownMenuContent",
+      "filePath": "frontend/src/components/ui/dropdown-menu.tsx",
+      "lineRange": [
+        34,
+        52
+      ],
+      "summary": "H\u00e0m DropdownMenuContent x\u1eed l\u00fd logic trong dropdown-menu.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/components/ui/dropdown-menu.tsx:DropdownMenuItem",
+      "type": "function",
+      "name": "DropdownMenuItem",
+      "filePath": "frontend/src/components/ui/dropdown-menu.tsx",
+      "lineRange": [
+        62,
+        83
+      ],
+      "summary": "H\u00e0m DropdownMenuItem x\u1eed l\u00fd logic trong dropdown-menu.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/components/ui/dropdown-menu.tsx:DropdownMenuCheckboxItem",
+      "type": "function",
+      "name": "DropdownMenuCheckboxItem",
+      "filePath": "frontend/src/components/ui/dropdown-menu.tsx",
+      "lineRange": [
+        85,
+        109
+      ],
+      "summary": "H\u00e0m DropdownMenuCheckboxItem x\u1eed l\u00fd logic trong dropdown-menu.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/components/ui/dropdown-menu.tsx:DropdownMenuRadioGroup",
+      "type": "function",
+      "name": "DropdownMenuRadioGroup",
+      "filePath": "frontend/src/components/ui/dropdown-menu.tsx",
+      "lineRange": [
+        111,
+        120
+      ],
+      "summary": "H\u00e0m DropdownMenuRadioGroup x\u1eed l\u00fd logic trong dropdown-menu.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/components/ui/dropdown-menu.tsx:DropdownMenuRadioItem",
+      "type": "function",
+      "name": "DropdownMenuRadioItem",
+      "filePath": "frontend/src/components/ui/dropdown-menu.tsx",
+      "lineRange": [
+        122,
+        144
+      ],
+      "summary": "H\u00e0m DropdownMenuRadioItem x\u1eed l\u00fd logic trong dropdown-menu.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/components/ui/dropdown-menu.tsx:DropdownMenuLabel",
+      "type": "function",
+      "name": "DropdownMenuLabel",
+      "filePath": "frontend/src/components/ui/dropdown-menu.tsx",
+      "lineRange": [
+        146,
+        164
+      ],
+      "summary": "H\u00e0m DropdownMenuLabel x\u1eed l\u00fd logic trong dropdown-menu.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/components/ui/dropdown-menu.tsx:DropdownMenuSeparator",
+      "type": "function",
+      "name": "DropdownMenuSeparator",
+      "filePath": "frontend/src/components/ui/dropdown-menu.tsx",
+      "lineRange": [
+        166,
+        177
+      ],
+      "summary": "H\u00e0m DropdownMenuSeparator x\u1eed l\u00fd logic trong dropdown-menu.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/components/ui/dropdown-menu.tsx:DropdownMenuShortcut",
+      "type": "function",
+      "name": "DropdownMenuShortcut",
+      "filePath": "frontend/src/components/ui/dropdown-menu.tsx",
+      "lineRange": [
+        179,
+        193
+      ],
+      "summary": "H\u00e0m DropdownMenuShortcut x\u1eed l\u00fd logic trong dropdown-menu.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/components/ui/dropdown-menu.tsx:DropdownMenuSubTrigger",
+      "type": "function",
+      "name": "DropdownMenuSubTrigger",
+      "filePath": "frontend/src/components/ui/dropdown-menu.tsx",
+      "lineRange": [
+        201,
+        223
+      ],
+      "summary": "H\u00e0m DropdownMenuSubTrigger x\u1eed l\u00fd logic trong dropdown-menu.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/components/ui/dropdown-menu.tsx:DropdownMenuSubContent",
+      "type": "function",
+      "name": "DropdownMenuSubContent",
+      "filePath": "frontend/src/components/ui/dropdown-menu.tsx",
+      "lineRange": [
+        225,
+        239
+      ],
+      "summary": "H\u00e0m DropdownMenuSubContent x\u1eed l\u00fd logic trong dropdown-menu.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/components/ui/form.tsx",
+      "type": "file",
+      "name": "form.tsx",
+      "filePath": "frontend/src/components/ui/form.tsx",
+      "summary": "Th\u00e0nh ph\u1ea7n giao di\u1ec7n ng\u01b0\u1eddi d\u00f9ng React (form.tsx).",
+      "tags": [
+        "frontend",
+        "ui",
+        "component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/components/ui/form.tsx:FormField",
+      "type": "function",
+      "name": "FormField",
+      "filePath": "frontend/src/components/ui/form.tsx",
+      "lineRange": [
+        30,
+        41
+      ],
+      "summary": "H\u00e0m FormField x\u1eed l\u00fd logic trong form.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/components/ui/form.tsx:useFormField",
+      "type": "function",
+      "name": "useFormField",
+      "filePath": "frontend/src/components/ui/form.tsx",
+      "lineRange": [
+        43,
+        64
+      ],
+      "summary": "H\u00e0m useFormField x\u1eed l\u00fd logic trong form.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/components/ui/form.tsx:FormItem",
+      "type": "function",
+      "name": "FormItem",
+      "filePath": "frontend/src/components/ui/form.tsx",
+      "lineRange": [
+        74,
+        86
+      ],
+      "summary": "H\u00e0m FormItem x\u1eed l\u00fd logic trong form.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/components/ui/form.tsx:FormLabel",
+      "type": "function",
+      "name": "FormLabel",
+      "filePath": "frontend/src/components/ui/form.tsx",
+      "lineRange": [
+        88,
+        103
+      ],
+      "summary": "H\u00e0m FormLabel x\u1eed l\u00fd logic trong form.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/components/ui/form.tsx:FormControl",
+      "type": "function",
+      "name": "FormControl",
+      "filePath": "frontend/src/components/ui/form.tsx",
+      "lineRange": [
+        105,
+        121
+      ],
+      "summary": "H\u00e0m FormControl x\u1eed l\u00fd logic trong form.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/components/ui/form.tsx:FormDescription",
+      "type": "function",
+      "name": "FormDescription",
+      "filePath": "frontend/src/components/ui/form.tsx",
+      "lineRange": [
+        123,
+        134
+      ],
+      "summary": "H\u00e0m FormDescription x\u1eed l\u00fd logic trong form.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/components/ui/form.tsx:FormMessage",
+      "type": "function",
+      "name": "FormMessage",
+      "filePath": "frontend/src/components/ui/form.tsx",
+      "lineRange": [
+        136,
+        154
+      ],
+      "summary": "H\u00e0m FormMessage x\u1eed l\u00fd logic trong form.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/components/ui/input.tsx",
+      "type": "file",
+      "name": "input.tsx",
+      "filePath": "frontend/src/components/ui/input.tsx",
+      "summary": "Th\u00e0nh ph\u1ea7n giao di\u1ec7n ng\u01b0\u1eddi d\u00f9ng React (input.tsx).",
+      "tags": [
+        "frontend",
+        "ui",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/components/ui/input.tsx:Input",
+      "type": "function",
+      "name": "Input",
+      "filePath": "frontend/src/components/ui/input.tsx",
+      "lineRange": [
+        5,
+        19
+      ],
+      "summary": "H\u00e0m Input x\u1eed l\u00fd logic trong input.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/components/ui/loading-button.tsx",
+      "type": "file",
+      "name": "loading-button.tsx",
+      "filePath": "frontend/src/components/ui/loading-button.tsx",
+      "summary": "Th\u00e0nh ph\u1ea7n giao di\u1ec7n ng\u01b0\u1eddi d\u00f9ng React (loading-button.tsx).",
+      "tags": [
+        "frontend",
+        "ui",
+        "component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/components/ui/loading-button.tsx:LoadingButton",
+      "type": "function",
+      "name": "LoadingButton",
+      "filePath": "frontend/src/components/ui/loading-button.tsx",
+      "lineRange": [
+        44,
+        65
+      ],
+      "summary": "H\u00e0m LoadingButton x\u1eed l\u00fd logic trong loading-button.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/components/ui/password-input.tsx",
+      "type": "file",
+      "name": "password-input.tsx",
+      "filePath": "frontend/src/components/ui/password-input.tsx",
+      "summary": "Th\u00e0nh ph\u1ea7n giao di\u1ec7n ng\u01b0\u1eddi d\u00f9ng React (password-input.tsx).",
+      "tags": [
+        "frontend",
+        "ui",
+        "component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/components/ui/tabs.tsx",
+      "type": "file",
+      "name": "tabs.tsx",
+      "filePath": "frontend/src/components/ui/tabs.tsx",
+      "summary": "Th\u00e0nh ph\u1ea7n giao di\u1ec7n ng\u01b0\u1eddi d\u00f9ng React (tabs.tsx).",
+      "tags": [
+        "frontend",
+        "ui",
+        "component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/components/ui/tabs.tsx:Tabs",
+      "type": "function",
+      "name": "Tabs",
+      "filePath": "frontend/src/components/ui/tabs.tsx",
+      "lineRange": [
+        6,
+        17
+      ],
+      "summary": "H\u00e0m Tabs x\u1eed l\u00fd logic trong tabs.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/components/ui/tabs.tsx:TabsList",
+      "type": "function",
+      "name": "TabsList",
+      "filePath": "frontend/src/components/ui/tabs.tsx",
+      "lineRange": [
+        19,
+        33
+      ],
+      "summary": "H\u00e0m TabsList x\u1eed l\u00fd logic trong tabs.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/components/ui/tabs.tsx:TabsTrigger",
+      "type": "function",
+      "name": "TabsTrigger",
+      "filePath": "frontend/src/components/ui/tabs.tsx",
+      "lineRange": [
+        35,
+        49
+      ],
+      "summary": "H\u00e0m TabsTrigger x\u1eed l\u00fd logic trong tabs.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/components/ui/tabs.tsx:TabsContent",
+      "type": "function",
+      "name": "TabsContent",
+      "filePath": "frontend/src/components/ui/tabs.tsx",
+      "lineRange": [
+        51,
+        62
+      ],
+      "summary": "H\u00e0m TabsContent x\u1eed l\u00fd logic trong tabs.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/hooks/useAuth.ts",
+      "type": "file",
+      "name": "useAuth.ts",
+      "filePath": "frontend/src/hooks/useAuth.ts",
+      "summary": "Custom hook React t\u00e1i s\u1eed d\u1ee5ng logic (useAuth.ts).",
+      "tags": [
+        "frontend",
+        "hook",
+        "state"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/hooks/useAuth.ts:useAuth",
+      "type": "function",
+      "name": "useAuth",
+      "filePath": "frontend/src/hooks/useAuth.ts",
+      "lineRange": [
+        18,
+        67
+      ],
+      "summary": "H\u00e0m useAuth x\u1eed l\u00fd logic trong useAuth.ts.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/hooks/useCustomToast.ts",
+      "type": "file",
+      "name": "useCustomToast.ts",
+      "filePath": "frontend/src/hooks/useCustomToast.ts",
+      "summary": "Custom hook React t\u00e1i s\u1eed d\u1ee5ng logic (useCustomToast.ts).",
+      "tags": [
+        "frontend",
+        "hook",
+        "state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/hooks/useCustomToast.ts:useCustomToast",
+      "type": "function",
+      "name": "useCustomToast",
+      "filePath": "frontend/src/hooks/useCustomToast.ts",
+      "lineRange": [
+        3,
+        17
+      ],
+      "summary": "H\u00e0m useCustomToast x\u1eed l\u00fd logic trong useCustomToast.ts.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/routeTree.gen.ts",
+      "type": "file",
+      "name": "routeTree.gen.ts",
+      "filePath": "frontend/src/routeTree.gen.ts",
+      "summary": "T\u1eadp tin m\u00e3 ngu\u1ed3n typescript (routeTree.gen.ts) th\u1ef1c hi\u1ec7n ch\u1ee9c n\u0103ng h\u1ec7 th\u1ed1ng.",
+      "tags": [
+        "frontend",
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:frontend/src/routes/__root.tsx",
+      "type": "file",
+      "name": "__root.tsx",
+      "filePath": "frontend/src/routes/__root.tsx",
+      "summary": "\u0110\u1ecbnh tuy\u1ebfn v\u00e0 x\u1eed l\u00fd c\u00e1c \u0111i\u1ec3m cu\u1ed1i API (__root.tsx).",
+      "tags": [
+        "frontend",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/routes/_layout/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "frontend/src/routes/_layout/index.tsx",
+      "summary": "\u0110\u1ecbnh tuy\u1ebfn v\u00e0 x\u1eed l\u00fd c\u00e1c \u0111i\u1ec3m cu\u1ed1i API (index.tsx).",
+      "tags": [
+        "frontend",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/routes/_layout/index.tsx:Dashboard",
+      "type": "function",
+      "name": "Dashboard",
+      "filePath": "frontend/src/routes/_layout/index.tsx",
+      "lineRange": [
+        16,
+        31
+      ],
+      "summary": "H\u00e0m Dashboard x\u1eed l\u00fd logic trong index.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/routes/_layout/settings.tsx",
+      "type": "file",
+      "name": "settings.tsx",
+      "filePath": "frontend/src/routes/_layout/settings.tsx",
+      "summary": "\u0110\u1ecbnh tuy\u1ebfn v\u00e0 x\u1eed l\u00fd c\u00e1c \u0111i\u1ec3m cu\u1ed1i API (settings.tsx).",
+      "tags": [
+        "frontend",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/routes/_layout/settings.tsx:UserSettings",
+      "type": "function",
+      "name": "UserSettings",
+      "filePath": "frontend/src/routes/_layout/settings.tsx",
+      "lineRange": [
+        26,
+        61
+      ],
+      "summary": "H\u00e0m UserSettings x\u1eed l\u00fd logic trong settings.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/routes/login.tsx",
+      "type": "file",
+      "name": "login.tsx",
+      "filePath": "frontend/src/routes/login.tsx",
+      "summary": "\u0110\u1ecbnh tuy\u1ebfn v\u00e0 x\u1eed l\u00fd c\u00e1c \u0111i\u1ec3m cu\u1ed1i API (login.tsx).",
+      "tags": [
+        "frontend",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/routes/login.tsx:Login",
+      "type": "function",
+      "name": "Login",
+      "filePath": "frontend/src/routes/login.tsx",
+      "lineRange": [
+        53,
+        142
+      ],
+      "summary": "H\u00e0m Login x\u1eed l\u00fd logic trong login.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/routes/recover-password.tsx",
+      "type": "file",
+      "name": "recover-password.tsx",
+      "filePath": "frontend/src/routes/recover-password.tsx",
+      "summary": "\u0110\u1ecbnh tuy\u1ebfn v\u00e0 x\u1eed l\u00fd c\u00e1c \u0111i\u1ec3m cu\u1ed1i API (recover-password.tsx).",
+      "tags": [
+        "frontend",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/routes/recover-password.tsx:RecoverPassword",
+      "type": "function",
+      "name": "RecoverPassword",
+      "filePath": "frontend/src/routes/recover-password.tsx",
+      "lineRange": [
+        51,
+        130
+      ],
+      "summary": "H\u00e0m RecoverPassword x\u1eed l\u00fd logic trong recover-password.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/routes/reset-password.tsx",
+      "type": "file",
+      "name": "reset-password.tsx",
+      "filePath": "frontend/src/routes/reset-password.tsx",
+      "summary": "\u0110\u1ecbnh tuy\u1ebfn v\u00e0 x\u1eed l\u00fd c\u00e1c \u0111i\u1ec3m cu\u1ed1i API (reset-password.tsx).",
+      "tags": [
+        "frontend",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/routes/reset-password.tsx:ResetPassword",
+      "type": "function",
+      "name": "ResetPassword",
+      "filePath": "frontend/src/routes/reset-password.tsx",
+      "lineRange": [
+        69,
+        166
+      ],
+      "summary": "H\u00e0m ResetPassword x\u1eed l\u00fd logic trong reset-password.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/routes/signup.tsx",
+      "type": "file",
+      "name": "signup.tsx",
+      "filePath": "frontend/src/routes/signup.tsx",
+      "summary": "\u0110\u1ecbnh tuy\u1ebfn v\u00e0 x\u1eed l\u00fd c\u00e1c \u0111i\u1ec3m cu\u1ed1i API (signup.tsx).",
+      "tags": [
+        "frontend",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/routes/signup.tsx:SignUp",
+      "type": "function",
+      "name": "SignUp",
+      "filePath": "frontend/src/routes/signup.tsx",
+      "lineRange": [
+        60,
+        187
+      ],
+      "summary": "H\u00e0m SignUp x\u1eed l\u00fd logic trong signup.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/utils.ts",
+      "type": "file",
+      "name": "utils.ts",
+      "filePath": "frontend/src/utils.ts",
+      "summary": "H\u00e0m ti\u1ec7n \u00edch v\u00e0 c\u00f4ng c\u1ee5 h\u1ed7 tr\u1ee3 (utils.ts).",
+      "tags": [
+        "frontend",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/utils.ts:extractErrorMessage",
+      "type": "function",
+      "name": "extractErrorMessage",
+      "filePath": "frontend/src/utils.ts",
+      "lineRange": [
+        3,
+        15
+      ],
+      "summary": "H\u00e0m extractErrorMessage x\u1eed l\u00fd logic trong utils.ts.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:frontend/src/components/Admin/AddUser.tsx",
+      "target": "function:frontend/src/components/Admin/AddUser.tsx:AddUser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/Admin/AddUser.tsx",
+      "target": "file:frontend/src/client/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Admin/AddUser.tsx",
+      "target": "file:frontend/src/components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Admin/AddUser.tsx",
+      "target": "file:frontend/src/components/ui/checkbox.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Admin/AddUser.tsx",
+      "target": "file:frontend/src/components/ui/dialog.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Admin/AddUser.tsx",
+      "target": "file:frontend/src/components/ui/form.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Admin/AddUser.tsx",
+      "target": "file:frontend/src/components/ui/input.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Admin/AddUser.tsx",
+      "target": "file:frontend/src/components/ui/loading-button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Admin/AddUser.tsx",
+      "target": "file:frontend/src/hooks/useCustomToast.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Admin/AddUser.tsx",
+      "target": "file:frontend/src/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Admin/DeleteUser.tsx",
+      "target": "function:frontend/src/components/Admin/DeleteUser.tsx:DeleteUser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/Admin/DeleteUser.tsx",
+      "target": "file:frontend/src/client/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Admin/DeleteUser.tsx",
+      "target": "file:frontend/src/components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Admin/DeleteUser.tsx",
+      "target": "file:frontend/src/components/ui/dialog.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Admin/DeleteUser.tsx",
+      "target": "file:frontend/src/components/ui/dropdown-menu.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Admin/DeleteUser.tsx",
+      "target": "file:frontend/src/components/ui/loading-button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Admin/DeleteUser.tsx",
+      "target": "file:frontend/src/hooks/useCustomToast.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Admin/DeleteUser.tsx",
+      "target": "file:frontend/src/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Admin/EditUser.tsx",
+      "target": "function:frontend/src/components/Admin/EditUser.tsx:EditUser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/Admin/EditUser.tsx",
+      "target": "file:frontend/src/client/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Admin/EditUser.tsx",
+      "target": "file:frontend/src/components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Admin/EditUser.tsx",
+      "target": "file:frontend/src/components/ui/checkbox.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Admin/EditUser.tsx",
+      "target": "file:frontend/src/components/ui/dialog.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Admin/EditUser.tsx",
+      "target": "file:frontend/src/components/ui/dropdown-menu.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Admin/EditUser.tsx",
+      "target": "file:frontend/src/components/ui/form.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Admin/EditUser.tsx",
+      "target": "file:frontend/src/components/ui/input.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Admin/EditUser.tsx",
+      "target": "file:frontend/src/components/ui/loading-button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Admin/EditUser.tsx",
+      "target": "file:frontend/src/hooks/useCustomToast.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Admin/EditUser.tsx",
+      "target": "file:frontend/src/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Admin/UserActionsMenu.tsx",
+      "target": "function:frontend/src/components/Admin/UserActionsMenu.tsx:UserActionsMenu",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/Admin/UserActionsMenu.tsx",
+      "target": "file:frontend/src/client/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Admin/UserActionsMenu.tsx",
+      "target": "file:frontend/src/components/Admin/DeleteUser.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Admin/UserActionsMenu.tsx",
+      "target": "file:frontend/src/components/Admin/EditUser.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Admin/UserActionsMenu.tsx",
+      "target": "file:frontend/src/components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Admin/UserActionsMenu.tsx",
+      "target": "file:frontend/src/components/ui/dropdown-menu.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Admin/UserActionsMenu.tsx",
+      "target": "file:frontend/src/hooks/useAuth.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Common/ErrorComponent.tsx",
+      "target": "function:frontend/src/components/Common/ErrorComponent.tsx:ErrorComponent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/Common/ErrorComponent.tsx",
+      "target": "file:frontend/src/components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Common/NotFound.tsx",
+      "target": "function:frontend/src/components/Common/NotFound.tsx:NotFound",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/Common/NotFound.tsx",
+      "target": "file:frontend/src/components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Items/AddItem.tsx",
+      "target": "function:frontend/src/components/Items/AddItem.tsx:AddItem",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/Items/AddItem.tsx",
+      "target": "file:frontend/src/client/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Items/AddItem.tsx",
+      "target": "file:frontend/src/components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Items/AddItem.tsx",
+      "target": "file:frontend/src/components/ui/dialog.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Items/AddItem.tsx",
+      "target": "file:frontend/src/components/ui/form.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Items/AddItem.tsx",
+      "target": "file:frontend/src/components/ui/input.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Items/AddItem.tsx",
+      "target": "file:frontend/src/components/ui/loading-button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Items/AddItem.tsx",
+      "target": "file:frontend/src/hooks/useCustomToast.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Items/AddItem.tsx",
+      "target": "file:frontend/src/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Items/DeleteItem.tsx",
+      "target": "function:frontend/src/components/Items/DeleteItem.tsx:DeleteItem",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/Items/DeleteItem.tsx",
+      "target": "file:frontend/src/client/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Items/DeleteItem.tsx",
+      "target": "file:frontend/src/components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Items/DeleteItem.tsx",
+      "target": "file:frontend/src/components/ui/dialog.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Items/DeleteItem.tsx",
+      "target": "file:frontend/src/components/ui/dropdown-menu.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Items/DeleteItem.tsx",
+      "target": "file:frontend/src/components/ui/loading-button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Items/DeleteItem.tsx",
+      "target": "file:frontend/src/hooks/useCustomToast.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Items/DeleteItem.tsx",
+      "target": "file:frontend/src/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Items/EditItem.tsx",
+      "target": "function:frontend/src/components/Items/EditItem.tsx:EditItem",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/Items/EditItem.tsx",
+      "target": "file:frontend/src/client/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Items/EditItem.tsx",
+      "target": "file:frontend/src/components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Items/EditItem.tsx",
+      "target": "file:frontend/src/components/ui/dialog.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Items/EditItem.tsx",
+      "target": "file:frontend/src/components/ui/dropdown-menu.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Items/EditItem.tsx",
+      "target": "file:frontend/src/components/ui/form.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Items/EditItem.tsx",
+      "target": "file:frontend/src/components/ui/input.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Items/EditItem.tsx",
+      "target": "file:frontend/src/components/ui/loading-button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Items/EditItem.tsx",
+      "target": "file:frontend/src/hooks/useCustomToast.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Items/EditItem.tsx",
+      "target": "file:frontend/src/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Items/ItemActionsMenu.tsx",
+      "target": "function:frontend/src/components/Items/ItemActionsMenu.tsx:ItemActionsMenu",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/Items/ItemActionsMenu.tsx",
+      "target": "file:frontend/src/client/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Items/ItemActionsMenu.tsx",
+      "target": "file:frontend/src/components/Items/DeleteItem.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Items/ItemActionsMenu.tsx",
+      "target": "file:frontend/src/components/Items/EditItem.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Items/ItemActionsMenu.tsx",
+      "target": "file:frontend/src/components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Items/ItemActionsMenu.tsx",
+      "target": "file:frontend/src/components/ui/dropdown-menu.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/UserSettings/ChangePassword.tsx",
+      "target": "function:frontend/src/components/UserSettings/ChangePassword.tsx:ChangePassword",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/UserSettings/ChangePassword.tsx",
+      "target": "file:frontend/src/client/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/UserSettings/ChangePassword.tsx",
+      "target": "file:frontend/src/components/ui/form.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/UserSettings/ChangePassword.tsx",
+      "target": "file:frontend/src/components/ui/loading-button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/UserSettings/ChangePassword.tsx",
+      "target": "file:frontend/src/components/ui/password-input.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/UserSettings/ChangePassword.tsx",
+      "target": "file:frontend/src/hooks/useCustomToast.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/UserSettings/ChangePassword.tsx",
+      "target": "file:frontend/src/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/UserSettings/DeleteAccount.tsx",
+      "target": "function:frontend/src/components/UserSettings/DeleteAccount.tsx:DeleteAccount",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/UserSettings/DeleteAccount.tsx",
+      "target": "file:frontend/src/components/UserSettings/DeleteConfirmation.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/UserSettings/DeleteConfirmation.tsx",
+      "target": "function:frontend/src/components/UserSettings/DeleteConfirmation.tsx:DeleteConfirmation",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/UserSettings/DeleteConfirmation.tsx",
+      "target": "file:frontend/src/client/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/UserSettings/DeleteConfirmation.tsx",
+      "target": "file:frontend/src/components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/UserSettings/DeleteConfirmation.tsx",
+      "target": "file:frontend/src/components/ui/dialog.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/UserSettings/DeleteConfirmation.tsx",
+      "target": "file:frontend/src/components/ui/loading-button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/UserSettings/DeleteConfirmation.tsx",
+      "target": "file:frontend/src/hooks/useAuth.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/UserSettings/DeleteConfirmation.tsx",
+      "target": "file:frontend/src/hooks/useCustomToast.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/UserSettings/DeleteConfirmation.tsx",
+      "target": "file:frontend/src/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/UserSettings/UserInformation.tsx",
+      "target": "function:frontend/src/components/UserSettings/UserInformation.tsx:UserInformation",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/UserSettings/UserInformation.tsx",
+      "target": "file:frontend/src/client/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/UserSettings/UserInformation.tsx",
+      "target": "file:frontend/src/components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/UserSettings/UserInformation.tsx",
+      "target": "file:frontend/src/components/ui/form.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/UserSettings/UserInformation.tsx",
+      "target": "file:frontend/src/components/ui/input.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/UserSettings/UserInformation.tsx",
+      "target": "file:frontend/src/components/ui/loading-button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/UserSettings/UserInformation.tsx",
+      "target": "file:frontend/src/hooks/useAuth.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/UserSettings/UserInformation.tsx",
+      "target": "file:frontend/src/hooks/useCustomToast.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/UserSettings/UserInformation.tsx",
+      "target": "file:frontend/src/lib/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/UserSettings/UserInformation.tsx",
+      "target": "file:frontend/src/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/ui/button.tsx",
+      "target": "function:frontend/src/components/ui/button.tsx:Button",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/ui/button.tsx",
+      "target": "file:frontend/src/lib/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/ui/checkbox.tsx",
+      "target": "function:frontend/src/components/ui/checkbox.tsx:Checkbox",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/ui/checkbox.tsx",
+      "target": "file:frontend/src/lib/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/ui/dialog.tsx",
+      "target": "function:frontend/src/components/ui/dialog.tsx:DialogOverlay",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/ui/dialog.tsx",
+      "target": "function:frontend/src/components/ui/dialog.tsx:DialogContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/ui/dialog.tsx",
+      "target": "function:frontend/src/components/ui/dialog.tsx:DialogFooter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/ui/dialog.tsx",
+      "target": "function:frontend/src/components/ui/dialog.tsx:DialogTitle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/ui/dialog.tsx",
+      "target": "function:frontend/src/components/ui/dialog.tsx:DialogDescription",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/ui/dialog.tsx",
+      "target": "file:frontend/src/lib/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/ui/dropdown-menu.tsx",
+      "target": "function:frontend/src/components/ui/dropdown-menu.tsx:DropdownMenuTrigger",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/ui/dropdown-menu.tsx",
+      "target": "function:frontend/src/components/ui/dropdown-menu.tsx:DropdownMenuContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/ui/dropdown-menu.tsx",
+      "target": "function:frontend/src/components/ui/dropdown-menu.tsx:DropdownMenuItem",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/ui/dropdown-menu.tsx",
+      "target": "function:frontend/src/components/ui/dropdown-menu.tsx:DropdownMenuCheckboxItem",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/ui/dropdown-menu.tsx",
+      "target": "function:frontend/src/components/ui/dropdown-menu.tsx:DropdownMenuRadioGroup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/ui/dropdown-menu.tsx",
+      "target": "function:frontend/src/components/ui/dropdown-menu.tsx:DropdownMenuRadioItem",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/ui/dropdown-menu.tsx",
+      "target": "function:frontend/src/components/ui/dropdown-menu.tsx:DropdownMenuLabel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/ui/dropdown-menu.tsx",
+      "target": "function:frontend/src/components/ui/dropdown-menu.tsx:DropdownMenuSeparator",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/ui/dropdown-menu.tsx",
+      "target": "function:frontend/src/components/ui/dropdown-menu.tsx:DropdownMenuShortcut",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/ui/dropdown-menu.tsx",
+      "target": "function:frontend/src/components/ui/dropdown-menu.tsx:DropdownMenuSubTrigger",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/ui/dropdown-menu.tsx",
+      "target": "function:frontend/src/components/ui/dropdown-menu.tsx:DropdownMenuSubContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/ui/dropdown-menu.tsx",
+      "target": "file:frontend/src/lib/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/ui/form.tsx",
+      "target": "function:frontend/src/components/ui/form.tsx:FormField",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/ui/form.tsx",
+      "target": "function:frontend/src/components/ui/form.tsx:useFormField",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/ui/form.tsx",
+      "target": "function:frontend/src/components/ui/form.tsx:FormItem",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/ui/form.tsx",
+      "target": "function:frontend/src/components/ui/form.tsx:FormLabel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/ui/form.tsx",
+      "target": "function:frontend/src/components/ui/form.tsx:FormControl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/ui/form.tsx",
+      "target": "function:frontend/src/components/ui/form.tsx:FormDescription",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/ui/form.tsx",
+      "target": "function:frontend/src/components/ui/form.tsx:FormMessage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/ui/form.tsx",
+      "target": "file:frontend/src/components/ui/label.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/ui/form.tsx",
+      "target": "file:frontend/src/lib/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/ui/input.tsx",
+      "target": "function:frontend/src/components/ui/input.tsx:Input",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/ui/input.tsx",
+      "target": "file:frontend/src/lib/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/ui/loading-button.tsx",
+      "target": "function:frontend/src/components/ui/loading-button.tsx:LoadingButton",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/ui/loading-button.tsx",
+      "target": "file:frontend/src/lib/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/ui/password-input.tsx",
+      "target": "file:frontend/src/components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/ui/password-input.tsx",
+      "target": "file:frontend/src/lib/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/ui/tabs.tsx",
+      "target": "function:frontend/src/components/ui/tabs.tsx:Tabs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/ui/tabs.tsx",
+      "target": "function:frontend/src/components/ui/tabs.tsx:TabsList",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/ui/tabs.tsx",
+      "target": "function:frontend/src/components/ui/tabs.tsx:TabsTrigger",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/ui/tabs.tsx",
+      "target": "function:frontend/src/components/ui/tabs.tsx:TabsContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/ui/tabs.tsx",
+      "target": "file:frontend/src/lib/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/hooks/useAuth.ts",
+      "target": "function:frontend/src/hooks/useAuth.ts:useAuth",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/hooks/useAuth.ts",
+      "target": "file:frontend/src/client/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/hooks/useAuth.ts",
+      "target": "file:frontend/src/hooks/useCustomToast.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/hooks/useAuth.ts",
+      "target": "file:frontend/src/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/hooks/useCustomToast.ts",
+      "target": "function:frontend/src/hooks/useCustomToast.ts:useCustomToast",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/routeTree.gen.ts",
+      "target": "file:frontend/src/routes/__root.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routeTree.gen.ts",
+      "target": "file:frontend/src/routes/_layout.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routeTree.gen.ts",
+      "target": "file:frontend/src/routes/_layout/admin.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routeTree.gen.ts",
+      "target": "file:frontend/src/routes/_layout/index.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routeTree.gen.ts",
+      "target": "file:frontend/src/routes/_layout/items.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routeTree.gen.ts",
+      "target": "file:frontend/src/routes/_layout/settings.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routeTree.gen.ts",
+      "target": "file:frontend/src/routes/login.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routeTree.gen.ts",
+      "target": "file:frontend/src/routes/recover-password.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routeTree.gen.ts",
+      "target": "file:frontend/src/routes/reset-password.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routeTree.gen.ts",
+      "target": "file:frontend/src/routes/signup.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routes/__root.tsx",
+      "target": "file:frontend/src/components/Common/ErrorComponent.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routes/__root.tsx",
+      "target": "file:frontend/src/components/Common/NotFound.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routes/_layout/index.tsx",
+      "target": "function:frontend/src/routes/_layout/index.tsx:Dashboard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/routes/_layout/index.tsx",
+      "target": "file:frontend/src/hooks/useAuth.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routes/_layout/settings.tsx",
+      "target": "function:frontend/src/routes/_layout/settings.tsx:UserSettings",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/routes/_layout/settings.tsx",
+      "target": "file:frontend/src/components/UserSettings/ChangePassword.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routes/_layout/settings.tsx",
+      "target": "file:frontend/src/components/UserSettings/DeleteAccount.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routes/_layout/settings.tsx",
+      "target": "file:frontend/src/components/UserSettings/UserInformation.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routes/_layout/settings.tsx",
+      "target": "file:frontend/src/components/ui/tabs.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routes/_layout/settings.tsx",
+      "target": "file:frontend/src/hooks/useAuth.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routes/login.tsx",
+      "target": "function:frontend/src/routes/login.tsx:Login",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/routes/login.tsx",
+      "target": "file:frontend/src/client/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routes/login.tsx",
+      "target": "file:frontend/src/components/Common/AuthLayout.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routes/login.tsx",
+      "target": "file:frontend/src/components/ui/form.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routes/login.tsx",
+      "target": "file:frontend/src/components/ui/input.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routes/login.tsx",
+      "target": "file:frontend/src/components/ui/loading-button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routes/login.tsx",
+      "target": "file:frontend/src/components/ui/password-input.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routes/login.tsx",
+      "target": "file:frontend/src/hooks/useAuth.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routes/recover-password.tsx",
+      "target": "function:frontend/src/routes/recover-password.tsx:RecoverPassword",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/routes/recover-password.tsx",
+      "target": "file:frontend/src/client/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routes/recover-password.tsx",
+      "target": "file:frontend/src/components/Common/AuthLayout.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routes/recover-password.tsx",
+      "target": "file:frontend/src/components/ui/form.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routes/recover-password.tsx",
+      "target": "file:frontend/src/components/ui/input.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routes/recover-password.tsx",
+      "target": "file:frontend/src/components/ui/loading-button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routes/recover-password.tsx",
+      "target": "file:frontend/src/hooks/useAuth.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routes/recover-password.tsx",
+      "target": "file:frontend/src/hooks/useCustomToast.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routes/recover-password.tsx",
+      "target": "file:frontend/src/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routes/reset-password.tsx",
+      "target": "function:frontend/src/routes/reset-password.tsx:ResetPassword",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/routes/reset-password.tsx",
+      "target": "file:frontend/src/client/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routes/reset-password.tsx",
+      "target": "file:frontend/src/components/Common/AuthLayout.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routes/reset-password.tsx",
+      "target": "file:frontend/src/components/ui/form.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routes/reset-password.tsx",
+      "target": "file:frontend/src/components/ui/loading-button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routes/reset-password.tsx",
+      "target": "file:frontend/src/components/ui/password-input.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routes/reset-password.tsx",
+      "target": "file:frontend/src/hooks/useAuth.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routes/reset-password.tsx",
+      "target": "file:frontend/src/hooks/useCustomToast.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routes/reset-password.tsx",
+      "target": "file:frontend/src/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routes/signup.tsx",
+      "target": "function:frontend/src/routes/signup.tsx:SignUp",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/routes/signup.tsx",
+      "target": "file:frontend/src/components/Common/AuthLayout.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routes/signup.tsx",
+      "target": "file:frontend/src/components/ui/form.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routes/signup.tsx",
+      "target": "file:frontend/src/components/ui/input.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routes/signup.tsx",
+      "target": "file:frontend/src/components/ui/loading-button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routes/signup.tsx",
+      "target": "file:frontend/src/components/ui/password-input.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routes/signup.tsx",
+      "target": "file:frontend/src/hooks/useAuth.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/utils.ts",
+      "target": "function:frontend/src/utils.ts:extractErrorMessage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    }
+  ]
+}

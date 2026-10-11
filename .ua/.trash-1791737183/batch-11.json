@@ -1,0 +1,59 @@
+{
+  "nodes": [
+    {
+      "id": "document:backend/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "backend/README.md",
+      "summary": "T\u00e0i li\u1ec7u h\u01b0\u1edbng d\u1eabn v\u00e0 m\u00f4 t\u1ea3 k\u1ef9 thu\u1eadt (README.md).",
+      "tags": [
+        "document",
+        "backend",
+        "documentation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "config:backend/alembic.ini",
+      "type": "config",
+      "name": "alembic.ini",
+      "filePath": "backend/alembic.ini",
+      "summary": "C\u1ea5u h\u00ecnh v\u00e0 thi\u1ebft l\u1eadp c\u1ed1t l\u00f5i c\u1ee7a \u1ee9ng d\u1ee5ng (alembic.ini).",
+      "tags": [
+        "config",
+        "backend",
+        "configuration"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "config:backend/pyproject.toml",
+      "type": "config",
+      "name": "pyproject.toml",
+      "filePath": "backend/pyproject.toml",
+      "summary": "C\u1ea5u h\u00ecnh v\u00e0 thi\u1ebft l\u1eadp c\u1ed1t l\u00f5i c\u1ee7a \u1ee9ng d\u1ee5ng (pyproject.toml).",
+      "tags": [
+        "config",
+        "backend",
+        "configuration"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "config:backend/alembic.ini",
+      "target": "file:backend/app/main.py",
+      "type": "configures",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "config:backend/pyproject.toml",
+      "target": "file:backend/app/main.py",
+      "type": "configures",
+      "direction": "forward",
+      "weight": 0.6
+    }
+  ]
+}

@@ -1,0 +1,5457 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 28,
+  "filesSkipped": [],
+  "filesUnreadable": [],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 28,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 28,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "results": [
+    {
+      "path": "backend/app/__init__.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 1,
+      "nonEmptyLines": 0,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "backend/app/alembic/env.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 86,
+      "nonEmptyLines": 63,
+      "functions": [
+        {
+          "name": "get_url",
+          "startLine": 33,
+          "endLine": 34,
+          "params": []
+        },
+        {
+          "name": "run_migrations_offline",
+          "startLine": 37,
+          "endLine": 55,
+          "params": []
+        },
+        {
+          "name": "run_migrations_online",
+          "startLine": 58,
+          "endLine": 80,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "get_url",
+          "line": 33,
+          "isDefault": false
+        },
+        {
+          "name": "run_migrations_offline",
+          "line": 37,
+          "isDefault": false
+        },
+        {
+          "name": "run_migrations_online",
+          "line": 58,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "get_url",
+          "callee": "str",
+          "lineNumber": 34
+        },
+        {
+          "caller": "run_migrations_offline",
+          "callee": "get_url",
+          "lineNumber": 49
+        },
+        {
+          "caller": "run_migrations_offline",
+          "callee": "context.configure",
+          "lineNumber": 50
+        },
+        {
+          "caller": "run_migrations_offline",
+          "callee": "context.begin_transaction",
+          "lineNumber": 54
+        },
+        {
+          "caller": "run_migrations_offline",
+          "callee": "context.run_migrations",
+          "lineNumber": 55
+        },
+        {
+          "caller": "run_migrations_online",
+          "callee": "config.get_section",
+          "lineNumber": 65
+        },
+        {
+          "caller": "run_migrations_online",
+          "callee": "get_url",
+          "lineNumber": 67
+        },
+        {
+          "caller": "run_migrations_online",
+          "callee": "engine_from_config",
+          "lineNumber": 68
+        },
+        {
+          "caller": "run_migrations_online",
+          "callee": "connectable.connect",
+          "lineNumber": 74
+        },
+        {
+          "caller": "run_migrations_online",
+          "callee": "context.configure",
+          "lineNumber": 75
+        },
+        {
+          "caller": "run_migrations_online",
+          "callee": "context.begin_transaction",
+          "lineNumber": 79
+        },
+        {
+          "caller": "run_migrations_online",
+          "callee": "context.run_migrations",
+          "lineNumber": 80
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 3,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "backend/app/api/deps.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 57,
+      "nonEmptyLines": 44,
+      "functions": [
+        {
+          "name": "get_db",
+          "startLine": 21,
+          "endLine": 23,
+          "params": []
+        },
+        {
+          "name": "get_current_user",
+          "startLine": 30,
+          "endLine": 46,
+          "params": [
+            "session",
+            "token"
+          ]
+        },
+        {
+          "name": "get_current_active_superuser",
+          "startLine": 52,
+          "endLine": 57,
+          "params": [
+            "current_user"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "get_db",
+          "line": 21,
+          "isDefault": false
+        },
+        {
+          "name": "get_current_user",
+          "line": 30,
+          "isDefault": false
+        },
+        {
+          "name": "get_current_active_superuser",
+          "line": 52,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "get_db",
+          "callee": "Session",
+          "lineNumber": 22
+        },
+        {
+          "caller": "get_current_user",
+          "callee": "jwt.decode",
+          "lineNumber": 32
+        },
+        {
+          "caller": "get_current_user",
+          "callee": "TokenPayload",
+          "lineNumber": 35
+        },
+        {
+          "caller": "get_current_user",
+          "callee": "HTTPException",
+          "lineNumber": 37
+        },
+        {
+          "caller": "get_current_user",
+          "callee": "session.get",
+          "lineNumber": 41
+        },
+        {
+          "caller": "get_current_user",
+          "callee": "HTTPException",
+          "lineNumber": 43
+        },
+        {
+          "caller": "get_current_user",
+          "callee": "HTTPException",
+          "lineNumber": 45
+        },
+        {
+          "caller": "get_current_active_superuser",
+          "callee": "HTTPException",
+          "lineNumber": 54
+        }
+      ],
+      "metrics": {
+        "importCount": 5,
+        "exportCount": 3,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "backend/app/api/main.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 14,
+      "nonEmptyLines": 10,
+      "metrics": {
+        "importCount": 7,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "backend/app/api/routes/__init__.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 1,
+      "nonEmptyLines": 0,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "backend/app/api/routes/items.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 113,
+      "nonEmptyLines": 98,
+      "functions": [
+        {
+          "name": "read_items",
+          "startLine": 14,
+          "endLine": 45,
+          "params": [
+            "session",
+            "current_user",
+            "skip",
+            "limit"
+          ]
+        },
+        {
+          "name": "read_item",
+          "startLine": 49,
+          "endLine": 58,
+          "params": [
+            "session",
+            "current_user",
+            "id"
+          ]
+        },
+        {
+          "name": "create_item",
+          "startLine": 62,
+          "endLine": 72,
+          "params": [
+            "session",
+            "current_user",
+            "item_in"
+          ]
+        },
+        {
+          "name": "update_item",
+          "startLine": 76,
+          "endLine": 96,
+          "params": [
+            "session",
+            "current_user",
+            "id",
+            "item_in"
+          ]
+        },
+        {
+          "name": "delete_item",
+          "startLine": 100,
+          "endLine": 113,
+          "params": [
+            "session",
+            "current_user",
+            "id"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "read_items",
+          "line": 13,
+          "isDefault": false
+        },
+        {
+          "name": "read_item",
+          "line": 48,
+          "isDefault": false
+        },
+        {
+          "name": "create_item",
+          "line": 61,
+          "isDefault": false
+        },
+        {
+          "name": "update_item",
+          "line": 75,
+          "isDefault": false
+        },
+        {
+          "name": "delete_item",
+          "line": 99,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "read_items",
+          "callee": "select(func.count()).select_from",
+          "lineNumber": 22
+        },
+        {
+          "caller": "read_items",
+          "callee": "select",
+          "lineNumber": 22
+        },
+        {
+          "caller": "read_items",
+          "callee": "func.count",
+          "lineNumber": 22
+        },
+        {
+          "caller": "read_items",
+          "callee": "session.exec(count_statement).one",
+          "lineNumber": 23
+        },
+        {
+          "caller": "read_items",
+          "callee": "session.exec",
+          "lineNumber": 23
+        },
+        {
+          "caller": "read_items",
+          "callee": "select(Item).order_by(col(Item.created_at).desc()).offset(skip).limit",
+          "lineNumber": 25
+        },
+        {
+          "caller": "read_items",
+          "callee": "select(Item).order_by(col(Item.created_at).desc()).offset",
+          "lineNumber": 25
+        },
+        {
+          "caller": "read_items",
+          "callee": "select(Item).order_by",
+          "lineNumber": 25
+        },
+        {
+          "caller": "read_items",
+          "callee": "select",
+          "lineNumber": 25
+        },
+        {
+          "caller": "read_items",
+          "callee": "col(Item.created_at).desc",
+          "lineNumber": 25
+        },
+        {
+          "caller": "read_items",
+          "callee": "col",
+          "lineNumber": 25
+        },
+        {
+          "caller": "read_items",
+          "callee": "session.exec(statement).all",
+          "lineNumber": 27
+        },
+        {
+          "caller": "read_items",
+          "callee": "session.exec",
+          "lineNumber": 27
+        },
+        {
+          "caller": "read_items",
+          "callee": "select(func.count())\n            .select_from(Item)\n            .where",
+          "lineNumber": 30
+        },
+        {
+          "caller": "read_items",
+          "callee": "select(func.count())\n            .select_from",
+          "lineNumber": 30
+        },
+        {
+          "caller": "read_items",
+          "callee": "select",
+          "lineNumber": 30
+        },
+        {
+          "caller": "read_items",
+          "callee": "func.count",
+          "lineNumber": 30
+        },
+        {
+          "caller": "read_items",
+          "callee": "session.exec(count_statement).one",
+          "lineNumber": 34
+        },
+        {
+          "caller": "read_items",
+          "callee": "session.exec",
+          "lineNumber": 34
+        },
+        {
+          "caller": "read_items",
+          "callee": "select(Item)\n            .where(Item.owner_id == current_user.id)\n            .order_by(col(Item.created_at).desc())\n            .offset(skip)\n            .limit",
+          "lineNumber": 36
+        },
+        {
+          "caller": "read_items",
+          "callee": "select(Item)\n            .where(Item.owner_id == current_user.id)\n            .order_by(col(Item.created_at).desc())\n            .offset",
+          "lineNumber": 36
+        },
+        {
+          "caller": "read_items",
+          "callee": "select(Item)\n            .where(Item.owner_id == current_user.id)\n            .order_by",
+          "lineNumber": 36
+        },
+        {
+          "caller": "read_items",
+          "callee": "select(Item)\n            .where",
+          "lineNumber": 36
+        },
+        {
+          "caller": "read_items",
+          "callee": "select",
+          "lineNumber": 36
+        },
+        {
+          "caller": "read_items",
+          "callee": "col(Item.created_at).desc",
+          "lineNumber": 38
+        },
+        {
+          "caller": "read_items",
+          "callee": "col",
+          "lineNumber": 38
+        },
+        {
+          "caller": "read_items",
+          "callee": "session.exec(statement).all",
+          "lineNumber": 42
+        },
+        {
+          "caller": "read_items",
+          "callee": "session.exec",
+          "lineNumber": 42
+        },
+        {
+          "caller": "read_items",
+          "callee": "ItemPublic.model_validate",
+          "lineNumber": 44
+        },
+        {
+          "caller": "read_items",
+          "callee": "ItemsPublic",
+          "lineNumber": 45
+        },
+        {
+          "caller": "read_item",
+          "callee": "session.get",
+          "lineNumber": 53
+        },
+        {
+          "caller": "read_item",
+          "callee": "HTTPException",
+          "lineNumber": 55
+        },
+        {
+          "caller": "read_item",
+          "callee": "HTTPException",
+          "lineNumber": 57
+        },
+        {
+          "caller": "create_item",
+          "callee": "Item.model_validate",
+          "lineNumber": 68
+        },
+        {
+          "caller": "create_item",
+          "callee": "session.add",
+          "lineNumber": 69
+        },
+        {
+          "caller": "create_item",
+          "callee": "session.commit",
+          "lineNumber": 70
+        },
+        {
+          "caller": "create_item",
+          "callee": "session.refresh",
+          "lineNumber": 71
+        },
+        {
+          "caller": "update_item",
+          "callee": "session.get",
+          "lineNumber": 86
+        },
+        {
+          "caller": "update_item",
+          "callee": "HTTPException",
+          "lineNumber": 88
+        },
+        {
+          "caller": "update_item",
+          "callee": "HTTPException",
+          "lineNumber": 90
+        },
+        {
+          "caller": "update_item",
+          "callee": "item_in.model_dump",
+          "lineNumber": 91
+        },
+        {
+          "caller": "update_item",
+          "callee": "item.sqlmodel_update",
+          "lineNumber": 92
+        },
+        {
+          "caller": "update_item",
+          "callee": "session.add",
+          "lineNumber": 93
+        },
+        {
+          "caller": "update_item",
+          "callee": "session.commit",
+          "lineNumber": 94
+        },
+        {
+          "caller": "update_item",
+          "callee": "session.refresh",
+          "lineNumber": 95
+        },
+        {
+          "caller": "delete_item",
+          "callee": "session.get",
+          "lineNumber": 106
+        },
+        {
+          "caller": "delete_item",
+          "callee": "HTTPException",
+          "lineNumber": 108
+        },
+        {
+          "caller": "delete_item",
+          "callee": "HTTPException",
+          "lineNumber": 110
+        },
+        {
+          "caller": "delete_item",
+          "callee": "session.delete",
+          "lineNumber": 111
+        },
+        {
+          "caller": "delete_item",
+          "callee": "session.commit",
+          "lineNumber": 112
+        },
+        {
+          "caller": "delete_item",
+          "callee": "Message",
+          "lineNumber": 113
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 5,
+        "functionCount": 5,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "backend/app/api/routes/login.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 123,
+      "nonEmptyLines": 107,
+      "functions": [
+        {
+          "name": "login_access_token",
+          "startLine": 24,
+          "endLine": 42,
+          "params": [
+            "session",
+            "form_data"
+          ]
+        },
+        {
+          "name": "test_token",
+          "startLine": 46,
+          "endLine": 50,
+          "params": [
+            "current_user"
+          ]
+        },
+        {
+          "name": "recover_password",
+          "startLine": 54,
+          "endLine": 74,
+          "params": [
+            "email",
+            "session"
+          ]
+        },
+        {
+          "name": "reset_password",
+          "startLine": 78,
+          "endLine": 97,
+          "params": [
+            "session",
+            "body"
+          ]
+        },
+        {
+          "name": "recover_password_html_content",
+          "startLine": 105,
+          "endLine": 123,
+          "params": [
+            "email",
+            "session"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "login_access_token",
+          "line": 23,
+          "isDefault": false
+        },
+        {
+          "name": "test_token",
+          "line": 45,
+          "isDefault": false
+        },
+        {
+          "name": "recover_password",
+          "line": 53,
+          "isDefault": false
+        },
+        {
+          "name": "reset_password",
+          "line": 77,
+          "isDefault": false
+        },
+        {
+          "name": "recover_password_html_content",
+          "line": 100,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "login_access_token",
+          "callee": "Depends",
+          "lineNumber": 25
+        },
+        {
+          "caller": "login_access_token",
+          "callee": "crud.authenticate",
+          "lineNumber": 30
+        },
+        {
+          "caller": "login_access_token",
+          "callee": "HTTPException",
+          "lineNumber": 34
+        },
+        {
+          "caller": "login_access_token",
+          "callee": "HTTPException",
+          "lineNumber": 36
+        },
+        {
+          "caller": "login_access_token",
+          "callee": "timedelta",
+          "lineNumber": 37
+        },
+        {
+          "caller": "login_access_token",
+          "callee": "Token",
+          "lineNumber": 38
+        },
+        {
+          "caller": "login_access_token",
+          "callee": "security.create_access_token",
+          "lineNumber": 39
+        },
+        {
+          "caller": "recover_password",
+          "callee": "crud.get_user_by_email",
+          "lineNumber": 58
+        },
+        {
+          "caller": "recover_password",
+          "callee": "generate_password_reset_token",
+          "lineNumber": 63
+        },
+        {
+          "caller": "recover_password",
+          "callee": "generate_reset_password_email",
+          "lineNumber": 64
+        },
+        {
+          "caller": "recover_password",
+          "callee": "send_email",
+          "lineNumber": 67
+        },
+        {
+          "caller": "recover_password",
+          "callee": "Message",
+          "lineNumber": 72
+        },
+        {
+          "caller": "reset_password",
+          "callee": "verify_password_reset_token",
+          "lineNumber": 82
+        },
+        {
+          "caller": "reset_password",
+          "callee": "HTTPException",
+          "lineNumber": 84
+        },
+        {
+          "caller": "reset_password",
+          "callee": "crud.get_user_by_email",
+          "lineNumber": 85
+        },
+        {
+          "caller": "reset_password",
+          "callee": "HTTPException",
+          "lineNumber": 88
+        },
+        {
+          "caller": "reset_password",
+          "callee": "HTTPException",
+          "lineNumber": 90
+        },
+        {
+          "caller": "reset_password",
+          "callee": "UserUpdate",
+          "lineNumber": 91
+        },
+        {
+          "caller": "reset_password",
+          "callee": "crud.update_user",
+          "lineNumber": 92
+        },
+        {
+          "caller": "reset_password",
+          "callee": "Message",
+          "lineNumber": 97
+        },
+        {
+          "caller": "recover_password_html_content",
+          "callee": "crud.get_user_by_email",
+          "lineNumber": 109
+        },
+        {
+          "caller": "recover_password_html_content",
+          "callee": "HTTPException",
+          "lineNumber": 112
+        },
+        {
+          "caller": "recover_password_html_content",
+          "callee": "generate_password_reset_token",
+          "lineNumber": 116
+        },
+        {
+          "caller": "recover_password_html_content",
+          "callee": "generate_reset_password_email",
+          "lineNumber": 117
+        },
+        {
+          "caller": "recover_password_html_content",
+          "callee": "HTMLResponse",
+          "lineNumber": 121
+        }
+      ],
+      "metrics": {
+        "importCount": 8,
+        "exportCount": 5,
+        "functionCount": 5,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "backend/app/api/routes/private.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 38,
+      "nonEmptyLines": 28,
+      "functions": [
+        {
+          "name": "create_user",
+          "startLine": 24,
+          "endLine": 38,
+          "params": [
+            "user_in",
+            "session"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "PrivateUserCreate",
+          "startLine": 16,
+          "endLine": 20,
+          "methods": [],
+          "properties": [
+            "email",
+            "password",
+            "full_name",
+            "is_verified"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "PrivateUserCreate",
+          "line": 16,
+          "isDefault": false
+        },
+        {
+          "name": "create_user",
+          "line": 23,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "create_user",
+          "callee": "User",
+          "lineNumber": 29
+        },
+        {
+          "caller": "create_user",
+          "callee": "get_password_hash",
+          "lineNumber": 32
+        },
+        {
+          "caller": "create_user",
+          "callee": "session.add",
+          "lineNumber": 35
+        },
+        {
+          "caller": "create_user",
+          "callee": "session.commit",
+          "lineNumber": 36
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backend/app/api/routes/users.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 232,
+      "nonEmptyLines": 202,
+      "functions": [
+        {
+          "name": "read_users",
+          "startLine": 37,
+          "endLine": 51,
+          "params": [
+            "session",
+            "skip",
+            "limit"
+          ]
+        },
+        {
+          "name": "create_user",
+          "startLine": 57,
+          "endLine": 78,
+          "params": [
+            "session",
+            "user_in"
+          ]
+        },
+        {
+          "name": "update_user_me",
+          "startLine": 82,
+          "endLine": 100,
+          "params": [
+            "session",
+            "user_in",
+            "current_user"
+          ]
+        },
+        {
+          "name": "update_password_me",
+          "startLine": 104,
+          "endLine": 121,
+          "params": [
+            "session",
+            "body",
+            "current_user"
+          ]
+        },
+        {
+          "name": "read_user_me",
+          "startLine": 125,
+          "endLine": 129,
+          "params": [
+            "current_user"
+          ]
+        },
+        {
+          "name": "delete_user_me",
+          "startLine": 133,
+          "endLine": 143,
+          "params": [
+            "session",
+            "current_user"
+          ]
+        },
+        {
+          "name": "register_user",
+          "startLine": 147,
+          "endLine": 159,
+          "params": [
+            "session",
+            "user_in"
+          ]
+        },
+        {
+          "name": "read_user_by_id",
+          "startLine": 163,
+          "endLine": 179,
+          "params": [
+            "user_id",
+            "session",
+            "current_user"
+          ]
+        },
+        {
+          "name": "update_user",
+          "startLine": 187,
+          "endLine": 211,
+          "params": [
+            "session",
+            "user_id",
+            "user_in"
+          ]
+        },
+        {
+          "name": "delete_user",
+          "startLine": 215,
+          "endLine": 232,
+          "params": [
+            "session",
+            "current_user",
+            "user_id"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "read_users",
+          "line": 32,
+          "isDefault": false
+        },
+        {
+          "name": "create_user",
+          "line": 54,
+          "isDefault": false
+        },
+        {
+          "name": "update_user_me",
+          "line": 81,
+          "isDefault": false
+        },
+        {
+          "name": "update_password_me",
+          "line": 103,
+          "isDefault": false
+        },
+        {
+          "name": "read_user_me",
+          "line": 124,
+          "isDefault": false
+        },
+        {
+          "name": "delete_user_me",
+          "line": 132,
+          "isDefault": false
+        },
+        {
+          "name": "register_user",
+          "line": 146,
+          "isDefault": false
+        },
+        {
+          "name": "read_user_by_id",
+          "line": 162,
+          "isDefault": false
+        },
+        {
+          "name": "update_user",
+          "line": 182,
+          "isDefault": false
+        },
+        {
+          "name": "delete_user",
+          "line": 214,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "read_users",
+          "callee": "select(func.count()).select_from",
+          "lineNumber": 42
+        },
+        {
+          "caller": "read_users",
+          "callee": "select",
+          "lineNumber": 42
+        },
+        {
+          "caller": "read_users",
+          "callee": "func.count",
+          "lineNumber": 42
+        },
+        {
+          "caller": "read_users",
+          "callee": "session.exec(count_statement).one",
+          "lineNumber": 43
+        },
+        {
+          "caller": "read_users",
+          "callee": "session.exec",
+          "lineNumber": 43
+        },
+        {
+          "caller": "read_users",
+          "callee": "select(User).order_by(col(User.created_at).desc()).offset(skip).limit",
+          "lineNumber": 46
+        },
+        {
+          "caller": "read_users",
+          "callee": "select(User).order_by(col(User.created_at).desc()).offset",
+          "lineNumber": 46
+        },
+        {
+          "caller": "read_users",
+          "callee": "select(User).order_by",
+          "lineNumber": 46
+        },
+        {
+          "caller": "read_users",
+          "callee": "select",
+          "lineNumber": 46
+        },
+        {
+          "caller": "read_users",
+          "callee": "col(User.created_at).desc",
+          "lineNumber": 46
+        },
+        {
+          "caller": "read_users",
+          "callee": "col",
+          "lineNumber": 46
+        },
+        {
+          "caller": "read_users",
+          "callee": "session.exec(statement).all",
+          "lineNumber": 48
+        },
+        {
+          "caller": "read_users",
+          "callee": "session.exec",
+          "lineNumber": 48
+        },
+        {
+          "caller": "read_users",
+          "callee": "UserPublic.model_validate",
+          "lineNumber": 50
+        },
+        {
+          "caller": "read_users",
+          "callee": "UsersPublic",
+          "lineNumber": 51
+        },
+        {
+          "caller": "create_user",
+          "callee": "crud.get_user_by_email",
+          "lineNumber": 61
+        },
+        {
+          "caller": "create_user",
+          "callee": "HTTPException",
+          "lineNumber": 63
+        },
+        {
+          "caller": "create_user",
+          "callee": "crud.create_user",
+          "lineNumber": 68
+        },
+        {
+          "caller": "create_user",
+          "callee": "generate_new_account_email",
+          "lineNumber": 70
+        },
+        {
+          "caller": "create_user",
+          "callee": "send_email",
+          "lineNumber": 73
+        },
+        {
+          "caller": "update_user_me",
+          "callee": "crud.get_user_by_email",
+          "lineNumber": 90
+        },
+        {
+          "caller": "update_user_me",
+          "callee": "HTTPException",
+          "lineNumber": 92
+        },
+        {
+          "caller": "update_user_me",
+          "callee": "user_in.model_dump",
+          "lineNumber": 95
+        },
+        {
+          "caller": "update_user_me",
+          "callee": "current_user.sqlmodel_update",
+          "lineNumber": 96
+        },
+        {
+          "caller": "update_user_me",
+          "callee": "session.add",
+          "lineNumber": 97
+        },
+        {
+          "caller": "update_user_me",
+          "callee": "session.commit",
+          "lineNumber": 98
+        },
+        {
+          "caller": "update_user_me",
+          "callee": "session.refresh",
+          "lineNumber": 99
+        },
+        {
+          "caller": "update_password_me",
+          "callee": "verify_password",
+          "lineNumber": 110
+        },
+        {
+          "caller": "update_password_me",
+          "callee": "HTTPException",
+          "lineNumber": 112
+        },
+        {
+          "caller": "update_password_me",
+          "callee": "HTTPException",
+          "lineNumber": 114
+        },
+        {
+          "caller": "update_password_me",
+          "callee": "get_password_hash",
+          "lineNumber": 117
+        },
+        {
+          "caller": "update_password_me",
+          "callee": "session.add",
+          "lineNumber": 119
+        },
+        {
+          "caller": "update_password_me",
+          "callee": "session.commit",
+          "lineNumber": 120
+        },
+        {
+          "caller": "update_password_me",
+          "callee": "Message",
+          "lineNumber": 121
+        },
+        {
+          "caller": "delete_user_me",
+          "callee": "HTTPException",
+          "lineNumber": 138
+        },
+        {
+          "caller": "delete_user_me",
+          "callee": "session.delete",
+          "lineNumber": 141
+        },
+        {
+          "caller": "delete_user_me",
+          "callee": "session.commit",
+          "lineNumber": 142
+        },
+        {
+          "caller": "delete_user_me",
+          "callee": "Message",
+          "lineNumber": 143
+        },
+        {
+          "caller": "register_user",
+          "callee": "crud.get_user_by_email",
+          "lineNumber": 151
+        },
+        {
+          "caller": "register_user",
+          "callee": "HTTPException",
+          "lineNumber": 153
+        },
+        {
+          "caller": "register_user",
+          "callee": "UserCreate.model_validate",
+          "lineNumber": 157
+        },
+        {
+          "caller": "register_user",
+          "callee": "crud.create_user",
+          "lineNumber": 158
+        },
+        {
+          "caller": "read_user_by_id",
+          "callee": "session.get",
+          "lineNumber": 169
+        },
+        {
+          "caller": "read_user_by_id",
+          "callee": "HTTPException",
+          "lineNumber": 173
+        },
+        {
+          "caller": "read_user_by_id",
+          "callee": "HTTPException",
+          "lineNumber": 178
+        },
+        {
+          "caller": "update_user",
+          "callee": "session.get",
+          "lineNumber": 197
+        },
+        {
+          "caller": "update_user",
+          "callee": "HTTPException",
+          "lineNumber": 199
+        },
+        {
+          "caller": "update_user",
+          "callee": "crud.get_user_by_email",
+          "lineNumber": 204
+        },
+        {
+          "caller": "update_user",
+          "callee": "HTTPException",
+          "lineNumber": 206
+        },
+        {
+          "caller": "update_user",
+          "callee": "crud.update_user",
+          "lineNumber": 210
+        },
+        {
+          "caller": "delete_user",
+          "callee": "session.get",
+          "lineNumber": 221
+        },
+        {
+          "caller": "delete_user",
+          "callee": "HTTPException",
+          "lineNumber": 223
+        },
+        {
+          "caller": "delete_user",
+          "callee": "HTTPException",
+          "lineNumber": 225
+        },
+        {
+          "caller": "delete_user",
+          "callee": "delete(Item).where",
+          "lineNumber": 228
+        },
+        {
+          "caller": "delete_user",
+          "callee": "delete",
+          "lineNumber": 228
+        },
+        {
+          "caller": "delete_user",
+          "callee": "col",
+          "lineNumber": 228
+        },
+        {
+          "caller": "delete_user",
+          "callee": "session.exec",
+          "lineNumber": 229
+        },
+        {
+          "caller": "delete_user",
+          "callee": "session.delete",
+          "lineNumber": 230
+        },
+        {
+          "caller": "delete_user",
+          "callee": "session.commit",
+          "lineNumber": 231
+        },
+        {
+          "caller": "delete_user",
+          "callee": "Message",
+          "lineNumber": 232
+        }
+      ],
+      "metrics": {
+        "importCount": 7,
+        "exportCount": 10,
+        "functionCount": 10,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "backend/app/api/routes/utils.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 31,
+      "nonEmptyLines": 25,
+      "functions": [
+        {
+          "name": "test_email",
+          "startLine": 16,
+          "endLine": 26,
+          "params": [
+            "email_to"
+          ]
+        },
+        {
+          "name": "health_check",
+          "startLine": 30,
+          "endLine": 31,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "test_email",
+          "line": 11,
+          "isDefault": false
+        },
+        {
+          "name": "health_check",
+          "line": 29,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "test_email",
+          "callee": "generate_test_email",
+          "lineNumber": 20
+        },
+        {
+          "caller": "test_email",
+          "callee": "send_email",
+          "lineNumber": 21
+        },
+        {
+          "caller": "test_email",
+          "callee": "Message",
+          "lineNumber": 26
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 2,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "backend/app/core/__init__.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 1,
+      "nonEmptyLines": 0,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "backend/app/core/config.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 91,
+      "nonEmptyLines": 76,
+      "classes": [
+        {
+          "name": "Settings",
+          "startLine": 15,
+          "endLine": 88,
+          "methods": [
+            "_use_psycopg_driver",
+            "_set_default_emails_from",
+            "emails_enabled",
+            "_check_default_secret",
+            "_enforce_non_default_secrets"
+          ],
+          "properties": [
+            "API_V1_STR",
+            "SECRET_KEY",
+            "ACCESS_TOKEN_EXPIRE_MINUTES",
+            "FRONTEND_HOST",
+            "FASTAPI_ENV",
+            "PROJECT_NAME",
+            "SENTRY_DSN",
+            "DATABASE_URL",
+            "SMTP_TLS",
+            "SMTP_SSL",
+            "SMTP_PORT",
+            "SMTP_HOST",
+            "SMTP_USER",
+            "SMTP_PASSWORD",
+            "EMAILS_FROM_EMAIL",
+            "EMAILS_FROM_NAME",
+            "EMAIL_RESET_TOKEN_EXPIRE_HOURS",
+            "EMAIL_TEST_USER",
+            "FIRST_SUPERUSER",
+            "FIRST_SUPERUSER_PASSWORD"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Settings",
+          "line": 15,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "_use_psycopg_driver",
+          "callee": "str",
+          "lineNumber": 36
+        },
+        {
+          "caller": "_use_psycopg_driver",
+          "callee": "database_url.startswith",
+          "lineNumber": 38
+        },
+        {
+          "caller": "_use_psycopg_driver",
+          "callee": "database_url.replace",
+          "lineNumber": 39
+        },
+        {
+          "caller": "emails_enabled",
+          "callee": "bool",
+          "lineNumber": 62
+        },
+        {
+          "caller": "_check_default_secret",
+          "callee": "warnings.warn",
+          "lineNumber": 75
+        },
+        {
+          "caller": "_check_default_secret",
+          "callee": "ValueError",
+          "lineNumber": 77
+        },
+        {
+          "caller": "_enforce_non_default_secrets",
+          "callee": "self._check_default_secret",
+          "lineNumber": 81
+        },
+        {
+          "caller": "_enforce_non_default_secrets",
+          "callee": "self.DATABASE_URL.hosts",
+          "lineNumber": 82
+        },
+        {
+          "caller": "_enforce_non_default_secrets",
+          "callee": "self._check_default_secret",
+          "lineNumber": 83
+        },
+        {
+          "caller": "_enforce_non_default_secrets",
+          "callee": "self._check_default_secret",
+          "lineNumber": 84
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backend/app/core/db.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 33,
+      "nonEmptyLines": 25,
+      "functions": [
+        {
+          "name": "init_db",
+          "startLine": 15,
+          "endLine": 33,
+          "params": [
+            "session"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "init_db",
+          "line": 15,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "init_db",
+          "callee": "session.exec(\n        select(User).where(User.email == settings.FIRST_SUPERUSER)\n    ).first",
+          "lineNumber": 24
+        },
+        {
+          "caller": "init_db",
+          "callee": "session.exec",
+          "lineNumber": 24
+        },
+        {
+          "caller": "init_db",
+          "callee": "select(User).where",
+          "lineNumber": 25
+        },
+        {
+          "caller": "init_db",
+          "callee": "select",
+          "lineNumber": 25
+        },
+        {
+          "caller": "init_db",
+          "callee": "UserCreate",
+          "lineNumber": 28
+        },
+        {
+          "caller": "init_db",
+          "callee": "crud.create_user",
+          "lineNumber": 33
+        }
+      ],
+      "metrics": {
+        "importCount": 4,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "backend/app/core/security.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 36,
+      "nonEmptyLines": 25,
+      "functions": [
+        {
+          "name": "create_access_token",
+          "startLine": 22,
+          "endLine": 26,
+          "params": [
+            "subject",
+            "expires_delta"
+          ]
+        },
+        {
+          "name": "verify_password",
+          "startLine": 29,
+          "endLine": 32,
+          "params": [
+            "plain_password",
+            "hashed_password"
+          ]
+        },
+        {
+          "name": "get_password_hash",
+          "startLine": 35,
+          "endLine": 36,
+          "params": [
+            "password"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "create_access_token",
+          "line": 22,
+          "isDefault": false
+        },
+        {
+          "name": "verify_password",
+          "line": 29,
+          "isDefault": false
+        },
+        {
+          "name": "get_password_hash",
+          "line": 35,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "create_access_token",
+          "callee": "datetime.now",
+          "lineNumber": 23
+        },
+        {
+          "caller": "create_access_token",
+          "callee": "str",
+          "lineNumber": 24
+        },
+        {
+          "caller": "create_access_token",
+          "callee": "jwt.encode",
+          "lineNumber": 25
+        },
+        {
+          "caller": "verify_password",
+          "callee": "password_hash.verify_and_update",
+          "lineNumber": 32
+        },
+        {
+          "caller": "get_password_hash",
+          "callee": "password_hash.hash",
+          "lineNumber": 36
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 3,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "backend/app/crud.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 68,
+      "nonEmptyLines": 54,
+      "functions": [
+        {
+          "name": "create_user",
+          "startLine": 10,
+          "endLine": 17,
+          "params": [
+            "session",
+            "user_create"
+          ]
+        },
+        {
+          "name": "update_user",
+          "startLine": 20,
+          "endLine": 31,
+          "params": [
+            "session",
+            "db_user",
+            "user_in"
+          ]
+        },
+        {
+          "name": "get_user_by_email",
+          "startLine": 34,
+          "endLine": 37,
+          "params": [
+            "session",
+            "email"
+          ]
+        },
+        {
+          "name": "authenticate",
+          "startLine": 45,
+          "endLine": 60,
+          "params": [
+            "session",
+            "email",
+            "password"
+          ]
+        },
+        {
+          "name": "create_item",
+          "startLine": 63,
+          "endLine": 68,
+          "params": [
+            "session",
+            "item_in",
+            "owner_id"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "create_user",
+          "line": 10,
+          "isDefault": false
+        },
+        {
+          "name": "update_user",
+          "line": 20,
+          "isDefault": false
+        },
+        {
+          "name": "get_user_by_email",
+          "line": 34,
+          "isDefault": false
+        },
+        {
+          "name": "authenticate",
+          "line": 45,
+          "isDefault": false
+        },
+        {
+          "name": "create_item",
+          "line": 63,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "create_user",
+          "callee": "User.model_validate",
+          "lineNumber": 11
+        },
+        {
+          "caller": "create_user",
+          "callee": "get_password_hash",
+          "lineNumber": 12
+        },
+        {
+          "caller": "create_user",
+          "callee": "session.add",
+          "lineNumber": 14
+        },
+        {
+          "caller": "create_user",
+          "callee": "session.commit",
+          "lineNumber": 15
+        },
+        {
+          "caller": "create_user",
+          "callee": "session.refresh",
+          "lineNumber": 16
+        },
+        {
+          "caller": "update_user",
+          "callee": "user_in.model_dump",
+          "lineNumber": 21
+        },
+        {
+          "caller": "update_user",
+          "callee": "get_password_hash",
+          "lineNumber": 25
+        },
+        {
+          "caller": "update_user",
+          "callee": "db_user.sqlmodel_update",
+          "lineNumber": 27
+        },
+        {
+          "caller": "update_user",
+          "callee": "session.add",
+          "lineNumber": 28
+        },
+        {
+          "caller": "update_user",
+          "callee": "session.commit",
+          "lineNumber": 29
+        },
+        {
+          "caller": "update_user",
+          "callee": "session.refresh",
+          "lineNumber": 30
+        },
+        {
+          "caller": "get_user_by_email",
+          "callee": "select(User).where",
+          "lineNumber": 35
+        },
+        {
+          "caller": "get_user_by_email",
+          "callee": "select",
+          "lineNumber": 35
+        },
+        {
+          "caller": "get_user_by_email",
+          "callee": "session.exec(statement).first",
+          "lineNumber": 36
+        },
+        {
+          "caller": "get_user_by_email",
+          "callee": "session.exec",
+          "lineNumber": 36
+        },
+        {
+          "caller": "authenticate",
+          "callee": "get_user_by_email",
+          "lineNumber": 46
+        },
+        {
+          "caller": "authenticate",
+          "callee": "verify_password",
+          "lineNumber": 50
+        },
+        {
+          "caller": "authenticate",
+          "callee": "verify_password",
+          "lineNumber": 52
+        },
+        {
+          "caller": "authenticate",
+          "callee": "session.add",
+          "lineNumber": 57
+        },
+        {
+          "caller": "authenticate",
+          "callee": "session.commit",
+          "lineNumber": 58
+        },
+        {
+          "caller": "authenticate",
+          "callee": "session.refresh",
+          "lineNumber": 59
+        },
+        {
+          "caller": "create_item",
+          "callee": "Item.model_validate",
+          "lineNumber": 64
+        },
+        {
+          "caller": "create_item",
+          "callee": "session.add",
+          "lineNumber": 65
+        },
+        {
+          "caller": "create_item",
+          "callee": "session.commit",
+          "lineNumber": 66
+        },
+        {
+          "caller": "create_item",
+          "callee": "session.refresh",
+          "lineNumber": 67
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 5,
+        "functionCount": 5,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "backend/app/initial_data.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 23,
+      "nonEmptyLines": 14,
+      "functions": [
+        {
+          "name": "init",
+          "startLine": 11,
+          "endLine": 13,
+          "params": []
+        },
+        {
+          "name": "main",
+          "startLine": 16,
+          "endLine": 19,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "init",
+          "line": 11,
+          "isDefault": false
+        },
+        {
+          "name": "main",
+          "line": 16,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "init",
+          "callee": "Session",
+          "lineNumber": 12
+        },
+        {
+          "caller": "init",
+          "callee": "init_db",
+          "lineNumber": 13
+        },
+        {
+          "caller": "main",
+          "callee": "logger.info",
+          "lineNumber": 17
+        },
+        {
+          "caller": "main",
+          "callee": "init",
+          "lineNumber": 18
+        },
+        {
+          "caller": "main",
+          "callee": "logger.info",
+          "lineNumber": 19
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 2,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "backend/app/main.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 36,
+      "nonEmptyLines": 26,
+      "functions": [
+        {
+          "name": "custom_generate_unique_id",
+          "startLine": 14,
+          "endLine": 15,
+          "params": [
+            "route"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "custom_generate_unique_id",
+          "line": 14,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "backend/app/models.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 133,
+      "nonEmptyLines": 92,
+      "functions": [
+        {
+          "name": "get_datetime_utc",
+          "startLine": 9,
+          "endLine": 10,
+          "params": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "UserBase",
+          "startLine": 14,
+          "endLine": 18,
+          "methods": [],
+          "properties": [
+            "email",
+            "is_active",
+            "is_superuser",
+            "full_name"
+          ]
+        },
+        {
+          "name": "UserCreate",
+          "startLine": 22,
+          "endLine": 23,
+          "methods": [],
+          "properties": [
+            "password"
+          ]
+        },
+        {
+          "name": "UserRegister",
+          "startLine": 26,
+          "endLine": 29,
+          "methods": [],
+          "properties": [
+            "email",
+            "password",
+            "full_name"
+          ]
+        },
+        {
+          "name": "UserUpdate",
+          "startLine": 33,
+          "endLine": 38,
+          "methods": [],
+          "properties": [
+            "email",
+            "is_active",
+            "is_superuser",
+            "full_name",
+            "password"
+          ]
+        },
+        {
+          "name": "UserUpdateMe",
+          "startLine": 41,
+          "endLine": 43,
+          "methods": [],
+          "properties": [
+            "full_name",
+            "email"
+          ]
+        },
+        {
+          "name": "UpdatePassword",
+          "startLine": 46,
+          "endLine": 48,
+          "methods": [],
+          "properties": [
+            "current_password",
+            "new_password"
+          ]
+        },
+        {
+          "name": "User",
+          "startLine": 52,
+          "endLine": 59,
+          "methods": [],
+          "properties": [
+            "id",
+            "hashed_password",
+            "created_at",
+            "items"
+          ]
+        },
+        {
+          "name": "UserPublic",
+          "startLine": 63,
+          "endLine": 65,
+          "methods": [],
+          "properties": [
+            "id",
+            "created_at"
+          ]
+        },
+        {
+          "name": "UsersPublic",
+          "startLine": 68,
+          "endLine": 70,
+          "methods": [],
+          "properties": [
+            "data",
+            "count"
+          ]
+        },
+        {
+          "name": "ItemBase",
+          "startLine": 74,
+          "endLine": 76,
+          "methods": [],
+          "properties": [
+            "title",
+            "description"
+          ]
+        },
+        {
+          "name": "ItemCreate",
+          "startLine": 80,
+          "endLine": 81,
+          "methods": [],
+          "properties": []
+        },
+        {
+          "name": "ItemUpdate",
+          "startLine": 85,
+          "endLine": 87,
+          "methods": [],
+          "properties": [
+            "title",
+            "description"
+          ]
+        },
+        {
+          "name": "Item",
+          "startLine": 91,
+          "endLine": 100,
+          "methods": [],
+          "properties": [
+            "id",
+            "created_at",
+            "owner_id",
+            "owner"
+          ]
+        },
+        {
+          "name": "ItemPublic",
+          "startLine": 104,
+          "endLine": 107,
+          "methods": [],
+          "properties": [
+            "id",
+            "owner_id",
+            "created_at"
+          ]
+        },
+        {
+          "name": "ItemsPublic",
+          "startLine": 110,
+          "endLine": 112,
+          "methods": [],
+          "properties": [
+            "data",
+            "count"
+          ]
+        },
+        {
+          "name": "Message",
+          "startLine": 116,
+          "endLine": 117,
+          "methods": [],
+          "properties": [
+            "message"
+          ]
+        },
+        {
+          "name": "Token",
+          "startLine": 121,
+          "endLine": 123,
+          "methods": [],
+          "properties": [
+            "access_token",
+            "token_type"
+          ]
+        },
+        {
+          "name": "TokenPayload",
+          "startLine": 127,
+          "endLine": 128,
+          "methods": [],
+          "properties": [
+            "sub"
+          ]
+        },
+        {
+          "name": "NewPassword",
+          "startLine": 131,
+          "endLine": 133,
+          "methods": [],
+          "properties": [
+            "token",
+            "new_password"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "get_datetime_utc",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "UserBase",
+          "line": 14,
+          "isDefault": false
+        },
+        {
+          "name": "UserCreate",
+          "line": 22,
+          "isDefault": false
+        },
+        {
+          "name": "UserRegister",
+          "line": 26,
+          "isDefault": false
+        },
+        {
+          "name": "UserUpdate",
+          "line": 33,
+          "isDefault": false
+        },
+        {
+          "name": "UserUpdateMe",
+          "line": 41,
+          "isDefault": false
+        },
+        {
+          "name": "UpdatePassword",
+          "line": 46,
+          "isDefault": false
+        },
+        {
+          "name": "User",
+          "line": 52,
+          "isDefault": false
+        },
+        {
+          "name": "UserPublic",
+          "line": 63,
+          "isDefault": false
+        },
+        {
+          "name": "UsersPublic",
+          "line": 68,
+          "isDefault": false
+        },
+        {
+          "name": "ItemBase",
+          "line": 74,
+          "isDefault": false
+        },
+        {
+          "name": "ItemCreate",
+          "line": 80,
+          "isDefault": false
+        },
+        {
+          "name": "ItemUpdate",
+          "line": 85,
+          "isDefault": false
+        },
+        {
+          "name": "Item",
+          "line": 91,
+          "isDefault": false
+        },
+        {
+          "name": "ItemPublic",
+          "line": 104,
+          "isDefault": false
+        },
+        {
+          "name": "ItemsPublic",
+          "line": 110,
+          "isDefault": false
+        },
+        {
+          "name": "Message",
+          "line": 116,
+          "isDefault": false
+        },
+        {
+          "name": "Token",
+          "line": 121,
+          "isDefault": false
+        },
+        {
+          "name": "TokenPayload",
+          "line": 127,
+          "isDefault": false
+        },
+        {
+          "name": "NewPassword",
+          "line": 131,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "get_datetime_utc",
+          "callee": "datetime.now",
+          "lineNumber": 10
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 20,
+        "functionCount": 1,
+        "classCount": 19
+      }
+    },
+    {
+      "path": "backend/app/utils.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 125,
+      "nonEmptyLines": 106,
+      "functions": [
+        {
+          "name": "render_email_template",
+          "startLine": 25,
+          "endLine": 31,
+          "params": [
+            "template_name",
+            "context"
+          ]
+        },
+        {
+          "name": "send_email",
+          "startLine": 34,
+          "endLine": 57,
+          "params": [
+            "email_to",
+            "subject",
+            "html_content"
+          ]
+        },
+        {
+          "name": "generate_test_email",
+          "startLine": 60,
+          "endLine": 67,
+          "params": [
+            "email_to"
+          ]
+        },
+        {
+          "name": "generate_reset_password_email",
+          "startLine": 70,
+          "endLine": 84,
+          "params": [
+            "email_to",
+            "email",
+            "token"
+          ]
+        },
+        {
+          "name": "generate_new_account_email",
+          "startLine": 87,
+          "endLine": 102,
+          "params": [
+            "email_to",
+            "username",
+            "password"
+          ]
+        },
+        {
+          "name": "generate_password_reset_token",
+          "startLine": 105,
+          "endLine": 115,
+          "params": [
+            "email"
+          ]
+        },
+        {
+          "name": "verify_password_reset_token",
+          "startLine": 118,
+          "endLine": 125,
+          "params": [
+            "token"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "EmailData",
+          "startLine": 20,
+          "endLine": 22,
+          "methods": [],
+          "properties": [
+            "html_content",
+            "subject"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "EmailData",
+          "line": 19,
+          "isDefault": false
+        },
+        {
+          "name": "render_email_template",
+          "line": 25,
+          "isDefault": false
+        },
+        {
+          "name": "send_email",
+          "line": 34,
+          "isDefault": false
+        },
+        {
+          "name": "generate_test_email",
+          "line": 60,
+          "isDefault": false
+        },
+        {
+          "name": "generate_reset_password_email",
+          "line": 70,
+          "isDefault": false
+        },
+        {
+          "name": "generate_new_account_email",
+          "line": 87,
+          "isDefault": false
+        },
+        {
+          "name": "generate_password_reset_token",
+          "line": 105,
+          "isDefault": false
+        },
+        {
+          "name": "verify_password_reset_token",
+          "line": 118,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "render_email_template",
+          "callee": "(\n        Path(__file__).parent / \"email-templates\" / template_name\n    ).read_text",
+          "lineNumber": 26
+        },
+        {
+          "caller": "render_email_template",
+          "callee": "Path",
+          "lineNumber": 27
+        },
+        {
+          "caller": "render_email_template",
+          "callee": "Template",
+          "lineNumber": 29
+        },
+        {
+          "caller": "render_email_template",
+          "callee": "template.render",
+          "lineNumber": 30
+        },
+        {
+          "caller": "send_email",
+          "callee": "emails.message.Message",
+          "lineNumber": 42
+        },
+        {
+          "caller": "send_email",
+          "callee": "message.send",
+          "lineNumber": 56
+        },
+        {
+          "caller": "send_email",
+          "callee": "logger.info",
+          "lineNumber": 57
+        },
+        {
+          "caller": "generate_test_email",
+          "callee": "render_email_template",
+          "lineNumber": 63
+        },
+        {
+          "caller": "generate_test_email",
+          "callee": "EmailData",
+          "lineNumber": 67
+        },
+        {
+          "caller": "generate_reset_password_email",
+          "callee": "render_email_template",
+          "lineNumber": 74
+        },
+        {
+          "caller": "generate_reset_password_email",
+          "callee": "EmailData",
+          "lineNumber": 84
+        },
+        {
+          "caller": "generate_new_account_email",
+          "callee": "render_email_template",
+          "lineNumber": 92
+        },
+        {
+          "caller": "generate_new_account_email",
+          "callee": "EmailData",
+          "lineNumber": 102
+        },
+        {
+          "caller": "generate_password_reset_token",
+          "callee": "timedelta",
+          "lineNumber": 106
+        },
+        {
+          "caller": "generate_password_reset_token",
+          "callee": "datetime.now",
+          "lineNumber": 107
+        },
+        {
+          "caller": "generate_password_reset_token",
+          "callee": "expires.timestamp",
+          "lineNumber": 109
+        },
+        {
+          "caller": "generate_password_reset_token",
+          "callee": "jwt.encode",
+          "lineNumber": 110
+        },
+        {
+          "caller": "verify_password_reset_token",
+          "callee": "jwt.decode",
+          "lineNumber": 120
+        },
+        {
+          "caller": "verify_password_reset_token",
+          "callee": "str",
+          "lineNumber": 123
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 8,
+        "functionCount": 7,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "backend/tests/api/routes/test_items.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 164,
+      "nonEmptyLines": 140,
+      "functions": [
+        {
+          "name": "test_create_item",
+          "startLine": 10,
+          "endLine": 24,
+          "params": [
+            "client",
+            "superuser_token_headers"
+          ]
+        },
+        {
+          "name": "test_read_item",
+          "startLine": 27,
+          "endLine": 40,
+          "params": [
+            "client",
+            "superuser_token_headers",
+            "db"
+          ]
+        },
+        {
+          "name": "test_read_item_not_found",
+          "startLine": 43,
+          "endLine": 52,
+          "params": [
+            "client",
+            "superuser_token_headers"
+          ]
+        },
+        {
+          "name": "test_read_item_not_enough_permissions",
+          "startLine": 55,
+          "endLine": 65,
+          "params": [
+            "client",
+            "normal_user_token_headers",
+            "db"
+          ]
+        },
+        {
+          "name": "test_read_items",
+          "startLine": 68,
+          "endLine": 79,
+          "params": [
+            "client",
+            "superuser_token_headers",
+            "db"
+          ]
+        },
+        {
+          "name": "test_update_item",
+          "startLine": 82,
+          "endLine": 97,
+          "params": [
+            "client",
+            "superuser_token_headers",
+            "db"
+          ]
+        },
+        {
+          "name": "test_update_item_not_found",
+          "startLine": 100,
+          "endLine": 111,
+          "params": [
+            "client",
+            "superuser_token_headers"
+          ]
+        },
+        {
+          "name": "test_update_item_not_enough_permissions",
+          "startLine": 114,
+          "endLine": 126,
+          "params": [
+            "client",
+            "normal_user_token_headers",
+            "db"
+          ]
+        },
+        {
+          "name": "test_delete_item",
+          "startLine": 129,
+          "endLine": 139,
+          "params": [
+            "client",
+            "superuser_token_headers",
+            "db"
+          ]
+        },
+        {
+          "name": "test_delete_item_not_found",
+          "startLine": 142,
+          "endLine": 151,
+          "params": [
+            "client",
+            "superuser_token_headers"
+          ]
+        },
+        {
+          "name": "test_delete_item_not_enough_permissions",
+          "startLine": 154,
+          "endLine": 164,
+          "params": [
+            "client",
+            "normal_user_token_headers",
+            "db"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "test_create_item",
+          "line": 10,
+          "isDefault": false
+        },
+        {
+          "name": "test_read_item",
+          "line": 27,
+          "isDefault": false
+        },
+        {
+          "name": "test_read_item_not_found",
+          "line": 43,
+          "isDefault": false
+        },
+        {
+          "name": "test_read_item_not_enough_permissions",
+          "line": 55,
+          "isDefault": false
+        },
+        {
+          "name": "test_read_items",
+          "line": 68,
+          "isDefault": false
+        },
+        {
+          "name": "test_update_item",
+          "line": 82,
+          "isDefault": false
+        },
+        {
+          "name": "test_update_item_not_found",
+          "line": 100,
+          "isDefault": false
+        },
+        {
+          "name": "test_update_item_not_enough_permissions",
+          "line": 114,
+          "isDefault": false
+        },
+        {
+          "name": "test_delete_item",
+          "line": 129,
+          "isDefault": false
+        },
+        {
+          "name": "test_delete_item_not_found",
+          "line": 142,
+          "isDefault": false
+        },
+        {
+          "name": "test_delete_item_not_enough_permissions",
+          "line": 154,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "test_create_item",
+          "callee": "client.post",
+          "lineNumber": 14
+        },
+        {
+          "caller": "test_create_item",
+          "callee": "response.json",
+          "lineNumber": 20
+        },
+        {
+          "caller": "test_read_item",
+          "callee": "create_random_item",
+          "lineNumber": 30
+        },
+        {
+          "caller": "test_read_item",
+          "callee": "client.get",
+          "lineNumber": 31
+        },
+        {
+          "caller": "test_read_item",
+          "callee": "response.json",
+          "lineNumber": 36
+        },
+        {
+          "caller": "test_read_item",
+          "callee": "str",
+          "lineNumber": 39
+        },
+        {
+          "caller": "test_read_item",
+          "callee": "str",
+          "lineNumber": 40
+        },
+        {
+          "caller": "test_read_item_not_found",
+          "callee": "client.get",
+          "lineNumber": 46
+        },
+        {
+          "caller": "test_read_item_not_found",
+          "callee": "uuid.uuid4",
+          "lineNumber": 47
+        },
+        {
+          "caller": "test_read_item_not_found",
+          "callee": "response.json",
+          "lineNumber": 51
+        },
+        {
+          "caller": "test_read_item_not_enough_permissions",
+          "callee": "create_random_item",
+          "lineNumber": 58
+        },
+        {
+          "caller": "test_read_item_not_enough_permissions",
+          "callee": "client.get",
+          "lineNumber": 59
+        },
+        {
+          "caller": "test_read_item_not_enough_permissions",
+          "callee": "response.json",
+          "lineNumber": 64
+        },
+        {
+          "caller": "test_read_items",
+          "callee": "create_random_item",
+          "lineNumber": 71
+        },
+        {
+          "caller": "test_read_items",
+          "callee": "create_random_item",
+          "lineNumber": 72
+        },
+        {
+          "caller": "test_read_items",
+          "callee": "client.get",
+          "lineNumber": 73
+        },
+        {
+          "caller": "test_read_items",
+          "callee": "response.json",
+          "lineNumber": 78
+        },
+        {
+          "caller": "test_read_items",
+          "callee": "len",
+          "lineNumber": 79
+        },
+        {
+          "caller": "test_update_item",
+          "callee": "create_random_item",
+          "lineNumber": 85
+        },
+        {
+          "caller": "test_update_item",
+          "callee": "client.put",
+          "lineNumber": 87
+        },
+        {
+          "caller": "test_update_item",
+          "callee": "response.json",
+          "lineNumber": 93
+        },
+        {
+          "caller": "test_update_item",
+          "callee": "str",
+          "lineNumber": 96
+        },
+        {
+          "caller": "test_update_item",
+          "callee": "str",
+          "lineNumber": 97
+        },
+        {
+          "caller": "test_update_item_not_found",
+          "callee": "client.put",
+          "lineNumber": 104
+        },
+        {
+          "caller": "test_update_item_not_found",
+          "callee": "uuid.uuid4",
+          "lineNumber": 105
+        },
+        {
+          "caller": "test_update_item_not_found",
+          "callee": "response.json",
+          "lineNumber": 110
+        },
+        {
+          "caller": "test_update_item_not_enough_permissions",
+          "callee": "create_random_item",
+          "lineNumber": 117
+        },
+        {
+          "caller": "test_update_item_not_enough_permissions",
+          "callee": "client.put",
+          "lineNumber": 119
+        },
+        {
+          "caller": "test_update_item_not_enough_permissions",
+          "callee": "response.json",
+          "lineNumber": 125
+        },
+        {
+          "caller": "test_delete_item",
+          "callee": "create_random_item",
+          "lineNumber": 132
+        },
+        {
+          "caller": "test_delete_item",
+          "callee": "client.delete",
+          "lineNumber": 133
+        },
+        {
+          "caller": "test_delete_item",
+          "callee": "response.json",
+          "lineNumber": 138
+        },
+        {
+          "caller": "test_delete_item_not_found",
+          "callee": "client.delete",
+          "lineNumber": 145
+        },
+        {
+          "caller": "test_delete_item_not_found",
+          "callee": "uuid.uuid4",
+          "lineNumber": 146
+        },
+        {
+          "caller": "test_delete_item_not_found",
+          "callee": "response.json",
+          "lineNumber": 150
+        },
+        {
+          "caller": "test_delete_item_not_enough_permissions",
+          "callee": "create_random_item",
+          "lineNumber": 157
+        },
+        {
+          "caller": "test_delete_item_not_enough_permissions",
+          "callee": "client.delete",
+          "lineNumber": 158
+        },
+        {
+          "caller": "test_delete_item_not_enough_permissions",
+          "callee": "response.json",
+          "lineNumber": 163
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 11,
+        "functionCount": 11,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "backend/tests/api/routes/test_login.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 191,
+      "nonEmptyLines": 153,
+      "functions": [
+        {
+          "name": "test_get_access_token",
+          "startLine": 16,
+          "endLine": 25,
+          "params": [
+            "client"
+          ]
+        },
+        {
+          "name": "test_get_access_token_incorrect_password",
+          "startLine": 28,
+          "endLine": 34,
+          "params": [
+            "client"
+          ]
+        },
+        {
+          "name": "test_use_access_token",
+          "startLine": 37,
+          "endLine": 46,
+          "params": [
+            "client",
+            "superuser_token_headers"
+          ]
+        },
+        {
+          "name": "test_recovery_password",
+          "startLine": 49,
+          "endLine": 64,
+          "params": [
+            "client",
+            "normal_user_token_headers"
+          ]
+        },
+        {
+          "name": "test_recovery_password_user_not_exits",
+          "startLine": 67,
+          "endLine": 79,
+          "params": [
+            "client",
+            "normal_user_token_headers"
+          ]
+        },
+        {
+          "name": "test_reset_password",
+          "startLine": 82,
+          "endLine": 110,
+          "params": [
+            "client",
+            "db"
+          ]
+        },
+        {
+          "name": "test_reset_password_invalid_token",
+          "startLine": 113,
+          "endLine": 126,
+          "params": [
+            "client",
+            "superuser_token_headers"
+          ]
+        },
+        {
+          "name": "test_login_with_bcrypt_password_upgrades_to_argon2",
+          "startLine": 129,
+          "endLine": 162,
+          "params": [
+            "client",
+            "db"
+          ]
+        },
+        {
+          "name": "test_login_with_argon2_password_keeps_hash",
+          "startLine": 165,
+          "endLine": 191,
+          "params": [
+            "client",
+            "db"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "test_get_access_token",
+          "line": 16,
+          "isDefault": false
+        },
+        {
+          "name": "test_get_access_token_incorrect_password",
+          "line": 28,
+          "isDefault": false
+        },
+        {
+          "name": "test_use_access_token",
+          "line": 37,
+          "isDefault": false
+        },
+        {
+          "name": "test_recovery_password",
+          "line": 49,
+          "isDefault": false
+        },
+        {
+          "name": "test_recovery_password_user_not_exits",
+          "line": 67,
+          "isDefault": false
+        },
+        {
+          "name": "test_reset_password",
+          "line": 82,
+          "isDefault": false
+        },
+        {
+          "name": "test_reset_password_invalid_token",
+          "line": 113,
+          "isDefault": false
+        },
+        {
+          "name": "test_login_with_bcrypt_password_upgrades_to_argon2",
+          "line": 129,
+          "isDefault": false
+        },
+        {
+          "name": "test_login_with_argon2_password_keeps_hash",
+          "line": 165,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "test_get_access_token",
+          "callee": "client.post",
+          "lineNumber": 21
+        },
+        {
+          "caller": "test_get_access_token",
+          "callee": "r.json",
+          "lineNumber": 22
+        },
+        {
+          "caller": "test_get_access_token_incorrect_password",
+          "callee": "client.post",
+          "lineNumber": 33
+        },
+        {
+          "caller": "test_use_access_token",
+          "callee": "client.post",
+          "lineNumber": 40
+        },
+        {
+          "caller": "test_use_access_token",
+          "callee": "r.json",
+          "lineNumber": 44
+        },
+        {
+          "caller": "test_recovery_password",
+          "callee": "patch",
+          "lineNumber": 53
+        },
+        {
+          "caller": "test_recovery_password",
+          "callee": "patch",
+          "lineNumber": 54
+        },
+        {
+          "caller": "test_recovery_password",
+          "callee": "client.post",
+          "lineNumber": 57
+        },
+        {
+          "caller": "test_recovery_password",
+          "callee": "r.json",
+          "lineNumber": 62
+        },
+        {
+          "caller": "test_recovery_password_user_not_exits",
+          "callee": "client.post",
+          "lineNumber": 71
+        },
+        {
+          "caller": "test_recovery_password_user_not_exits",
+          "callee": "r.json",
+          "lineNumber": 77
+        },
+        {
+          "caller": "test_reset_password",
+          "callee": "random_email",
+          "lineNumber": 83
+        },
+        {
+          "caller": "test_reset_password",
+          "callee": "random_lower_string",
+          "lineNumber": 84
+        },
+        {
+          "caller": "test_reset_password",
+          "callee": "random_lower_string",
+          "lineNumber": 85
+        },
+        {
+          "caller": "test_reset_password",
+          "callee": "UserCreate",
+          "lineNumber": 87
+        },
+        {
+          "caller": "test_reset_password",
+          "callee": "create_user",
+          "lineNumber": 94
+        },
+        {
+          "caller": "test_reset_password",
+          "callee": "generate_password_reset_token",
+          "lineNumber": 95
+        },
+        {
+          "caller": "test_reset_password",
+          "callee": "user_authentication_headers",
+          "lineNumber": 96
+        },
+        {
+          "caller": "test_reset_password",
+          "callee": "client.post",
+          "lineNumber": 99
+        },
+        {
+          "caller": "test_reset_password",
+          "callee": "r.json",
+          "lineNumber": 106
+        },
+        {
+          "caller": "test_reset_password",
+          "callee": "db.refresh",
+          "lineNumber": 108
+        },
+        {
+          "caller": "test_reset_password",
+          "callee": "verify_password",
+          "lineNumber": 109
+        },
+        {
+          "caller": "test_reset_password_invalid_token",
+          "callee": "client.post",
+          "lineNumber": 117
+        },
+        {
+          "caller": "test_reset_password_invalid_token",
+          "callee": "r.json",
+          "lineNumber": 122
+        },
+        {
+          "caller": "test_login_with_bcrypt_password_upgrades_to_argon2",
+          "callee": "random_email",
+          "lineNumber": 133
+        },
+        {
+          "caller": "test_login_with_bcrypt_password_upgrades_to_argon2",
+          "callee": "random_lower_string",
+          "lineNumber": 134
+        },
+        {
+          "caller": "test_login_with_bcrypt_password_upgrades_to_argon2",
+          "callee": "BcryptHasher",
+          "lineNumber": 137
+        },
+        {
+          "caller": "test_login_with_bcrypt_password_upgrades_to_argon2",
+          "callee": "bcrypt_hasher.hash",
+          "lineNumber": 138
+        },
+        {
+          "caller": "test_login_with_bcrypt_password_upgrades_to_argon2",
+          "callee": "bcrypt_hash.startswith",
+          "lineNumber": 139
+        },
+        {
+          "caller": "test_login_with_bcrypt_password_upgrades_to_argon2",
+          "callee": "User",
+          "lineNumber": 141
+        },
+        {
+          "caller": "test_login_with_bcrypt_password_upgrades_to_argon2",
+          "callee": "db.add",
+          "lineNumber": 142
+        },
+        {
+          "caller": "test_login_with_bcrypt_password_upgrades_to_argon2",
+          "callee": "db.commit",
+          "lineNumber": 143
+        },
+        {
+          "caller": "test_login_with_bcrypt_password_upgrades_to_argon2",
+          "callee": "db.refresh",
+          "lineNumber": 144
+        },
+        {
+          "caller": "test_login_with_bcrypt_password_upgrades_to_argon2",
+          "callee": "user.hashed_password.startswith",
+          "lineNumber": 146
+        },
+        {
+          "caller": "test_login_with_bcrypt_password_upgrades_to_argon2",
+          "callee": "client.post",
+          "lineNumber": 149
+        },
+        {
+          "caller": "test_login_with_bcrypt_password_upgrades_to_argon2",
+          "callee": "r.json",
+          "lineNumber": 151
+        },
+        {
+          "caller": "test_login_with_bcrypt_password_upgrades_to_argon2",
+          "callee": "db.refresh",
+          "lineNumber": 154
+        },
+        {
+          "caller": "test_login_with_bcrypt_password_upgrades_to_argon2",
+          "callee": "user.hashed_password.startswith",
+          "lineNumber": 157
+        },
+        {
+          "caller": "test_login_with_bcrypt_password_upgrades_to_argon2",
+          "callee": "verify_password",
+          "lineNumber": 159
+        },
+        {
+          "caller": "test_login_with_argon2_password_keeps_hash",
+          "callee": "random_email",
+          "lineNumber": 167
+        },
+        {
+          "caller": "test_login_with_argon2_password_keeps_hash",
+          "callee": "random_lower_string",
+          "lineNumber": 168
+        },
+        {
+          "caller": "test_login_with_argon2_password_keeps_hash",
+          "callee": "get_password_hash",
+          "lineNumber": 171
+        },
+        {
+          "caller": "test_login_with_argon2_password_keeps_hash",
+          "callee": "argon2_hash.startswith",
+          "lineNumber": 172
+        },
+        {
+          "caller": "test_login_with_argon2_password_keeps_hash",
+          "callee": "User",
+          "lineNumber": 175
+        },
+        {
+          "caller": "test_login_with_argon2_password_keeps_hash",
+          "callee": "db.add",
+          "lineNumber": 176
+        },
+        {
+          "caller": "test_login_with_argon2_password_keeps_hash",
+          "callee": "db.commit",
+          "lineNumber": 177
+        },
+        {
+          "caller": "test_login_with_argon2_password_keeps_hash",
+          "callee": "db.refresh",
+          "lineNumber": 178
+        },
+        {
+          "caller": "test_login_with_argon2_password_keeps_hash",
+          "callee": "client.post",
+          "lineNumber": 183
+        },
+        {
+          "caller": "test_login_with_argon2_password_keeps_hash",
+          "callee": "r.json",
+          "lineNumber": 185
+        },
+        {
+          "caller": "test_login_with_argon2_password_keeps_hash",
+          "callee": "db.refresh",
+          "lineNumber": 188
+        },
+        {
+          "caller": "test_login_with_argon2_password_keeps_hash",
+          "callee": "user.hashed_password.startswith",
+          "lineNumber": 191
+        }
+      ],
+      "metrics": {
+        "importCount": 7,
+        "exportCount": 9,
+        "functionCount": 9,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "backend/tests/api/routes/test_private.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 26,
+      "nonEmptyLines": 19,
+      "functions": [
+        {
+          "name": "test_create_user",
+          "startLine": 8,
+          "endLine": 26,
+          "params": [
+            "client",
+            "db"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "test_create_user",
+          "line": 8,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "test_create_user",
+          "callee": "client.post",
+          "lineNumber": 9
+        },
+        {
+          "caller": "test_create_user",
+          "callee": "r.json",
+          "lineNumber": 20
+        },
+        {
+          "caller": "test_create_user",
+          "callee": "db.exec(select(User).where(User.id == data[\"id\"])).first",
+          "lineNumber": 22
+        },
+        {
+          "caller": "test_create_user",
+          "callee": "db.exec",
+          "lineNumber": 22
+        },
+        {
+          "caller": "test_create_user",
+          "callee": "select(User).where",
+          "lineNumber": 22
+        },
+        {
+          "caller": "test_create_user",
+          "callee": "select",
+          "lineNumber": 22
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "backend/tests/api/routes/test_users.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 521,
+      "nonEmptyLines": 442,
+      "functions": [
+        {
+          "name": "test_get_users_superuser_me",
+          "startLine": 15,
+          "endLine": 23,
+          "params": [
+            "client",
+            "superuser_token_headers"
+          ]
+        },
+        {
+          "name": "test_get_users_normal_user_me",
+          "startLine": 26,
+          "endLine": 34,
+          "params": [
+            "client",
+            "normal_user_token_headers"
+          ]
+        },
+        {
+          "name": "test_create_user_new_email",
+          "startLine": 37,
+          "endLine": 57,
+          "params": [
+            "client",
+            "superuser_token_headers",
+            "db"
+          ]
+        },
+        {
+          "name": "test_get_existing_user_as_superuser",
+          "startLine": 60,
+          "endLine": 76,
+          "params": [
+            "client",
+            "superuser_token_headers",
+            "db"
+          ]
+        },
+        {
+          "name": "test_get_non_existing_user_as_superuser",
+          "startLine": 79,
+          "endLine": 87,
+          "params": [
+            "client",
+            "superuser_token_headers"
+          ]
+        },
+        {
+          "name": "test_get_existing_user_current_user",
+          "startLine": 90,
+          "endLine": 114,
+          "params": [
+            "client",
+            "db"
+          ]
+        },
+        {
+          "name": "test_get_existing_user_permissions_error",
+          "startLine": 117,
+          "endLine": 129,
+          "params": [
+            "db",
+            "client",
+            "normal_user_token_headers"
+          ]
+        },
+        {
+          "name": "test_get_non_existing_user_permissions_error",
+          "startLine": 132,
+          "endLine": 143,
+          "params": [
+            "client",
+            "normal_user_token_headers"
+          ]
+        },
+        {
+          "name": "test_create_user_existing_username",
+          "startLine": 146,
+          "endLine": 162,
+          "params": [
+            "client",
+            "superuser_token_headers",
+            "db"
+          ]
+        },
+        {
+          "name": "test_create_user_by_normal_user",
+          "startLine": 165,
+          "endLine": 176,
+          "params": [
+            "client",
+            "normal_user_token_headers"
+          ]
+        },
+        {
+          "name": "test_retrieve_users",
+          "startLine": 179,
+          "endLine": 198,
+          "params": [
+            "client",
+            "superuser_token_headers",
+            "db"
+          ]
+        },
+        {
+          "name": "test_update_user_me",
+          "startLine": 201,
+          "endLine": 221,
+          "params": [
+            "client",
+            "normal_user_token_headers",
+            "db"
+          ]
+        },
+        {
+          "name": "test_update_password_me",
+          "startLine": 224,
+          "endLine": 264,
+          "params": [
+            "client",
+            "superuser_token_headers",
+            "db"
+          ]
+        },
+        {
+          "name": "test_update_password_me_incorrect_password",
+          "startLine": 267,
+          "endLine": 279,
+          "params": [
+            "client",
+            "superuser_token_headers"
+          ]
+        },
+        {
+          "name": "test_update_user_me_email_exists",
+          "startLine": 282,
+          "endLine": 297,
+          "params": [
+            "client",
+            "normal_user_token_headers",
+            "db"
+          ]
+        },
+        {
+          "name": "test_update_password_me_same_password_error",
+          "startLine": 300,
+          "endLine": 316,
+          "params": [
+            "client",
+            "superuser_token_headers"
+          ]
+        },
+        {
+          "name": "test_register_user",
+          "startLine": 319,
+          "endLine": 339,
+          "params": [
+            "client",
+            "db"
+          ]
+        },
+        {
+          "name": "test_register_user_already_exists_error",
+          "startLine": 342,
+          "endLine": 355,
+          "params": [
+            "client"
+          ]
+        },
+        {
+          "name": "test_update_user",
+          "startLine": 358,
+          "endLine": 381,
+          "params": [
+            "client",
+            "superuser_token_headers",
+            "db"
+          ]
+        },
+        {
+          "name": "test_update_user_not_exists",
+          "startLine": 384,
+          "endLine": 394,
+          "params": [
+            "client",
+            "superuser_token_headers"
+          ]
+        },
+        {
+          "name": "test_update_user_email_exists",
+          "startLine": 397,
+          "endLine": 417,
+          "params": [
+            "client",
+            "superuser_token_headers",
+            "db"
+          ]
+        },
+        {
+          "name": "test_delete_user_me",
+          "startLine": 420,
+          "endLine": 448,
+          "params": [
+            "client",
+            "db"
+          ]
+        },
+        {
+          "name": "test_delete_user_me_as_superuser",
+          "startLine": 451,
+          "endLine": 460,
+          "params": [
+            "client",
+            "superuser_token_headers"
+          ]
+        },
+        {
+          "name": "test_delete_user_super_user",
+          "startLine": 463,
+          "endLine": 479,
+          "params": [
+            "client",
+            "superuser_token_headers",
+            "db"
+          ]
+        },
+        {
+          "name": "test_delete_user_not_found",
+          "startLine": 482,
+          "endLine": 490,
+          "params": [
+            "client",
+            "superuser_token_headers"
+          ]
+        },
+        {
+          "name": "test_delete_user_current_super_user_error",
+          "startLine": 493,
+          "endLine": 505,
+          "params": [
+            "client",
+            "superuser_token_headers",
+            "db"
+          ]
+        },
+        {
+          "name": "test_delete_user_without_privileges",
+          "startLine": 508,
+          "endLine": 521,
+          "params": [
+            "client",
+            "normal_user_token_headers",
+            "db"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "test_get_users_superuser_me",
+          "line": 15,
+          "isDefault": false
+        },
+        {
+          "name": "test_get_users_normal_user_me",
+          "line": 26,
+          "isDefault": false
+        },
+        {
+          "name": "test_create_user_new_email",
+          "line": 37,
+          "isDefault": false
+        },
+        {
+          "name": "test_get_existing_user_as_superuser",
+          "line": 60,
+          "isDefault": false
+        },
+        {
+          "name": "test_get_non_existing_user_as_superuser",
+          "line": 79,
+          "isDefault": false
+        },
+        {
+          "name": "test_get_existing_user_current_user",
+          "line": 90,
+          "isDefault": false
+        },
+        {
+          "name": "test_get_existing_user_permissions_error",
+          "line": 117,
+          "isDefault": false
+        },
+        {
+          "name": "test_get_non_existing_user_permissions_error",
+          "line": 132,
+          "isDefault": false
+        },
+        {
+          "name": "test_create_user_existing_username",
+          "line": 146,
+          "isDefault": false
+        },
+        {
+          "name": "test_create_user_by_normal_user",
+          "line": 165,
+          "isDefault": false
+        },
+        {
+          "name": "test_retrieve_users",
+          "line": 179,
+          "isDefault": false
+        },
+        {
+          "name": "test_update_user_me",
+          "line": 201,
+          "isDefault": false
+        },
+        {
+          "name": "test_update_password_me",
+          "line": 224,
+          "isDefault": false
+        },
+        {
+          "name": "test_update_password_me_incorrect_password",
+          "line": 267,
+          "isDefault": false
+        },
+        {
+          "name": "test_update_user_me_email_exists",
+          "line": 282,
+          "isDefault": false
+        },
+        {
+          "name": "test_update_password_me_same_password_error",
+          "line": 300,
+          "isDefault": false
+        },
+        {
+          "name": "test_register_user",
+          "line": 319,
+          "isDefault": false
+        },
+        {
+          "name": "test_register_user_already_exists_error",
+          "line": 342,
+          "isDefault": false
+        },
+        {
+          "name": "test_update_user",
+          "line": 358,
+          "isDefault": false
+        },
+        {
+          "name": "test_update_user_not_exists",
+          "line": 384,
+          "isDefault": false
+        },
+        {
+          "name": "test_update_user_email_exists",
+          "line": 397,
+          "isDefault": false
+        },
+        {
+          "name": "test_delete_user_me",
+          "line": 420,
+          "isDefault": false
+        },
+        {
+          "name": "test_delete_user_me_as_superuser",
+          "line": 451,
+          "isDefault": false
+        },
+        {
+          "name": "test_delete_user_super_user",
+          "line": 463,
+          "isDefault": false
+        },
+        {
+          "name": "test_delete_user_not_found",
+          "line": 482,
+          "isDefault": false
+        },
+        {
+          "name": "test_delete_user_current_super_user_error",
+          "line": 493,
+          "isDefault": false
+        },
+        {
+          "name": "test_delete_user_without_privileges",
+          "line": 508,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "test_get_users_superuser_me",
+          "callee": "client.get",
+          "lineNumber": 18
+        },
+        {
+          "caller": "test_get_users_superuser_me",
+          "callee": "r.json",
+          "lineNumber": 19
+        },
+        {
+          "caller": "test_get_users_normal_user_me",
+          "callee": "client.get",
+          "lineNumber": 29
+        },
+        {
+          "caller": "test_get_users_normal_user_me",
+          "callee": "r.json",
+          "lineNumber": 30
+        },
+        {
+          "caller": "test_create_user_new_email",
+          "callee": "patch",
+          "lineNumber": 41
+        },
+        {
+          "caller": "test_create_user_new_email",
+          "callee": "patch",
+          "lineNumber": 42
+        },
+        {
+          "caller": "test_create_user_new_email",
+          "callee": "patch",
+          "lineNumber": 43
+        },
+        {
+          "caller": "test_create_user_new_email",
+          "callee": "random_email",
+          "lineNumber": 45
+        },
+        {
+          "caller": "test_create_user_new_email",
+          "callee": "random_lower_string",
+          "lineNumber": 46
+        },
+        {
+          "caller": "test_create_user_new_email",
+          "callee": "client.post",
+          "lineNumber": 48
+        },
+        {
+          "caller": "test_create_user_new_email",
+          "callee": "r.json",
+          "lineNumber": 54
+        },
+        {
+          "caller": "test_create_user_new_email",
+          "callee": "crud.get_user_by_email",
+          "lineNumber": 55
+        },
+        {
+          "caller": "test_get_existing_user_as_superuser",
+          "callee": "random_email",
+          "lineNumber": 63
+        },
+        {
+          "caller": "test_get_existing_user_as_superuser",
+          "callee": "random_lower_string",
+          "lineNumber": 64
+        },
+        {
+          "caller": "test_get_existing_user_as_superuser",
+          "callee": "UserCreate",
+          "lineNumber": 65
+        },
+        {
+          "caller": "test_get_existing_user_as_superuser",
+          "callee": "crud.create_user",
+          "lineNumber": 66
+        },
+        {
+          "caller": "test_get_existing_user_as_superuser",
+          "callee": "client.get",
+          "lineNumber": 68
+        },
+        {
+          "caller": "test_get_existing_user_as_superuser",
+          "callee": "r.json",
+          "lineNumber": 73
+        },
+        {
+          "caller": "test_get_existing_user_as_superuser",
+          "callee": "crud.get_user_by_email",
+          "lineNumber": 74
+        },
+        {
+          "caller": "test_get_non_existing_user_as_superuser",
+          "callee": "client.get",
+          "lineNumber": 82
+        },
+        {
+          "caller": "test_get_non_existing_user_as_superuser",
+          "callee": "uuid.uuid4",
+          "lineNumber": 83
+        },
+        {
+          "caller": "test_get_non_existing_user_as_superuser",
+          "callee": "r.json",
+          "lineNumber": 87
+        },
+        {
+          "caller": "test_get_existing_user_current_user",
+          "callee": "random_email",
+          "lineNumber": 91
+        },
+        {
+          "caller": "test_get_existing_user_current_user",
+          "callee": "random_lower_string",
+          "lineNumber": 92
+        },
+        {
+          "caller": "test_get_existing_user_current_user",
+          "callee": "UserCreate",
+          "lineNumber": 93
+        },
+        {
+          "caller": "test_get_existing_user_current_user",
+          "callee": "crud.create_user",
+          "lineNumber": 94
+        },
+        {
+          "caller": "test_get_existing_user_current_user",
+          "callee": "client.post",
+          "lineNumber": 101
+        },
+        {
+          "caller": "test_get_existing_user_current_user",
+          "callee": "r.json",
+          "lineNumber": 102
+        },
+        {
+          "caller": "test_get_existing_user_current_user",
+          "callee": "client.get",
+          "lineNumber": 106
+        },
+        {
+          "caller": "test_get_existing_user_current_user",
+          "callee": "r.json",
+          "lineNumber": 111
+        },
+        {
+          "caller": "test_get_existing_user_current_user",
+          "callee": "crud.get_user_by_email",
+          "lineNumber": 112
+        },
+        {
+          "caller": "test_get_existing_user_permissions_error",
+          "callee": "create_random_user",
+          "lineNumber": 122
+        },
+        {
+          "caller": "test_get_existing_user_permissions_error",
+          "callee": "client.get",
+          "lineNumber": 124
+        },
+        {
+          "caller": "test_get_existing_user_permissions_error",
+          "callee": "r.json",
+          "lineNumber": 129
+        },
+        {
+          "caller": "test_get_non_existing_user_permissions_error",
+          "callee": "uuid.uuid4",
+          "lineNumber": 136
+        },
+        {
+          "caller": "test_get_non_existing_user_permissions_error",
+          "callee": "client.get",
+          "lineNumber": 138
+        },
+        {
+          "caller": "test_get_non_existing_user_permissions_error",
+          "callee": "r.json",
+          "lineNumber": 143
+        },
+        {
+          "caller": "test_create_user_existing_username",
+          "callee": "random_email",
+          "lineNumber": 149
+        },
+        {
+          "caller": "test_create_user_existing_username",
+          "callee": "random_lower_string",
+          "lineNumber": 151
+        },
+        {
+          "caller": "test_create_user_existing_username",
+          "callee": "UserCreate",
+          "lineNumber": 152
+        },
+        {
+          "caller": "test_create_user_existing_username",
+          "callee": "crud.create_user",
+          "lineNumber": 153
+        },
+        {
+          "caller": "test_create_user_existing_username",
+          "callee": "client.post",
+          "lineNumber": 155
+        },
+        {
+          "caller": "test_create_user_existing_username",
+          "callee": "r.json",
+          "lineNumber": 160
+        },
+        {
+          "caller": "test_create_user_by_normal_user",
+          "callee": "random_email",
+          "lineNumber": 168
+        },
+        {
+          "caller": "test_create_user_by_normal_user",
+          "callee": "random_lower_string",
+          "lineNumber": 169
+        },
+        {
+          "caller": "test_create_user_by_normal_user",
+          "callee": "client.post",
+          "lineNumber": 171
+        },
+        {
+          "caller": "test_retrieve_users",
+          "callee": "random_email",
+          "lineNumber": 182
+        },
+        {
+          "caller": "test_retrieve_users",
+          "callee": "random_lower_string",
+          "lineNumber": 183
+        },
+        {
+          "caller": "test_retrieve_users",
+          "callee": "UserCreate",
+          "lineNumber": 184
+        },
+        {
+          "caller": "test_retrieve_users",
+          "callee": "crud.create_user",
+          "lineNumber": 185
+        },
+        {
+          "caller": "test_retrieve_users",
+          "callee": "random_email",
+          "lineNumber": 187
+        },
+        {
+          "caller": "test_retrieve_users",
+          "callee": "random_lower_string",
+          "lineNumber": 188
+        },
+        {
+          "caller": "test_retrieve_users",
+          "callee": "UserCreate",
+          "lineNumber": 189
+        },
+        {
+          "caller": "test_retrieve_users",
+          "callee": "crud.create_user",
+          "lineNumber": 190
+        },
+        {
+          "caller": "test_retrieve_users",
+          "callee": "client.get",
+          "lineNumber": 192
+        },
+        {
+          "caller": "test_retrieve_users",
+          "callee": "r.json",
+          "lineNumber": 193
+        },
+        {
+          "caller": "test_retrieve_users",
+          "callee": "len",
+          "lineNumber": 195
+        },
+        {
+          "caller": "test_update_user_me",
+          "callee": "random_email",
+          "lineNumber": 205
+        },
+        {
+          "caller": "test_update_user_me",
+          "callee": "client.patch",
+          "lineNumber": 207
+        },
+        {
+          "caller": "test_update_user_me",
+          "callee": "r.json",
+          "lineNumber": 213
+        },
+        {
+          "caller": "test_update_user_me",
+          "callee": "select(User).where",
+          "lineNumber": 217
+        },
+        {
+          "caller": "test_update_user_me",
+          "callee": "select",
+          "lineNumber": 217
+        },
+        {
+          "caller": "test_update_user_me",
+          "callee": "db.exec(user_query).first",
+          "lineNumber": 218
+        },
+        {
+          "caller": "test_update_user_me",
+          "callee": "db.exec",
+          "lineNumber": 218
+        },
+        {
+          "caller": "test_update_password_me",
+          "callee": "random_lower_string",
+          "lineNumber": 227
+        },
+        {
+          "caller": "test_update_password_me",
+          "callee": "client.patch",
+          "lineNumber": 232
+        },
+        {
+          "caller": "test_update_password_me",
+          "callee": "r.json",
+          "lineNumber": 238
+        },
+        {
+          "caller": "test_update_password_me",
+          "callee": "select(User).where",
+          "lineNumber": 241
+        },
+        {
+          "caller": "test_update_password_me",
+          "callee": "select",
+          "lineNumber": 241
+        },
+        {
+          "caller": "test_update_password_me",
+          "callee": "db.exec(user_query).first",
+          "lineNumber": 242
+        },
+        {
+          "caller": "test_update_password_me",
+          "callee": "db.exec",
+          "lineNumber": 242
+        },
+        {
+          "caller": "test_update_password_me",
+          "callee": "verify_password",
+          "lineNumber": 245
+        },
+        {
+          "caller": "test_update_password_me",
+          "callee": "client.patch",
+          "lineNumber": 253
+        },
+        {
+          "caller": "test_update_password_me",
+          "callee": "db.refresh",
+          "lineNumber": 258
+        },
+        {
+          "caller": "test_update_password_me",
+          "callee": "verify_password",
+          "lineNumber": 261
+        },
+        {
+          "caller": "test_update_password_me_incorrect_password",
+          "callee": "random_lower_string",
+          "lineNumber": 270
+        },
+        {
+          "caller": "test_update_password_me_incorrect_password",
+          "callee": "client.patch",
+          "lineNumber": 272
+        },
+        {
+          "caller": "test_update_password_me_incorrect_password",
+          "callee": "r.json",
+          "lineNumber": 278
+        },
+        {
+          "caller": "test_update_user_me_email_exists",
+          "callee": "random_email",
+          "lineNumber": 285
+        },
+        {
+          "caller": "test_update_user_me_email_exists",
+          "callee": "random_lower_string",
+          "lineNumber": 286
+        },
+        {
+          "caller": "test_update_user_me_email_exists",
+          "callee": "UserCreate",
+          "lineNumber": 287
+        },
+        {
+          "caller": "test_update_user_me_email_exists",
+          "callee": "crud.create_user",
+          "lineNumber": 288
+        },
+        {
+          "caller": "test_update_user_me_email_exists",
+          "callee": "client.patch",
+          "lineNumber": 291
+        },
+        {
+          "caller": "test_update_user_me_email_exists",
+          "callee": "r.json",
+          "lineNumber": 297
+        },
+        {
+          "caller": "test_update_password_me_same_password_error",
+          "callee": "client.patch",
+          "lineNumber": 307
+        },
+        {
+          "caller": "test_update_password_me_same_password_error",
+          "callee": "r.json",
+          "lineNumber": 313
+        },
+        {
+          "caller": "test_register_user",
+          "callee": "random_email",
+          "lineNumber": 320
+        },
+        {
+          "caller": "test_register_user",
+          "callee": "random_lower_string",
+          "lineNumber": 321
+        },
+        {
+          "caller": "test_register_user",
+          "callee": "random_lower_string",
+          "lineNumber": 322
+        },
+        {
+          "caller": "test_register_user",
+          "callee": "client.post",
+          "lineNumber": 324
+        },
+        {
+          "caller": "test_register_user",
+          "callee": "r.json",
+          "lineNumber": 329
+        },
+        {
+          "caller": "test_register_user",
+          "callee": "select(User).where",
+          "lineNumber": 333
+        },
+        {
+          "caller": "test_register_user",
+          "callee": "select",
+          "lineNumber": 333
+        },
+        {
+          "caller": "test_register_user",
+          "callee": "db.exec(user_query).first",
+          "lineNumber": 334
+        },
+        {
+          "caller": "test_register_user",
+          "callee": "db.exec",
+          "lineNumber": 334
+        },
+        {
+          "caller": "test_register_user",
+          "callee": "verify_password",
+          "lineNumber": 338
+        },
+        {
+          "caller": "test_register_user_already_exists_error",
+          "callee": "random_lower_string",
+          "lineNumber": 343
+        },
+        {
+          "caller": "test_register_user_already_exists_error",
+          "callee": "random_lower_string",
+          "lineNumber": 344
+        },
+        {
+          "caller": "test_register_user_already_exists_error",
+          "callee": "client.post",
+          "lineNumber": 350
+        },
+        {
+          "caller": "test_register_user_already_exists_error",
+          "callee": "r.json",
+          "lineNumber": 355
+        },
+        {
+          "caller": "test_update_user",
+          "callee": "random_email",
+          "lineNumber": 361
+        },
+        {
+          "caller": "test_update_user",
+          "callee": "random_lower_string",
+          "lineNumber": 362
+        },
+        {
+          "caller": "test_update_user",
+          "callee": "UserCreate",
+          "lineNumber": 363
+        },
+        {
+          "caller": "test_update_user",
+          "callee": "crud.create_user",
+          "lineNumber": 364
+        },
+        {
+          "caller": "test_update_user",
+          "callee": "client.patch",
+          "lineNumber": 367
+        },
+        {
+          "caller": "test_update_user",
+          "callee": "r.json",
+          "lineNumber": 373
+        },
+        {
+          "caller": "test_update_user",
+          "callee": "select(User).where",
+          "lineNumber": 377
+        },
+        {
+          "caller": "test_update_user",
+          "callee": "select",
+          "lineNumber": 377
+        },
+        {
+          "caller": "test_update_user",
+          "callee": "db.exec(user_query).first",
+          "lineNumber": 378
+        },
+        {
+          "caller": "test_update_user",
+          "callee": "db.exec",
+          "lineNumber": 378
+        },
+        {
+          "caller": "test_update_user",
+          "callee": "db.refresh",
+          "lineNumber": 379
+        },
+        {
+          "caller": "test_update_user_not_exists",
+          "callee": "client.patch",
+          "lineNumber": 388
+        },
+        {
+          "caller": "test_update_user_not_exists",
+          "callee": "uuid.uuid4",
+          "lineNumber": 389
+        },
+        {
+          "caller": "test_update_user_not_exists",
+          "callee": "r.json",
+          "lineNumber": 394
+        },
+        {
+          "caller": "test_update_user_email_exists",
+          "callee": "random_email",
+          "lineNumber": 400
+        },
+        {
+          "caller": "test_update_user_email_exists",
+          "callee": "random_lower_string",
+          "lineNumber": 401
+        },
+        {
+          "caller": "test_update_user_email_exists",
+          "callee": "UserCreate",
+          "lineNumber": 402
+        },
+        {
+          "caller": "test_update_user_email_exists",
+          "callee": "crud.create_user",
+          "lineNumber": 403
+        },
+        {
+          "caller": "test_update_user_email_exists",
+          "callee": "random_email",
+          "lineNumber": 405
+        },
+        {
+          "caller": "test_update_user_email_exists",
+          "callee": "random_lower_string",
+          "lineNumber": 406
+        },
+        {
+          "caller": "test_update_user_email_exists",
+          "callee": "UserCreate",
+          "lineNumber": 407
+        },
+        {
+          "caller": "test_update_user_email_exists",
+          "callee": "crud.create_user",
+          "lineNumber": 408
+        },
+        {
+          "caller": "test_update_user_email_exists",
+          "callee": "client.patch",
+          "lineNumber": 411
+        },
+        {
+          "caller": "test_update_user_email_exists",
+          "callee": "r.json",
+          "lineNumber": 417
+        },
+        {
+          "caller": "test_delete_user_me",
+          "callee": "random_email",
+          "lineNumber": 421
+        },
+        {
+          "caller": "test_delete_user_me",
+          "callee": "random_lower_string",
+          "lineNumber": 422
+        },
+        {
+          "caller": "test_delete_user_me",
+          "callee": "UserCreate",
+          "lineNumber": 423
+        },
+        {
+          "caller": "test_delete_user_me",
+          "callee": "crud.create_user",
+          "lineNumber": 424
+        },
+        {
+          "caller": "test_delete_user_me",
+          "callee": "client.post",
+          "lineNumber": 431
+        },
+        {
+          "caller": "test_delete_user_me",
+          "callee": "r.json",
+          "lineNumber": 432
+        },
+        {
+          "caller": "test_delete_user_me",
+          "callee": "client.delete",
+          "lineNumber": 436
+        },
+        {
+          "caller": "test_delete_user_me",
+          "callee": "r.json",
+          "lineNumber": 441
+        },
+        {
+          "caller": "test_delete_user_me",
+          "callee": "db.exec(select(User).where(User.id == user_id)).first",
+          "lineNumber": 443
+        },
+        {
+          "caller": "test_delete_user_me",
+          "callee": "db.exec",
+          "lineNumber": 443
+        },
+        {
+          "caller": "test_delete_user_me",
+          "callee": "select(User).where",
+          "lineNumber": 443
+        },
+        {
+          "caller": "test_delete_user_me",
+          "callee": "select",
+          "lineNumber": 443
+        },
+        {
+          "caller": "test_delete_user_me",
+          "callee": "select(User).where",
+          "lineNumber": 446
+        },
+        {
+          "caller": "test_delete_user_me",
+          "callee": "select",
+          "lineNumber": 446
+        },
+        {
+          "caller": "test_delete_user_me",
+          "callee": "db.execute(user_query).first",
+          "lineNumber": 447
+        },
+        {
+          "caller": "test_delete_user_me",
+          "callee": "db.execute",
+          "lineNumber": 447
+        },
+        {
+          "caller": "test_delete_user_me_as_superuser",
+          "callee": "client.delete",
+          "lineNumber": 454
+        },
+        {
+          "caller": "test_delete_user_me_as_superuser",
+          "callee": "r.json",
+          "lineNumber": 459
+        },
+        {
+          "caller": "test_delete_user_super_user",
+          "callee": "random_email",
+          "lineNumber": 466
+        },
+        {
+          "caller": "test_delete_user_super_user",
+          "callee": "random_lower_string",
+          "lineNumber": 467
+        },
+        {
+          "caller": "test_delete_user_super_user",
+          "callee": "UserCreate",
+          "lineNumber": 468
+        },
+        {
+          "caller": "test_delete_user_super_user",
+          "callee": "crud.create_user",
+          "lineNumber": 469
+        },
+        {
+          "caller": "test_delete_user_super_user",
+          "callee": "client.delete",
+          "lineNumber": 471
+        },
+        {
+          "caller": "test_delete_user_super_user",
+          "callee": "r.json",
+          "lineNumber": 476
+        },
+        {
+          "caller": "test_delete_user_super_user",
+          "callee": "db.exec(select(User).where(User.id == user_id)).first",
+          "lineNumber": 478
+        },
+        {
+          "caller": "test_delete_user_super_user",
+          "callee": "db.exec",
+          "lineNumber": 478
+        },
+        {
+          "caller": "test_delete_user_super_user",
+          "callee": "select(User).where",
+          "lineNumber": 478
+        },
+        {
+          "caller": "test_delete_user_super_user",
+          "callee": "select",
+          "lineNumber": 478
+        },
+        {
+          "caller": "test_delete_user_not_found",
+          "callee": "client.delete",
+          "lineNumber": 485
+        },
+        {
+          "caller": "test_delete_user_not_found",
+          "callee": "uuid.uuid4",
+          "lineNumber": 486
+        },
+        {
+          "caller": "test_delete_user_not_found",
+          "callee": "r.json",
+          "lineNumber": 490
+        },
+        {
+          "caller": "test_delete_user_current_super_user_error",
+          "callee": "crud.get_user_by_email",
+          "lineNumber": 496
+        },
+        {
+          "caller": "test_delete_user_current_super_user_error",
+          "callee": "client.delete",
+          "lineNumber": 500
+        },
+        {
+          "caller": "test_delete_user_current_super_user_error",
+          "callee": "r.json",
+          "lineNumber": 505
+        },
+        {
+          "caller": "test_delete_user_without_privileges",
+          "callee": "random_email",
+          "lineNumber": 511
+        },
+        {
+          "caller": "test_delete_user_without_privileges",
+          "callee": "random_lower_string",
+          "lineNumber": 512
+        },
+        {
+          "caller": "test_delete_user_without_privileges",
+          "callee": "UserCreate",
+          "lineNumber": 513
+        },
+        {
+          "caller": "test_delete_user_without_privileges",
+          "callee": "crud.create_user",
+          "lineNumber": 514
+        },
+        {
+          "caller": "test_delete_user_without_privileges",
+          "callee": "client.delete",
+          "lineNumber": 516
+        },
+        {
+          "caller": "test_delete_user_without_privileges",
+          "callee": "r.json",
+          "lineNumber": 521
+        }
+      ],
+      "metrics": {
+        "importCount": 7,
+        "exportCount": 27,
+        "functionCount": 27,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "backend/tests/conftest.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 42,
+      "nonEmptyLines": 32,
+      "functions": [
+        {
+          "name": "db",
+          "startLine": 16,
+          "endLine": 24,
+          "params": []
+        },
+        {
+          "name": "client",
+          "startLine": 28,
+          "endLine": 30,
+          "params": []
+        },
+        {
+          "name": "superuser_token_headers",
+          "startLine": 34,
+          "endLine": 35,
+          "params": [
+            "client"
+          ]
+        },
+        {
+          "name": "normal_user_token_headers",
+          "startLine": 39,
+          "endLine": 42,
+          "params": [
+            "client",
+            "db"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "db",
+          "line": 15,
+          "isDefault": false
+        },
+        {
+          "name": "client",
+          "line": 27,
+          "isDefault": false
+        },
+        {
+          "name": "superuser_token_headers",
+          "line": 33,
+          "isDefault": false
+        },
+        {
+          "name": "normal_user_token_headers",
+          "line": 38,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "db",
+          "callee": "Session",
+          "lineNumber": 17
+        },
+        {
+          "caller": "db",
+          "callee": "init_db",
+          "lineNumber": 18
+        },
+        {
+          "caller": "db",
+          "callee": "delete",
+          "lineNumber": 20
+        },
+        {
+          "caller": "db",
+          "callee": "session.execute",
+          "lineNumber": 21
+        },
+        {
+          "caller": "db",
+          "callee": "delete",
+          "lineNumber": 22
+        },
+        {
+          "caller": "db",
+          "callee": "session.execute",
+          "lineNumber": 23
+        },
+        {
+          "caller": "db",
+          "callee": "session.commit",
+          "lineNumber": 24
+        },
+        {
+          "caller": "client",
+          "callee": "TestClient",
+          "lineNumber": 29
+        },
+        {
+          "caller": "superuser_token_headers",
+          "callee": "get_superuser_token_headers",
+          "lineNumber": 35
+        },
+        {
+          "caller": "normal_user_token_headers",
+          "callee": "authentication_token_from_email",
+          "lineNumber": 40
+        }
+      ],
+      "metrics": {
+        "importCount": 6,
+        "exportCount": 4,
+        "functionCount": 4,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "backend/tests/crud/test_user.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 130,
+      "nonEmptyLines": 102,
+      "functions": [
+        {
+          "name": "test_create_user",
+          "startLine": 11,
+          "endLine": 17,
+          "params": [
+            "db"
+          ]
+        },
+        {
+          "name": "test_authenticate_user",
+          "startLine": 20,
+          "endLine": 27,
+          "params": [
+            "db"
+          ]
+        },
+        {
+          "name": "test_not_authenticate_user",
+          "startLine": 30,
+          "endLine": 34,
+          "params": [
+            "db"
+          ]
+        },
+        {
+          "name": "test_check_if_user_is_active",
+          "startLine": 37,
+          "endLine": 42,
+          "params": [
+            "db"
+          ]
+        },
+        {
+          "name": "test_check_if_user_is_active_inactive",
+          "startLine": 45,
+          "endLine": 50,
+          "params": [
+            "db"
+          ]
+        },
+        {
+          "name": "test_check_if_user_is_superuser",
+          "startLine": 53,
+          "endLine": 58,
+          "params": [
+            "db"
+          ]
+        },
+        {
+          "name": "test_check_if_user_is_superuser_normal_user",
+          "startLine": 61,
+          "endLine": 66,
+          "params": [
+            "db"
+          ]
+        },
+        {
+          "name": "test_get_user",
+          "startLine": 69,
+          "endLine": 77,
+          "params": [
+            "db"
+          ]
+        },
+        {
+          "name": "test_update_user",
+          "startLine": 80,
+          "endLine": 93,
+          "params": [
+            "db"
+          ]
+        },
+        {
+          "name": "test_authenticate_user_with_bcrypt_upgrades_to_argon2",
+          "startLine": 96,
+          "endLine": 130,
+          "params": [
+            "db"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "test_create_user",
+          "line": 11,
+          "isDefault": false
+        },
+        {
+          "name": "test_authenticate_user",
+          "line": 20,
+          "isDefault": false
+        },
+        {
+          "name": "test_not_authenticate_user",
+          "line": 30,
+          "isDefault": false
+        },
+        {
+          "name": "test_check_if_user_is_active",
+          "line": 37,
+          "isDefault": false
+        },
+        {
+          "name": "test_check_if_user_is_active_inactive",
+          "line": 45,
+          "isDefault": false
+        },
+        {
+          "name": "test_check_if_user_is_superuser",
+          "line": 53,
+          "isDefault": false
+        },
+        {
+          "name": "test_check_if_user_is_superuser_normal_user",
+          "line": 61,
+          "isDefault": false
+        },
+        {
+          "name": "test_get_user",
+          "line": 69,
+          "isDefault": false
+        },
+        {
+          "name": "test_update_user",
+          "line": 80,
+          "isDefault": false
+        },
+        {
+          "name": "test_authenticate_user_with_bcrypt_upgrades_to_argon2",
+          "line": 96,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "test_create_user",
+          "callee": "random_email",
+          "lineNumber": 12
+        },
+        {
+          "caller": "test_create_user",
+          "callee": "random_lower_string",
+          "lineNumber": 13
+        },
+        {
+          "caller": "test_create_user",
+          "callee": "UserCreate",
+          "lineNumber": 14
+        },
+        {
+          "caller": "test_create_user",
+          "callee": "crud.create_user",
+          "lineNumber": 15
+        },
+        {
+          "caller": "test_create_user",
+          "callee": "hasattr",
+          "lineNumber": 17
+        },
+        {
+          "caller": "test_authenticate_user",
+          "callee": "random_email",
+          "lineNumber": 21
+        },
+        {
+          "caller": "test_authenticate_user",
+          "callee": "random_lower_string",
+          "lineNumber": 22
+        },
+        {
+          "caller": "test_authenticate_user",
+          "callee": "UserCreate",
+          "lineNumber": 23
+        },
+        {
+          "caller": "test_authenticate_user",
+          "callee": "crud.create_user",
+          "lineNumber": 24
+        },
+        {
+          "caller": "test_authenticate_user",
+          "callee": "crud.authenticate",
+          "lineNumber": 25
+        },
+        {
+          "caller": "test_not_authenticate_user",
+          "callee": "random_email",
+          "lineNumber": 31
+        },
+        {
+          "caller": "test_not_authenticate_user",
+          "callee": "random_lower_string",
+          "lineNumber": 32
+        },
+        {
+          "caller": "test_not_authenticate_user",
+          "callee": "crud.authenticate",
+          "lineNumber": 33
+        },
+        {
+          "caller": "test_check_if_user_is_active",
+          "callee": "random_email",
+          "lineNumber": 38
+        },
+        {
+          "caller": "test_check_if_user_is_active",
+          "callee": "random_lower_string",
+          "lineNumber": 39
+        },
+        {
+          "caller": "test_check_if_user_is_active",
+          "callee": "UserCreate",
+          "lineNumber": 40
+        },
+        {
+          "caller": "test_check_if_user_is_active",
+          "callee": "crud.create_user",
+          "lineNumber": 41
+        },
+        {
+          "caller": "test_check_if_user_is_active_inactive",
+          "callee": "random_email",
+          "lineNumber": 46
+        },
+        {
+          "caller": "test_check_if_user_is_active_inactive",
+          "callee": "random_lower_string",
+          "lineNumber": 47
+        },
+        {
+          "caller": "test_check_if_user_is_active_inactive",
+          "callee": "UserCreate",
+          "lineNumber": 48
+        },
+        {
+          "caller": "test_check_if_user_is_active_inactive",
+          "callee": "crud.create_user",
+          "lineNumber": 49
+        },
+        {
+          "caller": "test_check_if_user_is_superuser",
+          "callee": "random_email",
+          "lineNumber": 54
+        },
+        {
+          "caller": "test_check_if_user_is_superuser",
+          "callee": "random_lower_string",
+          "lineNumber": 55
+        },
+        {
+          "caller": "test_check_if_user_is_superuser",
+          "callee": "UserCreate",
+          "lineNumber": 56
+        },
+        {
+          "caller": "test_check_if_user_is_superuser",
+          "callee": "crud.create_user",
+          "lineNumber": 57
+        },
+        {
+          "caller": "test_check_if_user_is_superuser_normal_user",
+          "callee": "random_email",
+          "lineNumber": 62
+        },
+        {
+          "caller": "test_check_if_user_is_superuser_normal_user",
+          "callee": "random_lower_string",
+          "lineNumber": 63
+        },
+        {
+          "caller": "test_check_if_user_is_superuser_normal_user",
+          "callee": "UserCreate",
+          "lineNumber": 64
+        },
+        {
+          "caller": "test_check_if_user_is_superuser_normal_user",
+          "callee": "crud.create_user",
+          "lineNumber": 65
+        },
+        {
+          "caller": "test_get_user",
+          "callee": "random_lower_string",
+          "lineNumber": 70
+        },
+        {
+          "caller": "test_get_user",
+          "callee": "random_email",
+          "lineNumber": 71
+        },
+        {
+          "caller": "test_get_user",
+          "callee": "UserCreate",
+          "lineNumber": 72
+        },
+        {
+          "caller": "test_get_user",
+          "callee": "crud.create_user",
+          "lineNumber": 73
+        },
+        {
+          "caller": "test_get_user",
+          "callee": "db.get",
+          "lineNumber": 74
+        },
+        {
+          "caller": "test_get_user",
+          "callee": "jsonable_encoder",
+          "lineNumber": 77
+        },
+        {
+          "caller": "test_get_user",
+          "callee": "jsonable_encoder",
+          "lineNumber": 77
+        },
+        {
+          "caller": "test_update_user",
+          "callee": "random_lower_string",
+          "lineNumber": 81
+        },
+        {
+          "caller": "test_update_user",
+          "callee": "random_email",
+          "lineNumber": 82
+        },
+        {
+          "caller": "test_update_user",
+          "callee": "UserCreate",
+          "lineNumber": 83
+        },
+        {
+          "caller": "test_update_user",
+          "callee": "crud.create_user",
+          "lineNumber": 84
+        },
+        {
+          "caller": "test_update_user",
+          "callee": "random_lower_string",
+          "lineNumber": 85
+        },
+        {
+          "caller": "test_update_user",
+          "callee": "UserUpdate",
+          "lineNumber": 86
+        },
+        {
+          "caller": "test_update_user",
+          "callee": "crud.update_user",
+          "lineNumber": 88
+        },
+        {
+          "caller": "test_update_user",
+          "callee": "db.get",
+          "lineNumber": 89
+        },
+        {
+          "caller": "test_update_user",
+          "callee": "verify_password",
+          "lineNumber": 92
+        },
+        {
+          "caller": "test_authenticate_user_with_bcrypt_upgrades_to_argon2",
+          "callee": "random_email",
+          "lineNumber": 98
+        },
+        {
+          "caller": "test_authenticate_user_with_bcrypt_upgrades_to_argon2",
+          "callee": "random_lower_string",
+          "lineNumber": 99
+        },
+        {
+          "caller": "test_authenticate_user_with_bcrypt_upgrades_to_argon2",
+          "callee": "BcryptHasher",
+          "lineNumber": 102
+        },
+        {
+          "caller": "test_authenticate_user_with_bcrypt_upgrades_to_argon2",
+          "callee": "bcrypt_hasher.hash",
+          "lineNumber": 103
+        },
+        {
+          "caller": "test_authenticate_user_with_bcrypt_upgrades_to_argon2",
+          "callee": "bcrypt_hash.startswith",
+          "lineNumber": 104
+        },
+        {
+          "caller": "test_authenticate_user_with_bcrypt_upgrades_to_argon2",
+          "callee": "User",
+          "lineNumber": 107
+        },
+        {
+          "caller": "test_authenticate_user_with_bcrypt_upgrades_to_argon2",
+          "callee": "db.add",
+          "lineNumber": 108
+        },
+        {
+          "caller": "test_authenticate_user_with_bcrypt_upgrades_to_argon2",
+          "callee": "db.commit",
+          "lineNumber": 109
+        },
+        {
+          "caller": "test_authenticate_user_with_bcrypt_upgrades_to_argon2",
+          "callee": "db.refresh",
+          "lineNumber": 110
+        },
+        {
+          "caller": "test_authenticate_user_with_bcrypt_upgrades_to_argon2",
+          "callee": "user.hashed_password.startswith",
+          "lineNumber": 113
+        },
+        {
+          "caller": "test_authenticate_user_with_bcrypt_upgrades_to_argon2",
+          "callee": "crud.authenticate",
+          "lineNumber": 116
+        },
+        {
+          "caller": "test_authenticate_user_with_bcrypt_upgrades_to_argon2",
+          "callee": "db.refresh",
+          "lineNumber": 120
+        },
+        {
+          "caller": "test_authenticate_user_with_bcrypt_upgrades_to_argon2",
+          "callee": "authenticated_user.hashed_password.startswith",
+          "lineNumber": 123
+        },
+        {
+          "caller": "test_authenticate_user_with_bcrypt_upgrades_to_argon2",
+          "callee": "verify_password",
+          "lineNumber": 125
+        }
+      ],
+      "metrics": {
+        "importCount": 5,
+        "exportCount": 10,
+        "functionCount": 10,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "backend/tests/utils/item.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 16,
+      "nonEmptyLines": 13,
+      "functions": [
+        {
+          "name": "create_random_item",
+          "startLine": 9,
+          "endLine": 16,
+          "params": [
+            "db"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "create_random_item",
+          "line": 9,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "create_random_item",
+          "callee": "create_random_user",
+          "lineNumber": 10
+        },
+        {
+          "caller": "create_random_item",
+          "callee": "random_lower_string",
+          "lineNumber": 13
+        },
+        {
+          "caller": "create_random_item",
+          "callee": "random_lower_string",
+          "lineNumber": 14
+        },
+        {
+          "caller": "create_random_item",
+          "callee": "ItemCreate",
+          "lineNumber": 15
+        },
+        {
+          "caller": "create_random_item",
+          "callee": "crud.create_item",
+          "lineNumber": 16
+        }
+      ],
+      "metrics": {
+        "importCount": 5,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "backend/tests/utils/user.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 49,
+      "nonEmptyLines": 39,
+      "functions": [
+        {
+          "name": "user_authentication_headers",
+          "startLine": 10,
+          "endLine": 19,
+          "params": [
+            "client",
+            "email",
+            "password"
+          ]
+        },
+        {
+          "name": "create_random_user",
+          "startLine": 22,
+          "endLine": 27,
+          "params": [
+            "db"
+          ]
+        },
+        {
+          "name": "authentication_token_from_email",
+          "startLine": 30,
+          "endLine": 49,
+          "params": [
+            "client",
+            "email",
+            "db"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "user_authentication_headers",
+          "line": 10,
+          "isDefault": false
+        },
+        {
+          "name": "create_random_user",
+          "line": 22,
+          "isDefault": false
+        },
+        {
+          "name": "authentication_token_from_email",
+          "line": 30,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "user_authentication_headers",
+          "callee": "client.post",
+          "lineNumber": 15
+        },
+        {
+          "caller": "user_authentication_headers",
+          "callee": "r.json",
+          "lineNumber": 16
+        },
+        {
+          "caller": "create_random_user",
+          "callee": "random_email",
+          "lineNumber": 23
+        },
+        {
+          "caller": "create_random_user",
+          "callee": "random_lower_string",
+          "lineNumber": 24
+        },
+        {
+          "caller": "create_random_user",
+          "callee": "UserCreate",
+          "lineNumber": 25
+        },
+        {
+          "caller": "create_random_user",
+          "callee": "crud.create_user",
+          "lineNumber": 26
+        },
+        {
+          "caller": "authentication_token_from_email",
+          "callee": "random_lower_string",
+          "lineNumber": 38
+        },
+        {
+          "caller": "authentication_token_from_email",
+          "callee": "crud.get_user_by_email",
+          "lineNumber": 39
+        },
+        {
+          "caller": "authentication_token_from_email",
+          "callee": "UserCreate",
+          "lineNumber": 41
+        },
+        {
+          "caller": "authentication_token_from_email",
+          "callee": "crud.create_user",
+          "lineNumber": 42
+        },
+        {
+          "caller": "authentication_token_from_email",
+          "callee": "UserUpdate",
+          "lineNumber": 44
+        },
+        {
+          "caller": "authentication_token_from_email",
+          "callee": "Exception",
+          "lineNumber": 46
+        },
+        {
+          "caller": "authentication_token_from_email",
+          "callee": "crud.update_user",
+          "lineNumber": 47
+        },
+        {
+          "caller": "authentication_token_from_email",
+          "callee": "user_authentication_headers",
+          "lineNumber": 49
+        }
+      ],
+      "metrics": {
+        "importCount": 5,
+        "exportCount": 3,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "backend/tests/utils/utils.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 26,
+      "nonEmptyLines": 18,
+      "functions": [
+        {
+          "name": "random_lower_string",
+          "startLine": 9,
+          "endLine": 10,
+          "params": []
+        },
+        {
+          "name": "random_email",
+          "startLine": 13,
+          "endLine": 14,
+          "params": []
+        },
+        {
+          "name": "get_superuser_token_headers",
+          "startLine": 17,
+          "endLine": 26,
+          "params": [
+            "client"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "random_lower_string",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "random_email",
+          "line": 13,
+          "isDefault": false
+        },
+        {
+          "name": "get_superuser_token_headers",
+          "line": 17,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "random_lower_string",
+          "callee": "\"\".join",
+          "lineNumber": 10
+        },
+        {
+          "caller": "random_lower_string",
+          "callee": "random.choices",
+          "lineNumber": 10
+        },
+        {
+          "caller": "random_email",
+          "callee": "random_lower_string",
+          "lineNumber": 14
+        },
+        {
+          "caller": "random_email",
+          "callee": "random_lower_string",
+          "lineNumber": 14
+        },
+        {
+          "caller": "get_superuser_token_headers",
+          "callee": "client.post",
+          "lineNumber": 22
+        },
+        {
+          "caller": "get_superuser_token_headers",
+          "callee": "r.json",
+          "lineNumber": 23
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 3,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    }
+  ]
+}

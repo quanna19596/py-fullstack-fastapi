@@ -1,0 +1,279 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 8,
+  "filesSkipped": [],
+  "filesUnreadable": [],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 8,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 8,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "results": [
+    {
+      "path": "packages/react-email/emails/new_account.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 65,
+      "nonEmptyLines": 61,
+      "functions": [
+        {
+          "name": "NewAccount",
+          "startLine": 15,
+          "endLine": 51,
+          "params": [
+            "{\n  project_name = \"{{ project_name }}\",\n  username = \"{{ username }}\",\n  password = \"{{ password }}\",\n  link = \"{{ link }}\",\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "NewAccount",
+          "line": 15,
+          "isDefault": true
+        }
+      ],
+      "metrics": {
+        "importCount": 5,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "packages/react-email/emails/reset_password.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 61,
+      "nonEmptyLines": 57,
+      "functions": [
+        {
+          "name": "ResetPassword",
+          "startLine": 14,
+          "endLine": 47,
+          "params": [
+            "{\n  project_name = \"{{ project_name }}\",\n  username = \"{{ username }}\",\n  link = \"{{ link }}\",\n  valid_hours = \"{{ valid_hours }}\",\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "ResetPassword",
+          "line": 14,
+          "isDefault": true
+        }
+      ],
+      "metrics": {
+        "importCount": 4,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "packages/react-email/emails/test_email.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 49,
+      "nonEmptyLines": 45,
+      "functions": [
+        {
+          "name": "TestEmail",
+          "startLine": 11,
+          "endLine": 35,
+          "params": [
+            "{\n  project_name = \"{{ project_name }}\",\n  email = \"{{ email }}\",\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "TestEmail",
+          "line": 11,
+          "isDefault": true
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "packages/react-email/ui/Button.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 23,
+      "nonEmptyLines": 20,
+      "functions": [
+        {
+          "name": "LinkButton",
+          "startLine": 5,
+          "endLine": 9,
+          "params": [
+            "{ children, href }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "LinkButton",
+          "line": 5,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "packages/react-email/ui/Callout.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 46,
+      "nonEmptyLines": 38,
+      "functions": [
+        {
+          "name": "Callout",
+          "startLine": 5,
+          "endLine": 7,
+          "params": [
+            "{ children }"
+          ]
+        },
+        {
+          "name": "Detail",
+          "startLine": 11,
+          "endLine": 17,
+          "params": [
+            "{ label, value }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Callout",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "Detail",
+          "line": 11,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "packages/react-email/ui/Heading.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 18,
+      "nonEmptyLines": 15,
+      "functions": [
+        {
+          "name": "Heading",
+          "startLine": 5,
+          "endLine": 9,
+          "params": [
+            "{ children }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Heading",
+          "line": 5,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "packages/react-email/ui/Layout.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 111,
+      "nonEmptyLines": 101,
+      "functions": [
+        {
+          "name": "Layout",
+          "startLine": 20,
+          "endLine": 55,
+          "params": [
+            "{\n  project_name,\n  title,\n  preview,\n  children,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Layout",
+          "line": 20,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Layout",
+          "callee": "new Date().getFullYear",
+          "lineNumber": 45
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "packages/react-email/ui/Link.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 15,
+      "nonEmptyLines": 12,
+      "functions": [
+        {
+          "name": "Link",
+          "startLine": 5,
+          "endLine": 9,
+          "params": [
+            "{ children, href }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Link",
+          "line": 5,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    }
+  ]
+}

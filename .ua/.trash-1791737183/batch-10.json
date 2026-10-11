@@ -1,0 +1,53 @@
+{
+  "nodes": [
+    {
+      "id": "config:.github/dependabot.yml",
+      "type": "config",
+      "name": "dependabot.yml",
+      "filePath": ".github/dependabot.yml",
+      "summary": "C\u1ea5u h\u00ecnh v\u00e0 thi\u1ebft l\u1eadp c\u1ed1t l\u00f5i c\u1ee7a \u1ee9ng d\u1ee5ng (dependabot.yml).",
+      "tags": [
+        "config",
+        "configuration"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "config:.github/latest-changes.yml",
+      "type": "config",
+      "name": "latest-changes.yml",
+      "filePath": ".github/latest-changes.yml",
+      "summary": "T\u1eadp tin ki\u1ec3m th\u1eed (latest-changes.yml) \u0111\u1ea3m b\u1ea3o t\u00ednh \u0111\u00fang \u0111\u1eafn cho c\u00e1c ch\u1ee9c n\u0103ng li\u00ean quan.",
+      "tags": [
+        "config",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:.github/pr-push.yml",
+      "type": "config",
+      "name": "pr-push.yml",
+      "filePath": ".github/pr-push.yml",
+      "summary": "C\u1ea5u h\u00ecnh v\u00e0 thi\u1ebft l\u1eadp c\u1ed1t l\u00f5i c\u1ee7a \u1ee9ng d\u1ee5ng (pr-push.yml).",
+      "tags": [
+        "config",
+        "configuration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:.github/pr-submit.yml",
+      "type": "config",
+      "name": "pr-submit.yml",
+      "filePath": ".github/pr-submit.yml",
+      "summary": "C\u1ea5u h\u00ecnh v\u00e0 thi\u1ebft l\u1eadp c\u1ed1t l\u00f5i c\u1ee7a \u1ee9ng d\u1ee5ng (pr-submit.yml).",
+      "tags": [
+        "config",
+        "configuration"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": []
+}

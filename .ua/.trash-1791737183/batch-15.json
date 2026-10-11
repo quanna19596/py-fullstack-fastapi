@@ -1,0 +1,49 @@
+{
+  "nodes": [
+    {
+      "id": "config:packages/react-email/biome.json",
+      "type": "config",
+      "name": "biome.json",
+      "filePath": "packages/react-email/biome.json",
+      "summary": "C\u1ea5u h\u00ecnh v\u00e0 thi\u1ebft l\u1eadp c\u1ed1t l\u00f5i c\u1ee7a \u1ee9ng d\u1ee5ng (biome.json).",
+      "tags": [
+        "config",
+        "configuration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:packages/react-email/package.json",
+      "type": "config",
+      "name": "package.json",
+      "filePath": "packages/react-email/package.json",
+      "summary": "C\u1ea5u h\u00ecnh v\u00e0 thi\u1ebft l\u1eadp c\u1ed1t l\u00f5i c\u1ee7a \u1ee9ng d\u1ee5ng (package.json).",
+      "tags": [
+        "config",
+        "configuration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:packages/react-email/tsconfig.json",
+      "type": "config",
+      "name": "tsconfig.json",
+      "filePath": "packages/react-email/tsconfig.json",
+      "summary": "C\u1ea5u h\u00ecnh v\u00e0 thi\u1ebft l\u1eadp c\u1ed1t l\u00f5i c\u1ee7a \u1ee9ng d\u1ee5ng (tsconfig.json).",
+      "tags": [
+        "config",
+        "configuration"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "config:packages/react-email/tsconfig.json",
+      "target": "file:frontend/src/main.tsx",
+      "type": "configures",
+      "direction": "forward",
+      "weight": 0.6
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"projectRoot": "/Users/quanna/Workspace/py-fullstack-fastapi", "batchFiles": [{"path": "backend/.dockerignore", "language": "unknown", "sizeLines": 8, "fileCategory": "infra"}, {"path": "backend/Dockerfile", "language": "dockerfile", "sizeLines": 65, "fileCategory": "infra"}], "batchImportData": {"backend/.dockerignore": [], "backend/Dockerfile": []}}

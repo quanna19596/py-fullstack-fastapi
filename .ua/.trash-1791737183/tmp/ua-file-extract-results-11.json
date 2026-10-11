@@ -1,0 +1,173 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 2,
+  "filesSkipped": [
+    "backend/alembic.ini"
+  ],
+  "filesUnreadable": [],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 2,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 0,
+      "failed": 0,
+      "skipped": 2
+    }
+  },
+  "results": [
+    {
+      "path": "backend/README.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 145,
+      "nonEmptyLines": 88,
+      "sections": [
+        {
+          "heading": "FastAPI Project - Backend",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Requirements",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "Local Development",
+          "level": 2,
+          "line": 8
+        },
+        {
+          "heading": "General Workflow",
+          "level": 2,
+          "line": 28
+        },
+        {
+          "heading": "VS Code",
+          "level": 2,
+          "line": 34
+        },
+        {
+          "heading": "Full Stack with Docker Compose",
+          "level": 2,
+          "line": 40
+        },
+        {
+          "heading": "Docker Compose Override",
+          "level": 3,
+          "line": 51
+        },
+        {
+          "heading": "Backend Tests",
+          "level": 2,
+          "line": 61
+        },
+        {
+          "heading": "Test a Running Stack",
+          "level": 3,
+          "line": 73
+        },
+        {
+          "heading": "Test Coverage",
+          "level": 3,
+          "line": 89
+        },
+        {
+          "heading": "Migrations",
+          "level": 2,
+          "line": 93
+        },
+        {
+          "heading": "Email Templates",
+          "level": 2,
+          "line": 127
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 12
+      }
+    },
+    {
+      "path": "backend/pyproject.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 82,
+      "nonEmptyLines": 71,
+      "sections": [
+        {
+          "heading": "project",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "dependency-groups",
+          "level": 1,
+          "line": 23
+        },
+        {
+          "heading": "build-system",
+          "level": 1,
+          "line": 32
+        },
+        {
+          "heading": "tool.mypy",
+          "level": 2,
+          "line": 36
+        },
+        {
+          "heading": "tool.ruff",
+          "level": 2,
+          "line": 40
+        },
+        {
+          "heading": "tool.ruff.lint",
+          "level": 3,
+          "line": 44
+        },
+        {
+          "heading": "tool.ruff.lint.pyupgrade",
+          "level": 4,
+          "line": 63
+        },
+        {
+          "heading": "tool.coverage.run",
+          "level": 3,
+          "line": 67
+        },
+        {
+          "heading": "tool.coverage.report",
+          "level": 3,
+          "line": 71
+        },
+        {
+          "heading": "tool.coverage.html",
+          "level": 3,
+          "line": 75
+        },
+        {
+          "heading": "tool.ty.terminal",
+          "level": 3,
+          "line": 78
+        },
+        {
+          "heading": "tool.fastapi",
+          "level": 2,
+          "line": 81
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 12
+      }
+    }
+  ]
+}

@@ -1,0 +1,1193 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 9,
+  "filesSkipped": [],
+  "filesUnreadable": [],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 9,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 9,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "results": [
+    {
+      "path": "frontend/src/client/client/client.gen.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 161,
+      "nonEmptyLines": 139,
+      "functions": [
+        {
+          "name": "createClient",
+          "startLine": 12,
+          "endLine": 161,
+          "params": [
+            "config"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "createClient",
+          "line": 12,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "createClient",
+          "callee": "mergeConfigs",
+          "lineNumber": 13
+        },
+        {
+          "caller": "createClient",
+          "callee": "createConfig",
+          "lineNumber": 13
+        },
+        {
+          "caller": "createClient",
+          "callee": "axios.create",
+          "lineNumber": 22
+        },
+        {
+          "caller": "setConfig",
+          "callee": "mergeConfigs",
+          "lineNumber": 28
+        },
+        {
+          "caller": "setConfig",
+          "callee": "mergeHeaders",
+          "lineNumber": 33
+        },
+        {
+          "caller": "setConfig",
+          "callee": "getConfig",
+          "lineNumber": 35
+        },
+        {
+          "caller": "beforeRequest",
+          "callee": "mergeHeaders",
+          "lineNumber": 49
+        },
+        {
+          "caller": "beforeRequest",
+          "callee": "setAuthParams",
+          "lineNumber": 53
+        },
+        {
+          "caller": "beforeRequest",
+          "callee": "opts.requestValidator",
+          "lineNumber": 57
+        },
+        {
+          "caller": "beforeRequest",
+          "callee": "opts.bodySerializer",
+          "lineNumber": 61
+        },
+        {
+          "caller": "beforeRequest",
+          "callee": "buildUrl",
+          "lineNumber": 64
+        },
+        {
+          "caller": "request",
+          "callee": "beforeRequest",
+          "lineNumber": 71
+        },
+        {
+          "caller": "request",
+          "callee": "_axios",
+          "lineNumber": 77
+        },
+        {
+          "caller": "request",
+          "callee": "getValidRequestBody",
+          "lineNumber": 80
+        },
+        {
+          "caller": "request",
+          "callee": "opts.responseValidator",
+          "lineNumber": 91
+        },
+        {
+          "caller": "request",
+          "callee": "opts.responseTransformer",
+          "lineNumber": 95
+        },
+        {
+          "caller": "makeMethodFn",
+          "callee": "request",
+          "lineNumber": 115
+        },
+        {
+          "caller": "makeSseFn",
+          "callee": "beforeRequest",
+          "lineNumber": 118
+        },
+        {
+          "caller": "makeSseFn",
+          "callee": "createSseClient",
+          "lineNumber": 119
+        },
+        {
+          "caller": "makeSseFn",
+          "callee": "getValidRequestBody",
+          "lineNumber": 124
+        },
+        {
+          "caller": "_buildUrl",
+          "callee": "buildUrl",
+          "lineNumber": 132
+        },
+        {
+          "caller": "createClient",
+          "callee": "makeMethodFn",
+          "lineNumber": 136
+        },
+        {
+          "caller": "createClient",
+          "callee": "makeMethodFn",
+          "lineNumber": 137
+        },
+        {
+          "caller": "createClient",
+          "callee": "makeMethodFn",
+          "lineNumber": 138
+        },
+        {
+          "caller": "createClient",
+          "callee": "makeMethodFn",
+          "lineNumber": 140
+        },
+        {
+          "caller": "createClient",
+          "callee": "makeMethodFn",
+          "lineNumber": 142
+        },
+        {
+          "caller": "createClient",
+          "callee": "makeMethodFn",
+          "lineNumber": 143
+        },
+        {
+          "caller": "createClient",
+          "callee": "makeMethodFn",
+          "lineNumber": 144
+        },
+        {
+          "caller": "createClient",
+          "callee": "makeMethodFn",
+          "lineNumber": 145
+        },
+        {
+          "caller": "createClient",
+          "callee": "makeSseFn",
+          "lineNumber": 149
+        },
+        {
+          "caller": "createClient",
+          "callee": "makeSseFn",
+          "lineNumber": 150
+        },
+        {
+          "caller": "createClient",
+          "callee": "makeSseFn",
+          "lineNumber": 151
+        },
+        {
+          "caller": "createClient",
+          "callee": "makeSseFn",
+          "lineNumber": 152
+        },
+        {
+          "caller": "createClient",
+          "callee": "makeSseFn",
+          "lineNumber": 153
+        },
+        {
+          "caller": "createClient",
+          "callee": "makeSseFn",
+          "lineNumber": 154
+        },
+        {
+          "caller": "createClient",
+          "callee": "makeSseFn",
+          "lineNumber": 155
+        },
+        {
+          "caller": "createClient",
+          "callee": "makeSseFn",
+          "lineNumber": 156
+        },
+        {
+          "caller": "createClient",
+          "callee": "makeSseFn",
+          "lineNumber": 157
+        },
+        {
+          "caller": "createClient",
+          "callee": "makeMethodFn",
+          "lineNumber": 159
+        }
+      ],
+      "metrics": {
+        "importCount": 5,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/client/client/types.gen.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 169,
+      "nonEmptyLines": 154,
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/client/client/utils.gen.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 206,
+      "nonEmptyLines": 187,
+      "functions": [
+        {
+          "name": "createQuerySerializer",
+          "startLine": 13,
+          "endLine": 62,
+          "params": [
+            "{\n  parameters = {},\n  ...args\n}"
+          ]
+        },
+        {
+          "name": "checkForExistence",
+          "startLine": 64,
+          "endLine": 84,
+          "params": [
+            "options",
+            "name"
+          ]
+        },
+        {
+          "name": "setAuthParams",
+          "startLine": 86,
+          "endLine": 125,
+          "params": [
+            "options"
+          ]
+        },
+        {
+          "name": "buildUrl",
+          "startLine": 127,
+          "endLine": 144,
+          "params": [
+            "options"
+          ]
+        },
+        {
+          "name": "mergeConfigs",
+          "startLine": 146,
+          "endLine": 150,
+          "params": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "name": "mergeHeaders",
+          "startLine": 165,
+          "endLine": 200,
+          "params": [
+            "...headers"
+          ]
+        },
+        {
+          "name": "createConfig",
+          "startLine": 202,
+          "endLine": 206,
+          "params": [
+            "override"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "createQuerySerializer",
+          "line": 13,
+          "isDefault": false
+        },
+        {
+          "name": "setAuthParams",
+          "line": 86,
+          "isDefault": false
+        },
+        {
+          "name": "buildUrl",
+          "line": 127,
+          "isDefault": false
+        },
+        {
+          "name": "mergeConfigs",
+          "line": 146,
+          "isDefault": false
+        },
+        {
+          "name": "axiosHeadersKeywords",
+          "line": 155,
+          "isDefault": false
+        },
+        {
+          "name": "mergeHeaders",
+          "line": 165,
+          "isDefault": false
+        },
+        {
+          "name": "createConfig",
+          "line": 202,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "querySerializer",
+          "callee": "Array.isArray",
+          "lineNumber": 29
+        },
+        {
+          "caller": "querySerializer",
+          "callee": "serializeArrayParam",
+          "lineNumber": 30
+        },
+        {
+          "caller": "querySerializer",
+          "callee": "search.push",
+          "lineNumber": 38
+        },
+        {
+          "caller": "querySerializer",
+          "callee": "serializeObjectParam",
+          "lineNumber": 40
+        },
+        {
+          "caller": "querySerializer",
+          "callee": "search.push",
+          "lineNumber": 48
+        },
+        {
+          "caller": "querySerializer",
+          "callee": "serializePrimitiveParam",
+          "lineNumber": 50
+        },
+        {
+          "caller": "querySerializer",
+          "callee": "search.push",
+          "lineNumber": 55
+        },
+        {
+          "caller": "querySerializer",
+          "callee": "search.join",
+          "lineNumber": 59
+        },
+        {
+          "caller": "checkForExistence",
+          "callee": "options.headers['Cookie'].includes",
+          "lineNumber": 81
+        },
+        {
+          "caller": "setAuthParams",
+          "callee": "checkForExistence",
+          "lineNumber": 92
+        },
+        {
+          "caller": "setAuthParams",
+          "callee": "getAuthToken",
+          "lineNumber": 95
+        },
+        {
+          "caller": "buildUrl",
+          "callee": "getUrl",
+          "lineNumber": 133
+        },
+        {
+          "caller": "buildUrl",
+          "callee": "createQuerySerializer",
+          "lineNumber": 141
+        },
+        {
+          "caller": "mergeConfigs",
+          "callee": "mergeHeaders",
+          "lineNumber": 148
+        },
+        {
+          "caller": "mergeHeaders",
+          "callee": "Object.entries",
+          "lineNumber": 174
+        },
+        {
+          "caller": "mergeHeaders",
+          "callee": "axiosHeadersKeywords.includes",
+          "lineNumber": 178
+        },
+        {
+          "caller": "mergeHeaders",
+          "callee": "Array.isArray",
+          "lineNumber": 187
+        },
+        {
+          "caller": "mergeHeaders",
+          "callee": "JSON.stringify",
+          "lineNumber": 195
+        }
+      ],
+      "metrics": {
+        "importCount": 5,
+        "exportCount": 7,
+        "functionCount": 7,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/client/core/auth.gen.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 41,
+      "nonEmptyLines": 34,
+      "functions": [
+        {
+          "name": "getAuthToken",
+          "startLine": 22,
+          "endLine": 41,
+          "params": [
+            "auth",
+            "callback"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "getAuthToken",
+          "line": 22,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getAuthToken",
+          "callee": "callback",
+          "lineNumber": 26
+        },
+        {
+          "caller": "getAuthToken",
+          "callee": "btoa",
+          "lineNumber": 37
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/client/core/bodySerializer.gen.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 82,
+      "nonEmptyLines": 68,
+      "functions": [
+        {
+          "name": "serializeFormDataPair",
+          "startLine": 23,
+          "endLine": 31,
+          "params": [
+            "data",
+            "key",
+            "value"
+          ]
+        },
+        {
+          "name": "serializeUrlSearchParamsPair",
+          "startLine": 33,
+          "endLine": 39,
+          "params": [
+            "data",
+            "key",
+            "value"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "formDataBodySerializer",
+          "line": 41,
+          "isDefault": false
+        },
+        {
+          "name": "jsonBodySerializer",
+          "line": 60,
+          "isDefault": false
+        },
+        {
+          "name": "urlSearchParamsBodySerializer",
+          "line": 65,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "serializeFormDataPair",
+          "callee": "data.append",
+          "lineNumber": 25
+        },
+        {
+          "caller": "serializeFormDataPair",
+          "callee": "data.append",
+          "lineNumber": 27
+        },
+        {
+          "caller": "serializeFormDataPair",
+          "callee": "value.toISOString",
+          "lineNumber": 27
+        },
+        {
+          "caller": "serializeFormDataPair",
+          "callee": "data.append",
+          "lineNumber": 29
+        },
+        {
+          "caller": "serializeFormDataPair",
+          "callee": "JSON.stringify",
+          "lineNumber": 29
+        },
+        {
+          "caller": "serializeUrlSearchParamsPair",
+          "callee": "data.append",
+          "lineNumber": 35
+        },
+        {
+          "caller": "serializeUrlSearchParamsPair",
+          "callee": "data.append",
+          "lineNumber": 37
+        },
+        {
+          "caller": "serializeUrlSearchParamsPair",
+          "callee": "JSON.stringify",
+          "lineNumber": 37
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 3,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/client/core/pathSerializer.gen.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 171,
+      "nonEmptyLines": 154,
+      "functions": [
+        {
+          "name": "separatorArrayExplode",
+          "startLine": 28,
+          "endLine": 39,
+          "params": [
+            "style"
+          ]
+        },
+        {
+          "name": "separatorArrayNoExplode",
+          "startLine": 41,
+          "endLine": 52,
+          "params": [
+            "style"
+          ]
+        },
+        {
+          "name": "separatorObjectExplode",
+          "startLine": 54,
+          "endLine": 65,
+          "params": [
+            "style"
+          ]
+        },
+        {
+          "name": "serializeArrayParam",
+          "startLine": 67,
+          "endLine": 107,
+          "params": [
+            "{\n  allowReserved,\n  explode,\n  name,\n  style,\n  value,\n}"
+          ]
+        },
+        {
+          "name": "serializePrimitiveParam",
+          "startLine": 109,
+          "endLine": 125,
+          "params": [
+            "{\n  allowReserved,\n  name,\n  value,\n}"
+          ]
+        },
+        {
+          "name": "serializeObjectParam",
+          "startLine": 127,
+          "endLine": 171,
+          "params": [
+            "{\n  allowReserved,\n  explode,\n  name,\n  style,\n  value,\n  valueOnly,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "separatorArrayExplode",
+          "line": 28,
+          "isDefault": false
+        },
+        {
+          "name": "separatorArrayNoExplode",
+          "line": 41,
+          "isDefault": false
+        },
+        {
+          "name": "separatorObjectExplode",
+          "line": 54,
+          "isDefault": false
+        },
+        {
+          "name": "serializeArrayParam",
+          "line": 67,
+          "isDefault": false
+        },
+        {
+          "name": "serializePrimitiveParam",
+          "line": 109,
+          "isDefault": false
+        },
+        {
+          "name": "serializeObjectParam",
+          "line": 127,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "serializeArrayParam",
+          "callee": "(\n      allowReserved ? value : value.map((v) => encodeURIComponent(v as string))\n    ).join",
+          "lineNumber": 77
+        },
+        {
+          "caller": "serializeArrayParam",
+          "callee": "value.map",
+          "lineNumber": 78
+        },
+        {
+          "caller": "serializeArrayParam",
+          "callee": "encodeURIComponent",
+          "lineNumber": 78
+        },
+        {
+          "caller": "serializeArrayParam",
+          "callee": "separatorArrayNoExplode",
+          "lineNumber": 79
+        },
+        {
+          "caller": "serializeArrayParam",
+          "callee": "separatorArrayExplode",
+          "lineNumber": 92
+        },
+        {
+          "caller": "serializeArrayParam",
+          "callee": "value\n    .map((v) => {\n      if (style === 'label' || style === 'simple') {\n        return allowReserved ? v : encodeURIComponent(v as string);\n      }\n\n      return serializePrimitiveParam({\n        allowReserved,\n        name,\n        value: v as string,\n      });\n    })\n    .join",
+          "lineNumber": 93
+        },
+        {
+          "caller": "serializeArrayParam",
+          "callee": "value\n    .map",
+          "lineNumber": 93
+        },
+        {
+          "caller": "serializeArrayParam",
+          "callee": "encodeURIComponent",
+          "lineNumber": 96
+        },
+        {
+          "caller": "serializeArrayParam",
+          "callee": "serializePrimitiveParam",
+          "lineNumber": 99
+        },
+        {
+          "caller": "serializePrimitiveParam",
+          "callee": "encodeURIComponent",
+          "lineNumber": 124
+        },
+        {
+          "caller": "serializeObjectParam",
+          "callee": "value.toISOString",
+          "lineNumber": 139
+        },
+        {
+          "caller": "serializeObjectParam",
+          "callee": "value.toISOString",
+          "lineNumber": 139
+        },
+        {
+          "caller": "serializeObjectParam",
+          "callee": "Object.entries(value).forEach",
+          "lineNumber": 144
+        },
+        {
+          "caller": "serializeObjectParam",
+          "callee": "Object.entries",
+          "lineNumber": 144
+        },
+        {
+          "caller": "serializeObjectParam",
+          "callee": "encodeURIComponent",
+          "lineNumber": 145
+        },
+        {
+          "caller": "serializeObjectParam",
+          "callee": "values.join",
+          "lineNumber": 147
+        },
+        {
+          "caller": "serializeObjectParam",
+          "callee": "separatorObjectExplode",
+          "lineNumber": 160
+        },
+        {
+          "caller": "serializeObjectParam",
+          "callee": "Object.entries(value)\n    .map(([key, v]) =>\n      serializePrimitiveParam({\n        allowReserved,\n        name: style === 'deepObject' ? `${name}[${key}]` : key,\n        value: v as string,\n      }),\n    )\n    .join",
+          "lineNumber": 161
+        },
+        {
+          "caller": "serializeObjectParam",
+          "callee": "Object.entries(value)\n    .map",
+          "lineNumber": 161
+        },
+        {
+          "caller": "serializeObjectParam",
+          "callee": "Object.entries",
+          "lineNumber": 161
+        },
+        {
+          "caller": "serializeObjectParam",
+          "callee": "serializePrimitiveParam",
+          "lineNumber": 163
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 6,
+        "functionCount": 6,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/client/core/serverSentEvents.gen.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 242,
+      "nonEmptyLines": 209,
+      "functions": [
+        {
+          "name": "createSseClient",
+          "startLine": 82,
+          "endLine": 242,
+          "params": [
+            "{\n  onRequest,\n  onSseError,\n  onSseEvent,\n  responseTransformer,\n  responseValidator,\n  sseDefaultRetryDelay,\n  sseMaxRetryAttempts,\n  sseMaxRetryDelay,\n  sseSleepFn,\n  url,\n  ...options\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "createSseClient",
+          "line": 82,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "createSseClient",
+          "callee": "setTimeout",
+          "lineNumber": 97
+        },
+        {
+          "caller": "createSseClient",
+          "callee": "headers.set",
+          "lineNumber": 115
+        },
+        {
+          "caller": "createSseClient",
+          "callee": "onRequest",
+          "lineNumber": 128
+        },
+        {
+          "caller": "createSseClient",
+          "callee": "_fetch",
+          "lineNumber": 133
+        },
+        {
+          "caller": "createSseClient",
+          "callee": "response.body.pipeThrough(new TextDecoderStream()).getReader",
+          "lineNumber": 139
+        },
+        {
+          "caller": "createSseClient",
+          "callee": "response.body.pipeThrough",
+          "lineNumber": 139
+        },
+        {
+          "caller": "abortHandler",
+          "callee": "reader.cancel",
+          "lineNumber": 145
+        },
+        {
+          "caller": "createSseClient",
+          "callee": "signal.addEventListener",
+          "lineNumber": 151
+        },
+        {
+          "caller": "createSseClient",
+          "callee": "reader.read",
+          "lineNumber": 155
+        },
+        {
+          "caller": "createSseClient",
+          "callee": "buffer.replace",
+          "lineNumber": 158
+        },
+        {
+          "caller": "createSseClient",
+          "callee": "buffer.split",
+          "lineNumber": 160
+        },
+        {
+          "caller": "createSseClient",
+          "callee": "chunks.pop",
+          "lineNumber": 161
+        },
+        {
+          "caller": "createSseClient",
+          "callee": "chunk.split",
+          "lineNumber": 164
+        },
+        {
+          "caller": "createSseClient",
+          "callee": "line.startsWith",
+          "lineNumber": 169
+        },
+        {
+          "caller": "createSseClient",
+          "callee": "dataLines.push",
+          "lineNumber": 170
+        },
+        {
+          "caller": "createSseClient",
+          "callee": "line.replace",
+          "lineNumber": 170
+        },
+        {
+          "caller": "createSseClient",
+          "callee": "line.startsWith",
+          "lineNumber": 171
+        },
+        {
+          "caller": "createSseClient",
+          "callee": "line.replace",
+          "lineNumber": 172
+        },
+        {
+          "caller": "createSseClient",
+          "callee": "line.startsWith",
+          "lineNumber": 173
+        },
+        {
+          "caller": "createSseClient",
+          "callee": "line.replace",
+          "lineNumber": 174
+        },
+        {
+          "caller": "createSseClient",
+          "callee": "line.startsWith",
+          "lineNumber": 175
+        },
+        {
+          "caller": "createSseClient",
+          "callee": "Number.parseInt",
+          "lineNumber": 176
+        },
+        {
+          "caller": "createSseClient",
+          "callee": "line.replace",
+          "lineNumber": 176
+        },
+        {
+          "caller": "createSseClient",
+          "callee": "Number.isNaN",
+          "lineNumber": 177
+        },
+        {
+          "caller": "createSseClient",
+          "callee": "dataLines.join",
+          "lineNumber": 187
+        },
+        {
+          "caller": "createSseClient",
+          "callee": "JSON.parse",
+          "lineNumber": 189
+        },
+        {
+          "caller": "createSseClient",
+          "callee": "responseValidator",
+          "lineNumber": 198
+        },
+        {
+          "caller": "createSseClient",
+          "callee": "responseTransformer",
+          "lineNumber": 202
+        },
+        {
+          "caller": "createSseClient",
+          "callee": "onSseEvent",
+          "lineNumber": 206
+        },
+        {
+          "caller": "createSseClient",
+          "callee": "signal.removeEventListener",
+          "lineNumber": 219
+        },
+        {
+          "caller": "createSseClient",
+          "callee": "reader.releaseLock",
+          "lineNumber": 220
+        },
+        {
+          "caller": "createSseClient",
+          "callee": "onSseError",
+          "lineNumber": 226
+        },
+        {
+          "caller": "createSseClient",
+          "callee": "Math.min",
+          "lineNumber": 233
+        },
+        {
+          "caller": "createSseClient",
+          "callee": "sleep",
+          "lineNumber": 234
+        },
+        {
+          "caller": "createSseClient",
+          "callee": "createStream",
+          "lineNumber": 239
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/client/core/types.gen.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 104,
+      "nonEmptyLines": 98,
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/client/core/utils.gen.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 140,
+      "nonEmptyLines": 121,
+      "functions": [
+        {
+          "name": "defaultPathSerializer",
+          "startLine": 18,
+          "endLine": 83,
+          "params": [
+            "{ path, url: _url }"
+          ]
+        },
+        {
+          "name": "getUrl",
+          "startLine": 85,
+          "endLine": 111,
+          "params": [
+            "{\n  baseUrl,\n  path,\n  query,\n  querySerializer,\n  url: _url,\n}"
+          ]
+        },
+        {
+          "name": "getValidRequestBody",
+          "startLine": 113,
+          "endLine": 140,
+          "params": [
+            "options"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "PATH_PARAM_RE",
+          "line": 16,
+          "isDefault": false
+        },
+        {
+          "name": "defaultPathSerializer",
+          "line": 18,
+          "isDefault": false
+        },
+        {
+          "name": "getUrl",
+          "line": 85,
+          "isDefault": false
+        },
+        {
+          "name": "getValidRequestBody",
+          "line": 113,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "defaultPathSerializer",
+          "callee": "_url.match",
+          "lineNumber": 20
+        },
+        {
+          "caller": "defaultPathSerializer",
+          "callee": "match.substring",
+          "lineNumber": 24
+        },
+        {
+          "caller": "defaultPathSerializer",
+          "callee": "name.endsWith",
+          "lineNumber": 27
+        },
+        {
+          "caller": "defaultPathSerializer",
+          "callee": "name.substring",
+          "lineNumber": 29
+        },
+        {
+          "caller": "defaultPathSerializer",
+          "callee": "name.startsWith",
+          "lineNumber": 32
+        },
+        {
+          "caller": "defaultPathSerializer",
+          "callee": "name.substring",
+          "lineNumber": 33
+        },
+        {
+          "caller": "defaultPathSerializer",
+          "callee": "name.startsWith",
+          "lineNumber": 35
+        },
+        {
+          "caller": "defaultPathSerializer",
+          "callee": "name.substring",
+          "lineNumber": 36
+        },
+        {
+          "caller": "defaultPathSerializer",
+          "callee": "Array.isArray",
+          "lineNumber": 46
+        },
+        {
+          "caller": "defaultPathSerializer",
+          "callee": "url.replace",
+          "lineNumber": 47
+        },
+        {
+          "caller": "defaultPathSerializer",
+          "callee": "serializeArrayParam",
+          "lineNumber": 47
+        },
+        {
+          "caller": "defaultPathSerializer",
+          "callee": "url.replace",
+          "lineNumber": 52
+        },
+        {
+          "caller": "defaultPathSerializer",
+          "callee": "serializeObjectParam",
+          "lineNumber": 54
+        },
+        {
+          "caller": "defaultPathSerializer",
+          "callee": "url.replace",
+          "lineNumber": 66
+        },
+        {
+          "caller": "defaultPathSerializer",
+          "callee": "serializePrimitiveParam",
+          "lineNumber": 68
+        },
+        {
+          "caller": "defaultPathSerializer",
+          "callee": "encodeURIComponent",
+          "lineNumber": 76
+        },
+        {
+          "caller": "defaultPathSerializer",
+          "callee": "url.replace",
+          "lineNumber": 79
+        },
+        {
+          "caller": "getUrl",
+          "callee": "_url.startsWith",
+          "lineNumber": 98
+        },
+        {
+          "caller": "getUrl",
+          "callee": "defaultPathSerializer",
+          "lineNumber": 101
+        },
+        {
+          "caller": "getUrl",
+          "callee": "querySerializer",
+          "lineNumber": 103
+        },
+        {
+          "caller": "getUrl",
+          "callee": "search.startsWith",
+          "lineNumber": 104
+        },
+        {
+          "caller": "getUrl",
+          "callee": "search.substring",
+          "lineNumber": 105
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 4,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    }
+  ]
+}

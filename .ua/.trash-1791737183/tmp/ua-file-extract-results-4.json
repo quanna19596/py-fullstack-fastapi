@@ -1,0 +1,944 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 10,
+  "filesSkipped": [],
+  "filesUnreadable": [],
+  "analysisOutcomes": {
+    "structure": {
+      "succeeded": 10,
+      "failed": 0
+    },
+    "callGraph": {
+      "succeeded": 10,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "results": [
+    {
+      "path": "frontend/src/components/Common/DataTable.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 194,
+      "nonEmptyLines": 187,
+      "functions": [
+        {
+          "name": "DataTable",
+          "startLine": 37,
+          "endLine": 194,
+          "params": [
+            "{\n  columns,\n  data,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "DataTable",
+          "line": 37,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "DataTable",
+          "callee": "useReactTable",
+          "lineNumber": 41
+        },
+        {
+          "caller": "DataTable",
+          "callee": "getCoreRowModel",
+          "lineNumber": 44
+        },
+        {
+          "caller": "DataTable",
+          "callee": "getPaginationRowModel",
+          "lineNumber": 45
+        },
+        {
+          "caller": "DataTable",
+          "callee": "table.getHeaderGroups().map",
+          "lineNumber": 52
+        },
+        {
+          "caller": "DataTable",
+          "callee": "table.getHeaderGroups",
+          "lineNumber": 52
+        },
+        {
+          "caller": "DataTable",
+          "callee": "headerGroup.headers.map",
+          "lineNumber": 54
+        },
+        {
+          "caller": "DataTable",
+          "callee": "flexRender",
+          "lineNumber": 59
+        },
+        {
+          "caller": "DataTable",
+          "callee": "header.getContext",
+          "lineNumber": 61
+        },
+        {
+          "caller": "DataTable",
+          "callee": "table.getRowModel",
+          "lineNumber": 70
+        },
+        {
+          "caller": "DataTable",
+          "callee": "table.getRowModel().rows.map",
+          "lineNumber": 71
+        },
+        {
+          "caller": "DataTable",
+          "callee": "table.getRowModel",
+          "lineNumber": 71
+        },
+        {
+          "caller": "DataTable",
+          "callee": "row.getVisibleCells().map",
+          "lineNumber": 73
+        },
+        {
+          "caller": "DataTable",
+          "callee": "row.getVisibleCells",
+          "lineNumber": 73
+        },
+        {
+          "caller": "DataTable",
+          "callee": "flexRender",
+          "lineNumber": 75
+        },
+        {
+          "caller": "DataTable",
+          "callee": "cell.getContext",
+          "lineNumber": 75
+        },
+        {
+          "caller": "DataTable",
+          "callee": "table.getPageCount",
+          "lineNumber": 93
+        },
+        {
+          "caller": "DataTable",
+          "callee": "table.getState",
+          "lineNumber": 98
+        },
+        {
+          "caller": "DataTable",
+          "callee": "table.getState",
+          "lineNumber": 99
+        },
+        {
+          "caller": "DataTable",
+          "callee": "Math.min",
+          "lineNumber": 102
+        },
+        {
+          "caller": "DataTable",
+          "callee": "table.getState",
+          "lineNumber": 103
+        },
+        {
+          "caller": "DataTable",
+          "callee": "table.getState",
+          "lineNumber": 104
+        },
+        {
+          "caller": "DataTable",
+          "callee": "table.getState",
+          "lineNumber": 114
+        },
+        {
+          "caller": "DataTable",
+          "callee": "table.setPageSize",
+          "lineNumber": 116
+        },
+        {
+          "caller": "DataTable",
+          "callee": "Number",
+          "lineNumber": 116
+        },
+        {
+          "caller": "DataTable",
+          "callee": "table.getState",
+          "lineNumber": 121
+        },
+        {
+          "caller": "DataTable",
+          "callee": "[5, 10, 25, 50].map",
+          "lineNumber": 125
+        },
+        {
+          "caller": "DataTable",
+          "callee": "table.getState",
+          "lineNumber": 139
+        },
+        {
+          "caller": "DataTable",
+          "callee": "table.getPageCount",
+          "lineNumber": 143
+        },
+        {
+          "caller": "DataTable",
+          "callee": "table.setPageIndex",
+          "lineNumber": 152
+        },
+        {
+          "caller": "DataTable",
+          "callee": "table.getCanPreviousPage",
+          "lineNumber": 153
+        },
+        {
+          "caller": "DataTable",
+          "callee": "table.previousPage",
+          "lineNumber": 162
+        },
+        {
+          "caller": "DataTable",
+          "callee": "table.getCanPreviousPage",
+          "lineNumber": 163
+        },
+        {
+          "caller": "DataTable",
+          "callee": "table.nextPage",
+          "lineNumber": 172
+        },
+        {
+          "caller": "DataTable",
+          "callee": "table.getCanNextPage",
+          "lineNumber": 173
+        },
+        {
+          "caller": "DataTable",
+          "callee": "table.setPageIndex",
+          "lineNumber": 182
+        },
+        {
+          "caller": "DataTable",
+          "callee": "table.getPageCount",
+          "lineNumber": 182
+        },
+        {
+          "caller": "DataTable",
+          "callee": "table.getCanNextPage",
+          "lineNumber": 183
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/Items/columns.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 73,
+      "nonEmptyLines": 69,
+      "functions": [
+        {
+          "name": "CopyId",
+          "startLine": 10,
+          "endLine": 32,
+          "params": [
+            "{ id }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "columns",
+          "line": 34,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "CopyId",
+          "callee": "useCopyToClipboard",
+          "lineNumber": 11
+        },
+        {
+          "caller": "CopyId",
+          "callee": "copy",
+          "lineNumber": 21
+        }
+      ],
+      "metrics": {
+        "importCount": 5,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/Pending/PendingItems.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 46,
+      "nonEmptyLines": 44,
+      "functions": [
+        {
+          "name": "PendingItems",
+          "startLine": 11,
+          "endLine": 44,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "PendingItems",
+          "callee": "Array.from({ length: 5 }).map",
+          "lineNumber": 24
+        },
+        {
+          "caller": "PendingItems",
+          "callee": "Array.from",
+          "lineNumber": 24
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/Pending/PendingUsers.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 53,
+      "nonEmptyLines": 51,
+      "functions": [
+        {
+          "name": "PendingUsers",
+          "startLine": 11,
+          "endLine": 51,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "PendingUsers",
+          "callee": "Array.from({ length: 5 }).map",
+          "lineNumber": 25
+        },
+        {
+          "caller": "PendingUsers",
+          "callee": "Array.from",
+          "lineNumber": 25
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/ui/select.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 185,
+      "nonEmptyLines": 173,
+      "functions": [
+        {
+          "name": "Select",
+          "startLine": 7,
+          "endLine": 11,
+          "params": [
+            "{\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "SelectGroup",
+          "startLine": 13,
+          "endLine": 17,
+          "params": [
+            "{\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "SelectValue",
+          "startLine": 19,
+          "endLine": 23,
+          "params": [
+            "{\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "SelectTrigger",
+          "startLine": 25,
+          "endLine": 49,
+          "params": [
+            "{\n  className,\n  size = \"default\",\n  children,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "SelectContent",
+          "startLine": 51,
+          "endLine": 86,
+          "params": [
+            "{\n  className,\n  children,\n  position = \"popper\",\n  align = \"center\",\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "SelectLabel",
+          "startLine": 88,
+          "endLine": 99,
+          "params": [
+            "{\n  className,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "SelectItem",
+          "startLine": 101,
+          "endLine": 123,
+          "params": [
+            "{\n  className,\n  children,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "SelectSeparator",
+          "startLine": 125,
+          "endLine": 136,
+          "params": [
+            "{\n  className,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "SelectScrollUpButton",
+          "startLine": 138,
+          "endLine": 154,
+          "params": [
+            "{\n  className,\n  ...props\n}"
+          ]
+        },
+        {
+          "name": "SelectScrollDownButton",
+          "startLine": 156,
+          "endLine": 172,
+          "params": [
+            "{\n  className,\n  ...props\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Select",
+          "line": 174,
+          "isDefault": false
+        },
+        {
+          "name": "SelectContent",
+          "line": 174,
+          "isDefault": false
+        },
+        {
+          "name": "SelectGroup",
+          "line": 174,
+          "isDefault": false
+        },
+        {
+          "name": "SelectItem",
+          "line": 174,
+          "isDefault": false
+        },
+        {
+          "name": "SelectLabel",
+          "line": 174,
+          "isDefault": false
+        },
+        {
+          "name": "SelectScrollDownButton",
+          "line": 174,
+          "isDefault": false
+        },
+        {
+          "name": "SelectScrollUpButton",
+          "line": 174,
+          "isDefault": false
+        },
+        {
+          "name": "SelectSeparator",
+          "line": 174,
+          "isDefault": false
+        },
+        {
+          "name": "SelectTrigger",
+          "line": 174,
+          "isDefault": false
+        },
+        {
+          "name": "SelectValue",
+          "line": 174,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "SelectTrigger",
+          "callee": "cn",
+          "lineNumber": 37
+        },
+        {
+          "caller": "SelectContent",
+          "callee": "cn",
+          "lineNumber": 62
+        },
+        {
+          "caller": "SelectContent",
+          "callee": "cn",
+          "lineNumber": 74
+        },
+        {
+          "caller": "SelectLabel",
+          "callee": "cn",
+          "lineNumber": 95
+        },
+        {
+          "caller": "SelectItem",
+          "callee": "cn",
+          "lineNumber": 109
+        },
+        {
+          "caller": "SelectSeparator",
+          "callee": "cn",
+          "lineNumber": 132
+        },
+        {
+          "caller": "SelectScrollUpButton",
+          "callee": "cn",
+          "lineNumber": 145
+        },
+        {
+          "caller": "SelectScrollDownButton",
+          "callee": "cn",
+          "lineNumber": 163
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 10,
+        "functionCount": 10,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/ui/skeleton.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 13,
+      "nonEmptyLines": 11,
+      "functions": [
+        {
+          "name": "Skeleton",
+          "startLine": 3,
+          "endLine": 11,
+          "params": [
+            "{ className, ...props }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Skeleton",
+          "line": 13,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Skeleton",
+          "callee": "cn",
+          "lineNumber": 7
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/components/ui/table.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 114,
+      "nonEmptyLines": 104,
+      "functions": [
+        {
+          "name": "Table",
+          "startLine": 5,
+          "endLine": 18,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "TableHeader",
+          "startLine": 20,
+          "endLine": 28,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "TableBody",
+          "startLine": 30,
+          "endLine": 38,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "TableFooter",
+          "startLine": 40,
+          "endLine": 51,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "TableRow",
+          "startLine": 53,
+          "endLine": 64,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "TableHead",
+          "startLine": 66,
+          "endLine": 77,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "TableCell",
+          "startLine": 79,
+          "endLine": 90,
+          "params": [
+            "{ className, ...props }"
+          ]
+        },
+        {
+          "name": "TableCaption",
+          "startLine": 92,
+          "endLine": 103,
+          "params": [
+            "{\n  className,\n  ...props\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "Table",
+          "line": 105,
+          "isDefault": false
+        },
+        {
+          "name": "TableHeader",
+          "line": 105,
+          "isDefault": false
+        },
+        {
+          "name": "TableBody",
+          "line": 105,
+          "isDefault": false
+        },
+        {
+          "name": "TableFooter",
+          "line": 105,
+          "isDefault": false
+        },
+        {
+          "name": "TableHead",
+          "line": 105,
+          "isDefault": false
+        },
+        {
+          "name": "TableRow",
+          "line": 105,
+          "isDefault": false
+        },
+        {
+          "name": "TableCell",
+          "line": 105,
+          "isDefault": false
+        },
+        {
+          "name": "TableCaption",
+          "line": 105,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Table",
+          "callee": "cn",
+          "lineNumber": 13
+        },
+        {
+          "caller": "TableHeader",
+          "callee": "cn",
+          "lineNumber": 24
+        },
+        {
+          "caller": "TableBody",
+          "callee": "cn",
+          "lineNumber": 34
+        },
+        {
+          "caller": "TableFooter",
+          "callee": "cn",
+          "lineNumber": 44
+        },
+        {
+          "caller": "TableRow",
+          "callee": "cn",
+          "lineNumber": 57
+        },
+        {
+          "caller": "TableHead",
+          "callee": "cn",
+          "lineNumber": 70
+        },
+        {
+          "caller": "TableCell",
+          "callee": "cn",
+          "lineNumber": 83
+        },
+        {
+          "caller": "TableCaption",
+          "callee": "cn",
+          "lineNumber": 99
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 8,
+        "functionCount": 8,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/hooks/useCopyToClipboard.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 32,
+      "nonEmptyLines": 24,
+      "functions": [
+        {
+          "name": "useCopyToClipboard",
+          "startLine": 8,
+          "endLine": 32,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "useCopyToClipboard",
+          "line": 8,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "useCopyToClipboard",
+          "callee": "useState",
+          "lineNumber": 9
+        },
+        {
+          "caller": "useCopyToClipboard",
+          "callee": "useCallback",
+          "lineNumber": 11
+        },
+        {
+          "caller": "useCopyToClipboard",
+          "callee": "console.warn",
+          "lineNumber": 13
+        },
+        {
+          "caller": "useCopyToClipboard",
+          "callee": "navigator.clipboard.writeText",
+          "lineNumber": 18
+        },
+        {
+          "caller": "useCopyToClipboard",
+          "callee": "setCopiedText",
+          "lineNumber": 19
+        },
+        {
+          "caller": "useCopyToClipboard",
+          "callee": "setTimeout",
+          "lineNumber": 21
+        },
+        {
+          "caller": "useCopyToClipboard",
+          "callee": "setCopiedText",
+          "lineNumber": 21
+        },
+        {
+          "caller": "useCopyToClipboard",
+          "callee": "console.warn",
+          "lineNumber": 25
+        },
+        {
+          "caller": "useCopyToClipboard",
+          "callee": "setCopiedText",
+          "lineNumber": 26
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/routes/_layout/admin.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 74,
+      "nonEmptyLines": 66,
+      "functions": [
+        {
+          "name": "getUsersQueryOptions",
+          "startLine": 12,
+          "endLine": 18,
+          "params": []
+        },
+        {
+          "name": "UsersTableContent",
+          "startLine": 39,
+          "endLine": 49,
+          "params": []
+        },
+        {
+          "name": "UsersTable",
+          "startLine": 51,
+          "endLine": 57,
+          "params": []
+        },
+        {
+          "name": "Admin",
+          "startLine": 59,
+          "endLine": 74,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "Route",
+          "line": 20,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getUsersQueryOptions",
+          "callee": "UsersService.readUsers",
+          "lineNumber": 15
+        },
+        {
+          "caller": "UsersTableContent",
+          "callee": "useAuth",
+          "lineNumber": 40
+        },
+        {
+          "caller": "UsersTableContent",
+          "callee": "useSuspenseQuery",
+          "lineNumber": 41
+        },
+        {
+          "caller": "UsersTableContent",
+          "callee": "getUsersQueryOptions",
+          "lineNumber": 41
+        },
+        {
+          "caller": "UsersTableContent",
+          "callee": "users.data.map",
+          "lineNumber": 43
+        }
+      ],
+      "metrics": {
+        "importCount": 6,
+        "exportCount": 1,
+        "functionCount": 4,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "frontend/src/routes/_layout/items.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 70,
+      "nonEmptyLines": 62,
+      "functions": [
+        {
+          "name": "getItemsQueryOptions",
+          "startLine": 12,
+          "endLine": 18,
+          "params": []
+        },
+        {
+          "name": "ItemsTableContent",
+          "startLine": 31,
+          "endLine": 47,
+          "params": []
+        },
+        {
+          "name": "ItemsTable",
+          "startLine": 49,
+          "endLine": 55,
+          "params": []
+        },
+        {
+          "name": "Items",
+          "startLine": 57,
+          "endLine": 70,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "Route",
+          "line": 20,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getItemsQueryOptions",
+          "callee": "ItemsService.readItems",
+          "lineNumber": 15
+        },
+        {
+          "caller": "ItemsTableContent",
+          "callee": "useSuspenseQuery",
+          "lineNumber": 32
+        },
+        {
+          "caller": "ItemsTableContent",
+          "callee": "getItemsQueryOptions",
+          "lineNumber": 32
+        }
+      ],
+      "metrics": {
+        "importCount": 5,
+        "exportCount": 1,
+        "functionCount": 4,
+        "classCount": 0
+      }
+    }
+  ]
+}

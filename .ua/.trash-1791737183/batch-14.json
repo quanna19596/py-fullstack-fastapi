@@ -1,0 +1,186 @@
+{
+  "nodes": [
+    {
+      "id": "service:frontend/.dockerignore",
+      "type": "service",
+      "name": ".dockerignore",
+      "filePath": "frontend/.dockerignore",
+      "summary": "C\u1ea5u h\u00ecnh h\u1ea1 t\u1ea7ng, tri\u1ec3n khai ho\u1eb7c container h\u00f3a (.dockerignore).",
+      "tags": [
+        "service",
+        "frontend",
+        "infrastructure",
+        "deployment"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:frontend/.env",
+      "type": "config",
+      "name": ".env",
+      "filePath": "frontend/.env",
+      "summary": "C\u1ea5u h\u00ecnh v\u00e0 thi\u1ebft l\u1eadp c\u1ed1t l\u00f5i c\u1ee7a \u1ee9ng d\u1ee5ng (.env).",
+      "tags": [
+        "config",
+        "frontend",
+        "configuration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "service:frontend/Dockerfile.playwright",
+      "type": "service",
+      "name": "Dockerfile.playwright",
+      "filePath": "frontend/Dockerfile.playwright",
+      "summary": "C\u1ea5u h\u00ecnh h\u1ea1 t\u1ea7ng, tri\u1ec3n khai ho\u1eb7c container h\u00f3a (Dockerfile.playwright).",
+      "tags": [
+        "service",
+        "frontend",
+        "infrastructure",
+        "deployment"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:frontend/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "frontend/README.md",
+      "summary": "T\u00e0i li\u1ec7u h\u01b0\u1edbng d\u1eabn v\u00e0 m\u00f4 t\u1ea3 k\u1ef9 thu\u1eadt (README.md).",
+      "tags": [
+        "document",
+        "frontend",
+        "documentation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "config:frontend/biome.json",
+      "type": "config",
+      "name": "biome.json",
+      "filePath": "frontend/biome.json",
+      "summary": "C\u1ea5u h\u00ecnh v\u00e0 thi\u1ebft l\u1eadp c\u1ed1t l\u00f5i c\u1ee7a \u1ee9ng d\u1ee5ng (biome.json).",
+      "tags": [
+        "config",
+        "frontend",
+        "configuration"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "config:frontend/components.json",
+      "type": "config",
+      "name": "components.json",
+      "filePath": "frontend/components.json",
+      "summary": "C\u1ea5u h\u00ecnh v\u00e0 thi\u1ebft l\u1eadp c\u1ed1t l\u00f5i c\u1ee7a \u1ee9ng d\u1ee5ng (components.json).",
+      "tags": [
+        "config",
+        "frontend",
+        "ui",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/index.html",
+      "type": "file",
+      "name": "index.html",
+      "filePath": "frontend/index.html",
+      "summary": "T\u1eadp tin m\u00e3 ngu\u1ed3n html (index.html) th\u1ef1c hi\u1ec7n ch\u1ee9c n\u0103ng h\u1ec7 th\u1ed1ng.",
+      "tags": [
+        "frontend",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:frontend/package.json",
+      "type": "config",
+      "name": "package.json",
+      "filePath": "frontend/package.json",
+      "summary": "C\u1ea5u h\u00ecnh v\u00e0 thi\u1ebft l\u1eadp c\u1ed1t l\u00f5i c\u1ee7a \u1ee9ng d\u1ee5ng (package.json).",
+      "tags": [
+        "config",
+        "frontend",
+        "configuration"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "config:frontend/tsconfig.build.json",
+      "type": "config",
+      "name": "tsconfig.build.json",
+      "filePath": "frontend/tsconfig.build.json",
+      "summary": "C\u1ea5u h\u00ecnh v\u00e0 thi\u1ebft l\u1eadp c\u1ed1t l\u00f5i c\u1ee7a \u1ee9ng d\u1ee5ng (tsconfig.build.json).",
+      "tags": [
+        "config",
+        "frontend",
+        "configuration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:frontend/tsconfig.json",
+      "type": "config",
+      "name": "tsconfig.json",
+      "filePath": "frontend/tsconfig.json",
+      "summary": "C\u1ea5u h\u00ecnh v\u00e0 thi\u1ebft l\u1eadp c\u1ed1t l\u00f5i c\u1ee7a \u1ee9ng d\u1ee5ng (tsconfig.json).",
+      "tags": [
+        "config",
+        "frontend",
+        "configuration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:frontend/tsconfig.node.json",
+      "type": "config",
+      "name": "tsconfig.node.json",
+      "filePath": "frontend/tsconfig.node.json",
+      "summary": "C\u1ea5u h\u00ecnh v\u00e0 thi\u1ebft l\u1eadp c\u1ed1t l\u00f5i c\u1ee7a \u1ee9ng d\u1ee5ng (tsconfig.node.json).",
+      "tags": [
+        "config",
+        "frontend",
+        "configuration"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "service:frontend/.dockerignore",
+      "target": "file:backend/app/main.py",
+      "type": "deploys",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "service:frontend/Dockerfile.playwright",
+      "target": "file:backend/app/main.py",
+      "type": "deploys",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "config:frontend/tsconfig.build.json",
+      "target": "file:frontend/src/main.tsx",
+      "type": "configures",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "config:frontend/tsconfig.json",
+      "target": "file:frontend/src/main.tsx",
+      "type": "configures",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "config:frontend/tsconfig.node.json",
+      "target": "file:frontend/src/main.tsx",
+      "type": "configures",
+      "direction": "forward",
+      "weight": 0.6
+    }
+  ]
+}

@@ -1,0 +1,822 @@
+{
+  "nodes": [
+    {
+      "id": "file:frontend/src/components/Common/DataTable.tsx",
+      "type": "file",
+      "name": "DataTable.tsx",
+      "filePath": "frontend/src/components/Common/DataTable.tsx",
+      "summary": "Th\u00e0nh ph\u1ea7n giao di\u1ec7n ng\u01b0\u1eddi d\u00f9ng React (DataTable.tsx).",
+      "tags": [
+        "frontend",
+        "ui",
+        "component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/components/Common/DataTable.tsx:DataTable",
+      "type": "function",
+      "name": "DataTable",
+      "filePath": "frontend/src/components/Common/DataTable.tsx",
+      "lineRange": [
+        37,
+        194
+      ],
+      "summary": "H\u00e0m DataTable x\u1eed l\u00fd logic trong DataTable.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/components/Items/columns.tsx",
+      "type": "file",
+      "name": "columns.tsx",
+      "filePath": "frontend/src/components/Items/columns.tsx",
+      "summary": "Th\u00e0nh ph\u1ea7n giao di\u1ec7n ng\u01b0\u1eddi d\u00f9ng React (columns.tsx).",
+      "tags": [
+        "frontend",
+        "ui",
+        "component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/components/Items/columns.tsx:CopyId",
+      "type": "function",
+      "name": "CopyId",
+      "filePath": "frontend/src/components/Items/columns.tsx",
+      "lineRange": [
+        10,
+        32
+      ],
+      "summary": "H\u00e0m CopyId x\u1eed l\u00fd logic trong columns.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/components/Pending/PendingItems.tsx",
+      "type": "file",
+      "name": "PendingItems.tsx",
+      "filePath": "frontend/src/components/Pending/PendingItems.tsx",
+      "summary": "Th\u00e0nh ph\u1ea7n giao di\u1ec7n ng\u01b0\u1eddi d\u00f9ng React (PendingItems.tsx).",
+      "tags": [
+        "frontend",
+        "ui",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/components/Pending/PendingItems.tsx:PendingItems",
+      "type": "function",
+      "name": "PendingItems",
+      "filePath": "frontend/src/components/Pending/PendingItems.tsx",
+      "lineRange": [
+        11,
+        44
+      ],
+      "summary": "H\u00e0m PendingItems x\u1eed l\u00fd logic trong PendingItems.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/components/Pending/PendingUsers.tsx",
+      "type": "file",
+      "name": "PendingUsers.tsx",
+      "filePath": "frontend/src/components/Pending/PendingUsers.tsx",
+      "summary": "Th\u00e0nh ph\u1ea7n giao di\u1ec7n ng\u01b0\u1eddi d\u00f9ng React (PendingUsers.tsx).",
+      "tags": [
+        "frontend",
+        "ui",
+        "component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/components/Pending/PendingUsers.tsx:PendingUsers",
+      "type": "function",
+      "name": "PendingUsers",
+      "filePath": "frontend/src/components/Pending/PendingUsers.tsx",
+      "lineRange": [
+        11,
+        51
+      ],
+      "summary": "H\u00e0m PendingUsers x\u1eed l\u00fd logic trong PendingUsers.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/components/ui/select.tsx",
+      "type": "file",
+      "name": "select.tsx",
+      "filePath": "frontend/src/components/ui/select.tsx",
+      "summary": "Th\u00e0nh ph\u1ea7n giao di\u1ec7n ng\u01b0\u1eddi d\u00f9ng React (select.tsx).",
+      "tags": [
+        "frontend",
+        "ui",
+        "component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/components/ui/select.tsx:SelectTrigger",
+      "type": "function",
+      "name": "SelectTrigger",
+      "filePath": "frontend/src/components/ui/select.tsx",
+      "lineRange": [
+        25,
+        49
+      ],
+      "summary": "H\u00e0m SelectTrigger x\u1eed l\u00fd logic trong select.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/components/ui/select.tsx:SelectContent",
+      "type": "function",
+      "name": "SelectContent",
+      "filePath": "frontend/src/components/ui/select.tsx",
+      "lineRange": [
+        51,
+        86
+      ],
+      "summary": "H\u00e0m SelectContent x\u1eed l\u00fd logic trong select.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/components/ui/select.tsx:SelectLabel",
+      "type": "function",
+      "name": "SelectLabel",
+      "filePath": "frontend/src/components/ui/select.tsx",
+      "lineRange": [
+        88,
+        99
+      ],
+      "summary": "H\u00e0m SelectLabel x\u1eed l\u00fd logic trong select.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/components/ui/select.tsx:SelectItem",
+      "type": "function",
+      "name": "SelectItem",
+      "filePath": "frontend/src/components/ui/select.tsx",
+      "lineRange": [
+        101,
+        123
+      ],
+      "summary": "H\u00e0m SelectItem x\u1eed l\u00fd logic trong select.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/components/ui/select.tsx:SelectSeparator",
+      "type": "function",
+      "name": "SelectSeparator",
+      "filePath": "frontend/src/components/ui/select.tsx",
+      "lineRange": [
+        125,
+        136
+      ],
+      "summary": "H\u00e0m SelectSeparator x\u1eed l\u00fd logic trong select.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/components/ui/select.tsx:SelectScrollUpButton",
+      "type": "function",
+      "name": "SelectScrollUpButton",
+      "filePath": "frontend/src/components/ui/select.tsx",
+      "lineRange": [
+        138,
+        154
+      ],
+      "summary": "H\u00e0m SelectScrollUpButton x\u1eed l\u00fd logic trong select.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/components/ui/select.tsx:SelectScrollDownButton",
+      "type": "function",
+      "name": "SelectScrollDownButton",
+      "filePath": "frontend/src/components/ui/select.tsx",
+      "lineRange": [
+        156,
+        172
+      ],
+      "summary": "H\u00e0m SelectScrollDownButton x\u1eed l\u00fd logic trong select.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/components/ui/skeleton.tsx",
+      "type": "file",
+      "name": "skeleton.tsx",
+      "filePath": "frontend/src/components/ui/skeleton.tsx",
+      "summary": "Th\u00e0nh ph\u1ea7n giao di\u1ec7n ng\u01b0\u1eddi d\u00f9ng React (skeleton.tsx).",
+      "tags": [
+        "frontend",
+        "ui",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/components/ui/table.tsx",
+      "type": "file",
+      "name": "table.tsx",
+      "filePath": "frontend/src/components/ui/table.tsx",
+      "summary": "Th\u00e0nh ph\u1ea7n giao di\u1ec7n ng\u01b0\u1eddi d\u00f9ng React (table.tsx).",
+      "tags": [
+        "frontend",
+        "ui",
+        "component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/components/ui/table.tsx:Table",
+      "type": "function",
+      "name": "Table",
+      "filePath": "frontend/src/components/ui/table.tsx",
+      "lineRange": [
+        5,
+        18
+      ],
+      "summary": "H\u00e0m Table x\u1eed l\u00fd logic trong table.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/components/ui/table.tsx:TableFooter",
+      "type": "function",
+      "name": "TableFooter",
+      "filePath": "frontend/src/components/ui/table.tsx",
+      "lineRange": [
+        40,
+        51
+      ],
+      "summary": "H\u00e0m TableFooter x\u1eed l\u00fd logic trong table.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/components/ui/table.tsx:TableRow",
+      "type": "function",
+      "name": "TableRow",
+      "filePath": "frontend/src/components/ui/table.tsx",
+      "lineRange": [
+        53,
+        64
+      ],
+      "summary": "H\u00e0m TableRow x\u1eed l\u00fd logic trong table.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/components/ui/table.tsx:TableHead",
+      "type": "function",
+      "name": "TableHead",
+      "filePath": "frontend/src/components/ui/table.tsx",
+      "lineRange": [
+        66,
+        77
+      ],
+      "summary": "H\u00e0m TableHead x\u1eed l\u00fd logic trong table.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/components/ui/table.tsx:TableCell",
+      "type": "function",
+      "name": "TableCell",
+      "filePath": "frontend/src/components/ui/table.tsx",
+      "lineRange": [
+        79,
+        90
+      ],
+      "summary": "H\u00e0m TableCell x\u1eed l\u00fd logic trong table.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/components/ui/table.tsx:TableCaption",
+      "type": "function",
+      "name": "TableCaption",
+      "filePath": "frontend/src/components/ui/table.tsx",
+      "lineRange": [
+        92,
+        103
+      ],
+      "summary": "H\u00e0m TableCaption x\u1eed l\u00fd logic trong table.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/hooks/useCopyToClipboard.ts",
+      "type": "file",
+      "name": "useCopyToClipboard.ts",
+      "filePath": "frontend/src/hooks/useCopyToClipboard.ts",
+      "summary": "Custom hook React t\u00e1i s\u1eed d\u1ee5ng logic (useCopyToClipboard.ts).",
+      "tags": [
+        "frontend",
+        "hook",
+        "state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/hooks/useCopyToClipboard.ts:useCopyToClipboard",
+      "type": "function",
+      "name": "useCopyToClipboard",
+      "filePath": "frontend/src/hooks/useCopyToClipboard.ts",
+      "lineRange": [
+        8,
+        32
+      ],
+      "summary": "H\u00e0m useCopyToClipboard x\u1eed l\u00fd logic trong useCopyToClipboard.ts.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/routes/_layout/admin.tsx",
+      "type": "file",
+      "name": "admin.tsx",
+      "filePath": "frontend/src/routes/_layout/admin.tsx",
+      "summary": "\u0110\u1ecbnh tuy\u1ebfn v\u00e0 x\u1eed l\u00fd c\u00e1c \u0111i\u1ec3m cu\u1ed1i API (admin.tsx).",
+      "tags": [
+        "frontend",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/routes/_layout/admin.tsx:UsersTableContent",
+      "type": "function",
+      "name": "UsersTableContent",
+      "filePath": "frontend/src/routes/_layout/admin.tsx",
+      "lineRange": [
+        39,
+        49
+      ],
+      "summary": "H\u00e0m UsersTableContent x\u1eed l\u00fd logic trong admin.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/routes/_layout/admin.tsx:Admin",
+      "type": "function",
+      "name": "Admin",
+      "filePath": "frontend/src/routes/_layout/admin.tsx",
+      "lineRange": [
+        59,
+        74
+      ],
+      "summary": "H\u00e0m Admin x\u1eed l\u00fd logic trong admin.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/routes/_layout/items.tsx",
+      "type": "file",
+      "name": "items.tsx",
+      "filePath": "frontend/src/routes/_layout/items.tsx",
+      "summary": "\u0110\u1ecbnh tuy\u1ebfn v\u00e0 x\u1eed l\u00fd c\u00e1c \u0111i\u1ec3m cu\u1ed1i API (items.tsx).",
+      "tags": [
+        "frontend",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/routes/_layout/items.tsx:ItemsTableContent",
+      "type": "function",
+      "name": "ItemsTableContent",
+      "filePath": "frontend/src/routes/_layout/items.tsx",
+      "lineRange": [
+        31,
+        47
+      ],
+      "summary": "H\u00e0m ItemsTableContent x\u1eed l\u00fd logic trong items.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/routes/_layout/items.tsx:Items",
+      "type": "function",
+      "name": "Items",
+      "filePath": "frontend/src/routes/_layout/items.tsx",
+      "lineRange": [
+        57,
+        70
+      ],
+      "summary": "H\u00e0m Items x\u1eed l\u00fd logic trong items.tsx.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:frontend/src/components/Common/DataTable.tsx",
+      "target": "function:frontend/src/components/Common/DataTable.tsx:DataTable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/Common/DataTable.tsx",
+      "target": "file:frontend/src/components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Common/DataTable.tsx",
+      "target": "file:frontend/src/components/ui/select.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Common/DataTable.tsx",
+      "target": "file:frontend/src/components/ui/table.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Items/columns.tsx",
+      "target": "function:frontend/src/components/Items/columns.tsx:CopyId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/Items/columns.tsx",
+      "target": "file:frontend/src/client/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Items/columns.tsx",
+      "target": "file:frontend/src/components/Items/ItemActionsMenu.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Items/columns.tsx",
+      "target": "file:frontend/src/components/ui/button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Items/columns.tsx",
+      "target": "file:frontend/src/hooks/useCopyToClipboard.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Items/columns.tsx",
+      "target": "file:frontend/src/lib/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Pending/PendingItems.tsx",
+      "target": "function:frontend/src/components/Pending/PendingItems.tsx:PendingItems",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/Pending/PendingItems.tsx",
+      "target": "file:frontend/src/components/ui/skeleton.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Pending/PendingItems.tsx",
+      "target": "file:frontend/src/components/ui/table.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Pending/PendingUsers.tsx",
+      "target": "function:frontend/src/components/Pending/PendingUsers.tsx:PendingUsers",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/Pending/PendingUsers.tsx",
+      "target": "file:frontend/src/components/ui/skeleton.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/Pending/PendingUsers.tsx",
+      "target": "file:frontend/src/components/ui/table.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/ui/select.tsx",
+      "target": "function:frontend/src/components/ui/select.tsx:SelectTrigger",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/ui/select.tsx",
+      "target": "function:frontend/src/components/ui/select.tsx:SelectContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/ui/select.tsx",
+      "target": "function:frontend/src/components/ui/select.tsx:SelectLabel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/ui/select.tsx",
+      "target": "function:frontend/src/components/ui/select.tsx:SelectItem",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/ui/select.tsx",
+      "target": "function:frontend/src/components/ui/select.tsx:SelectSeparator",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/ui/select.tsx",
+      "target": "function:frontend/src/components/ui/select.tsx:SelectScrollUpButton",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/ui/select.tsx",
+      "target": "function:frontend/src/components/ui/select.tsx:SelectScrollDownButton",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/ui/select.tsx",
+      "target": "file:frontend/src/lib/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/ui/skeleton.tsx",
+      "target": "file:frontend/src/lib/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/components/ui/table.tsx",
+      "target": "function:frontend/src/components/ui/table.tsx:Table",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/ui/table.tsx",
+      "target": "function:frontend/src/components/ui/table.tsx:TableFooter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/ui/table.tsx",
+      "target": "function:frontend/src/components/ui/table.tsx:TableRow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/ui/table.tsx",
+      "target": "function:frontend/src/components/ui/table.tsx:TableHead",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/ui/table.tsx",
+      "target": "function:frontend/src/components/ui/table.tsx:TableCell",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/ui/table.tsx",
+      "target": "function:frontend/src/components/ui/table.tsx:TableCaption",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/components/ui/table.tsx",
+      "target": "file:frontend/src/lib/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/hooks/useCopyToClipboard.ts",
+      "target": "function:frontend/src/hooks/useCopyToClipboard.ts:useCopyToClipboard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/routes/_layout/admin.tsx",
+      "target": "function:frontend/src/routes/_layout/admin.tsx:UsersTableContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/routes/_layout/admin.tsx",
+      "target": "function:frontend/src/routes/_layout/admin.tsx:Admin",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/routes/_layout/admin.tsx",
+      "target": "file:frontend/src/client/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routes/_layout/admin.tsx",
+      "target": "file:frontend/src/components/Admin/AddUser.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routes/_layout/admin.tsx",
+      "target": "file:frontend/src/components/Admin/columns.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routes/_layout/admin.tsx",
+      "target": "file:frontend/src/components/Common/DataTable.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routes/_layout/admin.tsx",
+      "target": "file:frontend/src/components/Pending/PendingUsers.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routes/_layout/admin.tsx",
+      "target": "file:frontend/src/hooks/useAuth.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routes/_layout/items.tsx",
+      "target": "function:frontend/src/routes/_layout/items.tsx:ItemsTableContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/routes/_layout/items.tsx",
+      "target": "function:frontend/src/routes/_layout/items.tsx:Items",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/routes/_layout/items.tsx",
+      "target": "file:frontend/src/client/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routes/_layout/items.tsx",
+      "target": "file:frontend/src/components/Common/DataTable.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routes/_layout/items.tsx",
+      "target": "file:frontend/src/components/Items/AddItem.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routes/_layout/items.tsx",
+      "target": "file:frontend/src/components/Items/columns.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/routes/_layout/items.tsx",
+      "target": "file:frontend/src/components/Pending/PendingItems.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

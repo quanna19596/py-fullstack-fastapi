@@ -1,0 +1,2799 @@
+{
+  "nodes": [
+    {
+      "id": "file:backend/app/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "backend/app/__init__.py",
+      "summary": "T\u1eadp tin m\u00e3 ngu\u1ed3n python (__init__.py) th\u1ef1c hi\u1ec7n ch\u1ee9c n\u0103ng h\u1ec7 th\u1ed1ng.",
+      "tags": [
+        "backend",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/app/alembic/env.py",
+      "type": "file",
+      "name": "env.py",
+      "filePath": "backend/app/alembic/env.py",
+      "summary": "T\u1eadp tin m\u00e3 ngu\u1ed3n python (env.py) th\u1ef1c hi\u1ec7n ch\u1ee9c n\u0103ng h\u1ec7 th\u1ed1ng.",
+      "tags": [
+        "backend",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:backend/app/alembic/env.py:run_migrations_offline",
+      "type": "function",
+      "name": "run_migrations_offline",
+      "filePath": "backend/app/alembic/env.py",
+      "lineRange": [
+        37,
+        55
+      ],
+      "summary": "H\u00e0m run_migrations_offline x\u1eed l\u00fd logic trong env.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/app/alembic/env.py:run_migrations_online",
+      "type": "function",
+      "name": "run_migrations_online",
+      "filePath": "backend/app/alembic/env.py",
+      "lineRange": [
+        58,
+        80
+      ],
+      "summary": "H\u00e0m run_migrations_online x\u1eed l\u00fd logic trong env.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/app/api/deps.py",
+      "type": "file",
+      "name": "deps.py",
+      "filePath": "backend/app/api/deps.py",
+      "summary": "\u0110\u1ecbnh tuy\u1ebfn v\u00e0 x\u1eed l\u00fd c\u00e1c \u0111i\u1ec3m cu\u1ed1i API (deps.py).",
+      "tags": [
+        "backend",
+        "api",
+        "endpoint"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:backend/app/api/deps.py:get_current_user",
+      "type": "function",
+      "name": "get_current_user",
+      "filePath": "backend/app/api/deps.py",
+      "lineRange": [
+        30,
+        46
+      ],
+      "summary": "H\u00e0m get_current_user x\u1eed l\u00fd logic trong deps.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/app/api/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "backend/app/api/main.py",
+      "summary": "\u0110\u1ecbnh tuy\u1ebfn v\u00e0 x\u1eed l\u00fd c\u00e1c \u0111i\u1ec3m cu\u1ed1i API (main.py).",
+      "tags": [
+        "backend",
+        "api",
+        "endpoint"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/app/api/routes/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "backend/app/api/routes/__init__.py",
+      "summary": "\u0110\u1ecbnh tuy\u1ebfn v\u00e0 x\u1eed l\u00fd c\u00e1c \u0111i\u1ec3m cu\u1ed1i API (__init__.py).",
+      "tags": [
+        "backend",
+        "api",
+        "endpoint"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/app/api/routes/items.py",
+      "type": "file",
+      "name": "items.py",
+      "filePath": "backend/app/api/routes/items.py",
+      "summary": "\u0110\u1ecbnh tuy\u1ebfn v\u00e0 x\u1eed l\u00fd c\u00e1c \u0111i\u1ec3m cu\u1ed1i API (items.py).",
+      "tags": [
+        "backend",
+        "api",
+        "endpoint"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:backend/app/api/routes/items.py:read_items",
+      "type": "function",
+      "name": "read_items",
+      "filePath": "backend/app/api/routes/items.py",
+      "lineRange": [
+        14,
+        45
+      ],
+      "summary": "H\u00e0m read_items x\u1eed l\u00fd logic trong items.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/app/api/routes/items.py:read_item",
+      "type": "function",
+      "name": "read_item",
+      "filePath": "backend/app/api/routes/items.py",
+      "lineRange": [
+        49,
+        58
+      ],
+      "summary": "H\u00e0m read_item x\u1eed l\u00fd logic trong items.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/app/api/routes/items.py:create_item",
+      "type": "function",
+      "name": "create_item",
+      "filePath": "backend/app/api/routes/items.py",
+      "lineRange": [
+        62,
+        72
+      ],
+      "summary": "H\u00e0m create_item x\u1eed l\u00fd logic trong items.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/app/api/routes/items.py:update_item",
+      "type": "function",
+      "name": "update_item",
+      "filePath": "backend/app/api/routes/items.py",
+      "lineRange": [
+        76,
+        96
+      ],
+      "summary": "H\u00e0m update_item x\u1eed l\u00fd logic trong items.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/app/api/routes/items.py:delete_item",
+      "type": "function",
+      "name": "delete_item",
+      "filePath": "backend/app/api/routes/items.py",
+      "lineRange": [
+        100,
+        113
+      ],
+      "summary": "H\u00e0m delete_item x\u1eed l\u00fd logic trong items.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/app/api/routes/login.py",
+      "type": "file",
+      "name": "login.py",
+      "filePath": "backend/app/api/routes/login.py",
+      "summary": "\u0110\u1ecbnh tuy\u1ebfn v\u00e0 x\u1eed l\u00fd c\u00e1c \u0111i\u1ec3m cu\u1ed1i API (login.py).",
+      "tags": [
+        "backend",
+        "api",
+        "endpoint"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:backend/app/api/routes/login.py:login_access_token",
+      "type": "function",
+      "name": "login_access_token",
+      "filePath": "backend/app/api/routes/login.py",
+      "lineRange": [
+        24,
+        42
+      ],
+      "summary": "H\u00e0m login_access_token x\u1eed l\u00fd logic trong login.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/app/api/routes/login.py:recover_password",
+      "type": "function",
+      "name": "recover_password",
+      "filePath": "backend/app/api/routes/login.py",
+      "lineRange": [
+        54,
+        74
+      ],
+      "summary": "H\u00e0m recover_password x\u1eed l\u00fd logic trong login.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/app/api/routes/login.py:reset_password",
+      "type": "function",
+      "name": "reset_password",
+      "filePath": "backend/app/api/routes/login.py",
+      "lineRange": [
+        78,
+        97
+      ],
+      "summary": "H\u00e0m reset_password x\u1eed l\u00fd logic trong login.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/app/api/routes/login.py:recover_password_html_content",
+      "type": "function",
+      "name": "recover_password_html_content",
+      "filePath": "backend/app/api/routes/login.py",
+      "lineRange": [
+        105,
+        123
+      ],
+      "summary": "H\u00e0m recover_password_html_content x\u1eed l\u00fd logic trong login.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/app/api/routes/private.py",
+      "type": "file",
+      "name": "private.py",
+      "filePath": "backend/app/api/routes/private.py",
+      "summary": "\u0110\u1ecbnh tuy\u1ebfn v\u00e0 x\u1eed l\u00fd c\u00e1c \u0111i\u1ec3m cu\u1ed1i API (private.py).",
+      "tags": [
+        "backend",
+        "api",
+        "endpoint"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/app/api/routes/private.py:create_user",
+      "type": "function",
+      "name": "create_user",
+      "filePath": "backend/app/api/routes/private.py",
+      "lineRange": [
+        24,
+        38
+      ],
+      "summary": "H\u00e0m create_user x\u1eed l\u00fd logic trong private.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/app/api/routes/users.py",
+      "type": "file",
+      "name": "users.py",
+      "filePath": "backend/app/api/routes/users.py",
+      "summary": "\u0110\u1ecbnh tuy\u1ebfn v\u00e0 x\u1eed l\u00fd c\u00e1c \u0111i\u1ec3m cu\u1ed1i API (users.py).",
+      "tags": [
+        "backend",
+        "api",
+        "endpoint"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:backend/app/api/routes/users.py:read_users",
+      "type": "function",
+      "name": "read_users",
+      "filePath": "backend/app/api/routes/users.py",
+      "lineRange": [
+        37,
+        51
+      ],
+      "summary": "H\u00e0m read_users x\u1eed l\u00fd logic trong users.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/app/api/routes/users.py:create_user",
+      "type": "function",
+      "name": "create_user",
+      "filePath": "backend/app/api/routes/users.py",
+      "lineRange": [
+        57,
+        78
+      ],
+      "summary": "H\u00e0m create_user x\u1eed l\u00fd logic trong users.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/app/api/routes/users.py:update_user_me",
+      "type": "function",
+      "name": "update_user_me",
+      "filePath": "backend/app/api/routes/users.py",
+      "lineRange": [
+        82,
+        100
+      ],
+      "summary": "H\u00e0m update_user_me x\u1eed l\u00fd logic trong users.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/app/api/routes/users.py:update_password_me",
+      "type": "function",
+      "name": "update_password_me",
+      "filePath": "backend/app/api/routes/users.py",
+      "lineRange": [
+        104,
+        121
+      ],
+      "summary": "H\u00e0m update_password_me x\u1eed l\u00fd logic trong users.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/app/api/routes/users.py:delete_user_me",
+      "type": "function",
+      "name": "delete_user_me",
+      "filePath": "backend/app/api/routes/users.py",
+      "lineRange": [
+        133,
+        143
+      ],
+      "summary": "H\u00e0m delete_user_me x\u1eed l\u00fd logic trong users.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/app/api/routes/users.py:register_user",
+      "type": "function",
+      "name": "register_user",
+      "filePath": "backend/app/api/routes/users.py",
+      "lineRange": [
+        147,
+        159
+      ],
+      "summary": "H\u00e0m register_user x\u1eed l\u00fd logic trong users.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/app/api/routes/users.py:read_user_by_id",
+      "type": "function",
+      "name": "read_user_by_id",
+      "filePath": "backend/app/api/routes/users.py",
+      "lineRange": [
+        163,
+        179
+      ],
+      "summary": "H\u00e0m read_user_by_id x\u1eed l\u00fd logic trong users.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/app/api/routes/users.py:update_user",
+      "type": "function",
+      "name": "update_user",
+      "filePath": "backend/app/api/routes/users.py",
+      "lineRange": [
+        187,
+        211
+      ],
+      "summary": "H\u00e0m update_user x\u1eed l\u00fd logic trong users.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/app/api/routes/users.py:delete_user",
+      "type": "function",
+      "name": "delete_user",
+      "filePath": "backend/app/api/routes/users.py",
+      "lineRange": [
+        215,
+        232
+      ],
+      "summary": "H\u00e0m delete_user x\u1eed l\u00fd logic trong users.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/app/api/routes/utils.py",
+      "type": "file",
+      "name": "utils.py",
+      "filePath": "backend/app/api/routes/utils.py",
+      "summary": "\u0110\u1ecbnh tuy\u1ebfn v\u00e0 x\u1eed l\u00fd c\u00e1c \u0111i\u1ec3m cu\u1ed1i API (utils.py).",
+      "tags": [
+        "backend",
+        "api",
+        "endpoint"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/app/api/routes/utils.py:test_email",
+      "type": "function",
+      "name": "test_email",
+      "filePath": "backend/app/api/routes/utils.py",
+      "lineRange": [
+        16,
+        26
+      ],
+      "summary": "H\u00e0m test_email x\u1eed l\u00fd logic trong utils.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/app/core/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "backend/app/core/__init__.py",
+      "summary": "C\u1ea5u h\u00ecnh v\u00e0 thi\u1ebft l\u1eadp c\u1ed1t l\u00f5i c\u1ee7a \u1ee9ng d\u1ee5ng (__init__.py).",
+      "tags": [
+        "backend",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/app/core/config.py",
+      "type": "file",
+      "name": "config.py",
+      "filePath": "backend/app/core/config.py",
+      "summary": "C\u1ea5u h\u00ecnh v\u00e0 thi\u1ebft l\u1eadp c\u1ed1t l\u00f5i c\u1ee7a \u1ee9ng d\u1ee5ng (config.py).",
+      "tags": [
+        "backend",
+        "configuration"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:backend/app/core/config.py:Settings",
+      "type": "class",
+      "name": "Settings",
+      "filePath": "backend/app/core/config.py",
+      "lineRange": [
+        15,
+        88
+      ],
+      "summary": "L\u1edbp Settings \u0111\u1ecbnh ngh\u0129a c\u1ea5u tr\u00fac d\u1eef li\u1ec7u ho\u1eb7c nghi\u1ec7p v\u1ee5.",
+      "tags": [
+        "class",
+        "model"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:backend/app/core/db.py",
+      "type": "file",
+      "name": "db.py",
+      "filePath": "backend/app/core/db.py",
+      "summary": "C\u1ea5u h\u00ecnh v\u00e0 thi\u1ebft l\u1eadp c\u1ed1t l\u00f5i c\u1ee7a \u1ee9ng d\u1ee5ng (db.py).",
+      "tags": [
+        "backend",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/app/core/db.py:init_db",
+      "type": "function",
+      "name": "init_db",
+      "filePath": "backend/app/core/db.py",
+      "lineRange": [
+        15,
+        33
+      ],
+      "summary": "H\u00e0m init_db x\u1eed l\u00fd logic trong db.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/app/core/security.py",
+      "type": "file",
+      "name": "security.py",
+      "filePath": "backend/app/core/security.py",
+      "summary": "C\u1ea5u h\u00ecnh v\u00e0 thi\u1ebft l\u1eadp c\u1ed1t l\u00f5i c\u1ee7a \u1ee9ng d\u1ee5ng (security.py).",
+      "tags": [
+        "backend",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/app/crud.py",
+      "type": "file",
+      "name": "crud.py",
+      "filePath": "backend/app/crud.py",
+      "summary": "C\u00e1c h\u00e0m thao t\u00e1c c\u01a1 s\u1edf d\u1eef li\u1ec7u CRUD (crud.py).",
+      "tags": [
+        "backend",
+        "database",
+        "crud"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:backend/app/crud.py:update_user",
+      "type": "function",
+      "name": "update_user",
+      "filePath": "backend/app/crud.py",
+      "lineRange": [
+        20,
+        31
+      ],
+      "summary": "H\u00e0m update_user x\u1eed l\u00fd logic trong crud.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/app/crud.py:authenticate",
+      "type": "function",
+      "name": "authenticate",
+      "filePath": "backend/app/crud.py",
+      "lineRange": [
+        45,
+        60
+      ],
+      "summary": "H\u00e0m authenticate x\u1eed l\u00fd logic trong crud.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/app/initial_data.py",
+      "type": "file",
+      "name": "initial_data.py",
+      "filePath": "backend/app/initial_data.py",
+      "summary": "T\u1eadp tin m\u00e3 ngu\u1ed3n python (initial_data.py) th\u1ef1c hi\u1ec7n ch\u1ee9c n\u0103ng h\u1ec7 th\u1ed1ng.",
+      "tags": [
+        "backend",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/app/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "backend/app/main.py",
+      "summary": "T\u1eadp tin m\u00e3 ngu\u1ed3n python (main.py) th\u1ef1c hi\u1ec7n ch\u1ee9c n\u0103ng h\u1ec7 th\u1ed1ng.",
+      "tags": [
+        "backend",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/app/models.py",
+      "type": "file",
+      "name": "models.py",
+      "filePath": "backend/app/models.py",
+      "summary": "\u0110\u1ecbnh ngh\u0129a m\u00f4 h\u00ecnh d\u1eef li\u1ec7u v\u00e0 l\u01b0\u1ee3c \u0111\u1ed3 c\u1ea5u tr\u00fac (models.py).",
+      "tags": [
+        "backend",
+        "data-model",
+        "schema"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:backend/app/utils.py",
+      "type": "file",
+      "name": "utils.py",
+      "filePath": "backend/app/utils.py",
+      "summary": "H\u00e0m ti\u1ec7n \u00edch v\u00e0 c\u00f4ng c\u1ee5 h\u1ed7 tr\u1ee3 (utils.py).",
+      "tags": [
+        "backend",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:backend/app/utils.py:send_email",
+      "type": "function",
+      "name": "send_email",
+      "filePath": "backend/app/utils.py",
+      "lineRange": [
+        34,
+        57
+      ],
+      "summary": "H\u00e0m send_email x\u1eed l\u00fd logic trong utils.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/app/utils.py:generate_reset_password_email",
+      "type": "function",
+      "name": "generate_reset_password_email",
+      "filePath": "backend/app/utils.py",
+      "lineRange": [
+        70,
+        84
+      ],
+      "summary": "H\u00e0m generate_reset_password_email x\u1eed l\u00fd logic trong utils.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/app/utils.py:generate_new_account_email",
+      "type": "function",
+      "name": "generate_new_account_email",
+      "filePath": "backend/app/utils.py",
+      "lineRange": [
+        87,
+        102
+      ],
+      "summary": "H\u00e0m generate_new_account_email x\u1eed l\u00fd logic trong utils.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/app/utils.py:generate_password_reset_token",
+      "type": "function",
+      "name": "generate_password_reset_token",
+      "filePath": "backend/app/utils.py",
+      "lineRange": [
+        105,
+        115
+      ],
+      "summary": "H\u00e0m generate_password_reset_token x\u1eed l\u00fd logic trong utils.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/tests/api/routes/test_items.py",
+      "type": "file",
+      "name": "test_items.py",
+      "filePath": "backend/tests/api/routes/test_items.py",
+      "summary": "T\u1eadp tin ki\u1ec3m th\u1eed (test_items.py) \u0111\u1ea3m b\u1ea3o t\u00ednh \u0111\u00fang \u0111\u1eafn cho c\u00e1c ch\u1ee9c n\u0103ng li\u00ean quan.",
+      "tags": [
+        "backend",
+        "test"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:backend/tests/api/routes/test_items.py:test_create_item",
+      "type": "function",
+      "name": "test_create_item",
+      "filePath": "backend/tests/api/routes/test_items.py",
+      "lineRange": [
+        10,
+        24
+      ],
+      "summary": "H\u00e0m test_create_item x\u1eed l\u00fd logic trong test_items.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/tests/api/routes/test_items.py:test_read_item",
+      "type": "function",
+      "name": "test_read_item",
+      "filePath": "backend/tests/api/routes/test_items.py",
+      "lineRange": [
+        27,
+        40
+      ],
+      "summary": "H\u00e0m test_read_item x\u1eed l\u00fd logic trong test_items.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/tests/api/routes/test_items.py:test_read_item_not_found",
+      "type": "function",
+      "name": "test_read_item_not_found",
+      "filePath": "backend/tests/api/routes/test_items.py",
+      "lineRange": [
+        43,
+        52
+      ],
+      "summary": "H\u00e0m test_read_item_not_found x\u1eed l\u00fd logic trong test_items.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/tests/api/routes/test_items.py:test_read_item_not_enough_permissions",
+      "type": "function",
+      "name": "test_read_item_not_enough_permissions",
+      "filePath": "backend/tests/api/routes/test_items.py",
+      "lineRange": [
+        55,
+        65
+      ],
+      "summary": "H\u00e0m test_read_item_not_enough_permissions x\u1eed l\u00fd logic trong test_items.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/tests/api/routes/test_items.py:test_read_items",
+      "type": "function",
+      "name": "test_read_items",
+      "filePath": "backend/tests/api/routes/test_items.py",
+      "lineRange": [
+        68,
+        79
+      ],
+      "summary": "H\u00e0m test_read_items x\u1eed l\u00fd logic trong test_items.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/tests/api/routes/test_items.py:test_update_item",
+      "type": "function",
+      "name": "test_update_item",
+      "filePath": "backend/tests/api/routes/test_items.py",
+      "lineRange": [
+        82,
+        97
+      ],
+      "summary": "H\u00e0m test_update_item x\u1eed l\u00fd logic trong test_items.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/tests/api/routes/test_items.py:test_update_item_not_found",
+      "type": "function",
+      "name": "test_update_item_not_found",
+      "filePath": "backend/tests/api/routes/test_items.py",
+      "lineRange": [
+        100,
+        111
+      ],
+      "summary": "H\u00e0m test_update_item_not_found x\u1eed l\u00fd logic trong test_items.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/tests/api/routes/test_items.py:test_update_item_not_enough_permissions",
+      "type": "function",
+      "name": "test_update_item_not_enough_permissions",
+      "filePath": "backend/tests/api/routes/test_items.py",
+      "lineRange": [
+        114,
+        126
+      ],
+      "summary": "H\u00e0m test_update_item_not_enough_permissions x\u1eed l\u00fd logic trong test_items.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/tests/api/routes/test_items.py:test_delete_item",
+      "type": "function",
+      "name": "test_delete_item",
+      "filePath": "backend/tests/api/routes/test_items.py",
+      "lineRange": [
+        129,
+        139
+      ],
+      "summary": "H\u00e0m test_delete_item x\u1eed l\u00fd logic trong test_items.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/tests/api/routes/test_items.py:test_delete_item_not_found",
+      "type": "function",
+      "name": "test_delete_item_not_found",
+      "filePath": "backend/tests/api/routes/test_items.py",
+      "lineRange": [
+        142,
+        151
+      ],
+      "summary": "H\u00e0m test_delete_item_not_found x\u1eed l\u00fd logic trong test_items.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/tests/api/routes/test_items.py:test_delete_item_not_enough_permissions",
+      "type": "function",
+      "name": "test_delete_item_not_enough_permissions",
+      "filePath": "backend/tests/api/routes/test_items.py",
+      "lineRange": [
+        154,
+        164
+      ],
+      "summary": "H\u00e0m test_delete_item_not_enough_permissions x\u1eed l\u00fd logic trong test_items.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/tests/api/routes/test_login.py",
+      "type": "file",
+      "name": "test_login.py",
+      "filePath": "backend/tests/api/routes/test_login.py",
+      "summary": "T\u1eadp tin ki\u1ec3m th\u1eed (test_login.py) \u0111\u1ea3m b\u1ea3o t\u00ednh \u0111\u00fang \u0111\u1eafn cho c\u00e1c ch\u1ee9c n\u0103ng li\u00ean quan.",
+      "tags": [
+        "backend",
+        "test"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:backend/tests/api/routes/test_login.py:test_get_access_token",
+      "type": "function",
+      "name": "test_get_access_token",
+      "filePath": "backend/tests/api/routes/test_login.py",
+      "lineRange": [
+        16,
+        25
+      ],
+      "summary": "H\u00e0m test_get_access_token x\u1eed l\u00fd logic trong test_login.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/tests/api/routes/test_login.py:test_use_access_token",
+      "type": "function",
+      "name": "test_use_access_token",
+      "filePath": "backend/tests/api/routes/test_login.py",
+      "lineRange": [
+        37,
+        46
+      ],
+      "summary": "H\u00e0m test_use_access_token x\u1eed l\u00fd logic trong test_login.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/tests/api/routes/test_login.py:test_recovery_password",
+      "type": "function",
+      "name": "test_recovery_password",
+      "filePath": "backend/tests/api/routes/test_login.py",
+      "lineRange": [
+        49,
+        64
+      ],
+      "summary": "H\u00e0m test_recovery_password x\u1eed l\u00fd logic trong test_login.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/tests/api/routes/test_login.py:test_recovery_password_user_not_exits",
+      "type": "function",
+      "name": "test_recovery_password_user_not_exits",
+      "filePath": "backend/tests/api/routes/test_login.py",
+      "lineRange": [
+        67,
+        79
+      ],
+      "summary": "H\u00e0m test_recovery_password_user_not_exits x\u1eed l\u00fd logic trong test_login.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/tests/api/routes/test_login.py:test_reset_password",
+      "type": "function",
+      "name": "test_reset_password",
+      "filePath": "backend/tests/api/routes/test_login.py",
+      "lineRange": [
+        82,
+        110
+      ],
+      "summary": "H\u00e0m test_reset_password x\u1eed l\u00fd logic trong test_login.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/tests/api/routes/test_login.py:test_reset_password_invalid_token",
+      "type": "function",
+      "name": "test_reset_password_invalid_token",
+      "filePath": "backend/tests/api/routes/test_login.py",
+      "lineRange": [
+        113,
+        126
+      ],
+      "summary": "H\u00e0m test_reset_password_invalid_token x\u1eed l\u00fd logic trong test_login.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/tests/api/routes/test_login.py:test_login_with_bcrypt_password_upgrades_to_argon2",
+      "type": "function",
+      "name": "test_login_with_bcrypt_password_upgrades_to_argon2",
+      "filePath": "backend/tests/api/routes/test_login.py",
+      "lineRange": [
+        129,
+        162
+      ],
+      "summary": "H\u00e0m test_login_with_bcrypt_password_upgrades_to_argon2 x\u1eed l\u00fd logic trong test_login.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/tests/api/routes/test_login.py:test_login_with_argon2_password_keeps_hash",
+      "type": "function",
+      "name": "test_login_with_argon2_password_keeps_hash",
+      "filePath": "backend/tests/api/routes/test_login.py",
+      "lineRange": [
+        165,
+        191
+      ],
+      "summary": "H\u00e0m test_login_with_argon2_password_keeps_hash x\u1eed l\u00fd logic trong test_login.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/tests/api/routes/test_private.py",
+      "type": "file",
+      "name": "test_private.py",
+      "filePath": "backend/tests/api/routes/test_private.py",
+      "summary": "T\u1eadp tin ki\u1ec3m th\u1eed (test_private.py) \u0111\u1ea3m b\u1ea3o t\u00ednh \u0111\u00fang \u0111\u1eafn cho c\u00e1c ch\u1ee9c n\u0103ng li\u00ean quan.",
+      "tags": [
+        "backend",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/tests/api/routes/test_private.py:test_create_user",
+      "type": "function",
+      "name": "test_create_user",
+      "filePath": "backend/tests/api/routes/test_private.py",
+      "lineRange": [
+        8,
+        26
+      ],
+      "summary": "H\u00e0m test_create_user x\u1eed l\u00fd logic trong test_private.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/tests/api/routes/test_users.py",
+      "type": "file",
+      "name": "test_users.py",
+      "filePath": "backend/tests/api/routes/test_users.py",
+      "summary": "T\u1eadp tin ki\u1ec3m th\u1eed (test_users.py) \u0111\u1ea3m b\u1ea3o t\u00ednh \u0111\u00fang \u0111\u1eafn cho c\u00e1c ch\u1ee9c n\u0103ng li\u00ean quan.",
+      "tags": [
+        "backend",
+        "test"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:backend/tests/api/routes/test_users.py:test_create_user_new_email",
+      "type": "function",
+      "name": "test_create_user_new_email",
+      "filePath": "backend/tests/api/routes/test_users.py",
+      "lineRange": [
+        37,
+        57
+      ],
+      "summary": "H\u00e0m test_create_user_new_email x\u1eed l\u00fd logic trong test_users.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/tests/api/routes/test_users.py:test_get_existing_user_as_superuser",
+      "type": "function",
+      "name": "test_get_existing_user_as_superuser",
+      "filePath": "backend/tests/api/routes/test_users.py",
+      "lineRange": [
+        60,
+        76
+      ],
+      "summary": "H\u00e0m test_get_existing_user_as_superuser x\u1eed l\u00fd logic trong test_users.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/tests/api/routes/test_users.py:test_get_existing_user_current_user",
+      "type": "function",
+      "name": "test_get_existing_user_current_user",
+      "filePath": "backend/tests/api/routes/test_users.py",
+      "lineRange": [
+        90,
+        114
+      ],
+      "summary": "H\u00e0m test_get_existing_user_current_user x\u1eed l\u00fd logic trong test_users.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/tests/api/routes/test_users.py:test_get_existing_user_permissions_error",
+      "type": "function",
+      "name": "test_get_existing_user_permissions_error",
+      "filePath": "backend/tests/api/routes/test_users.py",
+      "lineRange": [
+        117,
+        129
+      ],
+      "summary": "H\u00e0m test_get_existing_user_permissions_error x\u1eed l\u00fd logic trong test_users.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/tests/api/routes/test_users.py:test_get_non_existing_user_permissions_error",
+      "type": "function",
+      "name": "test_get_non_existing_user_permissions_error",
+      "filePath": "backend/tests/api/routes/test_users.py",
+      "lineRange": [
+        132,
+        143
+      ],
+      "summary": "H\u00e0m test_get_non_existing_user_permissions_error x\u1eed l\u00fd logic trong test_users.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/tests/api/routes/test_users.py:test_create_user_existing_username",
+      "type": "function",
+      "name": "test_create_user_existing_username",
+      "filePath": "backend/tests/api/routes/test_users.py",
+      "lineRange": [
+        146,
+        162
+      ],
+      "summary": "H\u00e0m test_create_user_existing_username x\u1eed l\u00fd logic trong test_users.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/tests/api/routes/test_users.py:test_create_user_by_normal_user",
+      "type": "function",
+      "name": "test_create_user_by_normal_user",
+      "filePath": "backend/tests/api/routes/test_users.py",
+      "lineRange": [
+        165,
+        176
+      ],
+      "summary": "H\u00e0m test_create_user_by_normal_user x\u1eed l\u00fd logic trong test_users.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/tests/api/routes/test_users.py:test_retrieve_users",
+      "type": "function",
+      "name": "test_retrieve_users",
+      "filePath": "backend/tests/api/routes/test_users.py",
+      "lineRange": [
+        179,
+        198
+      ],
+      "summary": "H\u00e0m test_retrieve_users x\u1eed l\u00fd logic trong test_users.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/tests/api/routes/test_users.py:test_update_user_me",
+      "type": "function",
+      "name": "test_update_user_me",
+      "filePath": "backend/tests/api/routes/test_users.py",
+      "lineRange": [
+        201,
+        221
+      ],
+      "summary": "H\u00e0m test_update_user_me x\u1eed l\u00fd logic trong test_users.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/tests/api/routes/test_users.py:test_update_password_me",
+      "type": "function",
+      "name": "test_update_password_me",
+      "filePath": "backend/tests/api/routes/test_users.py",
+      "lineRange": [
+        224,
+        264
+      ],
+      "summary": "H\u00e0m test_update_password_me x\u1eed l\u00fd logic trong test_users.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/tests/api/routes/test_users.py:test_update_password_me_incorrect_password",
+      "type": "function",
+      "name": "test_update_password_me_incorrect_password",
+      "filePath": "backend/tests/api/routes/test_users.py",
+      "lineRange": [
+        267,
+        279
+      ],
+      "summary": "H\u00e0m test_update_password_me_incorrect_password x\u1eed l\u00fd logic trong test_users.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/tests/api/routes/test_users.py:test_update_user_me_email_exists",
+      "type": "function",
+      "name": "test_update_user_me_email_exists",
+      "filePath": "backend/tests/api/routes/test_users.py",
+      "lineRange": [
+        282,
+        297
+      ],
+      "summary": "H\u00e0m test_update_user_me_email_exists x\u1eed l\u00fd logic trong test_users.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/tests/api/routes/test_users.py:test_update_password_me_same_password_error",
+      "type": "function",
+      "name": "test_update_password_me_same_password_error",
+      "filePath": "backend/tests/api/routes/test_users.py",
+      "lineRange": [
+        300,
+        316
+      ],
+      "summary": "H\u00e0m test_update_password_me_same_password_error x\u1eed l\u00fd logic trong test_users.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/tests/api/routes/test_users.py:test_register_user",
+      "type": "function",
+      "name": "test_register_user",
+      "filePath": "backend/tests/api/routes/test_users.py",
+      "lineRange": [
+        319,
+        339
+      ],
+      "summary": "H\u00e0m test_register_user x\u1eed l\u00fd logic trong test_users.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/tests/api/routes/test_users.py:test_register_user_already_exists_error",
+      "type": "function",
+      "name": "test_register_user_already_exists_error",
+      "filePath": "backend/tests/api/routes/test_users.py",
+      "lineRange": [
+        342,
+        355
+      ],
+      "summary": "H\u00e0m test_register_user_already_exists_error x\u1eed l\u00fd logic trong test_users.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/tests/api/routes/test_users.py:test_update_user",
+      "type": "function",
+      "name": "test_update_user",
+      "filePath": "backend/tests/api/routes/test_users.py",
+      "lineRange": [
+        358,
+        381
+      ],
+      "summary": "H\u00e0m test_update_user x\u1eed l\u00fd logic trong test_users.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/tests/api/routes/test_users.py:test_update_user_not_exists",
+      "type": "function",
+      "name": "test_update_user_not_exists",
+      "filePath": "backend/tests/api/routes/test_users.py",
+      "lineRange": [
+        384,
+        394
+      ],
+      "summary": "H\u00e0m test_update_user_not_exists x\u1eed l\u00fd logic trong test_users.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/tests/api/routes/test_users.py:test_update_user_email_exists",
+      "type": "function",
+      "name": "test_update_user_email_exists",
+      "filePath": "backend/tests/api/routes/test_users.py",
+      "lineRange": [
+        397,
+        417
+      ],
+      "summary": "H\u00e0m test_update_user_email_exists x\u1eed l\u00fd logic trong test_users.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/tests/api/routes/test_users.py:test_delete_user_me",
+      "type": "function",
+      "name": "test_delete_user_me",
+      "filePath": "backend/tests/api/routes/test_users.py",
+      "lineRange": [
+        420,
+        448
+      ],
+      "summary": "H\u00e0m test_delete_user_me x\u1eed l\u00fd logic trong test_users.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/tests/api/routes/test_users.py:test_delete_user_me_as_superuser",
+      "type": "function",
+      "name": "test_delete_user_me_as_superuser",
+      "filePath": "backend/tests/api/routes/test_users.py",
+      "lineRange": [
+        451,
+        460
+      ],
+      "summary": "H\u00e0m test_delete_user_me_as_superuser x\u1eed l\u00fd logic trong test_users.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/tests/api/routes/test_users.py:test_delete_user_super_user",
+      "type": "function",
+      "name": "test_delete_user_super_user",
+      "filePath": "backend/tests/api/routes/test_users.py",
+      "lineRange": [
+        463,
+        479
+      ],
+      "summary": "H\u00e0m test_delete_user_super_user x\u1eed l\u00fd logic trong test_users.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/tests/api/routes/test_users.py:test_delete_user_current_super_user_error",
+      "type": "function",
+      "name": "test_delete_user_current_super_user_error",
+      "filePath": "backend/tests/api/routes/test_users.py",
+      "lineRange": [
+        493,
+        505
+      ],
+      "summary": "H\u00e0m test_delete_user_current_super_user_error x\u1eed l\u00fd logic trong test_users.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/tests/api/routes/test_users.py:test_delete_user_without_privileges",
+      "type": "function",
+      "name": "test_delete_user_without_privileges",
+      "filePath": "backend/tests/api/routes/test_users.py",
+      "lineRange": [
+        508,
+        521
+      ],
+      "summary": "H\u00e0m test_delete_user_without_privileges x\u1eed l\u00fd logic trong test_users.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/tests/conftest.py",
+      "type": "file",
+      "name": "conftest.py",
+      "filePath": "backend/tests/conftest.py",
+      "summary": "T\u1eadp tin ki\u1ec3m th\u1eed (conftest.py) \u0111\u1ea3m b\u1ea3o t\u00ednh \u0111\u00fang \u0111\u1eafn cho c\u00e1c ch\u1ee9c n\u0103ng li\u00ean quan.",
+      "tags": [
+        "backend",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/tests/crud/test_user.py",
+      "type": "file",
+      "name": "test_user.py",
+      "filePath": "backend/tests/crud/test_user.py",
+      "summary": "T\u1eadp tin ki\u1ec3m th\u1eed (test_user.py) \u0111\u1ea3m b\u1ea3o t\u00ednh \u0111\u00fang \u0111\u1eafn cho c\u00e1c ch\u1ee9c n\u0103ng li\u00ean quan.",
+      "tags": [
+        "backend",
+        "test"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:backend/tests/crud/test_user.py:test_update_user",
+      "type": "function",
+      "name": "test_update_user",
+      "filePath": "backend/tests/crud/test_user.py",
+      "lineRange": [
+        80,
+        93
+      ],
+      "summary": "H\u00e0m test_update_user x\u1eed l\u00fd logic trong test_user.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/tests/crud/test_user.py:test_authenticate_user_with_bcrypt_upgrades_to_argon2",
+      "type": "function",
+      "name": "test_authenticate_user_with_bcrypt_upgrades_to_argon2",
+      "filePath": "backend/tests/crud/test_user.py",
+      "lineRange": [
+        96,
+        130
+      ],
+      "summary": "H\u00e0m test_authenticate_user_with_bcrypt_upgrades_to_argon2 x\u1eed l\u00fd logic trong test_user.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/tests/utils/item.py",
+      "type": "file",
+      "name": "item.py",
+      "filePath": "backend/tests/utils/item.py",
+      "summary": "T\u1eadp tin ki\u1ec3m th\u1eed (item.py) \u0111\u1ea3m b\u1ea3o t\u00ednh \u0111\u00fang \u0111\u1eafn cho c\u00e1c ch\u1ee9c n\u0103ng li\u00ean quan.",
+      "tags": [
+        "backend",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/tests/utils/user.py",
+      "type": "file",
+      "name": "user.py",
+      "filePath": "backend/tests/utils/user.py",
+      "summary": "T\u1eadp tin ki\u1ec3m th\u1eed (user.py) \u0111\u1ea3m b\u1ea3o t\u00ednh \u0111\u00fang \u0111\u1eafn cho c\u00e1c ch\u1ee9c n\u0103ng li\u00ean quan.",
+      "tags": [
+        "backend",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/tests/utils/user.py:user_authentication_headers",
+      "type": "function",
+      "name": "user_authentication_headers",
+      "filePath": "backend/tests/utils/user.py",
+      "lineRange": [
+        10,
+        19
+      ],
+      "summary": "H\u00e0m user_authentication_headers x\u1eed l\u00fd logic trong user.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/tests/utils/user.py:authentication_token_from_email",
+      "type": "function",
+      "name": "authentication_token_from_email",
+      "filePath": "backend/tests/utils/user.py",
+      "lineRange": [
+        30,
+        49
+      ],
+      "summary": "H\u00e0m authentication_token_from_email x\u1eed l\u00fd logic trong user.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/tests/utils/utils.py",
+      "type": "file",
+      "name": "utils.py",
+      "filePath": "backend/tests/utils/utils.py",
+      "summary": "T\u1eadp tin ki\u1ec3m th\u1eed (utils.py) \u0111\u1ea3m b\u1ea3o t\u00ednh \u0111\u00fang \u0111\u1eafn cho c\u00e1c ch\u1ee9c n\u0103ng li\u00ean quan.",
+      "tags": [
+        "backend",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/tests/utils/utils.py:get_superuser_token_headers",
+      "type": "function",
+      "name": "get_superuser_token_headers",
+      "filePath": "backend/tests/utils/utils.py",
+      "lineRange": [
+        17,
+        26
+      ],
+      "summary": "H\u00e0m get_superuser_token_headers x\u1eed l\u00fd logic trong utils.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:backend/app/alembic/env.py",
+      "target": "function:backend/app/alembic/env.py:run_migrations_offline",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/app/alembic/env.py",
+      "target": "function:backend/app/alembic/env.py:run_migrations_online",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/app/alembic/env.py",
+      "target": "file:backend/app/core/config.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/app/alembic/env.py",
+      "target": "file:backend/app/models.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/app/api/deps.py",
+      "target": "function:backend/app/api/deps.py:get_current_user",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/app/api/deps.py",
+      "target": "file:backend/app/core/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/app/api/deps.py",
+      "target": "file:backend/app/core/config.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/app/api/deps.py",
+      "target": "file:backend/app/core/db.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/app/api/deps.py",
+      "target": "file:backend/app/core/security.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/app/api/deps.py",
+      "target": "file:backend/app/models.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/app/api/main.py",
+      "target": "file:backend/app/api/routes/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/app/api/main.py",
+      "target": "file:backend/app/api/routes/items.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/app/api/main.py",
+      "target": "file:backend/app/api/routes/login.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/app/api/main.py",
+      "target": "file:backend/app/api/routes/private.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/app/api/main.py",
+      "target": "file:backend/app/api/routes/users.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/app/api/main.py",
+      "target": "file:backend/app/api/routes/utils.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/app/api/main.py",
+      "target": "file:backend/app/core/config.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/app/api/routes/items.py",
+      "target": "function:backend/app/api/routes/items.py:read_items",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/app/api/routes/items.py",
+      "target": "function:backend/app/api/routes/items.py:read_item",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/app/api/routes/items.py",
+      "target": "function:backend/app/api/routes/items.py:create_item",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/app/api/routes/items.py",
+      "target": "function:backend/app/api/routes/items.py:update_item",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/app/api/routes/items.py",
+      "target": "function:backend/app/api/routes/items.py:delete_item",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/app/api/routes/items.py",
+      "target": "file:backend/app/api/deps.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/app/api/routes/items.py",
+      "target": "file:backend/app/models.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/app/api/routes/login.py",
+      "target": "function:backend/app/api/routes/login.py:login_access_token",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/app/api/routes/login.py",
+      "target": "function:backend/app/api/routes/login.py:recover_password",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/app/api/routes/login.py",
+      "target": "function:backend/app/api/routes/login.py:reset_password",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/app/api/routes/login.py",
+      "target": "function:backend/app/api/routes/login.py:recover_password_html_content",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/app/api/routes/login.py",
+      "target": "file:backend/app/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/app/api/routes/login.py",
+      "target": "file:backend/app/api/deps.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/app/api/routes/login.py",
+      "target": "file:backend/app/core/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/app/api/routes/login.py",
+      "target": "file:backend/app/core/config.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/app/api/routes/login.py",
+      "target": "file:backend/app/core/security.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/app/api/routes/login.py",
+      "target": "file:backend/app/crud.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/app/api/routes/login.py",
+      "target": "file:backend/app/models.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/app/api/routes/login.py",
+      "target": "file:backend/app/utils.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/app/api/routes/private.py",
+      "target": "function:backend/app/api/routes/private.py:create_user",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/app/api/routes/private.py",
+      "target": "file:backend/app/api/deps.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/app/api/routes/private.py",
+      "target": "file:backend/app/core/security.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/app/api/routes/private.py",
+      "target": "file:backend/app/models.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/app/api/routes/users.py",
+      "target": "function:backend/app/api/routes/users.py:read_users",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/app/api/routes/users.py",
+      "target": "function:backend/app/api/routes/users.py:create_user",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/app/api/routes/users.py",
+      "target": "function:backend/app/api/routes/users.py:update_user_me",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/app/api/routes/users.py",
+      "target": "function:backend/app/api/routes/users.py:update_password_me",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/app/api/routes/users.py",
+      "target": "function:backend/app/api/routes/users.py:delete_user_me",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/app/api/routes/users.py",
+      "target": "function:backend/app/api/routes/users.py:register_user",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/app/api/routes/users.py",
+      "target": "function:backend/app/api/routes/users.py:read_user_by_id",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/app/api/routes/users.py",
+      "target": "function:backend/app/api/routes/users.py:update_user",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/app/api/routes/users.py",
+      "target": "function:backend/app/api/routes/users.py:delete_user",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/app/api/routes/users.py",
+      "target": "file:backend/app/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/app/api/routes/users.py",
+      "target": "file:backend/app/api/deps.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/app/api/routes/users.py",
+      "target": "file:backend/app/core/config.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/app/api/routes/users.py",
+      "target": "file:backend/app/core/security.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/app/api/routes/users.py",
+      "target": "file:backend/app/crud.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/app/api/routes/users.py",
+      "target": "file:backend/app/models.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/app/api/routes/users.py",
+      "target": "file:backend/app/utils.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/app/api/routes/utils.py",
+      "target": "function:backend/app/api/routes/utils.py:test_email",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/app/api/routes/utils.py",
+      "target": "file:backend/app/api/deps.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/app/api/routes/utils.py",
+      "target": "file:backend/app/models.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/app/api/routes/utils.py",
+      "target": "file:backend/app/utils.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/app/core/config.py",
+      "target": "class:backend/app/core/config.py:Settings",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/app/core/db.py",
+      "target": "function:backend/app/core/db.py:init_db",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/app/core/db.py",
+      "target": "file:backend/app/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/app/core/db.py",
+      "target": "file:backend/app/core/config.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/app/core/db.py",
+      "target": "file:backend/app/crud.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/app/core/db.py",
+      "target": "file:backend/app/models.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/app/core/security.py",
+      "target": "file:backend/app/core/config.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/app/crud.py",
+      "target": "function:backend/app/crud.py:update_user",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/app/crud.py",
+      "target": "function:backend/app/crud.py:authenticate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/app/crud.py",
+      "target": "file:backend/app/core/security.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/app/crud.py",
+      "target": "file:backend/app/models.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/app/initial_data.py",
+      "target": "file:backend/app/core/db.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/app/main.py",
+      "target": "file:backend/app/api/main.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/app/main.py",
+      "target": "file:backend/app/core/config.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/app/utils.py",
+      "target": "function:backend/app/utils.py:send_email",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/app/utils.py",
+      "target": "function:backend/app/utils.py:generate_reset_password_email",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/app/utils.py",
+      "target": "function:backend/app/utils.py:generate_new_account_email",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/app/utils.py",
+      "target": "function:backend/app/utils.py:generate_password_reset_token",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/app/utils.py",
+      "target": "file:backend/app/core/__init__.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/app/utils.py",
+      "target": "file:backend/app/core/config.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/app/utils.py",
+      "target": "file:backend/app/core/security.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_items.py",
+      "target": "function:backend/tests/api/routes/test_items.py:test_create_item",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_items.py",
+      "target": "function:backend/tests/api/routes/test_items.py:test_read_item",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_items.py",
+      "target": "function:backend/tests/api/routes/test_items.py:test_read_item_not_found",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_items.py",
+      "target": "function:backend/tests/api/routes/test_items.py:test_read_item_not_enough_permissions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_items.py",
+      "target": "function:backend/tests/api/routes/test_items.py:test_read_items",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_items.py",
+      "target": "function:backend/tests/api/routes/test_items.py:test_update_item",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_items.py",
+      "target": "function:backend/tests/api/routes/test_items.py:test_update_item_not_found",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_items.py",
+      "target": "function:backend/tests/api/routes/test_items.py:test_update_item_not_enough_permissions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_items.py",
+      "target": "function:backend/tests/api/routes/test_items.py:test_delete_item",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_items.py",
+      "target": "function:backend/tests/api/routes/test_items.py:test_delete_item_not_found",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_items.py",
+      "target": "function:backend/tests/api/routes/test_items.py:test_delete_item_not_enough_permissions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_items.py",
+      "target": "file:backend/app/core/config.py",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_items.py",
+      "target": "file:backend/tests/utils/item.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_login.py",
+      "target": "function:backend/tests/api/routes/test_login.py:test_get_access_token",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_login.py",
+      "target": "function:backend/tests/api/routes/test_login.py:test_use_access_token",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_login.py",
+      "target": "function:backend/tests/api/routes/test_login.py:test_recovery_password",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_login.py",
+      "target": "function:backend/tests/api/routes/test_login.py:test_recovery_password_user_not_exits",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_login.py",
+      "target": "function:backend/tests/api/routes/test_login.py:test_reset_password",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_login.py",
+      "target": "function:backend/tests/api/routes/test_login.py:test_reset_password_invalid_token",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_login.py",
+      "target": "function:backend/tests/api/routes/test_login.py:test_login_with_bcrypt_password_upgrades_to_argon2",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_login.py",
+      "target": "function:backend/tests/api/routes/test_login.py:test_login_with_argon2_password_keeps_hash",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_login.py",
+      "target": "file:backend/app/core/config.py",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_login.py",
+      "target": "file:backend/app/core/security.py",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_login.py",
+      "target": "file:backend/app/crud.py",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_login.py",
+      "target": "file:backend/app/models.py",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_login.py",
+      "target": "file:backend/app/utils.py",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_login.py",
+      "target": "file:backend/tests/utils/user.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_login.py",
+      "target": "file:backend/tests/utils/utils.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_private.py",
+      "target": "function:backend/tests/api/routes/test_private.py:test_create_user",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_private.py",
+      "target": "file:backend/app/core/config.py",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_private.py",
+      "target": "file:backend/app/models.py",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_users.py",
+      "target": "function:backend/tests/api/routes/test_users.py:test_create_user_new_email",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_users.py",
+      "target": "function:backend/tests/api/routes/test_users.py:test_get_existing_user_as_superuser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_users.py",
+      "target": "function:backend/tests/api/routes/test_users.py:test_get_existing_user_current_user",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_users.py",
+      "target": "function:backend/tests/api/routes/test_users.py:test_get_existing_user_permissions_error",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_users.py",
+      "target": "function:backend/tests/api/routes/test_users.py:test_get_non_existing_user_permissions_error",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_users.py",
+      "target": "function:backend/tests/api/routes/test_users.py:test_create_user_existing_username",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_users.py",
+      "target": "function:backend/tests/api/routes/test_users.py:test_create_user_by_normal_user",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_users.py",
+      "target": "function:backend/tests/api/routes/test_users.py:test_retrieve_users",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_users.py",
+      "target": "function:backend/tests/api/routes/test_users.py:test_update_user_me",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_users.py",
+      "target": "function:backend/tests/api/routes/test_users.py:test_update_password_me",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_users.py",
+      "target": "function:backend/tests/api/routes/test_users.py:test_update_password_me_incorrect_password",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_users.py",
+      "target": "function:backend/tests/api/routes/test_users.py:test_update_user_me_email_exists",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_users.py",
+      "target": "function:backend/tests/api/routes/test_users.py:test_update_password_me_same_password_error",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_users.py",
+      "target": "function:backend/tests/api/routes/test_users.py:test_register_user",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_users.py",
+      "target": "function:backend/tests/api/routes/test_users.py:test_register_user_already_exists_error",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_users.py",
+      "target": "function:backend/tests/api/routes/test_users.py:test_update_user",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_users.py",
+      "target": "function:backend/tests/api/routes/test_users.py:test_update_user_not_exists",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_users.py",
+      "target": "function:backend/tests/api/routes/test_users.py:test_update_user_email_exists",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_users.py",
+      "target": "function:backend/tests/api/routes/test_users.py:test_delete_user_me",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_users.py",
+      "target": "function:backend/tests/api/routes/test_users.py:test_delete_user_me_as_superuser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_users.py",
+      "target": "function:backend/tests/api/routes/test_users.py:test_delete_user_super_user",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_users.py",
+      "target": "function:backend/tests/api/routes/test_users.py:test_delete_user_current_super_user_error",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_users.py",
+      "target": "function:backend/tests/api/routes/test_users.py:test_delete_user_without_privileges",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_users.py",
+      "target": "file:backend/app/__init__.py",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_users.py",
+      "target": "file:backend/app/core/config.py",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_users.py",
+      "target": "file:backend/app/core/security.py",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_users.py",
+      "target": "file:backend/app/crud.py",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_users.py",
+      "target": "file:backend/app/models.py",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_users.py",
+      "target": "file:backend/tests/utils/user.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/tests/api/routes/test_users.py",
+      "target": "file:backend/tests/utils/utils.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/tests/conftest.py",
+      "target": "file:backend/app/core/config.py",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:backend/tests/conftest.py",
+      "target": "file:backend/app/core/db.py",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:backend/tests/conftest.py",
+      "target": "file:backend/app/main.py",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:backend/tests/conftest.py",
+      "target": "file:backend/app/models.py",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:backend/tests/conftest.py",
+      "target": "file:backend/tests/utils/user.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/tests/conftest.py",
+      "target": "file:backend/tests/utils/utils.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/tests/crud/test_user.py",
+      "target": "function:backend/tests/crud/test_user.py:test_update_user",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/tests/crud/test_user.py",
+      "target": "function:backend/tests/crud/test_user.py:test_authenticate_user_with_bcrypt_upgrades_to_argon2",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/tests/crud/test_user.py",
+      "target": "file:backend/app/__init__.py",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:backend/tests/crud/test_user.py",
+      "target": "file:backend/app/core/security.py",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:backend/tests/crud/test_user.py",
+      "target": "file:backend/app/crud.py",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:backend/tests/crud/test_user.py",
+      "target": "file:backend/app/models.py",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:backend/tests/crud/test_user.py",
+      "target": "file:backend/tests/utils/utils.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/tests/utils/item.py",
+      "target": "file:backend/app/__init__.py",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:backend/tests/utils/item.py",
+      "target": "file:backend/app/crud.py",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:backend/tests/utils/item.py",
+      "target": "file:backend/app/models.py",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:backend/tests/utils/item.py",
+      "target": "file:backend/tests/utils/user.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/tests/utils/item.py",
+      "target": "file:backend/tests/utils/utils.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/tests/utils/user.py",
+      "target": "function:backend/tests/utils/user.py:user_authentication_headers",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/tests/utils/user.py",
+      "target": "function:backend/tests/utils/user.py:authentication_token_from_email",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/tests/utils/user.py",
+      "target": "file:backend/app/__init__.py",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:backend/tests/utils/user.py",
+      "target": "file:backend/app/core/config.py",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:backend/tests/utils/user.py",
+      "target": "file:backend/app/crud.py",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:backend/tests/utils/user.py",
+      "target": "file:backend/app/models.py",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:backend/tests/utils/user.py",
+      "target": "file:backend/tests/utils/utils.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:backend/tests/utils/utils.py",
+      "target": "function:backend/tests/utils/utils.py:get_superuser_token_headers",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/tests/utils/utils.py",
+      "target": "file:backend/app/core/config.py",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    }
+  ]
+}

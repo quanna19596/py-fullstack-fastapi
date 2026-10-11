@@ -1,0 +1,399 @@
+{
+  "nodes": [
+    {
+      "id": "file:frontend/src/client/core/params.gen.ts",
+      "type": "file",
+      "name": "params.gen.ts",
+      "filePath": "frontend/src/client/core/params.gen.ts",
+      "summary": "C\u1ea5u h\u00ecnh v\u00e0 thi\u1ebft l\u1eadp c\u1ed1t l\u00f5i c\u1ee7a \u1ee9ng d\u1ee5ng (params.gen.ts).",
+      "tags": [
+        "frontend",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/client/core/params.gen.ts:buildKeyMap",
+      "type": "function",
+      "name": "buildKeyMap",
+      "filePath": "frontend/src/client/core/params.gen.ts",
+      "lineRange": [
+        65,
+        88
+      ],
+      "summary": "H\u00e0m buildKeyMap x\u1eed l\u00fd logic trong params.gen.ts.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/client/core/params.gen.ts:buildClientParams",
+      "type": "function",
+      "name": "buildClientParams",
+      "filePath": "frontend/src/client/core/params.gen.ts",
+      "lineRange": [
+        105,
+        169
+      ],
+      "summary": "H\u00e0m buildClientParams x\u1eed l\u00fd logic trong params.gen.ts.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/client/core/queryKeySerializer.gen.ts",
+      "type": "file",
+      "name": "queryKeySerializer.gen.ts",
+      "filePath": "frontend/src/client/core/queryKeySerializer.gen.ts",
+      "summary": "C\u1ea5u h\u00ecnh v\u00e0 thi\u1ebft l\u1eadp c\u1ed1t l\u00f5i c\u1ee7a \u1ee9ng d\u1ee5ng (queryKeySerializer.gen.ts).",
+      "tags": [
+        "frontend",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/client/core/queryKeySerializer.gen.ts:queryKeyJsonReplacer",
+      "type": "function",
+      "name": "queryKeyJsonReplacer",
+      "filePath": "frontend/src/client/core/queryKeySerializer.gen.ts",
+      "lineRange": [
+        17,
+        28
+      ],
+      "summary": "H\u00e0m queryKeyJsonReplacer x\u1eed l\u00fd logic trong queryKeySerializer.gen.ts.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/client/core/queryKeySerializer.gen.ts:stringifyToJsonValue",
+      "type": "function",
+      "name": "stringifyToJsonValue",
+      "filePath": "frontend/src/client/core/queryKeySerializer.gen.ts",
+      "lineRange": [
+        33,
+        43
+      ],
+      "summary": "H\u00e0m stringifyToJsonValue x\u1eed l\u00fd logic trong queryKeySerializer.gen.ts.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/client/core/queryKeySerializer.gen.ts:serializeSearchParams",
+      "type": "function",
+      "name": "serializeSearchParams",
+      "filePath": "frontend/src/client/core/queryKeySerializer.gen.ts",
+      "lineRange": [
+        59,
+        78
+      ],
+      "summary": "H\u00e0m serializeSearchParams x\u1eed l\u00fd logic trong queryKeySerializer.gen.ts.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/client/core/queryKeySerializer.gen.ts:serializeQueryKeyValue",
+      "type": "function",
+      "name": "serializeQueryKeyValue",
+      "filePath": "frontend/src/client/core/queryKeySerializer.gen.ts",
+      "lineRange": [
+        83,
+        117
+      ],
+      "summary": "H\u00e0m serializeQueryKeyValue x\u1eed l\u00fd logic trong queryKeySerializer.gen.ts.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/index.css",
+      "type": "file",
+      "name": "index.css",
+      "filePath": "frontend/src/index.css",
+      "summary": "T\u1eadp tin m\u00e3 ngu\u1ed3n css (index.css) th\u1ef1c hi\u1ec7n ch\u1ee9c n\u0103ng h\u1ec7 th\u1ed1ng.",
+      "tags": [
+        "frontend",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/vite-env.d.ts",
+      "type": "file",
+      "name": "vite-env.d.ts",
+      "filePath": "frontend/src/vite-env.d.ts",
+      "summary": "T\u1eadp tin m\u00e3 ngu\u1ed3n typescript (vite-env.d.ts) th\u1ef1c hi\u1ec7n ch\u1ee9c n\u0103ng h\u1ec7 th\u1ed1ng.",
+      "tags": [
+        "frontend",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/vite.config.ts",
+      "type": "file",
+      "name": "vite.config.ts",
+      "filePath": "frontend/vite.config.ts",
+      "summary": "C\u1ea5u h\u00ecnh v\u00e0 thi\u1ebft l\u1eadp c\u1ed1t l\u00f5i c\u1ee7a \u1ee9ng d\u1ee5ng (vite.config.ts).",
+      "tags": [
+        "frontend",
+        "configuration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:hooks/post_gen_project.py",
+      "type": "file",
+      "name": "post_gen_project.py",
+      "filePath": "hooks/post_gen_project.py",
+      "summary": "Custom hook React t\u00e1i s\u1eed d\u1ee5ng logic (post_gen_project.py).",
+      "tags": [
+        "hook",
+        "state"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:scripts/add_latest_release_date.py",
+      "type": "file",
+      "name": "add_latest_release_date.py",
+      "filePath": "scripts/add_latest_release_date.py",
+      "summary": "T\u1eadp tin ki\u1ec3m th\u1eed (add_latest_release_date.py) \u0111\u1ea3m b\u1ea3o t\u00ednh \u0111\u00fang \u0111\u1eafn cho c\u00e1c ch\u1ee9c n\u0103ng li\u00ean quan.",
+      "tags": [
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/add_latest_release_date.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "scripts/add_latest_release_date.py",
+      "lineRange": [
+        11,
+        36
+      ],
+      "summary": "H\u00e0m main x\u1eed l\u00fd logic trong add_latest_release_date.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:scripts/prepare_release.py",
+      "type": "file",
+      "name": "prepare_release.py",
+      "filePath": "scripts/prepare_release.py",
+      "summary": "T\u1eadp tin m\u00e3 ngu\u1ed3n python (prepare_release.py) th\u1ef1c hi\u1ec7n ch\u1ee9c n\u0103ng h\u1ec7 th\u1ed1ng.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:scripts/prepare_release.py:update_release_notes",
+      "type": "function",
+      "name": "update_release_notes",
+      "filePath": "scripts/prepare_release.py",
+      "lineRange": [
+        42,
+        69
+      ],
+      "summary": "H\u00e0m update_release_notes x\u1eed l\u00fd logic trong prepare_release.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/prepare_release.py:get_release_notes_body",
+      "type": "function",
+      "name": "get_release_notes_body",
+      "filePath": "scripts/prepare_release.py",
+      "lineRange": [
+        72,
+        88
+      ],
+      "summary": "H\u00e0m get_release_notes_body x\u1eed l\u00fd logic trong prepare_release.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/prepare_release.py:prepare_release",
+      "type": "function",
+      "name": "prepare_release",
+      "filePath": "scripts/prepare_release.py",
+      "lineRange": [
+        91,
+        100
+      ],
+      "summary": "H\u00e0m prepare_release x\u1eed l\u00fd logic trong prepare_release.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/prepare_release.py:prepare",
+      "type": "function",
+      "name": "prepare",
+      "filePath": "scripts/prepare_release.py",
+      "lineRange": [
+        104,
+        130
+      ],
+      "summary": "H\u00e0m prepare x\u1eed l\u00fd logic trong prepare_release.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/prepare_release.py:current_version",
+      "type": "function",
+      "name": "current_version",
+      "filePath": "scripts/prepare_release.py",
+      "lineRange": [
+        134,
+        150
+      ],
+      "summary": "H\u00e0m current_version x\u1eed l\u00fd logic trong prepare_release.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:scripts/prepare_release.py:release_notes",
+      "type": "function",
+      "name": "release_notes",
+      "filePath": "scripts/prepare_release.py",
+      "lineRange": [
+        154,
+        171
+      ],
+      "summary": "H\u00e0m release_notes x\u1eed l\u00fd logic trong prepare_release.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:frontend/src/client/core/params.gen.ts",
+      "target": "function:frontend/src/client/core/params.gen.ts:buildKeyMap",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/client/core/params.gen.ts",
+      "target": "function:frontend/src/client/core/params.gen.ts:buildClientParams",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/client/core/queryKeySerializer.gen.ts",
+      "target": "function:frontend/src/client/core/queryKeySerializer.gen.ts:queryKeyJsonReplacer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/client/core/queryKeySerializer.gen.ts",
+      "target": "function:frontend/src/client/core/queryKeySerializer.gen.ts:stringifyToJsonValue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/client/core/queryKeySerializer.gen.ts",
+      "target": "function:frontend/src/client/core/queryKeySerializer.gen.ts:serializeSearchParams",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/client/core/queryKeySerializer.gen.ts",
+      "target": "function:frontend/src/client/core/queryKeySerializer.gen.ts:serializeQueryKeyValue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:scripts/add_latest_release_date.py",
+      "target": "function:scripts/add_latest_release_date.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:scripts/prepare_release.py",
+      "target": "function:scripts/prepare_release.py:update_release_notes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:scripts/prepare_release.py",
+      "target": "function:scripts/prepare_release.py:get_release_notes_body",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:scripts/prepare_release.py",
+      "target": "function:scripts/prepare_release.py:prepare_release",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:scripts/prepare_release.py",
+      "target": "function:scripts/prepare_release.py:prepare",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:scripts/prepare_release.py",
+      "target": "function:scripts/prepare_release.py:current_version",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:scripts/prepare_release.py",
+      "target": "function:scripts/prepare_release.py:release_notes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    }
+  ]
+}

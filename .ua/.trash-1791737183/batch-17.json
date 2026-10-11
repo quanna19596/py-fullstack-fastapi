@@ -1,0 +1,423 @@
+{
+  "nodes": [
+    {
+      "id": "config:.agents/skills/library-skills/.library-skills.json",
+      "type": "config",
+      "name": ".library-skills.json",
+      "filePath": ".agents/skills/library-skills/.library-skills.json",
+      "summary": "C\u1ea5u h\u00ecnh v\u00e0 thi\u1ebft l\u1eadp c\u1ed1t l\u00f5i c\u1ee7a \u1ee9ng d\u1ee5ng (.library-skills.json).",
+      "tags": [
+        "config",
+        "configuration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:.agents/skills/library-skills/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": ".agents/skills/library-skills/SKILL.md",
+      "summary": "T\u00e0i li\u1ec7u h\u01b0\u1edbng d\u1eabn v\u00e0 m\u00f4 t\u1ea3 k\u1ef9 thu\u1eadt (SKILL.md).",
+      "tags": [
+        "document",
+        "documentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:.claude/skills/library-skills/.library-skills.json",
+      "type": "config",
+      "name": ".library-skills.json",
+      "filePath": ".claude/skills/library-skills/.library-skills.json",
+      "summary": "C\u1ea5u h\u00ecnh v\u00e0 thi\u1ebft l\u1eadp c\u1ed1t l\u00f5i c\u1ee7a \u1ee9ng d\u1ee5ng (.library-skills.json).",
+      "tags": [
+        "config",
+        "configuration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:.claude/skills/library-skills/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": ".claude/skills/library-skills/SKILL.md",
+      "summary": "T\u00e0i li\u1ec7u h\u01b0\u1edbng d\u1eabn v\u00e0 m\u00f4 t\u1ea3 k\u1ef9 thu\u1eadt (SKILL.md).",
+      "tags": [
+        "document",
+        "documentation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:.fastapicloudignore",
+      "type": "file",
+      "name": ".fastapicloudignore",
+      "filePath": ".fastapicloudignore",
+      "summary": "\u0110\u1ecbnh tuy\u1ebfn v\u00e0 x\u1eed l\u00fd c\u00e1c \u0111i\u1ec3m cu\u1ed1i API (.fastapicloudignore).",
+      "tags": [
+        "api",
+        "endpoint"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:.gitattributes",
+      "type": "file",
+      "name": ".gitattributes",
+      "filePath": ".gitattributes",
+      "summary": "T\u1eadp tin m\u00e3 ngu\u1ed3n unknown (.gitattributes) th\u1ef1c hi\u1ec7n ch\u1ee9c n\u0103ng h\u1ec7 th\u1ed1ng.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:.python-version",
+      "type": "file",
+      "name": ".python-version",
+      "filePath": ".python-version",
+      "summary": "T\u1eadp tin m\u00e3 ngu\u1ed3n unknown (.python-version) th\u1ef1c hi\u1ec7n ch\u1ee9c n\u0103ng h\u1ec7 th\u1ed1ng.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:.ua/config.json",
+      "type": "config",
+      "name": "config.json",
+      "filePath": ".ua/config.json",
+      "summary": "C\u1ea5u h\u00ecnh v\u00e0 thi\u1ebft l\u1eadp c\u1ed1t l\u00f5i c\u1ee7a \u1ee9ng d\u1ee5ng (config.json).",
+      "tags": [
+        "config",
+        "configuration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/app/alembic/README",
+      "type": "file",
+      "name": "README",
+      "filePath": "backend/app/alembic/README",
+      "summary": "T\u1eadp tin m\u00e3 ngu\u1ed3n unknown (README) th\u1ef1c hi\u1ec7n ch\u1ee9c n\u0103ng h\u1ec7 th\u1ed1ng.",
+      "tags": [
+        "backend",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/app/alembic/script.py.mako",
+      "type": "file",
+      "name": "script.py.mako",
+      "filePath": "backend/app/alembic/script.py.mako",
+      "summary": "T\u1eadp tin m\u00e3 ngu\u1ed3n mako (script.py.mako) th\u1ef1c hi\u1ec7n ch\u1ee9c n\u0103ng h\u1ec7 th\u1ed1ng.",
+      "tags": [
+        "backend",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/app/alembic/versions/.keep",
+      "type": "file",
+      "name": ".keep",
+      "filePath": "backend/app/alembic/versions/.keep",
+      "summary": "T\u1eadp tin m\u00e3 ngu\u1ed3n unknown (.keep) th\u1ef1c hi\u1ec7n ch\u1ee9c n\u0103ng h\u1ec7 th\u1ed1ng.",
+      "tags": [
+        "backend",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/app/alembic/versions/1a31ce608336_add_cascade_delete_relationships.py",
+      "type": "file",
+      "name": "1a31ce608336_add_cascade_delete_relationships.py",
+      "filePath": "backend/app/alembic/versions/1a31ce608336_add_cascade_delete_relationships.py",
+      "summary": "T\u1eadp tin m\u00e3 ngu\u1ed3n python (1a31ce608336_add_cascade_delete_relationships.py) th\u1ef1c hi\u1ec7n ch\u1ee9c n\u0103ng h\u1ec7 th\u1ed1ng.",
+      "tags": [
+        "backend",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/app/alembic/versions/9c0a54914c78_add_max_length_for_string_varchar_.py",
+      "type": "file",
+      "name": "9c0a54914c78_add_max_length_for_string_varchar_.py",
+      "filePath": "backend/app/alembic/versions/9c0a54914c78_add_max_length_for_string_varchar_.py",
+      "summary": "T\u1eadp tin m\u00e3 ngu\u1ed3n python (9c0a54914c78_add_max_length_for_string_varchar_.py) th\u1ef1c hi\u1ec7n ch\u1ee9c n\u0103ng h\u1ec7 th\u1ed1ng.",
+      "tags": [
+        "backend",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:backend/app/alembic/versions/9c0a54914c78_add_max_length_for_string_varchar_.py:upgrade",
+      "type": "function",
+      "name": "upgrade",
+      "filePath": "backend/app/alembic/versions/9c0a54914c78_add_max_length_for_string_varchar_.py",
+      "lineRange": [
+        20,
+        43
+      ],
+      "summary": "H\u00e0m upgrade x\u1eed l\u00fd logic trong 9c0a54914c78_add_max_length_for_string_varchar_.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/app/alembic/versions/9c0a54914c78_add_max_length_for_string_varchar_.py:downgrade",
+      "type": "function",
+      "name": "downgrade",
+      "filePath": "backend/app/alembic/versions/9c0a54914c78_add_max_length_for_string_varchar_.py",
+      "lineRange": [
+        46,
+        69
+      ],
+      "summary": "H\u00e0m downgrade x\u1eed l\u00fd logic trong 9c0a54914c78_add_max_length_for_string_varchar_.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/app/alembic/versions/d98dd8ec85a3_edit_replace_id_integers_in_all_models_.py",
+      "type": "file",
+      "name": "d98dd8ec85a3_edit_replace_id_integers_in_all_models_.py",
+      "filePath": "backend/app/alembic/versions/d98dd8ec85a3_edit_replace_id_integers_in_all_models_.py",
+      "summary": "\u0110\u1ecbnh ngh\u0129a m\u00f4 h\u00ecnh d\u1eef li\u1ec7u v\u00e0 l\u01b0\u1ee3c \u0111\u1ed3 c\u1ea5u tr\u00fac (d98dd8ec85a3_edit_replace_id_integers_in_all_models_.py).",
+      "tags": [
+        "backend",
+        "data-model",
+        "schema"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:backend/app/alembic/versions/d98dd8ec85a3_edit_replace_id_integers_in_all_models_.py:upgrade",
+      "type": "function",
+      "name": "upgrade",
+      "filePath": "backend/app/alembic/versions/d98dd8ec85a3_edit_replace_id_integers_in_all_models_.py",
+      "lineRange": [
+        21,
+        55
+      ],
+      "summary": "H\u00e0m upgrade x\u1eed l\u00fd logic trong d98dd8ec85a3_edit_replace_id_integers_in_all_models_.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:backend/app/alembic/versions/d98dd8ec85a3_edit_replace_id_integers_in_all_models_.py:downgrade",
+      "type": "function",
+      "name": "downgrade",
+      "filePath": "backend/app/alembic/versions/d98dd8ec85a3_edit_replace_id_integers_in_all_models_.py",
+      "lineRange": [
+        57,
+        90
+      ],
+      "summary": "H\u00e0m downgrade x\u1eed l\u00fd logic trong d98dd8ec85a3_edit_replace_id_integers_in_all_models_.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/app/alembic/versions/e2412789c190_initialize_models.py",
+      "type": "file",
+      "name": "e2412789c190_initialize_models.py",
+      "filePath": "backend/app/alembic/versions/e2412789c190_initialize_models.py",
+      "summary": "\u0110\u1ecbnh ngh\u0129a m\u00f4 h\u00ecnh d\u1eef li\u1ec7u v\u00e0 l\u01b0\u1ee3c \u0111\u1ed3 c\u1ea5u tr\u00fac (e2412789c190_initialize_models.py).",
+      "tags": [
+        "backend",
+        "data-model",
+        "schema"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:backend/app/alembic/versions/e2412789c190_initialize_models.py:upgrade",
+      "type": "function",
+      "name": "upgrade",
+      "filePath": "backend/app/alembic/versions/e2412789c190_initialize_models.py",
+      "lineRange": [
+        19,
+        46
+      ],
+      "summary": "H\u00e0m upgrade x\u1eed l\u00fd logic trong e2412789c190_initialize_models.py.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/app/alembic/versions/fe56fa70289e_add_created_at_to_user_and_item.py",
+      "type": "file",
+      "name": "fe56fa70289e_add_created_at_to_user_and_item.py",
+      "filePath": "backend/app/alembic/versions/fe56fa70289e_add_created_at_to_user_and_item.py",
+      "summary": "T\u1eadp tin m\u00e3 ngu\u1ed3n python (fe56fa70289e_add_created_at_to_user_and_item.py) th\u1ef1c hi\u1ec7n ch\u1ee9c n\u0103ng h\u1ec7 th\u1ed1ng.",
+      "tags": [
+        "backend",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/app/api/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "backend/app/api/__init__.py",
+      "summary": "\u0110\u1ecbnh tuy\u1ebfn v\u00e0 x\u1eed l\u00fd c\u00e1c \u0111i\u1ec3m cu\u1ed1i API (__init__.py).",
+      "tags": [
+        "backend",
+        "api",
+        "endpoint"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/tests/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "backend/tests/__init__.py",
+      "summary": "T\u1eadp tin ki\u1ec3m th\u1eed (__init__.py) \u0111\u1ea3m b\u1ea3o t\u00ednh \u0111\u00fang \u0111\u1eafn cho c\u00e1c ch\u1ee9c n\u0103ng li\u00ean quan.",
+      "tags": [
+        "backend",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/tests/api/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "backend/tests/api/__init__.py",
+      "summary": "T\u1eadp tin ki\u1ec3m th\u1eed (__init__.py) \u0111\u1ea3m b\u1ea3o t\u00ednh \u0111\u00fang \u0111\u1eafn cho c\u00e1c ch\u1ee9c n\u0103ng li\u00ean quan.",
+      "tags": [
+        "backend",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/tests/api/routes/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "backend/tests/api/routes/__init__.py",
+      "summary": "T\u1eadp tin ki\u1ec3m th\u1eed (__init__.py) \u0111\u1ea3m b\u1ea3o t\u00ednh \u0111\u00fang \u0111\u1eafn cho c\u00e1c ch\u1ee9c n\u0103ng li\u00ean quan.",
+      "tags": [
+        "backend",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/tests/crud/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "backend/tests/crud/__init__.py",
+      "summary": "T\u1eadp tin ki\u1ec3m th\u1eed (__init__.py) \u0111\u1ea3m b\u1ea3o t\u00ednh \u0111\u00fang \u0111\u1eafn cho c\u00e1c ch\u1ee9c n\u0103ng li\u00ean quan.",
+      "tags": [
+        "backend",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/tests/scripts/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "backend/tests/scripts/__init__.py",
+      "summary": "T\u1eadp tin ki\u1ec3m th\u1eed (__init__.py) \u0111\u1ea3m b\u1ea3o t\u00ednh \u0111\u00fang \u0111\u1eafn cho c\u00e1c ch\u1ee9c n\u0103ng li\u00ean quan.",
+      "tags": [
+        "backend",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/tests/utils/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "backend/tests/utils/__init__.py",
+      "summary": "T\u1eadp tin ki\u1ec3m th\u1eed (__init__.py) \u0111\u1ea3m b\u1ea3o t\u00ednh \u0111\u00fang \u0111\u1eafn cho c\u00e1c ch\u1ee9c n\u0103ng li\u00ean quan.",
+      "tags": [
+        "backend",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/openapi-ts.config.ts",
+      "type": "file",
+      "name": "openapi-ts.config.ts",
+      "filePath": "frontend/openapi-ts.config.ts",
+      "summary": "\u0110\u1ecbnh tuy\u1ebfn v\u00e0 x\u1eed l\u00fd c\u00e1c \u0111i\u1ec3m cu\u1ed1i API (openapi-ts.config.ts).",
+      "tags": [
+        "frontend",
+        "api",
+        "endpoint"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/playwright.config.ts",
+      "type": "file",
+      "name": "playwright.config.ts",
+      "filePath": "frontend/playwright.config.ts",
+      "summary": "C\u1ea5u h\u00ecnh v\u00e0 thi\u1ebft l\u1eadp c\u1ed1t l\u00f5i c\u1ee7a \u1ee9ng d\u1ee5ng (playwright.config.ts).",
+      "tags": [
+        "frontend",
+        "configuration"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:backend/app/alembic/versions/9c0a54914c78_add_max_length_for_string_varchar_.py",
+      "target": "function:backend/app/alembic/versions/9c0a54914c78_add_max_length_for_string_varchar_.py:upgrade",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/app/alembic/versions/9c0a54914c78_add_max_length_for_string_varchar_.py",
+      "target": "function:backend/app/alembic/versions/9c0a54914c78_add_max_length_for_string_varchar_.py:downgrade",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/app/alembic/versions/d98dd8ec85a3_edit_replace_id_integers_in_all_models_.py",
+      "target": "function:backend/app/alembic/versions/d98dd8ec85a3_edit_replace_id_integers_in_all_models_.py:upgrade",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/app/alembic/versions/d98dd8ec85a3_edit_replace_id_integers_in_all_models_.py",
+      "target": "function:backend/app/alembic/versions/d98dd8ec85a3_edit_replace_id_integers_in_all_models_.py:downgrade",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:backend/app/alembic/versions/e2412789c190_initialize_models.py",
+      "target": "function:backend/app/alembic/versions/e2412789c190_initialize_models.py:upgrade",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "nodes": [
+    {
+      "id": "pipeline:.github/workflows/add-to-project.yml",
+      "type": "pipeline",
+      "name": "add-to-project.yml",
+      "filePath": ".github/workflows/add-to-project.yml",
+      "summary": "C\u1ea5u h\u00ecnh h\u1ea1 t\u1ea7ng, tri\u1ec3n khai ho\u1eb7c container h\u00f3a (add-to-project.yml).",
+      "tags": [
+        "pipeline",
+        "infrastructure",
+        "deployment"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "pipeline:.github/workflows/bump-pre-commit-hooks.yml",
+      "type": "pipeline",
+      "name": "bump-pre-commit-hooks.yml",
+      "filePath": ".github/workflows/bump-pre-commit-hooks.yml",
+      "summary": "Custom hook React t\u00e1i s\u1eed d\u1ee5ng logic (bump-pre-commit-hooks.yml).",
+      "tags": [
+        "pipeline",
+        "hook",
+        "state"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "pipeline:.github/workflows/create-draft-release.yml",
+      "type": "pipeline",
+      "name": "create-draft-release.yml",
+      "filePath": ".github/workflows/create-draft-release.yml",
+      "summary": "C\u1ea5u h\u00ecnh h\u1ea1 t\u1ea7ng, tri\u1ec3n khai ho\u1eb7c container h\u00f3a (create-draft-release.yml).",
+      "tags": [
+        "pipeline",
+        "infrastructure",
+        "deployment"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "service:.github/workflows/deploy-docker-compose.yml",
+      "type": "service",
+      "name": "deploy-docker-compose.yml",
+      "filePath": ".github/workflows/deploy-docker-compose.yml",
+      "summary": "C\u1ea5u h\u00ecnh h\u1ea1 t\u1ea7ng, tri\u1ec3n khai ho\u1eb7c container h\u00f3a (deploy-docker-compose.yml).",
+      "tags": [
+        "service",
+        "infrastructure",
+        "deployment"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "pipeline:.github/workflows/deploy.yml",
+      "type": "pipeline",
+      "name": "deploy.yml",
+      "filePath": ".github/workflows/deploy.yml",
+      "summary": "C\u1ea5u h\u00ecnh h\u1ea1 t\u1ea7ng, tri\u1ec3n khai ho\u1eb7c container h\u00f3a (deploy.yml).",
+      "tags": [
+        "pipeline",
+        "infrastructure",
+        "deployment"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "pipeline:.github/workflows/detect-conflicts.yml",
+      "type": "pipeline",
+      "name": "detect-conflicts.yml",
+      "filePath": ".github/workflows/detect-conflicts.yml",
+      "summary": "C\u1ea5u h\u00ecnh h\u1ea1 t\u1ea7ng, tri\u1ec3n khai ho\u1eb7c container h\u00f3a (detect-conflicts.yml).",
+      "tags": [
+        "pipeline",
+        "infrastructure",
+        "deployment"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "pipeline:.github/workflows/guard-dependencies.yml",
+      "type": "pipeline",
+      "name": "guard-dependencies.yml",
+      "filePath": ".github/workflows/guard-dependencies.yml",
+      "summary": "C\u1ea5u h\u00ecnh h\u1ea1 t\u1ea7ng, tri\u1ec3n khai ho\u1eb7c container h\u00f3a (guard-dependencies.yml).",
+      "tags": [
+        "pipeline",
+        "infrastructure",
+        "deployment"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "pipeline:.github/workflows/issue-manager.yml",
+      "type": "pipeline",
+      "name": "issue-manager.yml",
+      "filePath": ".github/workflows/issue-manager.yml",
+      "summary": "C\u1ea5u h\u00ecnh h\u1ea1 t\u1ea7ng, tri\u1ec3n khai ho\u1eb7c container h\u00f3a (issue-manager.yml).",
+      "tags": [
+        "pipeline",
+        "infrastructure",
+        "deployment"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "pipeline:.github/workflows/playwright.yml",
+      "type": "pipeline",
+      "name": "playwright.yml",
+      "filePath": ".github/workflows/playwright.yml",
+      "summary": "C\u1ea5u h\u00ecnh h\u1ea1 t\u1ea7ng, tri\u1ec3n khai ho\u1eb7c container h\u00f3a (playwright.yml).",
+      "tags": [
+        "pipeline",
+        "infrastructure",
+        "deployment"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "pipeline:.github/workflows/pre-commit.yml",
+      "type": "pipeline",
+      "name": "pre-commit.yml",
+      "filePath": ".github/workflows/pre-commit.yml",
+      "summary": "C\u1ea5u h\u00ecnh h\u1ea1 t\u1ea7ng, tri\u1ec3n khai ho\u1eb7c container h\u00f3a (pre-commit.yml).",
+      "tags": [
+        "pipeline",
+        "infrastructure",
+        "deployment"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "pipeline:.github/workflows/prepare-release.yml",
+      "type": "pipeline",
+      "name": "prepare-release.yml",
+      "filePath": ".github/workflows/prepare-release.yml",
+      "summary": "C\u1ea5u h\u00ecnh h\u1ea1 t\u1ea7ng, tri\u1ec3n khai ho\u1eb7c container h\u00f3a (prepare-release.yml).",
+      "tags": [
+        "pipeline",
+        "infrastructure",
+        "deployment"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "pipeline:.github/workflows/smokeshow.yml",
+      "type": "pipeline",
+      "name": "smokeshow.yml",
+      "filePath": ".github/workflows/smokeshow.yml",
+      "summary": "C\u1ea5u h\u00ecnh h\u1ea1 t\u1ea7ng, tri\u1ec3n khai ho\u1eb7c container h\u00f3a (smokeshow.yml).",
+      "tags": [
+        "pipeline",
+        "infrastructure",
+        "deployment"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "pipeline:.github/workflows/test-backend.yml",
+      "type": "pipeline",
+      "name": "test-backend.yml",
+      "filePath": ".github/workflows/test-backend.yml",
+      "summary": "T\u1eadp tin ki\u1ec3m th\u1eed (test-backend.yml) \u0111\u1ea3m b\u1ea3o t\u00ednh \u0111\u00fang \u0111\u1eafn cho c\u00e1c ch\u1ee9c n\u0103ng li\u00ean quan.",
+      "tags": [
+        "pipeline",
+        "backend",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "service:.github/workflows/test-docker-compose.yml",
+      "type": "service",
+      "name": "test-docker-compose.yml",
+      "filePath": ".github/workflows/test-docker-compose.yml",
+      "summary": "T\u1eadp tin ki\u1ec3m th\u1eed (test-docker-compose.yml) \u0111\u1ea3m b\u1ea3o t\u00ednh \u0111\u00fang \u0111\u1eafn cho c\u00e1c ch\u1ee9c n\u0103ng li\u00ean quan.",
+      "tags": [
+        "service",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "pipeline:.github/workflows/zizmor.yml",
+      "type": "pipeline",
+      "name": "zizmor.yml",
+      "filePath": ".github/workflows/zizmor.yml",
+      "summary": "C\u1ea5u h\u00ecnh h\u1ea1 t\u1ea7ng, tri\u1ec3n khai ho\u1eb7c container h\u00f3a (zizmor.yml).",
+      "tags": [
+        "pipeline",
+        "infrastructure",
+        "deployment"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "service:.github/workflows/deploy-docker-compose.yml",
+      "target": "file:backend/app/main.py",
+      "type": "deploys",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "service:.github/workflows/test-docker-compose.yml",
+      "target": "file:backend/app/main.py",
+      "type": "deploys",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

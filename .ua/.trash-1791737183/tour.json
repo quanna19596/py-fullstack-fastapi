@@ -1,0 +1,93 @@
+[
+  {
+    "order": 1,
+    "title": "T\u1ed5ng quan d\u1ef1 \u00e1n & C\u1ea5u tr\u00fac",
+    "description": "B\u1eaft \u0111\u1ea7u v\u1edbi README \u0111\u1ec3 n\u1eafm b\u1eaft ki\u1ebfn tr\u00fac t\u1ed5ng th\u1ec3 c\u1ee7a Full Stack FastAPI Template.",
+    "nodeIds": [
+      "document:README.md"
+    ]
+  },
+  {
+    "order": 2,
+    "title": "C\u1ea5u h\u00ecnh Docker & D\u1ecbch v\u1ee5 Container",
+    "description": "C\u1ea5u h\u00ecnh \u0111i\u1ec1u ph\u1ed1i container cho PostgreSQL, FastAPI backend v\u00e0 frontend ph\u1ee5c v\u1ee5 ph\u00e1t tri\u1ec3n c\u1ee5c b\u1ed9 v\u00e0 tri\u1ec3n khai.",
+    "nodeIds": [
+      "config:.env"
+    ]
+  },
+  {
+    "order": 3,
+    "title": "Kh\u1edfi \u0111\u1ed9ng Backend FastAPI",
+    "description": "\u0110i\u1ec3m nh\u1eadp c\u1ee7a backend, thi\u1ebft l\u1eadp \u1ee9ng d\u1ee5ng FastAPI, t\u00edch h\u1ee3p middleware CORS v\u00e0 \u0111\u1ecbnh tuy\u1ebfn ch\u00ednh.",
+    "nodeIds": [
+      "file:backend/app/main.py",
+      "file:backend/app/core/config.py"
+    ]
+  },
+  {
+    "order": 4,
+    "title": "M\u00f4 h\u00ecnh D\u1eef li\u1ec7u SQLModel & C\u01a1 s\u1edf d\u1eef li\u1ec7u",
+    "description": "\u0110\u1ecbnh ngh\u0129a l\u01b0\u1ee3c \u0111\u1ed3 th\u1ef1c th\u1ec3 c\u01a1 s\u1edf d\u1eef li\u1ec7u v\u1edbi SQLModel, thi\u1ebft l\u1eadp session k\u1ebft n\u1ed1i v\u00e0 c\u00e1c h\u00e0m thao t\u00e1c CRUD.",
+    "nodeIds": [
+      "file:backend/app/models.py",
+      "file:backend/app/core/db.py",
+      "file:backend/app/crud.py"
+    ]
+  },
+  {
+    "order": 5,
+    "title": "X\u00e1c th\u1ef1c & B\u1ea3o m\u1eadt H\u1ec7 th\u1ed1ng",
+    "description": "C\u01a1 ch\u1ebf b\u0103m m\u1eadt kh\u1ea9u, t\u1ea1o v\u00e0 x\u00e1c th\u1ef1c JSON Web Token (JWT) c\u00f9ng c\u00e1c dependency ki\u1ec3m tra quy\u1ec1n ng\u01b0\u1eddi d\u00f9ng.",
+    "nodeIds": [
+      "file:backend/app/core/security.py",
+      "file:backend/app/api/deps.py",
+      "file:backend/app/api/routes/login.py"
+    ]
+  },
+  {
+    "order": 6,
+    "title": "H\u1ec7 th\u1ed1ng API Routes & Endpoints",
+    "description": "C\u00e1c router API ph\u1ee5c v\u1ee5 qu\u1ea3n l\u00fd ng\u01b0\u1eddi d\u00f9ng (Users) v\u00e0 qu\u1ea3n l\u00fd t\u00e0i nguy\u00ean (Items).",
+    "nodeIds": [
+      "file:backend/app/api/main.py",
+      "file:backend/app/api/routes/users.py",
+      "file:backend/app/api/routes/items.py"
+    ]
+  },
+  {
+    "order": 7,
+    "title": "Kh\u1edfi \u0111\u1ed9ng Frontend React & Routing",
+    "description": "\u0110i\u1ec3m nh\u1eadp c\u1ee7a \u1ee9ng d\u1ee5ng React Vite, h\u1ec7 th\u1ed1ng \u0111\u1ecbnh tuy\u1ebfn TanStack Router v\u00e0 b\u1ed1 c\u1ee5c trang.",
+    "nodeIds": [
+      "file:frontend/src/main.tsx",
+      "file:frontend/src/routes/__root.tsx"
+    ]
+  },
+  {
+    "order": 8,
+    "title": "Giao di\u1ec7n Qu\u1ea3n tr\u1ecb Admin",
+    "description": "C\u00e1c th\u00e0nh ph\u1ea7n qu\u1ea3n tr\u1ecb cho ph\u00e9p xem danh s\u00e1ch, th\u00eam, ch\u1ec9nh s\u1eeda v\u00e0 ph\u00e2n quy\u1ec1n t\u00e0i kho\u1ea3n ng\u01b0\u1eddi d\u00f9ng.",
+    "nodeIds": [
+      "file:frontend/src/routes/_layout/admin.tsx",
+      "file:frontend/src/components/Admin/AddUser.tsx",
+      "file:frontend/src/components/Admin/EditUser.tsx"
+    ]
+  },
+  {
+    "order": 9,
+    "title": "Client API & Hooks Qu\u1ea3n l\u00fd Tr\u1ea1ng th\u00e1i",
+    "description": "SDK client t\u01b0\u01a1ng t\u00e1c v\u1edbi backend v\u00e0 custom hook useAuth \u0111\u1ec3 qu\u1ea3n l\u00fd tr\u1ea1ng th\u00e1i \u0111\u0103ng nh\u1eadp.",
+    "nodeIds": [
+      "file:frontend/src/client/index.ts",
+      "file:frontend/src/hooks/useAuth.ts"
+    ]
+  },
+  {
+    "order": 10,
+    "title": "B\u1ed9 Ki\u1ec3m th\u1eed T\u1ef1 \u0111\u1ed9ng",
+    "description": "B\u1ed9 ki\u1ec3m th\u1eed to\u00e0n di\u1ec7n v\u1edbi Pytest cho backend v\u00e0 Playwright cho end-to-end frontend.",
+    "nodeIds": [
+      "file:backend/tests/conftest.py"
+    ]
+  }
+]

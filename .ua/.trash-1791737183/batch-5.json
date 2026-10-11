@@ -1,0 +1,638 @@
+{
+  "nodes": [
+    {
+      "id": "file:frontend/src/client/client/client.gen.ts",
+      "type": "file",
+      "name": "client.gen.ts",
+      "filePath": "frontend/src/client/client/client.gen.ts",
+      "summary": "T\u1eadp tin m\u00e3 ngu\u1ed3n typescript (client.gen.ts) th\u1ef1c hi\u1ec7n ch\u1ee9c n\u0103ng h\u1ec7 th\u1ed1ng.",
+      "tags": [
+        "frontend",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/client/client/client.gen.ts:createClient",
+      "type": "function",
+      "name": "createClient",
+      "filePath": "frontend/src/client/client/client.gen.ts",
+      "lineRange": [
+        12,
+        161
+      ],
+      "summary": "H\u00e0m createClient x\u1eed l\u00fd logic trong client.gen.ts.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/client/client/types.gen.ts",
+      "type": "file",
+      "name": "types.gen.ts",
+      "filePath": "frontend/src/client/client/types.gen.ts",
+      "summary": "T\u1eadp tin m\u00e3 ngu\u1ed3n typescript (types.gen.ts) th\u1ef1c hi\u1ec7n ch\u1ee9c n\u0103ng h\u1ec7 th\u1ed1ng.",
+      "tags": [
+        "frontend",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/client/client/utils.gen.ts",
+      "type": "file",
+      "name": "utils.gen.ts",
+      "filePath": "frontend/src/client/client/utils.gen.ts",
+      "summary": "H\u00e0m ti\u1ec7n \u00edch v\u00e0 c\u00f4ng c\u1ee5 h\u1ed7 tr\u1ee3 (utils.gen.ts).",
+      "tags": [
+        "frontend",
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/client/client/utils.gen.ts:createQuerySerializer",
+      "type": "function",
+      "name": "createQuerySerializer",
+      "filePath": "frontend/src/client/client/utils.gen.ts",
+      "lineRange": [
+        13,
+        62
+      ],
+      "summary": "H\u00e0m createQuerySerializer x\u1eed l\u00fd logic trong utils.gen.ts.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/client/client/utils.gen.ts:checkForExistence",
+      "type": "function",
+      "name": "checkForExistence",
+      "filePath": "frontend/src/client/client/utils.gen.ts",
+      "lineRange": [
+        64,
+        84
+      ],
+      "summary": "H\u00e0m checkForExistence x\u1eed l\u00fd logic trong utils.gen.ts.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/client/client/utils.gen.ts:setAuthParams",
+      "type": "function",
+      "name": "setAuthParams",
+      "filePath": "frontend/src/client/client/utils.gen.ts",
+      "lineRange": [
+        86,
+        125
+      ],
+      "summary": "H\u00e0m setAuthParams x\u1eed l\u00fd logic trong utils.gen.ts.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/client/client/utils.gen.ts:buildUrl",
+      "type": "function",
+      "name": "buildUrl",
+      "filePath": "frontend/src/client/client/utils.gen.ts",
+      "lineRange": [
+        127,
+        144
+      ],
+      "summary": "H\u00e0m buildUrl x\u1eed l\u00fd logic trong utils.gen.ts.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/client/client/utils.gen.ts:mergeHeaders",
+      "type": "function",
+      "name": "mergeHeaders",
+      "filePath": "frontend/src/client/client/utils.gen.ts",
+      "lineRange": [
+        165,
+        200
+      ],
+      "summary": "H\u00e0m mergeHeaders x\u1eed l\u00fd logic trong utils.gen.ts.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/client/core/auth.gen.ts",
+      "type": "file",
+      "name": "auth.gen.ts",
+      "filePath": "frontend/src/client/core/auth.gen.ts",
+      "summary": "C\u1ea5u h\u00ecnh v\u00e0 thi\u1ebft l\u1eadp c\u1ed1t l\u00f5i c\u1ee7a \u1ee9ng d\u1ee5ng (auth.gen.ts).",
+      "tags": [
+        "frontend",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/client/core/auth.gen.ts:getAuthToken",
+      "type": "function",
+      "name": "getAuthToken",
+      "filePath": "frontend/src/client/core/auth.gen.ts",
+      "lineRange": [
+        22,
+        41
+      ],
+      "summary": "H\u00e0m getAuthToken x\u1eed l\u00fd logic trong auth.gen.ts.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/client/core/bodySerializer.gen.ts",
+      "type": "file",
+      "name": "bodySerializer.gen.ts",
+      "filePath": "frontend/src/client/core/bodySerializer.gen.ts",
+      "summary": "C\u1ea5u h\u00ecnh v\u00e0 thi\u1ebft l\u1eadp c\u1ed1t l\u00f5i c\u1ee7a \u1ee9ng d\u1ee5ng (bodySerializer.gen.ts).",
+      "tags": [
+        "frontend",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/client/core/pathSerializer.gen.ts",
+      "type": "file",
+      "name": "pathSerializer.gen.ts",
+      "filePath": "frontend/src/client/core/pathSerializer.gen.ts",
+      "summary": "C\u1ea5u h\u00ecnh v\u00e0 thi\u1ebft l\u1eadp c\u1ed1t l\u00f5i c\u1ee7a \u1ee9ng d\u1ee5ng (pathSerializer.gen.ts).",
+      "tags": [
+        "frontend",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/client/core/pathSerializer.gen.ts:separatorArrayExplode",
+      "type": "function",
+      "name": "separatorArrayExplode",
+      "filePath": "frontend/src/client/core/pathSerializer.gen.ts",
+      "lineRange": [
+        28,
+        39
+      ],
+      "summary": "H\u00e0m separatorArrayExplode x\u1eed l\u00fd logic trong pathSerializer.gen.ts.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/client/core/pathSerializer.gen.ts:separatorArrayNoExplode",
+      "type": "function",
+      "name": "separatorArrayNoExplode",
+      "filePath": "frontend/src/client/core/pathSerializer.gen.ts",
+      "lineRange": [
+        41,
+        52
+      ],
+      "summary": "H\u00e0m separatorArrayNoExplode x\u1eed l\u00fd logic trong pathSerializer.gen.ts.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/client/core/pathSerializer.gen.ts:separatorObjectExplode",
+      "type": "function",
+      "name": "separatorObjectExplode",
+      "filePath": "frontend/src/client/core/pathSerializer.gen.ts",
+      "lineRange": [
+        54,
+        65
+      ],
+      "summary": "H\u00e0m separatorObjectExplode x\u1eed l\u00fd logic trong pathSerializer.gen.ts.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/client/core/pathSerializer.gen.ts:serializeArrayParam",
+      "type": "function",
+      "name": "serializeArrayParam",
+      "filePath": "frontend/src/client/core/pathSerializer.gen.ts",
+      "lineRange": [
+        67,
+        107
+      ],
+      "summary": "H\u00e0m serializeArrayParam x\u1eed l\u00fd logic trong pathSerializer.gen.ts.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/client/core/pathSerializer.gen.ts:serializePrimitiveParam",
+      "type": "function",
+      "name": "serializePrimitiveParam",
+      "filePath": "frontend/src/client/core/pathSerializer.gen.ts",
+      "lineRange": [
+        109,
+        125
+      ],
+      "summary": "H\u00e0m serializePrimitiveParam x\u1eed l\u00fd logic trong pathSerializer.gen.ts.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/client/core/pathSerializer.gen.ts:serializeObjectParam",
+      "type": "function",
+      "name": "serializeObjectParam",
+      "filePath": "frontend/src/client/core/pathSerializer.gen.ts",
+      "lineRange": [
+        127,
+        171
+      ],
+      "summary": "H\u00e0m serializeObjectParam x\u1eed l\u00fd logic trong pathSerializer.gen.ts.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:frontend/src/client/core/serverSentEvents.gen.ts",
+      "type": "file",
+      "name": "serverSentEvents.gen.ts",
+      "filePath": "frontend/src/client/core/serverSentEvents.gen.ts",
+      "summary": "C\u1ea5u h\u00ecnh v\u00e0 thi\u1ebft l\u1eadp c\u1ed1t l\u00f5i c\u1ee7a \u1ee9ng d\u1ee5ng (serverSentEvents.gen.ts).",
+      "tags": [
+        "frontend",
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:frontend/src/client/core/serverSentEvents.gen.ts:createSseClient",
+      "type": "function",
+      "name": "createSseClient",
+      "filePath": "frontend/src/client/core/serverSentEvents.gen.ts",
+      "lineRange": [
+        82,
+        242
+      ],
+      "summary": "H\u00e0m createSseClient x\u1eed l\u00fd logic trong serverSentEvents.gen.ts.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/client/core/types.gen.ts",
+      "type": "file",
+      "name": "types.gen.ts",
+      "filePath": "frontend/src/client/core/types.gen.ts",
+      "summary": "C\u1ea5u h\u00ecnh v\u00e0 thi\u1ebft l\u1eadp c\u1ed1t l\u00f5i c\u1ee7a \u1ee9ng d\u1ee5ng (types.gen.ts).",
+      "tags": [
+        "frontend",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:frontend/src/client/core/utils.gen.ts",
+      "type": "file",
+      "name": "utils.gen.ts",
+      "filePath": "frontend/src/client/core/utils.gen.ts",
+      "summary": "C\u1ea5u h\u00ecnh v\u00e0 thi\u1ebft l\u1eadp c\u1ed1t l\u00f5i c\u1ee7a \u1ee9ng d\u1ee5ng (utils.gen.ts).",
+      "tags": [
+        "frontend",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/client/core/utils.gen.ts:defaultPathSerializer",
+      "type": "function",
+      "name": "defaultPathSerializer",
+      "filePath": "frontend/src/client/core/utils.gen.ts",
+      "lineRange": [
+        18,
+        83
+      ],
+      "summary": "H\u00e0m defaultPathSerializer x\u1eed l\u00fd logic trong utils.gen.ts.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:frontend/src/client/core/utils.gen.ts:getUrl",
+      "type": "function",
+      "name": "getUrl",
+      "filePath": "frontend/src/client/core/utils.gen.ts",
+      "lineRange": [
+        85,
+        111
+      ],
+      "summary": "H\u00e0m getUrl x\u1eed l\u00fd logic trong utils.gen.ts.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:frontend/src/client/core/utils.gen.ts:getValidRequestBody",
+      "type": "function",
+      "name": "getValidRequestBody",
+      "filePath": "frontend/src/client/core/utils.gen.ts",
+      "lineRange": [
+        113,
+        140
+      ],
+      "summary": "H\u00e0m getValidRequestBody x\u1eed l\u00fd logic trong utils.gen.ts.",
+      "tags": [
+        "function",
+        "logic"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:frontend/src/client/client/client.gen.ts",
+      "target": "function:frontend/src/client/client/client.gen.ts:createClient",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/client/client/client.gen.ts",
+      "target": "file:frontend/src/client/client/types.gen.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/client/client/client.gen.ts",
+      "target": "file:frontend/src/client/client/utils.gen.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/client/client/client.gen.ts",
+      "target": "file:frontend/src/client/core/serverSentEvents.gen.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/client/client/client.gen.ts",
+      "target": "file:frontend/src/client/core/types.gen.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/client/client/client.gen.ts",
+      "target": "file:frontend/src/client/core/utils.gen.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/client/client/types.gen.ts",
+      "target": "file:frontend/src/client/core/auth.gen.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/client/client/types.gen.ts",
+      "target": "file:frontend/src/client/core/serverSentEvents.gen.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/client/client/types.gen.ts",
+      "target": "file:frontend/src/client/core/types.gen.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/client/client/utils.gen.ts",
+      "target": "function:frontend/src/client/client/utils.gen.ts:createQuerySerializer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/client/client/utils.gen.ts",
+      "target": "function:frontend/src/client/client/utils.gen.ts:checkForExistence",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/client/client/utils.gen.ts",
+      "target": "function:frontend/src/client/client/utils.gen.ts:setAuthParams",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/client/client/utils.gen.ts",
+      "target": "function:frontend/src/client/client/utils.gen.ts:buildUrl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/client/client/utils.gen.ts",
+      "target": "function:frontend/src/client/client/utils.gen.ts:mergeHeaders",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/client/client/utils.gen.ts",
+      "target": "file:frontend/src/client/client/types.gen.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/client/client/utils.gen.ts",
+      "target": "file:frontend/src/client/core/auth.gen.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/client/client/utils.gen.ts",
+      "target": "file:frontend/src/client/core/bodySerializer.gen.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/client/client/utils.gen.ts",
+      "target": "file:frontend/src/client/core/pathSerializer.gen.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/client/client/utils.gen.ts",
+      "target": "file:frontend/src/client/core/utils.gen.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/client/core/auth.gen.ts",
+      "target": "function:frontend/src/client/core/auth.gen.ts:getAuthToken",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/client/core/bodySerializer.gen.ts",
+      "target": "file:frontend/src/client/core/pathSerializer.gen.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/client/core/pathSerializer.gen.ts",
+      "target": "function:frontend/src/client/core/pathSerializer.gen.ts:separatorArrayExplode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/client/core/pathSerializer.gen.ts",
+      "target": "function:frontend/src/client/core/pathSerializer.gen.ts:separatorArrayNoExplode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/client/core/pathSerializer.gen.ts",
+      "target": "function:frontend/src/client/core/pathSerializer.gen.ts:separatorObjectExplode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/client/core/pathSerializer.gen.ts",
+      "target": "function:frontend/src/client/core/pathSerializer.gen.ts:serializeArrayParam",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/client/core/pathSerializer.gen.ts",
+      "target": "function:frontend/src/client/core/pathSerializer.gen.ts:serializePrimitiveParam",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/client/core/pathSerializer.gen.ts",
+      "target": "function:frontend/src/client/core/pathSerializer.gen.ts:serializeObjectParam",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/client/core/serverSentEvents.gen.ts",
+      "target": "function:frontend/src/client/core/serverSentEvents.gen.ts:createSseClient",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/client/core/serverSentEvents.gen.ts",
+      "target": "file:frontend/src/client/core/types.gen.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/client/core/types.gen.ts",
+      "target": "file:frontend/src/client/core/auth.gen.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/client/core/types.gen.ts",
+      "target": "file:frontend/src/client/core/bodySerializer.gen.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/client/core/utils.gen.ts",
+      "target": "function:frontend/src/client/core/utils.gen.ts:defaultPathSerializer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/client/core/utils.gen.ts",
+      "target": "function:frontend/src/client/core/utils.gen.ts:getUrl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/client/core/utils.gen.ts",
+      "target": "function:frontend/src/client/core/utils.gen.ts:getValidRequestBody",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:frontend/src/client/core/utils.gen.ts",
+      "target": "file:frontend/src/client/core/bodySerializer.gen.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:frontend/src/client/core/utils.gen.ts",
+      "target": "file:frontend/src/client/core/pathSerializer.gen.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

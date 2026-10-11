@@ -1,0 +1,65 @@
+{
+  "nodes": [
+    {
+      "id": "file:backend/scripts/format.sh",
+      "type": "file",
+      "name": "format.sh",
+      "filePath": "backend/scripts/format.sh",
+      "summary": "T\u1eadp tin m\u00e3 ngu\u1ed3n shell (format.sh) th\u1ef1c hi\u1ec7n ch\u1ee9c n\u0103ng h\u1ec7 th\u1ed1ng.",
+      "tags": [
+        "backend",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/scripts/lint.sh",
+      "type": "file",
+      "name": "lint.sh",
+      "filePath": "backend/scripts/lint.sh",
+      "summary": "T\u1eadp tin m\u00e3 ngu\u1ed3n shell (lint.sh) th\u1ef1c hi\u1ec7n ch\u1ee9c n\u0103ng h\u1ec7 th\u1ed1ng.",
+      "tags": [
+        "backend",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/scripts/prestart.sh",
+      "type": "file",
+      "name": "prestart.sh",
+      "filePath": "backend/scripts/prestart.sh",
+      "summary": "T\u1eadp tin m\u00e3 ngu\u1ed3n shell (prestart.sh) th\u1ef1c hi\u1ec7n ch\u1ee9c n\u0103ng h\u1ec7 th\u1ed1ng.",
+      "tags": [
+        "backend",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/scripts/test.sh",
+      "type": "file",
+      "name": "test.sh",
+      "filePath": "backend/scripts/test.sh",
+      "summary": "T\u1eadp tin ki\u1ec3m th\u1eed (test.sh) \u0111\u1ea3m b\u1ea3o t\u00ednh \u0111\u00fang \u0111\u1eafn cho c\u00e1c ch\u1ee9c n\u0103ng li\u00ean quan.",
+      "tags": [
+        "backend",
+        "test"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:backend/scripts/tests-start.sh",
+      "type": "file",
+      "name": "tests-start.sh",
+      "filePath": "backend/scripts/tests-start.sh",
+      "summary": "T\u1eadp tin ki\u1ec3m th\u1eed (tests-start.sh) \u0111\u1ea3m b\u1ea3o t\u00ednh \u0111\u00fang \u0111\u1eafn cho c\u00e1c ch\u1ee9c n\u0103ng li\u00ean quan.",
+      "tags": [
+        "backend",
+        "test"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": []
+}

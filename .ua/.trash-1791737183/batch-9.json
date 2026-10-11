@@ -1,0 +1,211 @@
+{
+  "nodes": [
+    {
+      "id": "service:.dockerignore",
+      "type": "service",
+      "name": ".dockerignore",
+      "filePath": ".dockerignore",
+      "summary": "C\u1ea5u h\u00ecnh h\u1ea1 t\u1ea7ng, tri\u1ec3n khai ho\u1eb7c container h\u00f3a (.dockerignore).",
+      "tags": [
+        "service",
+        "infrastructure",
+        "deployment"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:.env",
+      "type": "config",
+      "name": ".env",
+      "filePath": ".env",
+      "summary": "C\u1ea5u h\u00ecnh v\u00e0 thi\u1ebft l\u1eadp c\u1ed1t l\u00f5i c\u1ee7a \u1ee9ng d\u1ee5ng (.env).",
+      "tags": [
+        "config",
+        "configuration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:.pre-commit-config.yaml",
+      "type": "config",
+      "name": ".pre-commit-config.yaml",
+      "filePath": ".pre-commit-config.yaml",
+      "summary": "C\u1ea5u h\u00ecnh v\u00e0 thi\u1ebft l\u1eadp c\u1ed1t l\u00f5i c\u1ee7a \u1ee9ng d\u1ee5ng (.pre-commit-config.yaml).",
+      "tags": [
+        "config",
+        "configuration"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:CONTRIBUTING.md",
+      "type": "document",
+      "name": "CONTRIBUTING.md",
+      "filePath": "CONTRIBUTING.md",
+      "summary": "T\u00e0i li\u1ec7u h\u01b0\u1edbng d\u1eabn v\u00e0 m\u00f4 t\u1ea3 k\u1ef9 thu\u1eadt (CONTRIBUTING.md).",
+      "tags": [
+        "document",
+        "documentation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "README.md",
+      "summary": "T\u00e0i li\u1ec7u h\u01b0\u1edbng d\u1eabn v\u00e0 m\u00f4 t\u1ea3 k\u1ef9 thu\u1eadt (README.md).",
+      "tags": [
+        "document",
+        "documentation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "config:compose.deploy.yml",
+      "type": "config",
+      "name": "compose.deploy.yml",
+      "filePath": "compose.deploy.yml",
+      "summary": "C\u1ea5u h\u00ecnh v\u00e0 thi\u1ebft l\u1eadp c\u1ed1t l\u00f5i c\u1ee7a \u1ee9ng d\u1ee5ng (compose.deploy.yml).",
+      "tags": [
+        "config",
+        "configuration"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "config:compose.override.yml",
+      "type": "config",
+      "name": "compose.override.yml",
+      "filePath": "compose.override.yml",
+      "summary": "C\u1ea5u h\u00ecnh v\u00e0 thi\u1ebft l\u1eadp c\u1ed1t l\u00f5i c\u1ee7a \u1ee9ng d\u1ee5ng (compose.override.yml).",
+      "tags": [
+        "config",
+        "configuration"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "service:compose.yml",
+      "type": "service",
+      "name": "compose.yml",
+      "filePath": "compose.yml",
+      "summary": "C\u1ea5u h\u00ecnh h\u1ea1 t\u1ea7ng, tri\u1ec3n khai ho\u1eb7c container h\u00f3a (compose.yml).",
+      "tags": [
+        "service",
+        "infrastructure",
+        "deployment"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:deployment-docker-compose.md",
+      "type": "document",
+      "name": "deployment-docker-compose.md",
+      "filePath": "deployment-docker-compose.md",
+      "summary": "T\u00e0i li\u1ec7u h\u01b0\u1edbng d\u1eabn v\u00e0 m\u00f4 t\u1ea3 k\u1ef9 thu\u1eadt (deployment-docker-compose.md).",
+      "tags": [
+        "document",
+        "documentation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:deployment.md",
+      "type": "document",
+      "name": "deployment.md",
+      "filePath": "deployment.md",
+      "summary": "T\u00e0i li\u1ec7u h\u01b0\u1edbng d\u1eabn v\u00e0 m\u00f4 t\u1ea3 k\u1ef9 thu\u1eadt (deployment.md).",
+      "tags": [
+        "document",
+        "documentation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:development.md",
+      "type": "document",
+      "name": "development.md",
+      "filePath": "development.md",
+      "summary": "T\u00e0i li\u1ec7u h\u01b0\u1edbng d\u1eabn v\u00e0 m\u00f4 t\u1ea3 k\u1ef9 thu\u1eadt (development.md).",
+      "tags": [
+        "document",
+        "documentation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "config:package.json",
+      "type": "config",
+      "name": "package.json",
+      "filePath": "package.json",
+      "summary": "C\u1ea5u h\u00ecnh v\u00e0 thi\u1ebft l\u1eadp c\u1ed1t l\u00f5i c\u1ee7a \u1ee9ng d\u1ee5ng (package.json).",
+      "tags": [
+        "config",
+        "configuration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:pyproject.toml",
+      "type": "config",
+      "name": "pyproject.toml",
+      "filePath": "pyproject.toml",
+      "summary": "C\u1ea5u h\u00ecnh v\u00e0 thi\u1ebft l\u1eadp c\u1ed1t l\u00f5i c\u1ee7a \u1ee9ng d\u1ee5ng (pyproject.toml).",
+      "tags": [
+        "config",
+        "configuration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:release-notes.md",
+      "type": "document",
+      "name": "release-notes.md",
+      "filePath": "release-notes.md",
+      "summary": "T\u00e0i li\u1ec7u h\u01b0\u1edbng d\u1eabn v\u00e0 m\u00f4 t\u1ea3 k\u1ef9 thu\u1eadt (release-notes.md).",
+      "tags": [
+        "document",
+        "documentation"
+      ],
+      "complexity": "complex"
+    }
+  ],
+  "edges": [
+    {
+      "source": "service:.dockerignore",
+      "target": "file:backend/app/main.py",
+      "type": "deploys",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "document:README.md",
+      "target": "file:backend/app/main.py",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:README.md",
+      "target": "file:frontend/src/main.tsx",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "service:compose.yml",
+      "target": "file:backend/app/main.py",
+      "type": "deploys",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "config:pyproject.toml",
+      "target": "file:backend/app/main.py",
+      "type": "configures",
+      "direction": "forward",
+      "weight": 0.6
+    }
+  ]
+}
